@@ -19,6 +19,7 @@ var zoneLayer;
 //groups
 const parroquiesGroup = L.layerGroup();
 const iclesiesGroup = L.layerGroup();
+const altresGroup = L.layerGroup();
 
 let locations = [
 	{
@@ -30,12 +31,27 @@ let locations = [
 			"Girones, Catalunya"
 		]
 	},
+	{
+		name: "Ubicació desconeguda",
+		type: "desconegut", 
+		coordinates: [42.0201463, 2.5149485]
+	},
+	{
+		name: "Ubicació desconeguda",
+		type: "area",
+		radi: 500,
+		coordinates: [42.0201463, 2.5149485]
+	},
 ]
 
 locations.map(location => {
 	let zindex = 1;
 	let size = 29;
-	let anchor = [24, 40];
+	let anchor = [14, 35];
+
+	if (location.type == "desconegut") {
+		anchor = [14, 35]
+	}
 
 	//importancia i tamany
 	if (location.zindex != undefined) {
@@ -88,6 +104,21 @@ locations.map(location => {
 	else if (location.type === 'parroquia') {
 		marker.addTo(parroquiesGroup);
 	}
+	else {
+		if (location.type === 'area') {
+			L.circle(location.coordinates, {
+				color: 'transparent',
+				fillColor: '#ffe08c',
+				fillOpacity: 0.5,
+				radius: location.radi
+			})
+			.bindTooltip(location.name)
+			.addTo(altresGroup);
+		}
+		else {
+			marker.addTo(altresGroup);
+		}
+	}
 
 	//debug_marker.addTo(iclesiesGroup);
 })
@@ -96,6 +127,7 @@ locations.map(location => {
 // Add layer groups to the map
 iclesiesGroup.addTo(map);
 parroquiesGroup.addTo(map);
+altresGroup.addTo(map);
 
 // Create layer control
 const layersControl = L.control.layers(
