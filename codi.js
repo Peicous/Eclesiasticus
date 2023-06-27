@@ -1,5 +1,38 @@
+const options = {
+	enableHighAccuracy: true,
+	timeout: 5000,
+	maximumAge: 0,
+};
+
+function success(pos) {
+	const crd = pos.coords;
+
+	L.marker([crd.latitude, crd.longitude], {
+		icon: new L.Icon({
+			iconUrl: './img/point.png',
+			shadowUrl: '',
+			iconSize: [29, 29],
+			iconAnchor: [24, 40],
+			popupAnchor: [-10, -34],
+			shadowSize: [29, 29]
+		})
+	})
+	.bindTooltip(location.name)
+	.bindPopup(location.name)
+	.addTo(map);
+
+	map.setView([crd.latitude, crd.longitude], 15);
+}
+
+function error(err) {
+	console.warn(`ERROR(${err.code}): ${err.message}`);
+}
+
+//Geolocation
+//navigator.geolocation.getCurrentPosition(success, error, options);
+
 //LAYERS
-var layer_principal = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg');
+var layer_watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg');
 var layer_satelite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
 var layer_ligth = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png');
 
@@ -8,155 +41,26 @@ var map = L.map('map', {
 	maxBounds: L.latLngBounds(L.latLng(-90, -180), L.latLng(90, 180)),
 	worldCopyJump: true,
 	noWrap: true,
-	layers: [layer_satelite]
+	layers: [layer_ligth]
 })
-.setView([41.713488,-7.1185473], 4);
-
-//L.control.scale().addTo(map);
+.setView([42.0201463, 2.5149485], 12);
 
 var zoneLayer;
 
-//groups
-const parroquiesGroup = L.layerGroup();
-const iclesiesGroup = L.layerGroup();
-const altresGroup = L.layerGroup();
-
-let locations = [
-	{
-		name: "Exemple",
-		type: "iclesia", 
-		coordinates: [41.9655403,2.73888370], 
-		description: [
-			"<h2><b>Exemple màgic</b></h2>",
-			"Girones, Catalunya"
-		]
-	},
-	{
-		name: "Ubicació desconeguda",
-		type: "desconegut", 
-		coordinates: [42.0201463, 2.5149485]
-	},
-	{
-		name: "Ubicació desconeguda",
-		type: "area",
-		radi: 500,
-		coordinates: [42.0201463, 2.5149485]
-	},
-]
-
-locations.map(location => {
-	let zindex = 1;
-	let size = 29;
-	let anchor = [14, 35];
-
-	if (location.type == "desconegut") {
-		anchor = [14, 35]
-	}
-
-	//importancia i tamany
-	if (location.zindex != undefined) {
-		zindex = location.zindex;
-	}
-	if (location.size != undefined) {
-		size = location.size;
-	}
-	if (location.anchor != undefined) {
-		anchor = location.anchor;
-	}
-
-	//icona custom
-	let icona = new L.Icon({
-		iconUrl: `./img/${location.type}.png`,
-		shadowUrl: '',
-		iconSize: [size, size],
-		iconAnchor: anchor,
-		popupAnchor: [-10, -43],
-		shadowSize: [size, size]
-	});
-
-	let marker = L.marker(location.coordinates, {
-		icon: icona,
-		zone: location.zone
-	});
-	
-	marker.on('mouseover', handleMarkerHover);
-	marker.on('mouseout', handleMarkerOut);
-	
-	//pc only 
-	if (true) {
-		marker.bindTooltip(location.name);
-	}
-	
-	if (location.description != undefined) {
-		marker.bindPopup(location.description?.join(" <br>"));
-	}
-	
-	marker.setZIndexOffset(zindex)
-	
-	/*let debug_marker = L.marker(location.coordinates, {zone: location.zone});
-	debug_marker.bindPopup(location.name);
-	debug_marker.on('mouseover', handleMarkerHover);
-	debug_marker.on('mouseout', handleMarkerOut);*/
-	
-	if (location.type === 'iclesia') {
-		marker.addTo(iclesiesGroup);
-	} 
-	else if (location.type === 'parroquia') {
-		marker.addTo(parroquiesGroup);
-	}
-	else {
-		if (location.type === 'area') {
-			L.circle(location.coordinates, {
-				color: 'transparent',
-				fillColor: '#ffe08c',
-				fillOpacity: 0.5,
-				radius: location.radi
-			})
-			.bindTooltip(location.name)
-			.addTo(altresGroup);
-		}
-		else {
-			marker.addTo(altresGroup);
-		}
-	}
-
-	//debug_marker.addTo(iclesiesGroup);
-})
-
-
-// Add layer groups to the map
-iclesiesGroup.addTo(map);
-parroquiesGroup.addTo(map);
-altresGroup.addTo(map);
-
-// Create layer control
-const layersControl = L.control.layers(
-	{
-		"Mapa clàssic": layer_principal,
-		"Satelite": layer_satelite,
-		"Ligth Mapa": layer_ligth,
-	}, 
-	{
-		'Iclesies': iclesiesGroup,
-		'Parroquies': parroquiesGroup,
-	},
-	{
-		position: 'bottomleft'
-	}
-).addTo(map);
-
 //Polygons regions
-/*L.geoJSON(GeoJson, {
-	style: function (feature) {
-		return {
-			weight: 1,
-			opacity: 0,
-			fillOpacity: 0
-		};
-	},
-	onEachFeature: onEachFeature,
-})
-.addTo(map);*/
+if (GeoJson != undefined) {
+	L.geoJSON(GeoJson, {
+		style: function (feature) {
+			return {
+				weight: 1,
+				opacity: 0, //ha de ser 0 per prod 1 per dev!
+				fillOpacity: 0 // ha de ser 0 per prod 0.1 per dev!
+			};
+		},
+		onEachFeature: onEachFeature,
+	})
+	.addTo(map);
+}
 
 // Add the event listeners to each feature (province/state)
 function onEachFeature(feature, layer) {
@@ -232,19 +136,113 @@ function handleMarkerOut(e) {
 	}
 }
 
+//===========================================================================================
+
+map.setView([42.0201463, 2.5149485], 12);
 
 
-/*
+//groups
+const parroquiesGroup = L.layerGroup();
+const iclesiesGroup = L.layerGroup();
+const altresGroup = L.layerGroup();
 
-{
-	"type": "Feature",
-	"properties": { "ADMIN": "Pla de l'Estany", "ISO_A3": "PDE" },
-	"geometry": {
-		"type": "Polygon",
-		"coordinates": [
+locations.map(location => {
+	let zindex = 1;
+	let size = 29;
+	let anchor = [14, 35];
 
-		]
+	if (location.type == "desconegut") {
+		anchor = [14, 35]
 	}
-}
 
-*/
+	//importancia i tamany
+	if (location.zindex != undefined) {
+		zindex = location.zindex;
+	}
+	if (location.size != undefined) {
+		size = location.size;
+	}
+	if (location.anchor != undefined) {
+		anchor = location.anchor;
+	}
+
+	//icona custom
+	let icona = new L.Icon({
+		iconUrl: `./img/${location.type}.png`,
+		shadowUrl: '',
+		iconSize: [size, size],
+		iconAnchor: anchor,
+		popupAnchor: [-10, -43],
+		shadowSize: [size, size]
+	});
+
+	let marker = L.marker(location.coordinates, {
+		icon: icona,
+		zone: location.zone
+	});
+	
+	marker.on('mouseover', handleMarkerHover);
+	marker.on('mouseout', handleMarkerOut);
+	
+	//pc only 
+	if (true) {
+		marker.bindTooltip(location.name);
+	}
+	
+	if (location.description != undefined) {
+		marker.bindPopup(location.description?.join(" <br>"));
+	}
+	
+	marker.setZIndexOffset(zindex)
+	
+	/*let debug_marker = L.marker(location.coordinates, {zone: location.zone});
+	debug_marker.bindPopup(location.name);
+	debug_marker.on('mouseover', handleMarkerHover);
+	debug_marker.on('mouseout', handleMarkerOut);*/
+	
+	if (location.type === 'iclesia') {
+		marker.addTo(iclesiesGroup);
+	} 
+	else if (location.type === 'parroquia') {
+		marker.addTo(parroquiesGroup);
+	}
+	else {
+		if (location.type === 'area') {
+			L.circle(location.coordinates, {
+				color: 'transparent',
+				fillColor: '#ffe08c',
+				fillOpacity: 0.5,
+				radius: location.radi
+			})
+			.addTo(altresGroup);
+		}
+		else {
+			marker.addTo(altresGroup);
+		}
+	}
+
+	//debug_marker.addTo(iclesiesGroup);
+})
+
+
+// Add layer groups to the map
+iclesiesGroup.addTo(map);
+parroquiesGroup.addTo(map);
+altresGroup.addTo(map);
+
+// Create layer control
+L.control.layers(
+	{
+		"Mapa clàssic": layer_principal,
+		"Satelite": layer_satelite,
+		"Ligth Mapa": layer_ligth,
+	}, 
+	{
+		'Iclesies': iclesiesGroup,
+		'Parroquies': parroquiesGroup,
+	},
+	{
+		position: 'bottomleft'
+	}
+).addTo(map);
+
