@@ -233,7 +233,7 @@ altresGroup.addTo(map);
 // Create layer control
 L.control.layers(
 	{
-		"Mapa clàssic": layer_principal,
+		"Mapa clàssic": layer_watercolor,
 		"Satelite": layer_satelite,
 		"Ligth Mapa": layer_ligth,
 	}, 
