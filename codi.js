@@ -33,15 +33,15 @@ function error(err) {
 
 //LAYERS
 var layer_watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg');
-var layer_satelite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
-var layer_ligth = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png');
+var layer_satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
+var layer_light = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png');
 
 //MAPA
 var map = L.map('map', {
 	maxBounds: L.latLngBounds(L.latLng(-90, -180), L.latLng(90, 180)),
 	worldCopyJump: true,
 	noWrap: true,
-	layers: [layer_ligth]
+	layers: [layer_light]
 })
 .setView([42.0201463, 2.5149485], 12);
 
@@ -148,14 +148,14 @@ const altresGroup = L.layerGroup();
 
 locations.map(location => {
 	let zindex = 1;
-	let size = 29;
+	let size = location.type === "iclesia" ? 14 : 20;
 	let anchor = [14, 35];
 
 	if (location.type == "desconegut") {
-		anchor = [14, 35]
+		anchor = [10, 10]
 	}
 
-	//importancia i tamany
+	// importància i mida
 	if (location.zindex != undefined) {
 		zindex = location.zindex;
 	}
@@ -190,7 +190,7 @@ locations.map(location => {
 	}
 	
 	if (location.description != undefined) {
-		marker.bindPopup(location.description?.join(" <br>"));
+		marker.bindPopup(location.description?.join(""));
 	}
 	
 	marker.setZIndexOffset(zindex)
@@ -234,12 +234,12 @@ altresGroup.addTo(map);
 L.control.layers(
 	{
 		"Mapa clàssic": layer_watercolor,
-		"Satelite": layer_satelite,
-		"Ligth Mapa": layer_ligth,
+		"Satèl·lit": layer_satellite,
+		"Mapa clar": layer_light,
 	}, 
 	{
-		'Iclesies': iclesiesGroup,
-		'Parroquies': parroquiesGroup,
+		'Esglésies': iclesiesGroup,
+		'Parròquies': parroquiesGroup,
 	},
 	{
 		position: 'bottomleft'
