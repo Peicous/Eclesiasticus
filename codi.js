@@ -144,6 +144,7 @@ map.setView([42.0201463, 2.5149485], 12);
 //groups
 const parroquiesGroup = L.layerGroup();
 const iclesiesGroup = L.layerGroup();
+const cementirisGroup = L.layerGroup();
 const altresGroup = L.layerGroup();
 const debugGroup = L.layerGroup();
 
@@ -215,6 +216,9 @@ locations.map(location => {
 	else if (location.type === 'parroquia') {
 		marker.addTo(parroquiesGroup);
 	}
+	else if (location.type === 'cementiri') {
+		marker.addTo(cementirisGroup);
+	}
 	else {
 		if (location.type === 'area') {
 			L.circle(location.coordinates, {
@@ -237,6 +241,7 @@ locations.map(location => {
 // Add layer groups to the map
 iclesiesGroup.addTo(map);
 parroquiesGroup.addTo(map);
+cementirisGroup.addTo(map);
 altresGroup.addTo(map);
 
 //debugGroup.addTo(map);
@@ -251,6 +256,8 @@ L.control.layers(
 	{
 		'Esglésies': iclesiesGroup,
 		'Parròquies': parroquiesGroup,
+		'Cementiris': cementirisGroup,
+		'Altres': altresGroup,
 	},
 	{
 		position: 'bottomleft'
