@@ -122,5 +122,10 @@ const locations = [
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Església parroquial del poble de Vilanna, al terme municipal de Bescanó. Se'n té constància des del 899."
 		]
+	},
+	{
+		name: "Cementiri vell d'Angles",
+		type: "cementiri",
+		coordinates: [41.95479564, 2.63589800]
 	}
 ]

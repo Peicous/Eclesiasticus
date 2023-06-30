@@ -145,14 +145,23 @@ map.setView([42.0201463, 2.5149485], 12);
 const parroquiesGroup = L.layerGroup();
 const iclesiesGroup = L.layerGroup();
 const altresGroup = L.layerGroup();
+const debugGroup = L.layerGroup();
 
 locations.map(location => {
 	let zindex = 1;
-	let size = location.type === "iclesia" ? 14 : 20;
-	let anchor = [14, 35];
+	let size = [20, 20];
+	let anchor = [10, 20];
 
 	if (location.type == "desconegut") {
-		anchor = [10, 10]
+		anchor = [9, 22]
+		size = [17, 22];
+	}
+	else if (location.type == "iclesia") {
+		size = [14, 14];
+	}
+	else if (location.type == "cementiri") {
+		anchor = [10, 25];
+		size = [22, 22];
 	}
 
 	// importància i mida
@@ -170,10 +179,10 @@ locations.map(location => {
 	let icona = new L.Icon({
 		iconUrl: `./img/${location.type}.png`,
 		shadowUrl: '',
-		iconSize: [size, size],
+		iconSize: size,
 		iconAnchor: anchor,
 		popupAnchor: [-10, -43],
-		shadowSize: [size, size]
+		shadowSize: size
 	});
 
 	let marker = L.marker(location.coordinates, {
@@ -195,10 +204,10 @@ locations.map(location => {
 	
 	marker.setZIndexOffset(zindex)
 	
-	/*let debug_marker = L.marker(location.coordinates, {zone: location.zone});
+	let debug_marker = L.marker(location.coordinates, {zone: location.zone});
 	debug_marker.bindPopup(location.name);
 	debug_marker.on('mouseover', handleMarkerHover);
-	debug_marker.on('mouseout', handleMarkerOut);*/
+	debug_marker.on('mouseout', handleMarkerOut);
 	
 	if (location.type === 'iclesia') {
 		marker.addTo(iclesiesGroup);
@@ -221,7 +230,7 @@ locations.map(location => {
 		}
 	}
 
-	//debug_marker.addTo(iclesiesGroup);
+	debug_marker.addTo(debugGroup);
 })
 
 
@@ -229,6 +238,8 @@ locations.map(location => {
 iclesiesGroup.addTo(map);
 parroquiesGroup.addTo(map);
 altresGroup.addTo(map);
+
+//debugGroup.addTo(map);
 
 // Create layer control
 L.control.layers(
