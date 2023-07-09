@@ -124,8 +124,23 @@ const locations = [
 		]
 	},
 	{
-		name: "Cementiri vell d'Angles",
+		name: "Cementiri nou d'Anglès",
 		type: "cementiri",
-		coordinates: [41.95479564, 2.63589800]
+		coordinates: [41.9442417, 2.6428552],
+		description: [
+			"<h2>Cementiri nou d'Anglès</h2>",
+			"<small>Divisió administrativa: Anglès, Gironès, Girona, Catalunya</small><br/><br/>",
+			"Cementiri nou de la vila d'Anglès, al terme municipal homònim. Construït durant la dècada de 1980 per la falta de capacitat i la impossibilitat d'ampliació del vell."
+		]
+	},
+	{
+		name: "Cementiri vell d'Anglès",
+		type: "cementiri",
+		coordinates: [41.9547187, 2.6359949],
+		description: [
+			"<h2>Cementiri vell d'Anglès</h2>",
+			"<small>Divisió administrativa: Anglès, Anglès, Gironès, Girona, Catalunya</small><br/><br/>",
+			"Cementiri vell de la vila d'Anglès, al terme municipal homònim. Construït durant la dècada de 1910-1920 per la impossibilitat d'ampliació i les poques condicions higièniques de l'antic cementiri parroquial."
+		]
 	}
 ]

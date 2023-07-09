@@ -157,7 +157,7 @@ locations.map(location => {
 		anchor = [9, 22]
 		size = [17, 22];
 	}
-	else if (location.type == "iclesia") {
+	else if (location.type == "iclesia" || location.type == "parroquia") {
 		size = [14, 14];
 	}
 	else if (location.type == "cementiri") {
