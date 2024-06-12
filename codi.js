@@ -32,7 +32,7 @@ function error(err) {
 //navigator.geolocation.getCurrentPosition(success, error, options);
 
 //LAYERS
-var layer_watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg');
+var layer_osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png');
 var layer_satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
 var layer_light = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png');
 
@@ -41,7 +41,7 @@ var map = L.map('map', {
 	maxBounds: L.latLngBounds(L.latLng(-90, -180), L.latLng(90, 180)),
 	worldCopyJump: true,
 	noWrap: true,
-	layers: [layer_light]
+	layers: [layer_osm]
 })
 .setView([42.0201463, 2.5149485], 12);
 
@@ -52,93 +52,29 @@ if (GeoJson != undefined) {
 	L.geoJSON(GeoJson, {
 		style: function (feature) {
 			return {
-				weight: 1,
-				opacity: 0, //ha de ser 0 per prod 1 per dev!
-				fillOpacity: 0 // ha de ser 0 per prod 0.1 per dev!
+				weight: 2,
+				opacity: 1,
+				fillOpacity: 0
 			};
-		},
-		onEachFeature: onEachFeature,
+		}
 	})
 	.addTo(map);
 }
 
-// Add the event listeners to each feature (province/state)
-function onEachFeature(feature, layer) {
-	layer.on({
-		mouseover: highlightFeature,
-		mouseout: resetFeature,
-	});
-}
-
-// Event listener for mouse hover
-function highlightFeature(e) {
-	var layer = e.target;
-
-	layer.setStyle({
-		weight: 3,
-		opacity: 1,
-		fillOpacity: 0.1,
-	});
-
-	if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-		layer.bringToFront();
-	}
-}
-
-// Event listener for mouse out (reset the style)
-function resetFeature(e) {
-	var layer = e.target;
-
-	layer.setStyle({
-		weight: 1,
-		opacity: 0,
-		fillOpacity: 0,
-	});
-}
-
 function handleMarkerHover(e) {
-	var marker = e.target;
-	var zone = marker.options.zone;
-
-	if (GeoJson != undefined) {
-		zoneLayer = L.geoJSON(GeoJson, {
-			style: function (feature) {
-				return {
-					weight: 1,
-					opacity: 0,
-					fillOpacity: 0,
-				};
-			},
-			filter: function (feature) {
-				return feature.properties.ISO_A3 == zone;
-			},
-		}).getLayers()[0];
-
-		if (zoneLayer) {
-			zoneLayer.setStyle({
-				weight: 3,
-				opacity: 1,
-				fillOpacity: 0.1,
-			});
-
-			if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-				zoneLayer.bringToFront();
-			}
-
-			zoneLayer.addTo(map);
-		}
-	}
+	//var marker = e.target;
+	//var zone = marker.options.zone;
 }
 
 function handleMarkerOut(e) {
-	if (zoneLayer != undefined) {
+	/*if (zoneLayer != undefined) {
 		map.removeLayer(zoneLayer);
-	}
+	}*/
 }
 
 //===========================================================================================
 
-map.setView([42.0201463, 2.5149485], 12);
+map.setView([42.0201463, 2.5149485], 10);
 
 
 //groups
@@ -249,9 +185,9 @@ altresGroup.addTo(map);
 // Create layer control
 L.control.layers(
 	{
-		"Mapa clàssic": layer_watercolor,
-		"Satèl·lit": layer_satellite,
+		"Open Street Map": layer_osm,
 		"Mapa clar": layer_light,
+		"Satèl·lit": layer_satellite,
 	}, 
 	{
 		'Esglésies': iclesiesGroup,
