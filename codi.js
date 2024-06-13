@@ -56,7 +56,8 @@ if (GeoJson != undefined) {
 				opacity: 1,
 				fillOpacity: 0
 			};
-		}
+		},
+		onEachFeature: onEachFeature,
 	})
 	.addTo(map);
 }
@@ -72,9 +73,62 @@ function handleMarkerOut(e) {
 	}*/
 }
 
-//===========================================================================================
+// Add the event listeners to each feature (province/state)
+function onEachFeature(feature, layer) {
+	if (
+		feature.properties.nom_comar == "Gironès" ||
+		feature.properties.nom_comar == "Selva" ||
+		feature.properties.nom_comar == "Alt Empordà" ||
+		feature.properties.nom_comar == "Baix Empordà" ||
+		feature.properties.nom_comar == "Pla de l'Estany" ||
+		feature.properties.nom_comar == "Garrotxa" ||
+		feature.properties.nom_comar == "Ripollès" ||
+		feature.properties.nom_comar == "Puigcerdà"
+	) {
+		layer.setStyle({
+			weight: 2,
+			opacity: 1,
+			fillOpacity: 0,
+			color: "#ffd966",
+		});
+	}
+	else {
+		layer.setStyle({
+			weight: 2,
+			opacity: 1,
+			fillOpacity: 0,
+			color: "#9fc5e8",
+		});
+	}
+}
 
+//===========================================================================================
+map.setMaxBounds(
+	[
+		[
+            43.072930069455225,
+            4.0842969746326787,
+          ],
+          [
+			  43.0917230990579,
+            0.06395199615073466,
+          ],
+          [
+			  40.501140508891666,
+            0.043199179604698656,
+          ],
+          [
+			  40.48896601772529,
+            3.5670096660089143,
+          ],
+          [
+			  43.07394216872578,
+            4.0820092606887783,
+          ]
+	]
+);
 map.setView([42.0201463, 2.5149485], 10);
+map.setMinZoom(9);
 
 
 //groups
