@@ -13,6 +13,126 @@ const locations = [
 		radi: 500,
 		coordinates: [42.0201463, 2.5149485]
 	},
+		{
+		name: "Sant Esteve de Caldes de Malavella",
+		type: "parroquia",
+		coordinates: [41.8365337, 2.80884147],
+		description: [
+			"<h2>Sant Esteve de Caldes de Malavella</h2>",
+			"<small>Divisió administrativa: Caldes de Malavella, Caldes de Malavella, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Quirze i Santa Julita de Campllong",
+		type: "parroquia",
+		coordinates: [41.8910043, 2.83020333],
+		description: [
+			"<h2>Sant Quirze i Santa Julita de Campllong</h2>",
+			"<small>Divisió administrativa: Campllong, Campllong, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Tours de Cassà de la Selva",
+		type: "parroquia",
+		coordinates: [41.88742115, 2.87453799],
+		description: [
+			"<h2>Sant Martí de Tours de Cassà de la Selva</h2>",
+			"<small>Divisió administrativa: Cassà de la Selva, Cassà de la Selva, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+		{
+		name: "Sant Martí de Castellar de la Selva",
+		type: "parroquia",
+		coordinates: [41.94911765, 2.86946964],
+		description: [
+			"<h2>Sant Martí de Castellar de la Selva</h2>",
+			"<small>Divisió administrativa: Castellar de la Selva, Quart, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Mateu de Franciac",
+		type: "parroquia",
+		coordinates: [41.87388045, 2.78566034],
+		description: [
+			"<h2>Sant Mateu de Franciac</h2>",
+			"<small>Divisió administrativa: Franciac, Caldes de Malavella, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Llagostera",
+		type: "parroquia",
+		coordinates: [41.8287143, 2.8923401],
+		description: [
+			"<h2>Sant Feliu de Llagostera</h2>",
+			"<small>Divisió administrativa: Llagostera, Llagostera, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+		{
+		name: "Sant Cristòfol de Llambilles",
+		type: "parroquia",
+		coordinates: [41.92102435, 2.85919633],
+		description: [
+			"<h2>Sant Cristòfol de Llambilles</h2>",
+			"<small>Divisió administrativa: Llambilles, Llambilles, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Mateu de Montnegre",
+		type: "parroquia",
+		coordinates: [41.9459437, 2.9033014],
+		description: [
+			"<h2>Sant Mateu de Montnegre</h2>",
+			"<small>Divisió administrativa: Montnegre, Quart, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Margarida de Quart",
+		type: "parroquia",
+		coordinates: [41.9405005, 2.84574399],
+		description: [
+			"<h2>Santa Margarida de Quart</h2>",
+			"<small>Divisió administrativa: Quart, Quart, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+		{
+		name: "Sant Esteve de Riudellots de la Selva",
+		type: "parroquia",
+		coordinates: [41.8927056, 2.80364023],
+		description: [
+			"<h2>Sant Esteve de Riudellots de la Selva</h2>",
+			"<small>Divisió administrativa: Riudellots de la Selva, Riudellots de la Selva, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Andreu Salou",
+		type: "parroquia",
+		coordinates: [41.8738873, 2.82535646],
+		description: [
+			"<h2>Sant Andreu Salou</h2>",
+			"<small>Divisió administrativa: Sant Andreu Salou, Sant Andreu Salou, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Seclina de Caldes de Malavella",
+		type: "parroquia",
+		coordinates: [41.79840265, 2.84892413],
+		description: [
+			"<h2>Santa Seclina de Caldes de Malavella</h2>",
+			"<small>Divisió administrativa: Santa Seclina, Caldes de Malavella, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
 	{
 		name: "Santa Maria d'Amer",
 		type: "parroquia",
