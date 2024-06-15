@@ -14,14 +14,23 @@ const locations = [
 		coordinates: [42.0201463, 2.5149485]
 	},
 	{
-		name: "Santa Anna de Bescanó",
-		type: "iclesia",
-		coordinates: [41.96577085, 2.74984326],
+		name: "Santa Maria d'Amer",
+		type: "parroquia",
+		coordinates: [42.0098447, 2.6019394],
 		description: [
-			"<h2>Santa Anna de Bescanó</h2>",
-			"<small>Divisió administrativa: Montfullà, Bescanó, Gironès, Girona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Ermita de la vila de Montfullà, al terme municipal de Bescanó. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xvii</span>."
+			"<h2>Santa Maria d'Amer</h2>",
+			"<small>Divisió administrativa: Amer, Amer, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel d'Anglès",
+		type: "parroquia",
+		coordinates: [41.9564875, 2.63892074],
+		description: [
+			"<h2>Sant Miquel d'Anglès</h2>",
+			"<small>Divisió administrativa: Anglès, Anglès, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -30,9 +39,162 @@ const locations = [
 		coordinates: [41.9654651, 2.74271562],
 		description: [
 			"<h2>Sant Llorenç de Bescanó</h2>",
-			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Girona, Catalunya</small><br/>",
+			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Església parroquial de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1058."
+		]
+	},
+	{
+		name: "Sant Cristòfol de Cogolls",
+		type: "parroquia",
+		coordinates: [42.08536605, 2.54191419],
+		description: [
+			"<h2>Sant Cristòfol de Cogolls</h2>",
+			"<small>Divisió administrativa: Cogolls, Les Planes d'Hostoles, Garrotxa, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Constantins",
+		type: "parroquia",
+		coordinates: [41.98261475, 2.68992813],
+		description: [
+			"<h2>Sant Vicenç de Constantins</h2>",
+			"<small>Divisió administrativa: Constantins, Sant Gregori, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Andreu d'Estanyol",
+		type: "parroquia",
+		coordinates: [41.94147005, 2.74083832],
+		description: [
+			"<h2>Sant Andreu d'Estanyol</h2>",
+			"<small>Divisió administrativa: Estanyol, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Església parroquial del poble d'Estanyol, al terme municipal de Bescanó. Se'n té constància des del 888."
+		]
+	},
+	{
+		name: "Santa Maria de Sales de la Cellera de Ter",
+		type: "parroquia",
+		coordinates: [41.96906665, 2.62103274],
+		description: [
+			"<h2>Santa Maria de Sales de la Cellera de Ter</h2>",
+			"<small>Divisió administrativa: La Cellera de Ter, La Cellera de Ter, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de les Encies",
+		type: "parroquia",
+		coordinates: [42.0660971, 2.5760723],
+		description: [
+			"<h2>Santa Maria de les Encies</h2>",
+			"<small>Divisió administrativa: Les Encies, Les Planes d'Hostoles, Garrotxa, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Pallerols",
+		type: "parroquia",
+		coordinates: [42.07566645, 2.50787371],
+		description: [
+			"<h2>Sant Feliu de Pallerols</h2>",
+			"<small>Divisió administrativa: Sant Feliu de Pallerols, Sant Feliu de Pallerols, Garrotxa, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cristòfol de les Planes d'Hostoles",
+		type: "parroquia",
+		coordinates: [42.05540395, 2.53682005],
+		description: [
+			"<h2>Sant Cristòfol de les Planes d'Hostoles</h2>",
+			"<small>Divisió administrativa: Les Planes d'Hostoles, Les Planes d'Hostoles, Garrotxa, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Climent d'Amer",
+		type: "parroquia",
+		coordinates: [42.00448425, 2.63707312],
+		description: [
+			"<h2>Sant Climent d'Amer</h2>",
+			"<small>Divisió administrativa: Sant Climent d'Amer, Amer, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Iscle de Colltort",
+		type: "parroquia",
+		coordinates: [42.11938395, 2.52859964],
+		description: [
+			"<h2>Sant Iscle de Colltort</h2>",
+			"<small>Divisió administrativa: Sant Iscle de Colltort, Sant Feliu de Pallerols, Garrotxa, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Julià del Llor",
+		type: "parroquia",
+		coordinates: [41.9691693, 2.64765435],
+		description: [
+			"<h2>Sant Julià del Llor</h2>",
+			"<small>Divisió administrativa: Sant Julià del Llor, Sant Julià del Llor i Bonmatí, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí Sapresa",
+		type: "parroquia",
+		coordinates: [41.9258702, 2.65076857],
+		description: [
+			"<h2>Sant Martí Sapresa</h2>",
+			"<small>Divisió administrativa: Sant Martí Sapresa, Brunyola i Sant Martí Sapresa, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Pineda",
+		type: "parroquia",
+		coordinates: [42.1019487, 2.49407539],
+		description: [
+			"<h2>Sant Miquel de Pineda</h2>",
+			"<small>Divisió administrativa: Sant Miquel de Pineda, Sant Feliu de Pallerols, Garrotxa, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Mateu de Vilanna",
+		type: "parroquia",
+		coordinates: [41.97590025, 2.70329996],
+		description: [
+			"<h2>Sant Mateu de Vilanna</h2>",
+			"<small>Divisió administrativa: Vilanna, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Església parroquial del poble de Vilanna, al terme municipal de Bescanó. Se'n té constància des del 899."
+		]
+	},
+	{
+		name: "Santa Maria de Bonmatí",
+		type: "parroquia",
+		coordinates: [41.97041145, 2.66350846],
+		description: [
+			"<h2>Santa Maria de Bonmatí</h2>",
+			"<small>Divisió administrativa: Bonmatí, Sant Julià del Llor i Bonmatí, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Anna de Bescanó",
+		type: "iclesia",
+		coordinates: [41.96577085, 2.74984326],
+		description: [
+			"<h2>Santa Anna de Bescanó</h2>",
+			"<small>Divisió administrativa: Montfullà, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Ermita de la vila de Montfullà, al terme municipal de Bescanó. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xvii</span>."
 		]
 	},
 	{
@@ -41,7 +203,7 @@ const locations = [
 		coordinates: [41.96987575, 2.6975462],
 		description: [
 			"<h2>Sant Martí de Ca n'Amat Gros</h2>",
-			"<small>Divisió administrativa: Vilanna, Bescanó, Gironès, Girona, Catalunya</small><br/>",
+			"<small>Divisió administrativa: Vilanna, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Mateu de Vilanna, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Capella del mas Amat Gros, al terme municipal de Bescanó. Construïda al segle <span style='font-variant: small-caps'>x</span>."
 		]
@@ -52,7 +214,7 @@ const locations = [
 		coordinates: [41.961952, 2.7294616],
 		description: [
 			"<h2>Santa Margarida de Bescanó</h2>",
-			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Girona, Catalunya</small><br/>",
+			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Ermita de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1400."
 		]
@@ -63,7 +225,7 @@ const locations = [
 		coordinates: [41.96556325, 2.73945117],
 		description: [
 			"<h2>Santa Maria Assumpta de Bescanó</h2>",
-			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Girona, Catalunya</small><br/>",
+			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Església parroquial de la vila de Bescanó, al terme municipal homònim. Construïda el 1959."
 		]
@@ -74,20 +236,9 @@ const locations = [
 		coordinates: [41.9665699, 2.74783833],
 		description: [
 			"<h2>Sant Sebastià de Bescanó</h2>",
-			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Girona, Catalunya</small><br/>",
+			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Capella de la vila de Bescanó, al terme municipal homònim. Inscripció del 1610."
-		]
-	},
-	{
-		name: "Sant Andreu d'Estanyol",
-		type: "parroquia",
-		coordinates: [41.94147005, 2.74083832],
-		description: [
-			"<h2>Sant Andreu d'Estanyol</h2>",
-			"<small>Divisió administrativa: Estanyol, Bescanó, Gironès, Girona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Església parroquial del poble d'Estanyol, al terme municipal de Bescanó. Se'n té constància des del 888."
 		]
 	},
 	{
@@ -96,7 +247,7 @@ const locations = [
 		coordinates: [41.9683824, 2.75958883],
 		description: [
 			"<h2>Sant Pere de Montfullà</h2>",
-			"<small>Divisió administrativa: Montfullà, Bescanó, Gironès, Girona, Catalunya</small><br/>",
+			"<small>Divisió administrativa: Montfullà, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Església parroquial del poble de Montfullà, al terme municipal de Bescanó. Se'n té constància des del 882."
 		]
@@ -107,30 +258,19 @@ const locations = [
 		coordinates: [41.9366246, 2.73506882],
 		description: [
 			"<h2>Sant Bartomeu de Trullars</h2>",
-			"<small>Divisió administrativa: Estanyol, Bescanó, Gironès, Girona, Catalunya</small><br/>",
+			"<small>Divisió administrativa: Estanyol, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Andreu d'Estanyol, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Capella del llogarret de Trullars, al terme municipal de Bescanó. Se'n té constància des del 1118, però es creu d'origen preromànic."
 		]
 	},
 	{
-		name: "Sant Mateu de Vilanna",
-		type: "parroquia",
-		coordinates: [41.97590025, 2.70329996],
-		description: [
-			"<h2>Sant Mateu de Vilanna</h2>",
-			"<small>Divisió administrativa: Vilanna, Bescanó, Gironès, Girona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Església parroquial del poble de Vilanna, al terme municipal de Bescanó. Se'n té constància des del 899."
-		]
-	},
-	{
-        name: "Cementiri Parroquial de Santa Maria d'Agullana",
-        type: "cementiri",
-        coordinates: [42.393881, 2.846673],
-        description: [
-                "<h2>Cementiri Parroquial de Santa Maria d'Agullana</h2>",
-                "<small>Divisió administrativa: Agullana; Agullana; Alt Empordà; Comarques gironines; Catalunya</small>"
-        ]
+	        name: "Cementiri Parroquial de Santa Maria d'Agullana",
+	        type: "cementiri",
+	        coordinates: [42.393881, 2.846673],
+	        description: [
+	                "<h2>Cementiri Parroquial de Santa Maria d'Agullana</h2>",
+	                "<small>Divisió administrativa: Agullana; Agullana; Alt Empordà; Comarques gironines; Catalunya</small>"
+	        ]
 	},
 	{
 	        name: "Cementiri Municipal d'Agullana",
