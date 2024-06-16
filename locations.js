@@ -307,6 +307,126 @@ const locations = [
 		]
 	},
 	{
+		name: "Santa Maria de Blanes",
+		type: "parroquia",
+		coordinates: [41.67591295, 2.79279957],
+		description: [
+			"<h2>Santa Maria de Blanes</h2>",
+			"<small>Divisió administrativa: Blanes, Blanes, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sagrada Família de Blanes",
+		type: "parroquia",
+		coordinates: [41.6661405, 2.78466881],
+		description: [
+			"<h2>Sagrada Família de Blanes</h2>",
+			"<small>Divisió administrativa: Blanes, Blanes, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Teresa de Blanes",
+		type: "parroquia",
+		coordinates: [41.6830174, 2.7805187],
+		description: [
+			"<h2>Santa Teresa de Blanes</h2>",
+			"<small>Divisió administrativa: Blanes, Blanes, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eulàlia d'Hortsavinyà",
+		type: "parroquia",
+		coordinates: [41.6678233, 2.62869088],
+		description: [
+			"<h2>Santa Eulàlia d'Hortsavinyà</h2>",
+			"<small>Divisió administrativa: Hortsavinyà, Tordera, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Vallmanya",
+		type: "parroquia",
+		coordinates: [41.672915, 2.653393],
+		description: [
+			"<h2>Sant Miquel de Vallmanya</h2>",
+			"<small>Divisió administrativa: Hortsavinyà, Tordera, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Romà de Lloret de Mar",
+		type: "parroquia",
+		coordinates: [41.69968615, 2.84752013],
+		description: [
+			"<h2>Sant Romà de Lloret de Mar</h2>",
+			"<small>Divisió administrativa: Lloret de Mar, Lloret de Mar, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Nicolau de Malgrat de Mar",
+		type: "parroquia",
+		coordinates: [41.64642915, 2.7424441],
+		description: [
+			"<h2>Sant Nicolau de Malgrat de Mar</h2>",
+			"<small>Divisió administrativa: Malgrat de Mar, Malgrat de Mar, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Palafolls",
+		type: "parroquia",
+		coordinates: [41.6681724, 2.74938369],
+		description: [
+			"<h2>Santa Maria de Palafolls</h2>",
+			"<small>Divisió administrativa: Palafolls, Palafolls, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Genís de Palafolls",
+		type: "parroquia",
+		coordinates: [41.6601911, 2.72244843],
+		description: [
+			"<h2>Sant Genís de Palafolls</h2>",
+			"<small>Divisió administrativa: Sant Genís de Palafolls, Palafolls, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Tordera",
+		type: "parroquia",
+		coordinates: [41.7017954, 2.71883661],
+		description: [
+			"<h2>Sant Esteve de Tordera</h2>",
+			"<small>Divisió administrativa: Tordera, Tordera, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Tossa de Mar",
+		type: "parroquia",
+		coordinates: [41.71794315, 2.93083686],
+		description: [
+			"<h2>Sant Vicenç de Tossa de Mar</h2>",
+			"<small>Divisió administrativa: Tossa de Mar, Tossa de Mar, Selva, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Riu",
+		type: "parroquia",
+		coordinates: [41.6473028, 2.67771696],
+		description: [
+			"<h2>Sant Pere de Riu</h2>",
+			"<small>Divisió administrativa: Hortsavinyà, Tordera, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Santa Anna de Bescanó",
 		type: "iclesia",
 		coordinates: [41.96577085, 2.74984326],
