@@ -13,7 +13,107 @@ const locations = [
 		radi: 500,
 		coordinates: [42.0201463, 2.5149485]
 	},
-		{
+	{
+		name: "Santa Maria Assumpta d'Arenys de Mar",
+		type: "parroquia",
+		coordinates: [41.58064595, 2.54919409],
+		description: [
+			"<h2>Santa Maria Assumpta d'Arenys de Mar</h2>",
+			"<small>Divisió administrativa: Arenys de Mar, Arenys de Mar, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Tours d'Arenys de Munt",
+		type: "parroquia",
+		coordinates: [41.6090238, 2.53984101],
+		description: [
+			"<h2>Sant Martí de Tours d'Arenys de Munt</h2>",
+			"<small>Divisió administrativa: Arenys de Munt, Arenys de Munt, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria i Sant Nicolau de Calella",
+		type: "parroquia",
+		coordinates: [41.6138448, 2.65852968],
+		description: [
+			"<h2>Santa Maria i Sant Nicolau de Calella</h2>",
+			"<small>Divisió administrativa: Calella, Calella, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere i Sant Pau de Canet de Mar",
+		type: "parroquia",
+		coordinates: [41.58984385, 2.58252345],
+		description: [
+			"<h2>Sant Pere i Sant Pau de Canet de Mar</h2>",
+			"<small>Divisió administrativa: Canet de Mar, Canet de Mar, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Pineda de Mar",
+		type: "parroquia",
+		coordinates: [41.6288021, 2.68990416],
+		description: [
+			"<h2>Santa Maria de Pineda de Mar</h2>",
+			"<small>Divisió administrativa: Pineda de Mar, Pineda de Mar, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan Baptista de Pineda de Mar",
+		type: "parroquia",
+		coordinates: [41.6186299, 2.6733232],
+		description: [
+			"<h2>Sant Joan Baptista de Pineda de Mar</h2>",
+			"<small>Divisió administrativa: Pineda de Mar, Pineda de Mar, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cebrià de Vallalta",
+		type: "parroquia",
+		coordinates: [41.61988765, 2.59971418],
+		description: [
+			"<h2>Sant Cebrià de Vallalta</h2>",
+			"<small>Divisió administrativa: Sant Cebrià de Vallalta, Sant Cebrià de Vallalta, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Iscle i Santa Victòria de Vallalta",
+		type: "parroquia",
+		coordinates: [41.6235331, 2.56941954],
+		description: [
+			"<h2>Sant Iscle i Santa Victòria de Vallalta</h2>",
+			"<small>Divisió administrativa: Sant Iscle de Vallalta, Sant Iscle de Vallalta, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Jaume de Sant Pol de Mar",
+		type: "parroquia",
+		coordinates: [41.60014915, 2.6204301],
+		description: [
+			"<h2>Sant Jaume de Sant Pol de Mar</h2>",
+			"<small>Divisió administrativa: Sant Pol de Mar, Sant Pol de Mar, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Susanna",
+		type: "parroquia",
+		coordinates: [41.6354566, 2.70775128],
+		description: [
+			"<h2>Santa Susanna</h2>",
+			"<small>Divisió administrativa: Santa Susanna, Santa Susanna, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Sant Esteve de Caldes de Malavella",
 		type: "parroquia",
 		coordinates: [41.8365337, 2.80884147],
