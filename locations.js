@@ -14,6 +14,217 @@ const locations = [
 		coordinates: [42.0201463, 2.5149485]
 	},
 	{
+		name: "Catedral - Mare de Déu del Carme",
+		type: "parroquia",
+		coordinates: [41.9875086, 2.82627354],
+		description: [
+			"<h2>Catedral - Mare de Déu del Carme</h2>",
+			"<small>Divisió administrativa: Girona, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Girona",
+		type: "parroquia",
+		coordinates: [41.987969, 2.82486355],
+		description: [
+			"<h2>Sant Feliu de Girona</h2>",
+			"<small>Divisió administrativa: Girona, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Susanna del Mercadal",
+		type: "parroquia",
+		coordinates: [41.9839569, 2.82245194],
+		description: [
+			"<h2>Santa Susanna del Mercadal</h2>",
+			"<small>Divisió administrativa: El Mercadal, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Josep de Girona",
+		type: "parroquia",
+		coordinates: [41.9740053, 2.8237928],
+		description: [
+			"<h2>Sant Josep de Girona</h2>",
+			"<small>Divisió administrativa: Girona, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eugènia de Ter",
+		type: "parroquia",
+		coordinates: [41.97349965, 2.8070994],
+		description: [
+			"<h2>Santa Eugènia de Ter</h2>",
+			"<small>Divisió administrativa: Santa Eugènia de Ter, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Salvador d'Horta de Girona",
+		type: "parroquia",
+		coordinates: [41.9832038, 2.81234375],
+		description: [
+			"<h2>Sant Salvador d'Horta de Girona</h2>",
+			"<small>Divisió administrativa: Girona, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Narcís de Girona",
+		type: "parroquia",
+		coordinates: [41.9749058, 2.81061399],
+		description: [
+			"<h2>Sant Narcís de Girona</h2>",
+			"<small>Divisió administrativa: Girona, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pau de Girona",
+		type: "parroquia",
+		coordinates: [41.9700285, 2.81652385],
+		description: [
+			"<h2>Sant Pau de Girona</h2>",
+			"<small>Divisió administrativa: Girona, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Palau-sacosta",
+		type: "parroquia",
+		coordinates: [41.95695235, 2.82226854],
+		description: [
+			"<h2>Sant Miquel de Palau-sacosta</h2>",
+			"<small>Divisió administrativa: Palau-sacosta, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Sadurní de Palol d'Onyar - Vila-roja",
+		type: "parroquia",
+		coordinates: [41.9563553, 2.85056361],
+		description: [
+			"<h2>Sant Sadurní de Palol d'Onyar - Vila-roja</h2>",
+			"<small>Divisió administrativa: Palol d'Onyar, Quart, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Daniel de Girona",
+		type: "parroquia",
+		coordinates: [41.9882585, 2.83333769],
+		description: [
+			"<h2>Sant Daniel de Girona</h2>",
+			"<small>Divisió administrativa: Sant Daniel, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de la Pietat del Pont Major",
+		type: "parroquia",
+		coordinates: [42.0123417, 2.82539614],
+		description: [
+			"<h2>Mare de Déu de la Pietat del Pont Major</h2>",
+			"<small>Divisió administrativa: Pont Major, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Jaume de Campdorà",
+		type: "parroquia",
+		coordinates: [42.0129334, 2.8442261],
+		description: [
+			"<h2>Sant Jaume de Campdorà</h2>",
+			"<small>Divisió administrativa: Campdorà, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan Baptista d'Aiguaviva",
+		type: "parroquia",
+		coordinates: [41.93846575, 2.76171733],
+		description: [
+			"<h2>Sant Joan Baptista d'Aiguaviva</h2>",
+			"<small>Divisió administrativa: Aiguaviva, Aiguaviva, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cugat de Fornells de la Selva",
+		type: "parroquia",
+		coordinates: [41.93131225, 2.81273985],
+		description: [
+			"<h2>Sant Cugat de Fornells de la Selva</h2>",
+			"<small>Divisió administrativa: Fornells de la Selva, Fornells de la Selva, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Montfullà",
+		type: "parroquia",
+		coordinates: [41.9683824, 2.75958883],
+		description: [
+			"<h2>Sant Pere de Montfullà</h2>",
+			"<small>Divisió administrativa: Montfullà, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Església parroquial del poble de Montfullà, al terme municipal de Bescanó. Se'n té constància des del 882."
+		]
+	},
+	{
+		name: "Sant Cugat de Salt",
+		type: "parroquia",
+		coordinates: [41.9746211, 2.78121752],
+		description: [
+			"<h2>Sant Cugat de Salt</h2>",
+			"<small>Divisió administrativa: Salt, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Jaume de Salt",
+		type: "parroquia",
+		coordinates: [41.97681395, 2.79576019],
+		description: [
+			"<h2>Sant Jaume de Salt</h2>",
+			"<small>Divisió administrativa: Salt, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pau de Sarrià de Dalt",
+		type: "parroquia",
+		coordinates: [42.01625635, 2.80880953],
+		description: [
+			"<h2>Sant Pau de Sarrià de Dalt</h2>",
+			"<small>Divisió administrativa: Sarrià de Dalt, Sarrià de Ter, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de la Misericòrdia de Sarrià de Ter",
+		type: "parroquia",
+		coordinates: [42.01592965, 2.82363728],
+		description: [
+			"<h2>Mare de Déu de la Misericòrdia de Sarrià de Ter</h2>",
+			"<small>Divisió administrativa: Sarrià de Ter, Sarrià de Ter, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Menna de Vilablareix",
+		type: "parroquia",
+		coordinates: [41.95679725, 2.77294737],
+		description: [
+			"<h2>Sant Menna de Vilablareix</h2>",
+			"<small>Divisió administrativa: Vilablareix, Vilablareix, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
 		coordinates: [41.58064595, 2.54919409],
@@ -579,17 +790,6 @@ const locations = [
 			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Capella de la vila de Bescanó, al terme municipal homònim. Inscripció del 1610."
-		]
-	},
-	{
-		name: "Sant Pere de Montfullà",
-		type: "parroquia",
-		coordinates: [41.9683824, 2.75958883],
-		description: [
-			"<h2>Sant Pere de Montfullà</h2>",
-			"<small>Divisió administrativa: Montfullà, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Església parroquial del poble de Montfullà, al terme municipal de Bescanó. Se'n té constància des del 882."
 		]
 	},
 	{
