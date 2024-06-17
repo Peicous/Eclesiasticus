@@ -133,7 +133,7 @@ map.setMinZoom(9);
 
 //groups
 const parroquiesGroup = L.layerGroup();
-const iclesiesGroup = L.layerGroup();
+const esglesiesGroup = L.layerGroup();
 const cementirisGroup = L.layerGroup();
 const altresGroup = L.layerGroup();
 const debugGroup = L.layerGroup();
