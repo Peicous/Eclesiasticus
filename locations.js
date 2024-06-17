@@ -14,6 +14,72 @@ const locations = [
 		coordinates: [42.0201463, 2.5149485]
 	},
 	{
+		name: "Santa Anna de Bescanó",
+		type: "esglesia",
+		coordinates: [41.96577085, 2.74984326],
+		description: [
+			"<h2>Santa Anna de Bescanó</h2>",
+			"<small>Divisió administrativa: Montfullà, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Ermita de la vila de Montfullà, al terme municipal de Bescanó. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xvii</span>."
+		]
+	},
+	{
+		name: "Sant Martí de Ca n'Amat Gros",
+		type: "esglesia",
+		coordinates: [41.96987575, 2.6975462],
+		description: [
+			"<h2>Sant Martí de Ca n'Amat Gros</h2>",
+			"<small>Divisió administrativa: Vilanna, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Mateu de Vilanna, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Capella del mas Amat Gros, al terme municipal de Bescanó. Construïda al segle <span style='font-variant: small-caps'>x</span>."
+		]
+	},
+	{
+		name: "Santa Margarida de Bescanó",
+		type: "esglesia",
+		coordinates: [41.961952, 2.7294616],
+		description: [
+			"<h2>Santa Margarida de Bescanó</h2>",
+			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Ermita de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1400."
+		]
+	},
+	{
+		name: "Santa Maria Assumpta de Bescanó",
+		type: "esglesia",
+		coordinates: [41.96556325, 2.73945117],
+		description: [
+			"<h2>Santa Maria Assumpta de Bescanó</h2>",
+			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Església parroquial de la vila de Bescanó, al terme municipal homònim. Construïda el 1959."
+		]
+	},
+	{
+		name: "Sant Sebastià de Bescanó",
+		type: "esglesia",
+		coordinates: [41.9665699, 2.74783833],
+		description: [
+			"<h2>Sant Sebastià de Bescanó</h2>",
+			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Capella de la vila de Bescanó, al terme municipal homònim. Inscripció del 1610."
+		]
+	},
+	{
+		name: "Sant Bartomeu de Trullars",
+		type: "esglesia",
+		coordinates: [41.9366246, 2.73506882],
+		description: [
+			"<h2>Sant Bartomeu de Trullars</h2>",
+			"<small>Divisió administrativa: Estanyol, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Andreu d'Estanyol, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Capella del llogarret de Trullars, al terme municipal de Bescanó. Se'n té constància des del 1118, però es creu d'origen preromànic."
+		]
+	},
+	{
 		name: "Catedral - Mare de Déu del Carme",
 		type: "parroquia",
 		coordinates: [41.9875086, 2.82627354],
@@ -735,72 +801,6 @@ const locations = [
 			"<h2>Sant Pere de Riu</h2>",
 			"<small>Divisió administrativa: Hortsavinyà, Tordera, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
-		]
-	},
-	{
-		name: "Santa Anna de Bescanó",
-		type: "iclesia",
-		coordinates: [41.96577085, 2.74984326],
-		description: [
-			"<h2>Santa Anna de Bescanó</h2>",
-			"<small>Divisió administrativa: Montfullà, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Ermita de la vila de Montfullà, al terme municipal de Bescanó. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xvii</span>."
-		]
-	},
-	{
-		name: "Sant Martí de Ca n'Amat Gros",
-		type: "iclesia",
-		coordinates: [41.96987575, 2.6975462],
-		description: [
-			"<h2>Sant Martí de Ca n'Amat Gros</h2>",
-			"<small>Divisió administrativa: Vilanna, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Mateu de Vilanna, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Capella del mas Amat Gros, al terme municipal de Bescanó. Construïda al segle <span style='font-variant: small-caps'>x</span>."
-		]
-	},
-	{
-		name: "Santa Margarida de Bescanó",
-		type: "iclesia",
-		coordinates: [41.961952, 2.7294616],
-		description: [
-			"<h2>Santa Margarida de Bescanó</h2>",
-			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Ermita de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1400."
-		]
-	},
-	{
-		name: "Santa Maria Assumpta de Bescanó",
-		type: "iclesia",
-		coordinates: [41.96556325, 2.73945117],
-		description: [
-			"<h2>Santa Maria Assumpta de Bescanó</h2>",
-			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Església parroquial de la vila de Bescanó, al terme municipal homònim. Construïda el 1959."
-		]
-	},
-	{
-		name: "Sant Sebastià de Bescanó",
-		type: "iclesia",
-		coordinates: [41.9665699, 2.74783833],
-		description: [
-			"<h2>Sant Sebastià de Bescanó</h2>",
-			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Capella de la vila de Bescanó, al terme municipal homònim. Inscripció del 1610."
-		]
-	},
-	{
-		name: "Sant Bartomeu de Trullars",
-		type: "iclesia",
-		coordinates: [41.9366246, 2.73506882],
-		description: [
-			"<h2>Sant Bartomeu de Trullars</h2>",
-			"<small>Divisió administrativa: Estanyol, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Andreu d'Estanyol, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Capella del llogarret de Trullars, al terme municipal de Bescanó. Se'n té constància des del 1118, però es creu d'origen preromànic."
 		]
 	},
 	{

@@ -147,7 +147,7 @@ locations.map(location => {
 		anchor = [9, 22]
 		size = [17, 22];
 	}
-	else if (location.type == "iclesia" || location.type == "parroquia") {
+	else if (location.type == "esglesia" || location.type == "parroquia") {
 		size = [14, 14];
 	}
 	else if (location.type == "cementiri") {
@@ -200,8 +200,8 @@ locations.map(location => {
 	debug_marker.on('mouseover', handleMarkerHover);
 	debug_marker.on('mouseout', handleMarkerOut);
 	
-	if (location.type === 'iclesia') {
-		marker.addTo(iclesiesGroup);
+	if (location.type === 'esglesia') {
+		marker.addTo(esglesiesGroup);
 	} 
 	else if (location.type === 'parroquia') {
 		marker.addTo(parroquiesGroup);
@@ -229,7 +229,7 @@ locations.map(location => {
 
 
 // Add layer groups to the map
-iclesiesGroup.addTo(map);
+esglesiesGroup.addTo(map);
 parroquiesGroup.addTo(map);
 cementirisGroup.addTo(map);
 altresGroup.addTo(map);
@@ -244,8 +244,8 @@ L.control.layers(
 		"Satèl·lit": layer_satellite,
 	}, 
 	{
-		'Esglésies': iclesiesGroup,
-		'Parròquies': parroquiesGroup,
+		'Capelles, ermites i esglesioles': esglesiesGroup,
+		'Esglésies parroquials': parroquiesGroup,
 		'Cementiris': cementirisGroup,
 		'Altres': altresGroup,
 	},
