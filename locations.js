@@ -19,8 +19,8 @@ const locations = [
 		coordinates: [41.96577085, 2.74984326],
 		description: [
 			"<h2>Santa Anna de Bescanó</h2>",
-			"<small>Divisió administrativa: Montfullà, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<small>Divisió administrativa: Montfullà; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Ermita de la vila de Montfullà, al terme municipal de Bescanó. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xvii</span>."
 		]
 	},
@@ -30,8 +30,8 @@ const locations = [
 		coordinates: [41.96987575, 2.6975462],
 		description: [
 			"<h2>Sant Martí de Ca n'Amat Gros</h2>",
-			"<small>Divisió administrativa: Vilanna, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Mateu de Vilanna, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Mateu de Vilanna; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Capella del mas Amat Gros, al terme municipal de Bescanó. Construïda al segle <span style='font-variant: small-caps'>x</span>."
 		]
 	},
@@ -41,8 +41,8 @@ const locations = [
 		coordinates: [41.961952, 2.7294616],
 		description: [
 			"<h2>Santa Margarida de Bescanó</h2>",
-			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Ermita de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1400."
 		]
 	},
@@ -52,8 +52,8 @@ const locations = [
 		coordinates: [41.96556325, 2.73945117],
 		description: [
 			"<h2>Santa Maria Assumpta de Bescanó</h2>",
-			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Església parroquial de la vila de Bescanó, al terme municipal homònim. Construïda el 1959."
 		]
 	},
@@ -63,8 +63,8 @@ const locations = [
 		coordinates: [41.9665699, 2.74783833],
 		description: [
 			"<h2>Sant Sebastià de Bescanó</h2>",
-			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Capella de la vila de Bescanó, al terme municipal homònim. Inscripció del 1610."
 		]
 	},
@@ -74,9 +74,239 @@ const locations = [
 		coordinates: [41.9366246, 2.73506882],
 		description: [
 			"<h2>Sant Bartomeu de Trullars</h2>",
-			"<small>Divisió administrativa: Estanyol, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Andreu d'Estanyol, Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<small>Divisió administrativa: Estanyol; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Andreu d'Estanyol; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Capella del llogarret de Trullars, al terme municipal de Bescanó. Se'n té constància des del 1118, però es creu d'origen preromànic."
+		]
+	},
+	{
+		name: "Sant Pere de Begur",
+		type: "parroquia",
+		coordinates: [41.9543832, 3.20744233],
+		description: [
+			"<h2>Sant Pere de Begur</h2>",
+			"<small>Divisió administrativa: Begur; Begur; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve d'Esclanyà",
+		type: "parroquia",
+		coordinates: [41.9293689, 3.17641061],
+		description: [
+			"<h2>Sant Esteve d'Esclanyà</h2>",
+			"<small>Divisió administrativa: Esclanyà; Begur; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria Assumpta de Bell-lloc d'Aro",
+		type: "parroquia",
+		coordinates: [41.83988225, 2.977861],
+		description: [
+			"<h2>Santa Maria Assumpta de Bell-lloc d'Aro</h2>",
+			"<small>Divisió administrativa: Bell-lloc d'Aro; Santa Cristina d'Aro; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Calella de Palafrugell",
+		type: "parroquia",
+		coordinates: [41.889684, 3.18570138],
+		description: [
+			"<h2>Sant Pere de Calella de Palafrugell</h2>",
+			"<small>Divisió administrativa: Calella de Palafrugell; Palafrugell; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Calonge",
+		type: "parroquia",
+		coordinates: [41.86241, 3.0730709],
+		description: [
+			"<h2>Sant Martí de Calonge</h2>",
+			"<small>Divisió administrativa: Calonge; Calonge i Sant Antoni; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Fruitós de Llofriu",
+		type: "parroquia",
+		coordinates: [41.9304924, 3.13203805],
+		description: [
+			"<h2>Sant Fruitós de Llofriu</h2>",
+			"<small>Divisió administrativa: Llofriu; Palafrugell; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Mont-ras",
+		type: "parroquia",
+		coordinates: [41.9091405, 3.1435114],
+		description: [
+			"<h2>Sant Esteve de Mont-ras</h2>",
+			"<small>Divisió administrativa: Mont-ras; Mont-ras; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Tours de Palafrugell",
+		type: "parroquia",
+		coordinates: [41.91723885, 3.16414452],
+		description: [
+			"<h2>Sant Martí de Tours de Palafrugell</h2>",
+			"<small>Divisió administrativa: Palafrugell; Palafrugell; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria del Mar de Palamós",
+		type: "parroquia",
+		coordinates: [41.846981, 3.1285872],
+		description: [
+			"<h2>Santa Maria del Mar de Palamós</h2>",
+			"<small>Divisió administrativa: Palamós; Palamós; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eugènia de Vila-romà",
+		type: "parroquia",
+		coordinates: [41.85744205, 3.12965845],
+		description: [
+			"<h2>Santa Eugènia de Vila-romà</h2>",
+			"<small>Divisió administrativa: Sant Joan de Palamós; Palamós; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Pals",
+		type: "parroquia",
+		coordinates: [41.97177805, 3.14384067],
+		description: [
+			"<h2>Sant Pere de Pals</h2>",
+			"<small>Divisió administrativa: Pals; Pals; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Fenals d'Aro",
+		type: "parroquia",
+		coordinates: [41.8234508, 3.0587049],
+		description: [
+			"<h2>Santa Maria de Fenals d'Aro</h2>",
+			"<small>Divisió administrativa: Fenals d'Aro; Castell d'Aro, Platja d'Aro i s'Agaró; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Regencós",
+		type: "parroquia",
+		coordinates: [41.9525643, 3.16997786],
+		description: [
+			"<h2>Sant Vicenç de Regencós</h2>",
+			"<small>Divisió administrativa: Regencós; Regencós; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Romanyà de la Selva",
+		type: "parroquia",
+		coordinates: [41.8536941, 2.98439251],
+		description: [
+			"<h2>Sant Martí de Romanyà de la Selva</h2>",
+			"<small>Divisió administrativa: Romanyà de la Selva; Santa Cristina d'Aro; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Antoni de Calonge",
+		type: "parroquia",
+		coordinates: [41.84831735, 3.10715311],
+		description: [
+			"<h2>Sant Antoni de Calonge</h2>",
+			"<small>Divisió administrativa: Sant Antoni de Calonge; Calonge i Sant Antoni; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu dels Àngels de Sant Feliu de Guíxols",
+		type: "parroquia",
+		coordinates: [41.7799719, 3.02666293],
+		description: [
+			"<h2>Mare de Déu dels Àngels de Sant Feliu de Guíxols</h2>",
+			"<small>Divisió administrativa: Sant Feliu de Guíxols; Sant Feliu de Guíxols; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan Baptista de Vilartagues",
+		type: "parroquia",
+		coordinates: [41.7919529, 3.02543858],
+		description: [
+			"<h2>Sant Joan Baptista de Vilartagues</h2>",
+			"<small>Divisió administrativa: Vilartagues; Sant Feliu de Guíxols; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria Assumpta de Sant Feliu de Guíxols",
+		type: "parroquia",
+		coordinates: [41.7859231, 3.03316331],
+		description: [
+			"<h2>Santa Maria Assumpta de Sant Feliu de Guíxols</h2>",
+			"<small>Divisió administrativa: Sant Feliu de Guíxols; Sant Feliu de Guíxols; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Cristina d'Aro",
+		type: "parroquia",
+		coordinates: [41.8156467, 3.00344473],
+		description: [
+			"<h2>Santa Cristina d'Aro</h2>",
+			"<small>Divisió administrativa: Santa Cristina d'Aro; Santa Cristina d'Aro; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Agnès de Solius",
+		type: "parroquia",
+		coordinates: [41.8149238, 2.9618462],
+		description: [
+			"<h2>Santa Agnès de Solius</h2>",
+			"<small>Divisió administrativa: Solius; Santa Cristina d'Aro; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Torrent",
+		type: "parroquia",
+		coordinates: [41.95205695, 3.12714022],
+		description: [
+			"<h2>Sant Vicenç de Torrent</h2>",
+			"<small>Divisió administrativa: Torrent; Torrent; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Mateu de Vall-llobrega",
+		type: "parroquia",
+		coordinates: [41.88116145, 3.12562756],
+		description: [
+			"<h2>Sant Mateu de Vall-llobrega</h2>",
+			"<small>Divisió administrativa: Vall-llobrega; Vall-llobrega; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Nativitat de la Mare de Déu de Castell d'Aro",
+		type: "parroquia",
+		coordinates: [41.8152579, 3.03069885],
+		description: [
+			"<h2>Nativitat de la Mare de Déu de Castell d'Aro</h2>",
+			"<small>Divisió administrativa: Castell d'Aro; Castell d'Aro, Platja d'Aro i s'Agaró; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Costa Brava Centre; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -85,8 +315,8 @@ const locations = [
 		coordinates: [41.9875086, 2.82627354],
 		description: [
 			"<h2>Catedral - Mare de Déu del Carme</h2>",
-			"<small>Divisió administrativa: Girona, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -95,8 +325,8 @@ const locations = [
 		coordinates: [41.987969, 2.82486355],
 		description: [
 			"<h2>Sant Feliu de Girona</h2>",
-			"<small>Divisió administrativa: Girona, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -105,8 +335,8 @@ const locations = [
 		coordinates: [41.9839569, 2.82245194],
 		description: [
 			"<h2>Santa Susanna del Mercadal</h2>",
-			"<small>Divisió administrativa: El Mercadal, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: El Mercadal; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -115,8 +345,8 @@ const locations = [
 		coordinates: [41.9740053, 2.8237928],
 		description: [
 			"<h2>Sant Josep de Girona</h2>",
-			"<small>Divisió administrativa: Girona, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -125,8 +355,8 @@ const locations = [
 		coordinates: [41.97349965, 2.8070994],
 		description: [
 			"<h2>Santa Eugènia de Ter</h2>",
-			"<small>Divisió administrativa: Santa Eugènia de Ter, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Santa Eugènia de Ter; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -135,8 +365,8 @@ const locations = [
 		coordinates: [41.9832038, 2.81234375],
 		description: [
 			"<h2>Sant Salvador d'Horta de Girona</h2>",
-			"<small>Divisió administrativa: Girona, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -145,8 +375,8 @@ const locations = [
 		coordinates: [41.9749058, 2.81061399],
 		description: [
 			"<h2>Sant Narcís de Girona</h2>",
-			"<small>Divisió administrativa: Girona, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -155,8 +385,8 @@ const locations = [
 		coordinates: [41.9700285, 2.81652385],
 		description: [
 			"<h2>Sant Pau de Girona</h2>",
-			"<small>Divisió administrativa: Girona, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -165,8 +395,8 @@ const locations = [
 		coordinates: [41.95695235, 2.82226854],
 		description: [
 			"<h2>Sant Miquel de Palau-sacosta</h2>",
-			"<small>Divisió administrativa: Palau-sacosta, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Palau-sacosta; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -175,8 +405,8 @@ const locations = [
 		coordinates: [41.9563553, 2.85056361],
 		description: [
 			"<h2>Sant Sadurní de Palol d'Onyar - Vila-roja</h2>",
-			"<small>Divisió administrativa: Palol d'Onyar, Quart, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Palol d'Onyar; Quart; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -185,8 +415,8 @@ const locations = [
 		coordinates: [41.9882585, 2.83333769],
 		description: [
 			"<h2>Sant Daniel de Girona</h2>",
-			"<small>Divisió administrativa: Sant Daniel, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sant Daniel; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -195,8 +425,8 @@ const locations = [
 		coordinates: [42.0123417, 2.82539614],
 		description: [
 			"<h2>Mare de Déu de la Pietat del Pont Major</h2>",
-			"<small>Divisió administrativa: Pont Major, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Pont Major; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -205,8 +435,8 @@ const locations = [
 		coordinates: [42.0129334, 2.8442261],
 		description: [
 			"<h2>Sant Jaume de Campdorà</h2>",
-			"<small>Divisió administrativa: Campdorà, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Campdorà; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -215,8 +445,8 @@ const locations = [
 		coordinates: [41.93846575, 2.76171733],
 		description: [
 			"<h2>Sant Joan Baptista d'Aiguaviva</h2>",
-			"<small>Divisió administrativa: Aiguaviva, Aiguaviva, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Aiguaviva; Aiguaviva; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -225,8 +455,8 @@ const locations = [
 		coordinates: [41.93131225, 2.81273985],
 		description: [
 			"<h2>Sant Cugat de Fornells de la Selva</h2>",
-			"<small>Divisió administrativa: Fornells de la Selva, Fornells de la Selva, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Fornells de la Selva; Fornells de la Selva; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -235,8 +465,8 @@ const locations = [
 		coordinates: [41.9683824, 2.75958883],
 		description: [
 			"<h2>Sant Pere de Montfullà</h2>",
-			"<small>Divisió administrativa: Montfullà, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<small>Divisió administrativa: Montfullà; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Església parroquial del poble de Montfullà, al terme municipal de Bescanó. Se'n té constància des del 882."
 		]
 	},
@@ -246,8 +476,8 @@ const locations = [
 		coordinates: [41.9746211, 2.78121752],
 		description: [
 			"<h2>Sant Cugat de Salt</h2>",
-			"<small>Divisió administrativa: Salt, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Salt; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -256,8 +486,8 @@ const locations = [
 		coordinates: [41.97681395, 2.79576019],
 		description: [
 			"<h2>Sant Jaume de Salt</h2>",
-			"<small>Divisió administrativa: Salt, Girona, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Salt; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -266,8 +496,8 @@ const locations = [
 		coordinates: [42.01625635, 2.80880953],
 		description: [
 			"<h2>Sant Pau de Sarrià de Dalt</h2>",
-			"<small>Divisió administrativa: Sarrià de Dalt, Sarrià de Ter, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sarrià de Dalt; Sarrià de Ter; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -276,8 +506,8 @@ const locations = [
 		coordinates: [42.01592965, 2.82363728],
 		description: [
 			"<h2>Mare de Déu de la Misericòrdia de Sarrià de Ter</h2>",
-			"<small>Divisió administrativa: Sarrià de Ter, Sarrià de Ter, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sarrià de Ter; Sarrià de Ter; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -286,8 +516,8 @@ const locations = [
 		coordinates: [41.95679725, 2.77294737],
 		description: [
 			"<h2>Sant Menna de Vilablareix</h2>",
-			"<small>Divisió administrativa: Vilablareix, Vilablareix, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Vilablareix; Vilablareix; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -296,8 +526,8 @@ const locations = [
 		coordinates: [41.58064595, 2.54919409],
 		description: [
 			"<h2>Santa Maria Assumpta d'Arenys de Mar</h2>",
-			"<small>Divisió administrativa: Arenys de Mar, Arenys de Mar, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Arenys de Mar; Arenys de Mar; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -306,8 +536,8 @@ const locations = [
 		coordinates: [41.6090238, 2.53984101],
 		description: [
 			"<h2>Sant Martí de Tours d'Arenys de Munt</h2>",
-			"<small>Divisió administrativa: Arenys de Munt, Arenys de Munt, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Arenys de Munt; Arenys de Munt; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -316,8 +546,8 @@ const locations = [
 		coordinates: [41.6138448, 2.65852968],
 		description: [
 			"<h2>Santa Maria i Sant Nicolau de Calella</h2>",
-			"<small>Divisió administrativa: Calella, Calella, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Calella; Calella; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -326,8 +556,8 @@ const locations = [
 		coordinates: [41.58984385, 2.58252345],
 		description: [
 			"<h2>Sant Pere i Sant Pau de Canet de Mar</h2>",
-			"<small>Divisió administrativa: Canet de Mar, Canet de Mar, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Canet de Mar; Canet de Mar; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -336,8 +566,8 @@ const locations = [
 		coordinates: [41.6288021, 2.68990416],
 		description: [
 			"<h2>Santa Maria de Pineda de Mar</h2>",
-			"<small>Divisió administrativa: Pineda de Mar, Pineda de Mar, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Pineda de Mar; Pineda de Mar; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -346,8 +576,8 @@ const locations = [
 		coordinates: [41.6186299, 2.6733232],
 		description: [
 			"<h2>Sant Joan Baptista de Pineda de Mar</h2>",
-			"<small>Divisió administrativa: Pineda de Mar, Pineda de Mar, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Pineda de Mar; Pineda de Mar; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -356,8 +586,8 @@ const locations = [
 		coordinates: [41.61988765, 2.59971418],
 		description: [
 			"<h2>Sant Cebrià de Vallalta</h2>",
-			"<small>Divisió administrativa: Sant Cebrià de Vallalta, Sant Cebrià de Vallalta, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sant Cebrià de Vallalta; Sant Cebrià de Vallalta; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -366,8 +596,8 @@ const locations = [
 		coordinates: [41.6235331, 2.56941954],
 		description: [
 			"<h2>Sant Iscle i Santa Victòria de Vallalta</h2>",
-			"<small>Divisió administrativa: Sant Iscle de Vallalta, Sant Iscle de Vallalta, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sant Iscle de Vallalta; Sant Iscle de Vallalta; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -376,8 +606,8 @@ const locations = [
 		coordinates: [41.60014915, 2.6204301],
 		description: [
 			"<h2>Sant Jaume de Sant Pol de Mar</h2>",
-			"<small>Divisió administrativa: Sant Pol de Mar, Sant Pol de Mar, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sant Pol de Mar; Sant Pol de Mar; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -386,8 +616,8 @@ const locations = [
 		coordinates: [41.6354566, 2.70775128],
 		description: [
 			"<h2>Santa Susanna</h2>",
-			"<small>Divisió administrativa: Santa Susanna, Santa Susanna, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Maresme, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Santa Susanna; Santa Susanna; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Maresme; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -396,8 +626,8 @@ const locations = [
 		coordinates: [41.8365337, 2.80884147],
 		description: [
 			"<h2>Sant Esteve de Caldes de Malavella</h2>",
-			"<small>Divisió administrativa: Caldes de Malavella, Caldes de Malavella, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Caldes de Malavella; Caldes de Malavella; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -406,8 +636,8 @@ const locations = [
 		coordinates: [41.8910043, 2.83020333],
 		description: [
 			"<h2>Sant Quirze i Santa Julita de Campllong</h2>",
-			"<small>Divisió administrativa: Campllong, Campllong, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Campllong; Campllong; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -416,8 +646,8 @@ const locations = [
 		coordinates: [41.88742115, 2.87453799],
 		description: [
 			"<h2>Sant Martí de Tours de Cassà de la Selva</h2>",
-			"<small>Divisió administrativa: Cassà de la Selva, Cassà de la Selva, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Cassà de la Selva; Cassà de la Selva; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 		{
@@ -426,8 +656,8 @@ const locations = [
 		coordinates: [41.94911765, 2.86946964],
 		description: [
 			"<h2>Sant Martí de Castellar de la Selva</h2>",
-			"<small>Divisió administrativa: Castellar de la Selva, Quart, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Castellar de la Selva; Quart; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -436,8 +666,8 @@ const locations = [
 		coordinates: [41.87388045, 2.78566034],
 		description: [
 			"<h2>Sant Mateu de Franciac</h2>",
-			"<small>Divisió administrativa: Franciac, Caldes de Malavella, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Franciac; Caldes de Malavella; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -446,8 +676,8 @@ const locations = [
 		coordinates: [41.8287143, 2.8923401],
 		description: [
 			"<h2>Sant Feliu de Llagostera</h2>",
-			"<small>Divisió administrativa: Llagostera, Llagostera, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Llagostera; Llagostera; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 		{
@@ -456,8 +686,8 @@ const locations = [
 		coordinates: [41.92102435, 2.85919633],
 		description: [
 			"<h2>Sant Cristòfol de Llambilles</h2>",
-			"<small>Divisió administrativa: Llambilles, Llambilles, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Llambilles; Llambilles; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -466,8 +696,8 @@ const locations = [
 		coordinates: [41.9459437, 2.9033014],
 		description: [
 			"<h2>Sant Mateu de Montnegre</h2>",
-			"<small>Divisió administrativa: Montnegre, Quart, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Montnegre; Quart; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -476,8 +706,8 @@ const locations = [
 		coordinates: [41.9405005, 2.84574399],
 		description: [
 			"<h2>Santa Margarida de Quart</h2>",
-			"<small>Divisió administrativa: Quart, Quart, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Quart; Quart; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 		{
@@ -486,8 +716,8 @@ const locations = [
 		coordinates: [41.8927056, 2.80364023],
 		description: [
 			"<h2>Sant Esteve de Riudellots de la Selva</h2>",
-			"<small>Divisió administrativa: Riudellots de la Selva, Riudellots de la Selva, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Riudellots de la Selva; Riudellots de la Selva; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -496,8 +726,8 @@ const locations = [
 		coordinates: [41.8738873, 2.82535646],
 		description: [
 			"<h2>Sant Andreu Salou</h2>",
-			"<small>Divisió administrativa: Sant Andreu Salou, Sant Andreu Salou, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sant Andreu Salou; Sant Andreu Salou; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -506,8 +736,8 @@ const locations = [
 		coordinates: [41.79840265, 2.84892413],
 		description: [
 			"<h2>Santa Seclina de Caldes de Malavella</h2>",
-			"<small>Divisió administrativa: Santa Seclina, Caldes de Malavella, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Selva, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Santa Seclina; Caldes de Malavella; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -516,8 +746,8 @@ const locations = [
 		coordinates: [42.0098447, 2.6019394],
 		description: [
 			"<h2>Santa Maria d'Amer</h2>",
-			"<small>Divisió administrativa: Amer, Amer, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Amer; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -526,8 +756,8 @@ const locations = [
 		coordinates: [41.9564875, 2.63892074],
 		description: [
 			"<h2>Sant Miquel d'Anglès</h2>",
-			"<small>Divisió administrativa: Anglès, Anglès, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Anglès; Anglès; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -536,8 +766,8 @@ const locations = [
 		coordinates: [41.9654651, 2.74271562],
 		description: [
 			"<h2>Sant Llorenç de Bescanó</h2>",
-			"<small>Divisió administrativa: Bescanó, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Església parroquial de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1058."
 		]
 	},
@@ -547,8 +777,8 @@ const locations = [
 		coordinates: [42.08536605, 2.54191419],
 		description: [
 			"<h2>Sant Cristòfol de Cogolls</h2>",
-			"<small>Divisió administrativa: Cogolls, Les Planes d'Hostoles, Garrotxa, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Cogolls; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -557,8 +787,8 @@ const locations = [
 		coordinates: [41.98261475, 2.68992813],
 		description: [
 			"<h2>Sant Vicenç de Constantins</h2>",
-			"<small>Divisió administrativa: Constantins, Sant Gregori, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Constantins; Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -567,8 +797,8 @@ const locations = [
 		coordinates: [41.94147005, 2.74083832],
 		description: [
 			"<h2>Sant Andreu d'Estanyol</h2>",
-			"<small>Divisió administrativa: Estanyol, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<small>Divisió administrativa: Estanyol; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Església parroquial del poble d'Estanyol, al terme municipal de Bescanó. Se'n té constància des del 888."
 		]
 	},
@@ -578,8 +808,8 @@ const locations = [
 		coordinates: [41.96906665, 2.62103274],
 		description: [
 			"<h2>Santa Maria de Sales de la Cellera de Ter</h2>",
-			"<small>Divisió administrativa: La Cellera de Ter, La Cellera de Ter, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -588,8 +818,8 @@ const locations = [
 		coordinates: [42.0660971, 2.5760723],
 		description: [
 			"<h2>Santa Maria de les Encies</h2>",
-			"<small>Divisió administrativa: Les Encies, Les Planes d'Hostoles, Garrotxa, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Les Encies; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -598,8 +828,8 @@ const locations = [
 		coordinates: [42.07566645, 2.50787371],
 		description: [
 			"<h2>Sant Feliu de Pallerols</h2>",
-			"<small>Divisió administrativa: Sant Feliu de Pallerols, Sant Feliu de Pallerols, Garrotxa, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sant Feliu de Pallerols; Sant Feliu de Pallerols; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -608,8 +838,8 @@ const locations = [
 		coordinates: [42.05540395, 2.53682005],
 		description: [
 			"<h2>Sant Cristòfol de les Planes d'Hostoles</h2>",
-			"<small>Divisió administrativa: Les Planes d'Hostoles, Les Planes d'Hostoles, Garrotxa, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Les Planes d'Hostoles; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -618,8 +848,8 @@ const locations = [
 		coordinates: [42.00448425, 2.63707312],
 		description: [
 			"<h2>Sant Climent d'Amer</h2>",
-			"<small>Divisió administrativa: Sant Climent d'Amer, Amer, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sant Climent d'Amer; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -628,8 +858,8 @@ const locations = [
 		coordinates: [42.11938395, 2.52859964],
 		description: [
 			"<h2>Sant Iscle de Colltort</h2>",
-			"<small>Divisió administrativa: Sant Iscle de Colltort, Sant Feliu de Pallerols, Garrotxa, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sant Iscle de Colltort; Sant Feliu de Pallerols; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -638,8 +868,8 @@ const locations = [
 		coordinates: [41.9691693, 2.64765435],
 		description: [
 			"<h2>Sant Julià del Llor</h2>",
-			"<small>Divisió administrativa: Sant Julià del Llor, Sant Julià del Llor i Bonmatí, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sant Julià del Llor; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -648,8 +878,8 @@ const locations = [
 		coordinates: [41.9258702, 2.65076857],
 		description: [
 			"<h2>Sant Martí Sapresa</h2>",
-			"<small>Divisió administrativa: Sant Martí Sapresa, Brunyola i Sant Martí Sapresa, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sant Martí Sapresa; Brunyola i Sant Martí Sapresa; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -658,8 +888,8 @@ const locations = [
 		coordinates: [42.1019487, 2.49407539],
 		description: [
 			"<h2>Sant Miquel de Pineda</h2>",
-			"<small>Divisió administrativa: Sant Miquel de Pineda, Sant Feliu de Pallerols, Garrotxa, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sant Miquel de Pineda; Sant Feliu de Pallerols; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -668,8 +898,8 @@ const locations = [
 		coordinates: [41.97590025, 2.70329996],
 		description: [
 			"<h2>Sant Mateu de Vilanna</h2>",
-			"<small>Divisió administrativa: Vilanna, Bescanó, Gironès, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Església parroquial del poble de Vilanna, al terme municipal de Bescanó. Se'n té constància des del 899."
 		]
 	},
@@ -679,8 +909,8 @@ const locations = [
 		coordinates: [41.97041145, 2.66350846],
 		description: [
 			"<h2>Santa Maria de Bonmatí</h2>",
-			"<small>Divisió administrativa: Bonmatí, Sant Julià del Llor i Bonmatí, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Bonmatí; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -689,8 +919,8 @@ const locations = [
 		coordinates: [41.67591295, 2.79279957],
 		description: [
 			"<h2>Santa Maria de Blanes</h2>",
-			"<small>Divisió administrativa: Blanes, Blanes, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Blanes; Blanes; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -699,8 +929,8 @@ const locations = [
 		coordinates: [41.6661405, 2.78466881],
 		description: [
 			"<h2>Sagrada Família de Blanes</h2>",
-			"<small>Divisió administrativa: Blanes, Blanes, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Blanes; Blanes; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -709,8 +939,8 @@ const locations = [
 		coordinates: [41.6830174, 2.7805187],
 		description: [
 			"<h2>Santa Teresa de Blanes</h2>",
-			"<small>Divisió administrativa: Blanes, Blanes, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Blanes; Blanes; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -719,8 +949,8 @@ const locations = [
 		coordinates: [41.6678233, 2.62869088],
 		description: [
 			"<h2>Santa Eulàlia d'Hortsavinyà</h2>",
-			"<small>Divisió administrativa: Hortsavinyà, Tordera, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Hortsavinyà; Tordera; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -729,8 +959,8 @@ const locations = [
 		coordinates: [41.672915, 2.653393],
 		description: [
 			"<h2>Sant Miquel de Vallmanya</h2>",
-			"<small>Divisió administrativa: Hortsavinyà, Tordera, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Hortsavinyà; Tordera; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -739,8 +969,8 @@ const locations = [
 		coordinates: [41.69968615, 2.84752013],
 		description: [
 			"<h2>Sant Romà de Lloret de Mar</h2>",
-			"<small>Divisió administrativa: Lloret de Mar, Lloret de Mar, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Lloret de Mar; Lloret de Mar; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -749,8 +979,8 @@ const locations = [
 		coordinates: [41.64642915, 2.7424441],
 		description: [
 			"<h2>Sant Nicolau de Malgrat de Mar</h2>",
-			"<small>Divisió administrativa: Malgrat de Mar, Malgrat de Mar, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Malgrat de Mar; Malgrat de Mar; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -759,8 +989,8 @@ const locations = [
 		coordinates: [41.6681724, 2.74938369],
 		description: [
 			"<h2>Santa Maria de Palafolls</h2>",
-			"<small>Divisió administrativa: Palafolls, Palafolls, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Palafolls; Palafolls; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -769,8 +999,8 @@ const locations = [
 		coordinates: [41.6601911, 2.72244843],
 		description: [
 			"<h2>Sant Genís de Palafolls</h2>",
-			"<small>Divisió administrativa: Sant Genís de Palafolls, Palafolls, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Sant Genís de Palafolls; Palafolls; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -779,8 +1009,8 @@ const locations = [
 		coordinates: [41.7017954, 2.71883661],
 		description: [
 			"<h2>Sant Esteve de Tordera</h2>",
-			"<small>Divisió administrativa: Tordera, Tordera, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Tordera; Tordera; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -789,8 +1019,8 @@ const locations = [
 		coordinates: [41.71794315, 2.93083686],
 		description: [
 			"<h2>Sant Vicenç de Tossa de Mar</h2>",
-			"<small>Divisió administrativa: Tossa de Mar, Tossa de Mar, Selva, Comarques gironines, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Tossa de Mar; Tossa de Mar; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -799,8 +1029,8 @@ const locations = [
 		coordinates: [41.6473028, 2.67771696],
 		description: [
 			"<h2>Sant Pere de Riu</h2>",
-			"<small>Divisió administrativa: Hortsavinyà, Tordera, Maresme, Àmbit metropolità de Barcelona, Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera, Bisbat de Girona, Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió administrativa: Hortsavinyà; Tordera; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
