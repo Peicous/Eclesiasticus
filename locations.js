@@ -14,6 +14,18 @@ const locations = [
 		coordinates: [42.0201463, 2.5149485]
 	},
 	{
+		name: "Sant Genís Sacosta",
+		type: "esglesia",
+		coordinates: [42.0372257, 2.5624435],
+		description: [
+			"<h2>Sant Genís Sacosta</h2>",
+			"<small>Divisió administrativa: Sant Genís Sacosta; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg/320px-Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
+			"Antiga església parroquial al terme municipal d'Amer. Se'n té constància des del 899."
+		]
+	},
+	{
 		name: "Santa Anna de Bescanó",
 		type: "esglesia",
 		coordinates: [41.96577085, 2.74984326],
@@ -77,6 +89,30 @@ const locations = [
 			"<small>Divisió administrativa: Estanyol; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Andreu d'Estanyol; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Capella del llogarret de Trullars, al terme municipal de Bescanó. Se'n té constància des del 1118, però es creu d'origen preromànic."
+		]
+	},
+	{
+		name: "Mare de Déu de Núria de les Encies",
+		type: "esglesia",
+		coordinates: [42.0369528, 2.5784308],
+		description: [
+			"<h2>Mare de Déu de Núria de les Encies</h2>",
+			"<small>Divisió administrativa: Les Encies; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mare_de_D%C3%A9u_de_N%C3%BAria_de_les_Encies_%28fa%C3%A7ana_de_ponent%29.jpg/640px-Mare_de_D%C3%A9u_de_N%C3%BAria_de_les_Encies_%28fa%C3%A7ana_de_ponent%29.jpg'/><br/>",
+			"Capella de les Encies, annexa a l'Hostal del Fang, al terme municipal de les Planes d'Hostoles. Beneïda pel rector de les Encies Lluís Conill el 5 d'abril de 1891."
+		]
+	},
+	{
+		name: "Santa Margarida de les Planes d'Hostoles",
+		type: "esglesia",
+		coordinates: [42.04600535, 2.5489083],
+		description: [
+			"<h2>Santa Margarida de les Planes d'Hostoles</h2>",
+			"<small>Divisió administrativa: Dusol; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Santa_Margarida_de_les_Planes_d%27Hostoles_%28fa%C3%A7ana_de_gregal%29.jpg/640px-Santa_Margarida_de_les_Planes_d%27Hostoles_%28fa%C3%A7ana_de_gregal%29.jpg'/><br/>",
+			"Ermita prop de la colònia Dusol, al terme municipal de les Planes d'Hostoles. Se'n té constància des del 1187."
 		]
 	},
 	{
