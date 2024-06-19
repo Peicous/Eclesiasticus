@@ -5,13 +5,29 @@ const locations = [
 		coordinates: [42.0201463, 2.5149485],
 		description: [
 			"<h2><b>Castell de Fornils</b></h2>",
-			"Queda pendent d'explorar, l'existència de la ubicació ha estat descoberta per en <a>Carles Llauger</a>"
+			"<small>Divisió administrativa: El Far; Susqueda; Selva; Comarques gironines; Catalunya</small><br/>",
+			"Queda pendent d'explorar."
 		]
 	},
 	{
 		type: "area",
 		radi: 500,
 		coordinates: [42.0201463, 2.5149485]
+	},
+	{
+		name: "Cementiri dels moros de Sant Roc",
+		type: "desconegut", 
+		coordinates: [42.018650, 2.659538],
+		description: [
+			"<h2><b>Cementiri dels moros de Sant Roc</b></h2>",
+			"<small>Divisió administrativa: La Barroca; Sant Aniol de Finestres; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"Queda pendent d'explorar."
+		]
+	},
+	{
+		type: "area",
+		radi: 500,
+		coordinates: [42.018650, 2.659538]
 	},
 	{
 		name: "Sant Genís Sacosta",
@@ -113,6 +129,236 @@ const locations = [
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Santa_Margarida_de_les_Planes_d%27Hostoles_%28fa%C3%A7ana_de_gregal%29.jpg/640px-Santa_Margarida_de_les_Planes_d%27Hostoles_%28fa%C3%A7ana_de_gregal%29.jpg'/><br/>",
 			"Ermita prop de la colònia Dusol, al terme municipal de les Planes d'Hostoles. Se'n té constància des del 1187."
+		]
+	},
+	{
+		name: "Santa Maria de Cadaqués",
+		type: "parroquia",
+		coordinates: [42.2881782, 3.2756285],
+		description: [
+			"<h2>Santa Maria de Cadaqués</h2>",
+			"<small>Divisió administrativa: Cadaqués; Cadaqués; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Castelló d'Empúries",
+		type: "parroquia",
+		coordinates: [42.2594985, 3.07625974],
+		description: [
+			"<h2>Santa Maria de Castelló d'Empúries</h2>",
+			"<small>Divisió administrativa: Castelló d'Empúries; Castelló d'Empúries; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Colera",
+		type: "parroquia",
+		coordinates: [42.399405, 3.09488754],
+		description: [
+			"<h2>Sant Miquel de Colera</h2>",
+			"<small>Divisió administrativa: Colera; Colera; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de les Neus del Port de la Selva",
+		type: "parroquia",
+		coordinates: [42.33800605, 3.20479593],
+		description: [
+			"<h2>Mare de Déu de les Neus del Port de la Selva</h2>",
+			"<small>Divisió administrativa: El Port de la Selva; El Port de la Selva; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí d'Empúries",
+		type: "parroquia",
+		coordinates: [42.13994715, 3.11838059],
+		description: [
+			"<h2>Sant Martí d'Empúries</h2>",
+			"<small>Divisió administrativa: Sant Martí d'Empúries; L'Escala; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Tours de l'Armentera",
+		type: "parroquia",
+		coordinates: [42.1721806, 3.07500841],
+		description: [
+			"<h2>Sant Martí de Tours de l'Armentera</h2>",
+			"<small>Divisió administrativa: L'Armentera; L'Armentera; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de l'Escala",
+		type: "parroquia",
+		coordinates: [42.12466325, 3.13310221],
+		description: [
+			"<h2>Sant Pere de l'Escala</h2>",
+			"<small>Divisió administrativa: L'Escala; L'Escala; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de la Selva de Mar",
+		type: "parroquia",
+		coordinates: [42.3246013, 3.18682383],
+		description: [
+			"<h2>Sant Esteve de la Selva de Mar</h2>",
+			"<small>Divisió administrativa: La Selva de Mar; La Selva de Mar; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Llançà",
+		type: "parroquia",
+		coordinates: [42.3630283, 3.15162678],
+		description: [
+			"<h2>Sant Vicenç de Llançà</h2>",
+			"<small>Divisió administrativa: Llançà; Llançà; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Sadurní de Montiró",
+		type: "parroquia",
+		coordinates: [42.15462825, 3.06984704],
+		description: [
+			"<h2>Sant Sadurní de Montiró</h2>",
+			"<small>Divisió administrativa: Montiró; Ventalló; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Portbou",
+		type: "parroquia",
+		coordinates: [42.4261565, 3.15790865],
+		description: [
+			"<h2>Santa Maria de Portbou</h2>",
+			"<small>Divisió administrativa: Portbou; Portbou; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria Assumpta de Roses",
+		type: "parroquia",
+		coordinates: [42.26768645, 3.17010727],
+		description: [
+			"<h2>Santa Maria Assumpta de Roses</h2>",
+			"<small>Divisió administrativa: Roses; Roses; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eugènia de Saldet",
+		type: "parroquia",
+		coordinates: [42.1711304, 3.0626824],
+		description: [
+			"<h2>Santa Eugènia de Saldet</h2>",
+			"<small>Divisió administrativa: Saldet; Ventalló; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere Pescador",
+		type: "parroquia",
+		coordinates: [42.1883904, 3.08213924],
+		description: [
+			"<h2>Sant Pere Pescador</h2>",
+			"<small>Divisió administrativa: Sant Pere Pescador; Sant Pere Pescador; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Tomàs de Fluvià",
+		type: "parroquia",
+		coordinates: [42.18104455, 3.00960644],
+		description: [
+			"<h2>Sant Tomàs de Fluvià</h2>",
+			"<small>Divisió administrativa: Sant Tomàs de Fluvià; Torroella de Fluvià; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cebrià de Torroella de Fluvià",
+		type: "parroquia",
+		coordinates: [42.1739947, 3.04505577],
+		description: [
+			"<h2>Sant Cebrià de Torroella de Fluvià</h2>",
+			"<small>Divisió administrativa: Torroella de Fluvià; Torroella de Fluvià; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Valveralla",
+		type: "parroquia",
+		coordinates: [42.16131215, 3.03665086],
+		description: [
+			"<h2>Sant Vicenç de Valveralla</h2>",
+			"<small>Divisió administrativa: Valveralla; Ventalló; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Ventalló",
+		type: "parroquia",
+		coordinates: [42.14912535, 3.02651213],
+		description: [
+			"<h2>Sant Miquel de Ventalló</h2>",
+			"<small>Divisió administrativa: Ventalló; Ventalló; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Andreu de Vila-robau",
+		type: "parroquia",
+		coordinates: [42.1645448, 3.00912025],
+		description: [
+			"<h2>Sant Andreu de Vila-robau</h2>",
+			"<small>Divisió administrativa: Vila-robau; Ventalló; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Vilacolum",
+		type: "parroquia",
+		coordinates: [42.19465255, 3.03713435],
+		description: [
+			"<h2>Sant Esteve de Vilacolum</h2>",
+			"<small>Divisió administrativa: Vilacolum; Torroella de Fluvià; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Viladamat",
+		type: "parroquia",
+		coordinates: [42.133335, 3.07531363],
+		description: [
+			"<h2>Sant Feliu de Viladamat</h2>",
+			"<small>Divisió administrativa: Viladamat; Viladamat; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Assumpció de la Mare de Déu de Vilamacolum",
+		type: "parroquia",
+		coordinates: [42.19502885, 3.05842516],
+		description: [
+			"<h2>Assumpció de la Mare de Déu de Vilamacolum</h2>",
+			"<small>Divisió administrativa: Vilamacolum; Vilamacolum; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Fruitós de la Vall de la Santa Creu",
+		type: "parroquia",
+		coordinates: [42.33586835, 3.16660958],
+		description: [
+			"<h2>Sant Fruitós de la Vall de la Santa Creu</h2>",
+			"<small>Divisió administrativa: La Vall de la Santa Creu; El Port de la Selva; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Marina; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -4544,16 +4790,5 @@ const locations = [
 	                "<h2>Cementiri Municipal de Bonmatí</h2>",
 	                "<small>Divisió administrativa: Bonmatí; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small>"
 	        ]
-	},
-	{
-		name: "Cementiri dels moros de Sant Roc",
-		type: "desconegut", 
-		coordinates: [42.018650, 2.659538], //42°01'07.1"N 2°39'34.3"E
-		description: ["Desconegut"]
-	},
-	{
-		type: "area",
-		radi: 500,
-		coordinates: [42.018650, 2.659538]
-	},
+	}
 ]
