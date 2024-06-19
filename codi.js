@@ -142,17 +142,21 @@ locations.map(location => {
 	let zindex = 1;
 	let size = [20, 20];
 	let anchor = [10, 20];
+	let popup = [0, 0];
 
 	if (location.type == "desconegut") {
 		anchor = [9, 22]
 		size = [17, 22];
+		popup = [0, -25];
 	}
 	else if (location.type == "esglesia" || location.type == "parroquia") {
 		size = [14, 14];
+		popup = [-3, -25];
 	}
 	else if (location.type == "cementiri") {
 		anchor = [10, 25];
 		size = [22, 22];
+		popup = [2, -30];
 	}
 
 	// importància i mida
@@ -172,7 +176,8 @@ locations.map(location => {
 		shadowUrl: '',
 		iconSize: size,
 		iconAnchor: anchor,
-		popupAnchor: [-10, -43],
+		popupAnchor: popup,
+		tooltipAnchor: [10, -15],
 		shadowSize: size
 	});
 
