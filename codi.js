@@ -133,7 +133,7 @@ map.setMinZoom(9);
 
 //groups
 const parroquiesGroup = L.layerGroup();
-const iclesiesGroup = L.layerGroup();
+const esglesiesGroup = L.layerGroup();
 const cementirisGroup = L.layerGroup();
 const altresGroup = L.layerGroup();
 const debugGroup = L.layerGroup();
@@ -142,17 +142,21 @@ locations.map(location => {
 	let zindex = 1;
 	let size = [20, 20];
 	let anchor = [10, 20];
+	let popup = [0, 0];
 
 	if (location.type == "desconegut") {
 		anchor = [9, 22]
 		size = [17, 22];
+		popup = [0, -25];
 	}
-	else if (location.type == "iclesia" || location.type == "parroquia") {
+	else if (location.type == "esglesia" || location.type == "parroquia") {
 		size = [22, 22];
+		popup = [-3, -25];
 	}
 	else if (location.type == "cementiri") {
 		anchor = [10, 25];
 		size = [22, 22];
+		popup = [2, -30];
 	}
 
 	// importància i mida
@@ -172,7 +176,8 @@ locations.map(location => {
 		shadowUrl: '',
 		iconSize: size,
 		iconAnchor: anchor,
-		popupAnchor: [-10, -43],
+		popupAnchor: popup,
+		tooltipAnchor: [10, -15],
 		shadowSize: size
 	});
 
@@ -200,8 +205,8 @@ locations.map(location => {
 	debug_marker.on('mouseover', handleMarkerHover);
 	debug_marker.on('mouseout', handleMarkerOut);
 	
-	if (location.type === 'iclesia') {
-		marker.addTo(iclesiesGroup);
+	if (location.type === 'esglesia') {
+		marker.addTo(esglesiesGroup);
 	} 
 	else if (location.type === 'parroquia') {
 		marker.addTo(parroquiesGroup);
@@ -229,7 +234,7 @@ locations.map(location => {
 
 
 // Add layer groups to the map
-iclesiesGroup.addTo(map);
+esglesiesGroup.addTo(map);
 parroquiesGroup.addTo(map);
 cementirisGroup.addTo(map);
 altresGroup.addTo(map);
@@ -244,8 +249,8 @@ L.control.layers(
 		"Satèl·lit": layer_satellite,
 	}, 
 	{
-		'Esglésies': iclesiesGroup,
-		'Parròquies': parroquiesGroup,
+		'Capelles, ermites i esglesioles': esglesiesGroup,
+		'Esglésies parroquials': parroquiesGroup,
 		'Cementiris': cementirisGroup,
 		'Altres': altresGroup,
 	},
