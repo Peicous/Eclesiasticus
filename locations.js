@@ -4544,5 +4544,16 @@ const locations = [
 	                "<h2>Cementiri Municipal de Bonmatí</h2>",
 	                "<small>Divisió administrativa: Bonmatí; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small>"
 	        ]
-	}
+	},
+	{
+		name: "Cementiri dels moros de Sant Roc",
+		type: "desconegut", 
+		coordinates: [42.018650, 2.659538], //42°01'07.1"N 2°39'34.3"E
+		description: ["Desconegut"]
+	},
+	{
+		type: "area",
+		radi: 500,
+		coordinates: [42.018650, 2.659538]
+	},
 ]
