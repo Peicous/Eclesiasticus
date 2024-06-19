@@ -1425,7 +1425,9 @@ const locations = [
 	        coordinates: [42.0010295, 2.605994],
 	        description: [
 	                "<h2>Cementiri Municipal d'Amer</h2>",
-	                "<small>Divisió administrativa: Amer; Amer; Selva; Comarques gironines; Catalunya</small>"
+	                "<small>Divisió administrativa: Amer; Amer; Selva; Comarques gironines; Catalunya</small><br/><br/>",
+	                "<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Cementiri_Municipal_d%27Amer_%28porta_principal%29.jpg/640px-Cementiri_Municipal_d%27Amer_%28porta_principal%29.jpg'/><br/>",
+			"Cementiri de la vila d'Amer, al terme municipal homònim. Inaugurat el 15 de març de 1931."
 	        ]
 	},
 	{
