@@ -42,6 +42,18 @@ const locations = [
 		]
 	},
 	{
+		name: "Nostra Senyora de la Pietat del Pedreguet",
+		type: "esglesia",
+		coordinates: [42.00604025, 2.60475809],
+		description: [
+			"<h2>Nostra Senyora de la Pietat del Pedreguet</h2>",
+			"<small>Divisió administrativa: Amer; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Mare_de_D%C3%A9u_de_la_Pietat_del_Pedreguet_%28vista_nord%29.jpg/640px-Mare_de_D%C3%A9u_de_la_Pietat_del_Pedreguet_%28vista_nord%29.jpg'/><br/>",
+			"Capella al terme municipal d'Amer. Construïda al segle <span style='font-variant: small-caps'>xvii</span> i renovada el 1844."
+		]
+	},
+	{
 		name: "Santa Anna de Bescanó",
 		type: "esglesia",
 		coordinates: [41.96577085, 2.74984326],
@@ -1029,7 +1041,9 @@ const locations = [
 		description: [
 			"<h2>Santa Maria d'Amer</h2>",
 			"<small>Divisió administrativa: Amer; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Santa_Maria_d%27Amer_%28vista_posterior%29.jpg/640px-Santa_Maria_d%27Amer_%28vista_posterior%29.jpg'/><br/>",
+			"Antic monestir al terme municipal d'Amer. Se'n té constància des del 844, quan era una casa propietat del monestir de Sant Medir.<br/>Es consagrà com a monestir de Santa Maria el 9 de novembre del 949, després de les ràtzies hongareses del segle <span style='font-variant: small-caps'>x</span>.<br/>El 1657, durant la Guerra dels Segadors, el monestir va ser destruït parcialment i va haver d'assumir les funcions parroquials després de la destrucció de l'església parroquial de Sant Miquel d'Amer.<br/>El 1835 es va produir l'exclaustració forçosa dels monjos del monestir i va quedar abandonat, fent únicament les funcions d'església parroquial."
 		]
 	},
 	{
