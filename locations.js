@@ -766,7 +766,7 @@ const locations = [
 	{
 		name: "Sant Dalmau de Sant Dalmai",
 		type: "parroquia",
-		coordinates: [],
+		coordinates: [41.9148035, 2.73589606],
 		description: [
 			"<h2>Sant Dalmau de Sant Dalmai</h2>",
 			"<small>Divisió administrativa: Sant Dalmai; Vilobí d'Onyar; Selva; Comarques gironines; Catalunya</small><br/>",
