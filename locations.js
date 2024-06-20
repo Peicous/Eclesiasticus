@@ -604,6 +604,266 @@ const locations = [
 		]
 	},
 	{
+		name: "Sant Quirze i Santa Julita d'Arbúcies",
+		type: "parroquia",
+		coordinates: [41.81623905, 2.51400811],
+		description: [
+			"<h2>Sant Quirze i Santa Julita d'Arbúcies</h2>",
+			"<small>Divisió administrativa: Arbúcies; Arbúcies; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Breda",
+		type: "parroquia",
+		coordinates: [41.7486772, 2.55757231],
+		description: [
+			"<h2>Santa Maria de Breda</h2>",
+			"<small>Divisió administrativa: Breda; Breda; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Fruitós de Brunyola",
+		type: "parroquia",
+		coordinates: [41.9045395, 2.68464619],
+		description: [
+			"<h2>Sant Fruitós de Brunyola</h2>",
+			"<small>Divisió administrativa: Brunyola; Brunyola i Sant Martí Sapresa; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Andreu de Castanyet",
+		type: "parroquia",
+		coordinates: [41.8886034, 2.62374524],
+		description: [
+			"<h2>Sant Andreu de Castanyet</h2>",
+			"<small>Divisió administrativa: Castanyet; Santa Coloma de Farners; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Corneli i Sant Cebrià de Fogars de la Selva",
+		type: "parroquia",
+		coordinates: [41.7391407, 2.6799772],
+		description: [
+			"<h2>Sant Corneli i Sant Cebrià de Fogars de la Selva</h2>",
+			"<small>Divisió administrativa: Fogars de la Selva; Fogars de la Selva; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Llorenç de Gaserans",
+		type: "parroquia",
+		coordinates: [41.74936945, 2.59051855],
+		description: [
+			"<h2>Sant Llorenç de Gaserans</h2>",
+			"<small>Divisió administrativa: Gaserans; Sant Feliu de Buixalleu; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Gabriel i Santa Anna de Grions",
+		type: "parroquia",
+		coordinates: [41.7610625, 2.60853094],
+		description: [
+			"<h2>Sant Gabriel i Santa Anna de Grions</h2>",
+			"<small>Divisió administrativa: Grions; Sant Feliu de Buixalleu; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria dels Socors d'Hostalric",
+		type: "parroquia",
+		coordinates: [41.74556115, 2.63588731],
+		description: [
+			"<h2>Santa Maria dels Socors d'Hostalric</h2>",
+			"<small>Divisió administrativa: Hostalric; Hostalric; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de l'Esparra",
+		type: "parroquia",
+		coordinates: [41.826295, 2.65758008],
+		description: [
+			"<h2>Sant Martí de l'Esparra</h2>",
+			"<small>Divisió administrativa: L'Esparra; Riudarenes; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Llorenç de Maçanet de la Selva",
+		type: "parroquia",
+		coordinates: [41.77756445, 2.73056584],
+		description: [
+			"<h2>Sant Llorenç de Maçanet de la Selva</h2>",
+			"<small>Divisió administrativa: Maçanet de la Selva; Maçanet de la Selva; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Martorell de la Selva",
+		type: "parroquia",
+		coordinates: [41.76158395, 2.69231799],
+		description: [
+			"<h2>Sant Pere de Martorell de la Selva</h2>",
+			"<small>Divisió administrativa: Martorell de la Selva; Maçanet de la Selva; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Massanes",
+		type: "parroquia",
+		coordinates: [41.7657928, 2.65158073],
+		description: [
+			"<h2>Sant Esteve de Massanes</h2>",
+			"<small>Divisió administrativa: Massanes; Massanes; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Andreu de Raminyó",
+		type: "parroquia",
+		coordinates: [41.71223345, 2.60977852],
+		description: [
+			"<h2>Sant Andreu de Raminyó</h2>",
+			"<small>Divisió administrativa: Raminyó; Fogars de la Selva; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Tours de Riells de Montseny",
+		type: "parroquia",
+		coordinates: [41.77659325, 2.51262565],
+		description: [
+			"<h2>Sant Martí de Tours de Riells de Montseny</h2>",
+			"<small>Divisió administrativa: Riells de Montseny; Riells i Viabrea; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Riudarenes",
+		type: "parroquia",
+		coordinates: [41.826295, 2.65758008],
+		description: [
+			"<h2>Sant Martí de Riudarenes</h2>",
+			"<small>Divisió administrativa: Riudarenes; Riudarenes; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Salitja",
+		type: "parroquia",
+		coordinates: [41.90836605, 2.74711299],
+		description: [
+			"<h2>Santa Maria de Salitja</h2>",
+			"<small>Divisió administrativa: Salitja; Vilobí d'Onyar; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Dalmau de Sant Dalmai",
+		type: "parroquia",
+		coordinates: [],
+		description: [
+			"<h2>Sant Dalmau de Sant Dalmai</h2>",
+			"<small>Divisió administrativa: Sant Dalmai; Vilobí d'Onyar; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Buixalleu",
+		type: "parroquia",
+		coordinates: [41.7913141, 2.58639989],
+		description: [
+			"<h2>Sant Feliu de Buixalleu</h2>",
+			"<small>Divisió administrativa: Sant Feliu de Buixalleu; Sant Feliu de Buixalleu; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Cladells",
+		type: "parroquia",
+		coordinates: [41.85718725, 2.56372089],
+		description: [
+			"<h2>Sant Miquel de Cladells</h2>",
+			"<small>Divisió administrativa: Sant Miquel de Cladells; Santa Coloma de Farners; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere Cercada",
+		type: "parroquia",
+		coordinates: [41.8353236, 2.60827126],
+		description: [
+			"<h2>Sant Pere Cercada</h2>",
+			"<small>Divisió administrativa: Sant Pere Cercada; Santa Coloma de Farners; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Coloma de Farners",
+		type: "parroquia",
+		coordinates: [41.86363315, 2.66297459],
+		description: [
+			"<h2>Santa Coloma de Farners</h2>",
+			"<small>Divisió administrativa: Santa Coloma de Farners; Santa Coloma de Farners; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Sils",
+		type: "parroquia",
+		coordinates: [41.80586455, 2.74290778],
+		description: [
+			"<h2>Santa Maria de Sils</h2>",
+			"<small>Divisió administrativa: Sils; Sils; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eulàlia de Vallcanera",
+		type: "parroquia",
+		coordinates: [41.84047645, 2.73812951],
+		description: [
+			"<h2>Santa Eulàlia de Vallcanera</h2>",
+			"<small>Divisió administrativa: Vallcanera; Sils; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Llop i Sant Esteve de Viabrea",
+		type: "parroquia",
+		coordinates: [41.7468959, 2.54035993],
+		description: [
+			"<h2>Sant Llop i Sant Esteve de Viabrea</h2>",
+			"<small>Divisió administrativa: Viabrea; Riells i Viabrea; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Vidreres",
+		type: "parroquia",
+		coordinates: [41.78904695, 2.77942353],
+		description: [
+			"<h2>Santa Maria de Vidreres</h2>",
+			"<small>Divisió administrativa: Vidreres; Vidreres; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Vilobí d'Onyar",
+		type: "parroquia",
+		coordinates: [41.88890395, 2.74269518],
+		description: [
+			"<h2>Sant Esteve de Vilobí d'Onyar</h2>",
+			"<small>Divisió administrativa: Vilobí d'Onyar; Vilobí d'Onyar; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Catedral - Mare de Déu del Carme",
 		type: "parroquia",
 		coordinates: [41.9875086, 2.82627354],
