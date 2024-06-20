@@ -30,18 +30,6 @@ const locations = [
 		coordinates: [42.018650, 2.659538]
 	},
 	{
-		name: "Sant Genís Sacosta",
-		type: "esglesia",
-		coordinates: [42.0372257, 2.5624435],
-		description: [
-			"<h2>Sant Genís Sacosta</h2>",
-			"<small>Divisió administrativa: Sant Genís Sacosta; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg/320px-Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
-			"Antiga església parroquial al terme municipal d'Amer. Se'n té constància des del 899."
-		]
-	},
-	{
 		name: "Nostra Senyora de la Pietat del Pedreguet",
 		type: "esglesia",
 		coordinates: [42.00604025, 2.60475809],
@@ -51,6 +39,51 @@ const locations = [
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Mare_de_D%C3%A9u_de_la_Pietat_del_Pedreguet_%28vista_nord%29.jpg/640px-Mare_de_D%C3%A9u_de_la_Pietat_del_Pedreguet_%28vista_nord%29.jpg'/><br/>",
 			"Capella al terme municipal d'Amer. Construïda al segle <span style='font-variant: small-caps'>xvii</span> i renovada el 1844."
+		]
+	},
+	{
+		name: "Sant Agustí de Lloret Salvatge",
+		type: "esglesia",
+		coordinates: [41.98570795, 2.5812852],
+		description: [
+			"<h2>Sant Agustí de Lloret Salvatge</h2>",
+			"<small>Divisió administrativa: Lloret Salvatge; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Antiga església parroquial del veïnat de Lloret Salvatge, al terme municipal d'Amer. Se'n té constància des del 949."
+		]
+	},
+	{
+		name: "Sant Genís Sacosta",
+		type: "esglesia",
+		coordinates: [42.0372257, 2.5624435],
+		description: [
+			"<h2>Sant Genís Sacosta</h2>",
+			"<small>Divisió administrativa: Sant Genís Sacosta; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg/320px-Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
+			"Antiga església parroquial del veïnat de Sant Genís, al terme municipal d'Amer. Se'n té constància des del 899."
+		]
+	},
+	{
+		name: "Sant Marçal del Colomer",
+		type: "esglesia",
+		coordinates: [42.0255267, 2.57920165],
+		description: [
+			"<h2>Sant Marçal del Colomer</h2>",
+			"<small>Divisió administrativa: El Colomer; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Ermita del veïnat del Colomer, al terme municipal d'Amer. Construïda al segle <span style='font-variant: small-caps'>xi</span>."
+		]
+	},
+	{
+		name: "Santa Brígida",
+		type: "esglesia",
+		coordinates: [42.02069575, 2.610472],
+		description: [
+			"<h2>Santa Brígida</h2>",
+			"<small>Divisió administrativa: La Costa; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Ermita del veïnat de la Costa, al terme municipal d'Amer. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xvii</span>."
 		]
 	},
 	{
@@ -83,7 +116,7 @@ const locations = [
 			"<h2>Santa Margarida de Bescanó</h2>",
 			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Ermita de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1400."
+			"Capella del Mas Viader de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1400."
 		]
 	},
 	{
