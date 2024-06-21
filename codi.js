@@ -1,3 +1,8 @@
+//Canviar icones
+//Agrupació llocs visitats
+//Panell lateral
+
+
 const options = {
 	enableHighAccuracy: true,
 	timeout: 5000,
@@ -52,7 +57,7 @@ if (GeoJson != undefined) {
 	L.geoJSON(GeoJson, {
 		style: function (feature) {
 			return {
-				weight: 2,
+				weight: 4,
 				opacity: 1,
 				fillOpacity: 0
 			};
@@ -86,7 +91,7 @@ function onEachFeature(feature, layer) {
 		feature.properties.nom_comar == "Puigcerdà"
 	) {
 		layer.setStyle({
-			weight: 2,
+			weight: 4,
 			opacity: 1,
 			fillOpacity: 0,
 			color: "#ffd966",
@@ -94,7 +99,7 @@ function onEachFeature(feature, layer) {
 	}
 	else {
 		layer.setStyle({
-			weight: 2,
+			weight: 4,
 			opacity: 1,
 			fillOpacity: 0,
 			color: "#9fc5e8",
@@ -136,6 +141,7 @@ const parroquiesGroup = L.layerGroup();
 const esglesiesGroup = L.layerGroup();
 const cementirisGroup = L.layerGroup();
 const altresGroup = L.layerGroup();
+const visitedGroup = L.layerGroup();
 const debugGroup = L.layerGroup();
 
 locations.map(location => {
@@ -229,6 +235,10 @@ locations.map(location => {
 		}
 	}
 
+	if (location.visited) {
+		marker.addTo(visitedGroup);
+	}
+
 	debug_marker.addTo(debugGroup);
 })
 
@@ -238,6 +248,7 @@ esglesiesGroup.addTo(map);
 parroquiesGroup.addTo(map);
 cementirisGroup.addTo(map);
 altresGroup.addTo(map);
+//visitedGroup.addTo(map);
 
 //debugGroup.addTo(map);
 
