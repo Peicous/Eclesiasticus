@@ -39,7 +39,8 @@ const locations = [
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Mare_de_D%C3%A9u_de_la_Pietat_del_Pedreguet_%28vista_nord%29.jpg/640px-Mare_de_D%C3%A9u_de_la_Pietat_del_Pedreguet_%28vista_nord%29.jpg'/><br/>",
 			"Capella al terme municipal d'Amer. Construïda al segle <span style='font-variant: small-caps'>xvii</span> i renovada el 1844."
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Agustí de Lloret Salvatge",
@@ -62,7 +63,8 @@ const locations = [
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg/320px-Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
 			"Antiga església parroquial del veïnat de Sant Genís, al terme municipal d'Amer. Se'n té constància des del 899."
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Marçal del Colomer",
@@ -87,14 +89,47 @@ const locations = [
 		]
 	},
 	{
-		name: "Santa Anna de Bescanó",
+		name: "Sant Amanç",
 		type: "esglesia",
-		coordinates: [41.96577085, 2.74984326],
+		coordinates: [41.93190715, 2.63810162],
 		description: [
-			"<h2>Santa Anna de Bescanó</h2>",
-			"<small>Divisió administrativa: Montfullà; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Ermita de la vila de Montfullà, al terme municipal de Bescanó. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xvii</span>."
+			"<h2>Sant Amanç</h2>",
+			"<small>Divisió administrativa: Sant Amanç; Anglès; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Antiga església parroquial del veïnat de Sant Amanç, al terme municipal d'Anglès. Se'n té constància des del 1019."
+		]
+	},
+	{
+		name: "Sant Pere Sestronques",
+		type: "esglesia",
+		coordinates: [41.9398607, 2.66199665],
+		description: [
+			"<h2>Sant Pere Sestronques</h2>",
+			"<small>Divisió administrativa: Sant Pere Sestronques; Anglès; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Ermita del veïnat de Sant Pere Sestronques, al terme municipal d'Anglès. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>ix</span>."
+		]
+	},
+	{
+		name: "Santa Bàrbara",
+		type: "esglesia",
+		coordinates: [41.9261143, 2.6180023],
+		description: [
+			"<h2>Santa Bàrbara</h2>",
+			"<small>Divisió administrativa: Santa Bàrbara; Anglès; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Ermita del veïnat de Santa Bàrbara, al terme municipal d'Anglès. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xiii</span>."
+		]
+	},
+	{
+		name: "Sant Bartomeu de Trullars",
+		type: "esglesia",
+		coordinates: [41.9366246, 2.73506882],
+		description: [
+			"<h2>Sant Bartomeu de Trullars</h2>",
+			"<small>Divisió administrativa: Estanyol; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Andreu d'Estanyol; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Capella del llogarret de Trullars, al terme municipal de Bescanó. Se'n té constància des del 1118, però es creu d'origen preromànic."
 		]
 	},
 	{
@@ -106,6 +141,28 @@ const locations = [
 			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Mateu de Vilanna; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Capella del mas Amat Gros, al terme municipal de Bescanó. Construïda al segle <span style='font-variant: small-caps'>x</span>."
+		]
+	},
+	{
+		name: "Sant Sebastià de Bescanó",
+		type: "esglesia",
+		coordinates: [41.9665699, 2.74783833],
+		description: [
+			"<h2>Sant Sebastià de Bescanó</h2>",
+			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Capella de la vila de Bescanó, al terme municipal homònim. Inscripció del 1610."
+		]
+	},
+	{
+		name: "Santa Anna de Bescanó",
+		type: "esglesia",
+		coordinates: [41.96577085, 2.74984326],
+		description: [
+			"<h2>Santa Anna de Bescanó</h2>",
+			"<small>Divisió administrativa: Montfullà; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Ermita de la vila de Montfullà, al terme municipal de Bescanó. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xvii</span>."
 		]
 	},
 	{
@@ -131,26 +188,56 @@ const locations = [
 		]
 	},
 	{
-		name: "Sant Sebastià de Bescanó",
+		name: "Convent de les Germanes Carmelites",
 		type: "esglesia",
-		coordinates: [41.9665699, 2.74783833],
+		coordinates: [41.96873525, 2.62120261],
 		description: [
-			"<h2>Sant Sebastià de Bescanó</h2>",
-			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Capella de la vila de Bescanó, al terme municipal homònim. Inscripció del 1610."
-		]
+			"<h2>Convent de les Germanes Carmelites</h2>",
+			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Convent_de_les_Germanes_Carmelites_de_la_Cellera_de_Ter_%28fa%C3%A7ana_principal%29.jpg/320px-Convent_de_les_Germanes_Carmelites_de_la_Cellera_de_Ter_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
+			"Antic convent carmelità a la vila de la Cellera de Ter, al terme municipal homònim. Construït entre 1876 i 1884."
+		],
+		visited: true
 	},
 	{
-		name: "Sant Bartomeu de Trullars",
+		name: "Oratori de Sant Benet de Palerm",
 		type: "esglesia",
-		coordinates: [41.9366246, 2.73506882],
+		coordinates: [41.9735898, 2.6183135],
 		description: [
-			"<h2>Sant Bartomeu de Trullars</h2>",
-			"<small>Divisió administrativa: Estanyol; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Andreu d'Estanyol; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Capella del llogarret de Trullars, al terme municipal de Bescanó. Se'n té constància des del 1118, però es creu d'origen preromànic."
-		]
+			"<h2>Oratori de Sant Benet de Palerm</h2>",
+			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Oratori_de_Sant_Benet_de_Palerm_de_la_Cellera_de_Ter_%28vista_frontal%29.jpg/320px-Oratori_de_Sant_Benet_de_Palerm_de_la_Cellera_de_Ter_%28vista_frontal%29.jpg'/><br/>",
+			"Oratori a la vila de la Cellera de Ter, al terme municipal homònim. Construït el 1854."
+		],
+		visited: true
+	},
+	{
+		name: "Oratori de Sant Pelegrí",
+		type: "esglesia",
+		coordinates: [41.970385, 2.6174136],
+		description: [
+			"<h2>Oratori de Sant Pelegrí</h2>",
+			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Oratori_de_Sant_Pelegr%C3%AD_de_la_Cellera_de_Ter_%28oratori%29.jpg/320px-Oratori_de_Sant_Pelegr%C3%AD_de_la_Cellera_de_Ter_%28oratori%29.jpg'/><br/>",
+			"Oratori a la vila de la Cellera de Ter, al terme municipal homònim. Construït el 1789."
+		],
+		visited: true
+	},
+	{
+		name: "Sants Just i Pastor de la Cellera de Ter",
+		type: "esglesia",
+		coordinates: [41.98313245, 2.62078756],
+		description: [
+			"<h2>Sants Just i Pastor de la Cellera de Ter</h2>",
+			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sants_Just_i_Pastor_de_la_Cellera_de_Ter_%28fa%C3%A7ana_principal%29.jpg/320px-Sants_Just_i_Pastor_de_la_Cellera_de_Ter_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
+			"Ermita del veïnat de Plademunt, al terme municipal de la Cellera de Ter. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xii</span>."
+		],
+		visited: true
 	},
 	{
 		name: "Mare de Déu de Núria de les Encies",
@@ -162,7 +249,8 @@ const locations = [
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mare_de_D%C3%A9u_de_N%C3%BAria_de_les_Encies_%28fa%C3%A7ana_de_ponent%29.jpg/640px-Mare_de_D%C3%A9u_de_N%C3%BAria_de_les_Encies_%28fa%C3%A7ana_de_ponent%29.jpg'/><br/>",
 			"Capella de les Encies, annexa a l'Hostal del Fang, al terme municipal de les Planes d'Hostoles. Beneïda pel rector de les Encies Lluís Conill el 5 d'abril de 1891."
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Santa Margarida de les Planes d'Hostoles",
@@ -174,7 +262,8 @@ const locations = [
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Santa_Margarida_de_les_Planes_d%27Hostoles_%28fa%C3%A7ana_de_gregal%29.jpg/640px-Santa_Margarida_de_les_Planes_d%27Hostoles_%28fa%C3%A7ana_de_gregal%29.jpg'/><br/>",
 			"Ermita prop de la colònia Dusol, al terme municipal de les Planes d'Hostoles. Se'n té constància des del 1187."
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Santa Maria de Cadaqués",
@@ -1337,7 +1426,8 @@ const locations = [
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Santa_Maria_d%27Amer_%28vista_posterior%29.jpg/640px-Santa_Maria_d%27Amer_%28vista_posterior%29.jpg'/><br/>",
 			"Antic monestir al terme municipal d'Amer. Se'n té constància des del 844, quan era una casa propietat del monestir de Sant Medir.<br/>Es consagrà com a monestir de Santa Maria el 9 de novembre del 949, després de les ràtzies hongareses del segle <span style='font-variant: small-caps'>x</span>.<br/>El 1657, durant la Guerra dels Segadors, el monestir va ser destruït parcialment i va haver d'assumir les funcions parroquials després de la destrucció de l'església parroquial de Sant Miquel d'Amer.<br/>El 1835 es va produir l'exclaustració forçosa dels monjos del monestir i va quedar abandonat, fent únicament les funcions d'església parroquial."
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Miquel d'Anglès",
@@ -1346,8 +1436,11 @@ const locations = [
 		description: [
 			"<h2>Sant Miquel d'Anglès</h2>",
 			"<small>Divisió administrativa: Anglès; Anglès; Selva; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sant_Miquel_d%27Angl%C3%A8s_%28fa%C3%A7ana_principal%29.jpg/320px-Sant_Miquel_d%27Angl%C3%A8s_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
+			"Església parroquial de la vila d'Anglès, al terme municipal homònim. Se'n té constància des del segle <span style='font-variant: small-caps'>xiii</span>, quan era una capella del castell d'Anglès dependent de la parròquia de Santa Maria de Sales de la Cellera.<br/>Malgrat alguns intents d'independitzar-se ja des dels segles <span style='font-variant: small-caps'>xvi</span> i <span style='font-variant: small-caps'>xvii</span>, no és fins al 1788 que la parròquia queda independent <i>de facto</i>.<br/>Aquesta independència no serà reconeguda <i>de iure</i> fins al 1859."
+		],
+		visited: true
 	},
 	{
 		name: "Sant Llorenç de Bescanó",
@@ -1398,8 +1491,11 @@ const locations = [
 		description: [
 			"<h2>Santa Maria de Sales de la Cellera de Ter</h2>",
 			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Santa_Maria_de_Sales_de_la_Cellera_de_Ter_%28fa%C3%A7ana_sud%29.jpg/320px-Santa_Maria_de_Sales_de_la_Cellera_de_Ter_%28fa%C3%A7ana_sud%29.jpg'/><br/>",
+			"Església parroquial de la vila de la Cellera de Ter, al terme municipal homònim. Se'n té constància des del 860."
+		],
+		visited: true
 	},
 	{
 		name: "Santa Maria de les Encies",
@@ -1721,7 +1817,8 @@ const locations = [
 	                "<small>Divisió administrativa: Amer; Amer; Selva; Comarques gironines; Catalunya</small><br/><br/>",
 	                "<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Cementiri_Municipal_d%27Amer_%28porta_principal%29.jpg/640px-Cementiri_Municipal_d%27Amer_%28porta_principal%29.jpg'/><br/>",
 			"Cementiri de la vila d'Amer, al terme municipal homònim. Inaugurat el 15 de març de 1931."
-	        ]
+	        ],
+		visited: true
 	},
 	{
 	        name: "Cementiri Nou d'Anglès",
@@ -1730,8 +1827,10 @@ const locations = [
 	        description: [
 	                "<h2>Cementiri Nou d'Anglès</h2>",
 	                "<small>Divisió administrativa: Anglès; Anglès; Selva; Comarques gironines; Catalunya</small><br/><br/>",
+	                "<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Cementiri_Municipal_d%27Angl%C3%A8s_%28entrada%29.jpg/640px-Cementiri_Municipal_d%27Angl%C3%A8s_%28entrada%29.jpg'/><br/>",
 	                "Cementiri nou de la vila d'Anglès, al terme municipal homònim. Construït durant la dècada de 1980 per la falta de capacitat i la impossibilitat d'ampliació del vell."
-	        ]
+	        ],
+		visited: true
 	},
 	{
 	        name: "Cementiri Vell d'Anglès",
@@ -1740,8 +1839,10 @@ const locations = [
 	        description: [
 	                "<h2>Cementiri Vell d'Anglès</h2>",
 	                "<small>Divisió administrativa: Anglès; Anglès; Selva; Comarques gironines; Catalunya</small><br/><br/>",
+	                "<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cementiri_vell_d%27Angl%C3%A8s_%28entrada%29.jpg/640px-Cementiri_vell_d%27Angl%C3%A8s_%28entrada%29.jpg'/><br/>",
 	                "Cementiri vell de la vila d'Anglès, al terme municipal homònim. Construït durant la dècada de 1910-1920 per la impossibilitat d'ampliació i les poques condicions higièniques de l'antic cementiri parroquial."
-	        ]
+	        ],
+		visited: true
 	},
 	{
 	        name: "Cementiri Municipal d'Arbúcies",
@@ -4305,8 +4406,11 @@ const locations = [
 	        coordinates: [41.9644971, 2.6263935],
 	        description: [
 	                "<h2>Cementiri Municipal de la Cellera de Ter</h2>",
-	                "<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small>"
-	        ]
+	                "<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/><br/>",
+	                "<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cementiri_Municipal_de_la_Cellera_de_Ter_%28entrada%29.jpg/320px-Cementiri_Municipal_de_la_Cellera_de_Ter_%28entrada%29.jpg'/><br/>",
+	                "Cementiri de la vila de la Cellera de Ter, al terme municipal homònim. Inaugurat el 1890. Va ser cementiri parroquial fins a la seva expropiació per part de l'Ajuntament el 29 de febrer de 1932."
+	        ],
+		visited: true
 	},
 	{
 	        name: "Cementiri Parroquial de Serinyà",
