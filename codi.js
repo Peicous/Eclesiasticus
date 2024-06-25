@@ -53,7 +53,7 @@ var map = L.map('map', {
 var zoneLayer;
 
 //Polygons regions
-if (GeoJson != undefined) {
+if (false && GeoJson != undefined) {
 	L.geoJSON(GeoJson, {
 		style: function (feature) {
 			return {
@@ -80,6 +80,9 @@ function handleMarkerOut(e) {
 
 // Add the event listeners to each feature (province/state)
 function onEachFeature(feature, layer) {
+	console.log("Execució");
+	
+	//Comarques Gironines
 	if (
 		feature.properties.nom_comar == "Gironès" ||
 		feature.properties.nom_comar == "Selva" ||
@@ -91,18 +94,67 @@ function onEachFeature(feature, layer) {
 		feature.properties.nom_comar == "Puigcerdà"
 	) {
 		layer.setStyle({
-			weight: 4,
+			weight: 2,
 			opacity: 1,
-			fillOpacity: 0,
-			color: "#ffd966",
+			fillOpacity: 0.5,
+			fillColor: '#ffd966',
+			color: "black",
+		});
+	}
+	//Area metropolitana de Barcelona
+	else if (
+		feature.properties.nom_comar == "Maresme" ||
+		feature.properties.nom_comar == "Barcelonès" ||
+		feature.properties.nom_comar == "Baix Llobregat" ||
+		feature.properties.nom_comar == "Vallès Oriental" ||
+		feature.properties.nom_comar == "Vallès Occidental"
+	) {
+		layer.setStyle({
+			weight: 2,
+			opacity: 1,
+			fillOpacity: 0.5,
+			fillColor: 'red',
+			color: "black",
+		});
+	}
+	//Catalunya central
+	else if (
+		feature.properties.nom_comar == "Bages" ||
+		feature.properties.nom_comar == "Osona" ||
+		feature.properties.nom_comar == "Berguedà" ||
+		feature.properties.nom_comar == "Solsonès"
+	) {
+		layer.setStyle({
+			weight: 2,
+			opacity: 1,
+			fillOpacity: 0.5,
+			fillColor: 'blue',
+			color: "black",
+		});
+	}
+	//Alt pirineu
+	else if (
+		feature.properties.nom_comar == "Alta Ribagorça" ||
+		feature.properties.nom_comar == "Alt Urgell" ||
+		feature.properties.nom_comar == "Cerdanya" ||
+		feature.properties.nom_comar == "Pallars Sobirà" ||
+		feature.properties.nom_comar == "Pallars Jussà" ||
+		feature.properties.nom_comar == "Val d'Aran"
+	) {
+		layer.setStyle({
+			weight: 2,
+			opacity: 1,
+			fillOpacity: 0.5,
+			fillColor: 'cyan',
+			color: "black",
 		});
 	}
 	else {
 		layer.setStyle({
-			weight: 4,
+			weight: 2,
 			opacity: 1,
-			fillOpacity: 0,
-			color: "#9fc5e8",
+			fillOpacity: 0.4,
+			color: "black",
 		});
 	}
 }
