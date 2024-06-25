@@ -5,7 +5,7 @@ const locations = [
 		coordinates: [42.0201463, 2.5149485],
 		description: [
 			"<h2><b>Castell de Fornils</b></h2>",
-			"<small>Divisió administrativa: El Far; Susqueda; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió administrativa: El Far; Susqueda; Selva; Comarques gironines; Catalunya</small><br/><br/>",
 			"Queda pendent d'explorar."
 		]
 	},
@@ -20,7 +20,7 @@ const locations = [
 		coordinates: [42.018650, 2.659538],
 		description: [
 			"<h2><b>Cementiri dels moros de Sant Roc</b></h2>",
-			"<small>Divisió administrativa: La Barroca; Sant Aniol de Finestres; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió administrativa: La Barroca; Sant Aniol de Finestres; Garrotxa; Comarques gironines; Catalunya</small><br/><br/>",
 			"Queda pendent d'explorar."
 		]
 	},
@@ -50,8 +50,10 @@ const locations = [
 			"<h2>Sant Agustí de Lloret Salvatge</h2>",
 			"<small>Divisió administrativa: Lloret Salvatge; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Antiga església parroquial del veïnat de Lloret Salvatge, al terme municipal d'Amer. Se'n té constància des del 949."
-		]
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Sant_Agust%C3%AD_de_Lloret_Salvatge_%28vista_general%29.jpg/640px-Sant_Agust%C3%AD_de_Lloret_Salvatge_%28vista_general%29.jpg'/><br/>",
+			"Antiga església parroquial del veïnat de Lloret Salvatge, al terme municipal d'Amer. Se'n té constància des del 860."
+		],
+		visited: true
 	},
 	{
 		name: "Sant Genís Sacosta",
@@ -119,6 +121,17 @@ const locations = [
 			"<small>Divisió administrativa: Santa Bàrbara; Anglès; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Ermita del veïnat de Santa Bàrbara, al terme municipal d'Anglès. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xiii</span>."
+		]
+	},
+	{
+		name: "Nostra Senyora de la Concepció",
+		type: "esglesia",
+		coordinates: [41.9688308, 2.7305196],
+		description: [
+			"<h2>Nostra Senyora de la Concepció</h2>",
+			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Capella adossada al Palau dels comtes de Berenguer, al terme municipal de Bescanó. Construïda a finals del segle <span style='font-variant: small-caps'>xix</span>."
 		]
 	},
 	{
