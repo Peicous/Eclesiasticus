@@ -51,10 +51,11 @@ var map = L.map('map', {
 .setView([42.0201463, 2.5149485], 12);
 
 var zoneLayer;
+var geojson_territori;
 
 //Polygons regions
-if (false && GeoJson != undefined) {
-	L.geoJSON(GeoJson, {
+if (GeoJson != undefined) {
+	geojson_territori = L.geoJSON(GeoJson, {
 		style: function (feature) {
 			return {
 				weight: 4,
@@ -64,7 +65,6 @@ if (false && GeoJson != undefined) {
 		},
 		onEachFeature: onEachFeature,
 	})
-	.addTo(map);
 }
 
 function handleMarkerHover(e) {
@@ -371,5 +371,16 @@ visitatCheckbox.addEventListener("change", function() {
 		if (altresCheckbox.checked) {
 			altresGroup.addTo(map);
 		}
+	}
+});
+
+//Vista de pla terriotorial
+const vistaTerriotalCheckbox = document.getElementById("pla_territorial_general_input");
+vistaTerriotalCheckbox.addEventListener("change", function() {
+	if (this.checked) {
+		geojson_territori.addTo(map);
+	}
+	else {
+		map.removeLayer(geojson_territori);
 	}
 });
