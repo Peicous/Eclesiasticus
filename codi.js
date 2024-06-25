@@ -384,3 +384,25 @@ vistaTerriotalCheckbox.addEventListener("change", function() {
 		map.removeLayer(geojson_territori);
 	}
 });
+
+const scrollingPanel = document.getElementById("scrolling-panel");
+const scrollingContentPanel = document.getElementById("scrolling-panel-content");
+
+window.onload = function() {
+	createSidePanel();
+};
+window.addEventListener('hashchange', function() {
+	createSidePanel();
+});
+
+function createSidePanel() {
+	var hash = window.location.hash.slice(1);
+
+	if (hash.length > 0) {
+		scrollingContentPanel.src = `./pagines/${hash}.html`;
+		scrollingPanel.style.display = "block";
+	}
+	else {
+		scrollingPanel.style.display = "none";
+	}
+}
