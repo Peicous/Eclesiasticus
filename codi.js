@@ -252,21 +252,72 @@ altresGroup.addTo(map);
 
 //debugGroup.addTo(map);
 
-// Create layer control
-L.control.layers(
-	{
-		"Open Street Map": layer_osm,
-		"Mapa clar": layer_light,
-		"Satèl·lit": layer_satellite,
-	}, 
-	{
-		'Capelles, ermites i esglesioles': esglesiesGroup,
-		'Esglésies parroquials': parroquiesGroup,
-		'Cementiris': cementirisGroup,
-		'Altres': altresGroup,
-	},
-	{
-		position: 'bottomleft'
-	}
-).addTo(map);
 
+const esglesisCheckbox = document.getElementById("esglesies_input");
+esglesisCheckbox.addEventListener("change", function() {
+	if (this.checked) {
+		esglesiesGroup.addTo(map);
+	}
+	else {
+		map.removeLayer(esglesiesGroup);
+	}
+});
+
+const parroquiesCheckbox = document.getElementById("parroquies_input");
+parroquiesCheckbox.addEventListener("change", function() {
+	if (this.checked) {
+		parroquiesGroup.addTo(map);
+	}
+	else {
+		map.removeLayer(parroquiesGroup);
+	}
+});
+
+const cementirisCheckbox = document.getElementById("cementiris_input");
+cementirisCheckbox.addEventListener("change", function() {
+	if (this.checked) {
+		cementirisGroup.addTo(map);
+	}
+	else {
+		map.removeLayer(cementirisGroup);
+	}
+});
+
+const altresCheckbox = document.getElementById("altres_input");
+altresCheckbox.addEventListener("change", function() {
+	if (this.checked) {
+		altresGroup.addTo(map);
+	}
+	else {
+		map.removeLayer(altresGroup);
+	}
+});
+
+//Filtre per ubicacions visitades
+const visitatCheckbox = document.getElementById("visitat_input");
+visitatCheckbox.addEventListener("change", function() {
+	if (this.checked) {
+		map.removeLayer(esglesiesGroup);
+		map.removeLayer(parroquiesGroup);
+		map.removeLayer(cementirisGroup);
+		map.removeLayer(altresGroup);
+
+		visitedGroup.addTo(map);
+	}
+	else {
+		map.removeLayer(visitedGroup);
+
+		if (esglesisCheckbox.checked) {
+			esglesiesGroup.addTo(map);
+		}
+		if (parroquiesCheckbox.checked) {
+			parroquiesGroup.addTo(map);
+		}
+		if (cementirisCheckbox.checked) {
+			cementirisGroup.addTo(map);
+		}
+		if (altresCheckbox.checked) {
+			altresGroup.addTo(map);
+		}
+	}
+});

@@ -50,7 +50,102 @@
 	</head>
 	<body>
 		<div id='map'>
+			<div
+				class="absolute leaflet-control-layers leaflet-control leaflet-control-layers-expanded"
+				aria-haspopup="true"
+				style="
+					position: absolute;
+					bottom: 10px;
+					left: 12px;
+					background-color: #ffffff;
+					visibility: visible;
+				"
+			>
+				<a class="leaflet-control-layers-toggle" title="Layers" role="button"></a>
+				<section class="leaflet-control-layers-list">
+					<div class="leaflet-control-layers-base">
+					<label>
+						<span>
+						<input
+							type="radio"
+							class="leaflet-control-layers-selector"
+							name="leaflet-base-layers_87"
+							checked
+						/>
+						<span> Open Street Map</span>
+						</span>
+					</label>
+					</div>
+					<div class="leaflet-control-layers-separator"></div>
+					<div class="leaflet-control-layers-overlays">
+						<label>
+							<span>
+								<input
+									id="esglesies_input"
+									type="checkbox"
+									class="leaflet-control-layers-selector"
+									checked
+								/>
+								<span>Capelles, ermites i esglesioles</span>
+							</span>
+						</label>
+					</div>
+					<div class="leaflet-control-layers-overlays">
+						<label>
+							<span>
+								<input
+									id="parroquies_input"
+									type="checkbox"
+									class="leaflet-control-layers-selector"
+									checked
+								/>
+								<span>Esglésies parroquials</span>
+							</span>
+						</label>
+					</div>
+					<div class="leaflet-control-layers-overlays">
+						<label>
+							<span>
+								<input
+									id="cementiris_input"
+									type="checkbox"
+									class="leaflet-control-layers-selector"
+									checked
+								/>
+								<span>Cementiris</span>
+							</span>
+						</label>
+					</div>
+					<div class="leaflet-control-layers-overlays">
+						<label>
+							<span>
+								<input
+									id="altres_input"
+									type="checkbox"
+									class="leaflet-control-layers-selector"
+									checked
+								/>
+								<span>Altres</span>
+							</span>
+						</label>
+					</div>
+					<div class="leaflet-control-layers-separator"></div>
+					<div class="leaflet-control-layers-overlays">
+						<label>
+							<span>
+								<input
+									id="visitat_input"
+									type="checkbox"
+									class="leaflet-control-layers-selector"
+								/>
+								<span>Visitat</span>
+							</span>
+						</label>
+					</div>
+				</section>
+			</div>
 		</div>
+
 		<script src="./locations.js"></script>
 		<script src="./mapa.js"></script>
 		<script src="./codi.js"></script>
