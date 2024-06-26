@@ -149,6 +149,69 @@ function onEachFeature(feature, layer) {
 			color: "black",
 		});
 	}
+	//Ponent
+	else if (
+		feature.properties.nom_comar == "Segrià" ||
+		feature.properties.nom_comar == "Garrigues" ||
+		feature.properties.nom_comar == "Noguera" ||
+		feature.properties.nom_comar == "Segarra" ||
+		feature.properties.nom_comar == "Urgell" ||
+		feature.properties.nom_comar == "Pla d'Urgell"
+	) {
+		layer.setStyle({
+			weight: 2,
+			opacity: 1,
+			fillOpacity: 0.5,
+			fillColor: 'pink',
+			color: "black",
+		});
+	}
+	//Panadés
+	else if (
+		feature.properties.nom_comar == "Alt Penedès" ||
+		feature.properties.nom_comar == "Baix Penedès" ||
+		feature.properties.nom_comar == "Garraf" ||
+		feature.properties.nom_comar == "Anoia"
+	) {
+		layer.setStyle({
+			weight: 2,
+			opacity: 1,
+			fillOpacity: 0.5,
+			fillColor: '#D26A00',
+			color: "black",
+		});
+	}
+	//Camp de tarragona
+	else if (
+		feature.properties.nom_comar == "Tarragonès" ||
+		feature.properties.nom_comar == "Alt Camp" ||
+		feature.properties.nom_comar == "Baix Camp" ||
+		feature.properties.nom_comar == "Priorat" ||
+		feature.properties.nom_comar == "Conca de Barberà"
+	) {
+		layer.setStyle({
+			weight: 2,
+			opacity: 1,
+			fillOpacity: 0.5,
+			fillColor: 'green',
+			color: "black",
+		});
+	}
+	//Tierras del Ebro
+	else if (
+		feature.properties.nom_comar == "Ribera d'Ebre" ||
+		feature.properties.nom_comar == "Terra Alta" ||
+		feature.properties.nom_comar == "Baix Ebre" ||
+		feature.properties.nom_comar == "Montsià"
+	) {
+		layer.setStyle({
+			weight: 2,
+			opacity: 1,
+			fillOpacity: 0.5,
+			fillColor: 'darkgreen',
+			color: "black",
+		});
+	}
 	else {
 		layer.setStyle({
 			weight: 2,
