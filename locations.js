@@ -539,6 +539,16 @@ const locations = [
 		]
 	},
 	{
+		name: "Sant Vicenç de Canet d'Adri",
+		type: "parroquia",
+		coordinates: [42.0381405, 2.73495759],
+		description: [
+			"<h2>Sant Vicenç de Canet d'Adri</h2>",
+			"<small>Divisió administrativa: Canet d'Adri; Canet d'Adri; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Sant Feliu de Cartellà",
 		type: "parroquia",
 		coordinates: [42.02364365, 2.76634293],
