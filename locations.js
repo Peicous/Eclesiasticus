@@ -509,6 +509,306 @@ const locations = [
 		]
 	},
 	{
+		name: "Sant Llorenç d'Adri",
+		type: "parroquia",
+		coordinates: [42.0521468, 2.74096085],
+		description: [
+			"<h2>Sant Llorenç d'Adri</h2>",
+			"<small>Divisió administrativa: Adri; Canet d'Adri; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Biert",
+		type: "parroquia",
+		coordinates: [42.07993315, 2.70786552],
+		description: [
+			"<h2>Sant Martí de Biert</h2>",
+			"<small>Divisió administrativa: Biert; Canet d'Adri; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Bordils",
+		type: "parroquia",
+		coordinates: [42.04404355, 2.91136727],
+		description: [
+			"<h2>Sant Esteve de Bordils</h2>",
+			"<small>Divisió administrativa: Bordils; Bordils; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Cartellà",
+		type: "parroquia",
+		coordinates: [42.02364365, 2.76634293],
+		description: [
+			"<h2>Sant Feliu de Cartellà</h2>",
+			"<small>Divisió administrativa: Cartellà; Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Celrà",
+		type: "parroquia",
+		coordinates: [42.02475095, 2.87931181],
+		description: [
+			"<h2>Sant Feliu de Celrà</h2>",
+			"<small>Divisió administrativa: Celrà; Celrà; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Genís de Cervià de Ter",
+		type: "parroquia",
+		coordinates: [42.06768495, 2.91004596],
+		description: [
+			"<h2>Sant Genís de Cervià de Ter</h2>",
+			"<small>Divisió administrativa: Cervià de Ter; Cervià de Ter; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Fellines",
+		type: "parroquia",
+		coordinates: [42.0948068, 2.90383875],
+		description: [
+			"<h2>Sant Martí de Fellines</h2>",
+			"<small>Divisió administrativa: Fellines; Viladasens; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cebrià de Flaçà",
+		type: "parroquia",
+		coordinates: [42.05022425, 2.95344237],
+		description: [
+			"<h2>Sant Cebrià de Flaçà</h2>",
+			"<small>Divisió administrativa: Flaçà; Flaçà; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Ginestar",
+		type: "parroquia",
+		coordinates: [42.01496625, 2.71713205],
+		description: [
+			"<h2>Santa Maria de Ginestar</h2>",
+			"<small>Divisió administrativa: Ginestar; Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Domeny",
+		type: "parroquia",
+		coordinates: [41.99115375, 2.79708968],
+		description: [
+			"<h2>Sant Feliu de Domeny</h2>",
+			"<small>Divisió administrativa: Domeny; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Granollers de Rocacorba",
+		type: "parroquia",
+		coordinates: [42.0685371, 2.6519536],
+		description: [
+			"<h2>Santa Maria de Granollers de Rocacorba</h2>",
+			"<small>Divisió administrativa: Granollers de Rocacorba; Sant Martí de Llémena; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Juià",
+		type: "parroquia",
+		coordinates: [42.0172385, 2.90690426],
+		description: [
+			"<h2>Sant Pere de Juià</h2>",
+			"<small>Divisió administrativa: Juià; Juià; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Andreu de la Barroca",
+		type: "parroquia",
+		coordinates: [42.0356014, 2.62739112],
+		description: [
+			"<h2>Sant Andreu de la Barroca</h2>",
+			"<small>Divisió administrativa: La Barroca; Sant Aniol de Finestres; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Cecília de les Serres",
+		type: "parroquia",
+		coordinates: [41.9996422, 2.67168825],
+		description: [
+			"<h2>Santa Cecília de les Serres</h2>",
+			"<small>Divisió administrativa: Les Serres; Sant Martí de Llémena; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Llorà",
+		type: "parroquia",
+		coordinates: [42.0253941, 2.7052043],
+		description: [
+			"<h2>Sant Pere de Llorà</h2>",
+			"<small>Divisió administrativa: Llorà; Sant Martí de Llémena; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Madremanya",
+		type: "parroquia",
+		coordinates: [41.9898943, 2.95726945],
+		description: [
+			"<h2>Sant Esteve de Madremanya</h2>",
+			"<small>Divisió administrativa: Madremanya; Madremanya; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Sadurní de Medinyà",
+		type: "parroquia",
+		coordinates: [42.04941625, 2.86544914],
+		description: [
+			"<h2>Sant Sadurní de Medinyà</h2>",
+			"<small>Divisió administrativa: Medinyà; Sant Julià de Ramis; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Cecília de Montcal",
+		type: "parroquia",
+		coordinates: [42.0371789, 2.75909628],
+		description: [
+			"<h2>Santa Cecília de Montcal</h2>",
+			"<small>Divisió administrativa: Montcal; Canet d'Adri; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Aniol de Finestres",
+		type: "parroquia",
+		coordinates: [42.0903564, 2.58695106],
+		description: [
+			"<h2>Sant Aniol de Finestres</h2>",
+			"<small>Divisió administrativa: Sant Aniol de Finestres; Sant Aniol de Finestres; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Llémena",
+		type: "parroquia",
+		coordinates: [42.0570467, 2.62842229],
+		description: [
+			"<h2>Sant Esteve de Llémena</h2>",
+			"<small>Divisió administrativa: Sant Esteve de Llémena; Sant Aniol de Finestres; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Gregori",
+		type: "parroquia",
+		coordinates: [41.9890973, 2.7596829],
+		description: [
+			"<h2>Sant Gregori</h2>",
+			"<small>Divisió administrativa: Sant Gregori; Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan de Mollet",
+		type: "parroquia",
+		coordinates: [42.04587815, 2.94272889],
+		description: [
+			"<h2>Sant Joan de Mollet</h2>",
+			"<small>Divisió administrativa: Sant Joan de Mollet; Sant Joan de Mollet; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Jordi Desvalls",
+		type: "parroquia",
+		coordinates: [42.0720928, 2.95365861],
+		description: [
+			"<h2>Sant Jordi Desvalls</h2>",
+			"<small>Divisió administrativa: Sant Jordi Desvalls; Sant Jordi Desvalls; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Llémena",
+		type: "parroquia",
+		coordinates: [42.03628955, 2.64706482],
+		description: [
+			"<h2>Sant Martí de Llémena</h2>",
+			"<small>Divisió administrativa: Sant Martí de Llémena; Sant Martí de Llémena; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Julià i Santa Basilissa de Ramis",
+		type: "parroquia",
+		coordinates: [42.0342732, 2.8395107],
+		description: [
+			"<h2>Sant Julià i Santa Basilissa de Ramis</h2>",
+			"<small>Divisió administrativa: Sant Julià de Ramis; Sant Julià de Ramis; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí Vell",
+		type: "parroquia",
+		coordinates: [42.01968735, 2.93088416],
+		description: [
+			"<h2>Sant Martí Vell</h2>",
+			"<small>Divisió administrativa: Sant Martí Vell; Sant Martí Vell; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Medir de Cartellà",
+		type: "parroquia",
+		coordinates: [42.0271133, 2.77341286],
+		description: [
+			"<h2>Sant Medir de Cartellà</h2>",
+			"<small>Divisió administrativa: Sant Medir; Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Finestres",
+		type: "parroquia",
+		coordinates: [42.11190515, 2.59302963],
+		description: [
+			"<h2>Santa Maria de Finestres</h2>",
+			"<small>Divisió administrativa: Santa Maria de Finestres; Sant Aniol de Finestres; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Narcís de Taialà",
+		type: "parroquia",
+		coordinates: [41.9987835, 2.79182665],
+		description: [
+			"<h2>Sant Narcís de Taialà</h2>",
+			"<small>Divisió administrativa: Taialà; Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Viladasens",
+		type: "parroquia",
+		coordinates: [42.0959255, 2.92998907],
+		description: [
+			"<h2>Sant Vicenç de Viladasens</h2>",
+			"<small>Divisió administrativa: Viladasens; Viladasens; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Sant Pere de Begur",
 		type: "parroquia",
 		coordinates: [41.9543832, 3.20744233],
