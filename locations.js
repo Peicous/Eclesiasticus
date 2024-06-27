@@ -821,6 +821,446 @@ const locations = [
 		]
 	},
 	{
+		name: "Santa Maria dels Turers de Banyoles",
+		type: "parroquia",
+		coordinates: [42.1194725, 2.76692],
+		description: [
+			"<h2>Santa Maria dels Turers de Banyoles</h2>",
+			"<small>Divisió administrativa: Banyoles; Banyoles; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Banyoles",
+		type: "parroquia",
+		coordinates: [42.11227465, 2.76887571],
+		description: [
+			"<h2>Sant Pere de Banyoles</h2>",
+			"<small>Divisió administrativa: Banyoles; Banyoles; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan Baptista de Borgonyà",
+		type: "parroquia",
+		coordinates: [42.10163655, 2.80190711],
+		description: [
+			"<h2>Sant Joan Baptista de Borgonyà</h2>",
+			"<small>Divisió administrativa: Borgonyà; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Camós",
+		type: "parroquia",
+		coordinates: [42.0870963, 2.7620208],
+		description: [
+			"<h2>Sant Vicenç de Camós</h2>",
+			"<small>Divisió administrativa: Camós; Camós; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Iscle i Santa Victòria de Centenys",
+		type: "parroquia",
+		coordinates: [42.1592593, 2.7847952],
+		description: [
+			"<h2>Sant Iscle i Santa Victòria de Centenys</h2>",
+			"<small>Divisió administrativa: Centenys; Esponellà; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Cornellà de Terri",
+		type: "parroquia",
+		coordinates: [42.08997295, 2.81571479],
+		description: [
+			"<h2>Sant Pere de Cornellà de Terri</h2>",
+			"<small>Divisió administrativa: Cornellà de Terri; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Julià i Santa Basilissa de Corts",
+		type: "parroquia",
+		coordinates: [42.09484265, 2.78898088],
+		description: [
+			"<h2>Sant Julià i Santa Basilissa de Corts</h2>",
+			"<small>Divisió administrativa: Corts; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eulàlia de Crespià",
+		type: "parroquia",
+		coordinates: [42.1870747, 2.7991163],
+		description: [
+			"<h2>Santa Eulàlia de Crespià</h2>",
+			"<small>Divisió administrativa: Crespià; Crespià; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Andreu del Torn",
+		type: "parroquia",
+		coordinates: [42.16047115, 2.64555169],
+		description: [
+			"<h2>Sant Andreu del Torn</h2>",
+			"<small>Divisió administrativa: El Torn; Sant Ferriol; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cebrià d'Esponellà",
+		type: "parroquia",
+		coordinates: [42.17905215, 2.79545765],
+		description: [
+			"<h2>Sant Cebrià d'Esponellà</h2>",
+			"<small>Divisió administrativa: Esponellà; Esponellà; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Falgons",
+		type: "parroquia",
+		coordinates: [42.108605, 2.66087978],
+		description: [
+			"<h2>Sant Vicenç de Falgons</h2>",
+			"<small>Divisió administrativa: Falgons; Sant Miquel de Campmajor; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Fontcoberta",
+		type: "parroquia",
+		coordinates: [42.14282225, 2.78988057],
+		description: [
+			"<h2>Sant Feliu de Fontcoberta</h2>",
+			"<small>Divisió administrativa: Fontcoberta; Fontcoberta; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Julià i Santa Basilissa de Galliners",
+		type: "parroquia",
+		coordinates: [42.1497754, 2.87218193],
+		description: [
+			"<h2>Sant Julià i Santa Basilissa de Galliners</h2>",
+			"<small>Divisió administrativa: Galliners; Vilademuls; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Andreu de Mata",
+		type: "parroquia",
+		coordinates: [42.10731455, 2.78368733],
+		description: [
+			"<h2>Sant Andreu de Mata</h2>",
+			"<small>Divisió administrativa: Mata; Porqueres; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Romà de Miànigues",
+		type: "parroquia",
+		coordinates: [42.1061411, 2.75683661],
+		description: [
+			"<h2>Sant Romà de Miànigues</h2>",
+			"<small>Divisió administrativa: Miànigues; Porqueres; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Mieres",
+		type: "parroquia",
+		coordinates: [42.1270641, 2.63908802],
+		description: [
+			"<h2>Sant Pere de Mieres</h2>",
+			"<small>Divisió administrativa: Mieres; Mieres; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí d'Ollers",
+		type: "parroquia",
+		coordinates: [42.1536924, 2.83361902],
+		description: [
+			"<h2>Sant Martí d'Ollers</h2>",
+			"<small>Divisió administrativa: Ollers; Vilademuls; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria d'Orfes",
+		type: "parroquia",
+		coordinates: [42.1725094, 2.86675566],
+		description: [
+			"<h2>Santa Maria d'Orfes</h2>",
+			"<small>Divisió administrativa: Orfes; Vilademuls; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Palol de Revardit",
+		type: "parroquia",
+		coordinates: [42.0697346, 2.79635685],
+		description: [
+			"<h2>Sant Miquel de Palol de Revardit</h2>",
+			"<small>Divisió administrativa: Palol de Revardit; Palol de Revardit; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Porqueres",
+		type: "parroquia",
+		coordinates: [42.1218069, 2.74866752],
+		description: [
+			"<h2>Santa Maria de Porqueres</h2>",
+			"<small>Divisió administrativa: Porqueres; Porqueres; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eulàlia de Pujals dels Cavallers",
+		type: "parroquia",
+		coordinates: [42.10556455, 2.81908129],
+		description: [
+			"<h2>Santa Eulàlia de Pujals dels Cavallers</h2>",
+			"<small>Divisió administrativa: Pujals dels Cavallers; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Pujals dels Pagesos",
+		type: "parroquia",
+		coordinates: [42.10718405, 2.83382697],
+		description: [
+			"<h2>Santa Maria de Pujals dels Pagesos</h2>",
+			"<small>Divisió administrativa: Pujals dels Pagesos; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cebrià de Pujarnol",
+		type: "parroquia",
+		coordinates: [42.1020144, 2.7082429],
+		description: [
+			"<h2>Sant Cebrià de Pujarnol</h2>",
+			"<small>Divisió administrativa: Pujarnol; Porqueres; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cugat de Ravós del Terri",
+		type: "parroquia",
+		coordinates: [42.07099165, 2.83817345],
+		description: [
+			"<h2>Sant Cugat de Ravós del Terri</h2>",
+			"<small>Divisió administrativa: Ravós del Terri; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Riudellots de la Creu",
+		type: "parroquia",
+		coordinates: [42.05731195, 2.81338678],
+		description: [
+			"<h2>Sant Martí de Riudellots de la Creu</h2>",
+			"<small>Divisió administrativa: Riudellots de la Creu; Palol de Revardit; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Rocacorba",
+		type: "parroquia",
+		coordinates: [42.0672296, 2.6876798],
+		description: [
+			"<h2>Santa Maria de Rocacorba</h2>",
+			"<small>Divisió administrativa: Rocacorba; Cabet d'Adri; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Guialbes",
+		type: "parroquia",
+		coordinates: [42.1154665, 2.87820153],
+		description: [
+			"<h2>Sant Esteve de Guialbes</h2>",
+			"<small>Divisió administrativa: Sant Esteve de Guialbes; Vilademuls; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Llogaia del Terri",
+		type: "parroquia",
+		coordinates: [42.0835754, 2.8390257],
+		description: [
+			"<h2>Santa Llogaia del Terri</h2>",
+			"<small>Divisió administrativa: Santa Llogaia del Terri; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Marçal de la Quarantella",
+		type: "parroquia",
+		coordinates: [42.1254632, 2.86813483],
+		description: [
+			"<h2>Sant Marçal de la Quarantella</h2>",
+			"<small>Divisió administrativa: Sant Marçal de la Quarantella; Vilademuls; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Camós",
+		type: "parroquia",
+		coordinates: [42.0801242, 2.77446636],
+		description: [
+			"<h2>Santa Maria de Camós</h2>",
+			"<small>Divisió administrativa: Camós; Camós; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Campmajor",
+		type: "parroquia",
+		coordinates: [42.13602835, 2.67927768],
+		description: [
+			"<h2>Sant Miquel de Campmajor</h2>",
+			"<small>Divisió administrativa: Sant Miquel de Campmajor; Sant Miquel de Campmajor; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Andreu de Serinyà",
+		type: "parroquia",
+		coordinates: [42.1689184, 2.74468029],
+		description: [
+			"<h2>Sant Andreu de Serinyà</h2>",
+			"<small>Divisió administrativa: Serinyà; Serinyà; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Sords",
+		type: "parroquia",
+		coordinates: [42.0886647, 2.82461487],
+		description: [
+			"<h2>Sant Esteve de Sords</h2>",
+			"<small>Divisió administrativa: Sords; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Terradelles",
+		type: "parroquia",
+		coordinates: [42.1181261, 2.8888804],
+		description: [
+			"<h2>Sant Martí de Terradelles</h2>",
+			"<small>Divisió administrativa: Terradelles; Vilademuls; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cristòfol d'Usall",
+		type: "parroquia",
+		coordinates: [42.1487343, 2.75713928],
+		description: [
+			"<h2>Sant Cristòfol d'Usall</h2>",
+			"<small>Divisió administrativa: Usall; Porqueres; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Vilademí",
+		type: "parroquia",
+		coordinates: [42.1524837, 2.8128217],
+		description: [
+			"<h2>Sant Esteve de Vilademí</h2>",
+			"<small>Divisió administrativa: Vilademí; Vilademuls; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan Baptista de Vilademuls",
+		type: "parroquia",
+		coordinates: [42.1383047, 2.88760418],
+		description: [
+			"<h2>Sant Joan Baptista de Vilademuls</h2>",
+			"<small>Divisió administrativa: Vilademuls; Vilademuls; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Sadurní de Vilafreser",
+		type: "parroquia",
+		coordinates: [42.084555, 2.88241405],
+		description: [
+			"<h2>Sant Sadurní de Vilafreser</h2>",
+			"<small>Divisió administrativa: Vilafreser; Vilademuls; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Vilamarí",
+		type: "parroquia",
+		coordinates: [42.1124072, 2.85200039],
+		description: [
+			"<h2>Santa Maria de Vilamarí</h2>",
+			"<small>Divisió administrativa: Vilamarí; Vilademuls; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Sadurní de Vilavenut",
+		type: "parroquia",
+		coordinates: [42.13946225, 2.82148668],
+		description: [
+			"<h2>Sant Sadurní de Vilavenut</h2>",
+			"<small>Divisió administrativa: Vilavenut; Fontcoberta; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Vilert",
+		type: "parroquia",
+		coordinates: [42.17404735, 2.82151517],
+		description: [
+			"<h2>Santa Maria de Vilert</h2>",
+			"<small>Divisió administrativa: Vilert; Esponellà; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de la Mota",
+		type: "parroquia",
+		coordinates: [42.0518558, 2.78968199],
+		description: [
+			"<h2>Sant Martí de la Mota</h2>",
+			"<small>Divisió administrativa: La Mota; Palol de Revardit; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Briolf",
+		type: "parroquia",
+		coordinates: [42.16908625, 2.6890789],
+		description: [
+			"<h2>Sant Esteve de Briolf</h2>",
+			"<small>Divisió administrativa: Briolf; Sant Miquel de Campmajor; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de les Olives",
+		type: "parroquia",
+		coordinates: [42.0986648, 2.87155465],
+		description: [
+			"<h2>Santa Maria de les Olives</h2>",
+			"<small>Divisió administrativa: Olives; Vilademuls; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Sant Pere de Begur",
 		type: "parroquia",
 		coordinates: [41.9543832, 3.20744233],
