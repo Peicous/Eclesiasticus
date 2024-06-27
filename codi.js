@@ -1,6 +1,8 @@
+//Afegir layer satelit
+//Carrega asincrona
+//Colors de pla terriotiral
 //Canviar icones
-//Agrupació llocs visitats
-//Panell lateral
+//Pujar imatges sensibles
 
 
 const options = {
@@ -223,6 +225,7 @@ function onEachFeature(feature, layer) {
 }
 
 //===========================================================================================
+map.doubleClickZoom.disable(); 
 map.setMaxBounds(
 	[
 		[
@@ -256,118 +259,123 @@ const parroquiesGroup = L.layerGroup();
 const esglesiesGroup = L.layerGroup();
 const cementirisGroup = L.layerGroup();
 const altresGroup = L.layerGroup();
-const visitedGroup = L.layerGroup();
 const debugGroup = L.layerGroup();
 
-locations.map(location => {
-	let zindex = 1;
-	let size = [20, 20];
-	let anchor = [10, 20];
-	let popup = [0, 0];
+//Carrega de le ubicacions i organizta els markers en grups
+function loadLocations(local_locations) {
+	//Neteja de grups
+	parroquiesGroup.clearLayers();
+	esglesiesGroup.clearLayers();
+	cementirisGroup.clearLayers();
+	altresGroup.clearLayers();
+	debugGroup.clearLayers();
 
-	if (location.type == "desconegut") {
-		anchor = [9, 22]
-		size = [17, 22];
-		popup = [0, -25];
-	}
-	else if (location.type == "esglesia" || location.type == "parroquia") {
-		size = [22, 22];
-		popup = [-3, -25];
-	}
-	else if (location.type == "cementiri") {
-		anchor = [10, 25];
-		size = [22, 22];
-		popup = [2, -30];
-	}
+	local_locations.map(location => {
+		let zindex = 1;
+		let size = [20, 20];
+		let anchor = [10, 20];
+		let popup = [0, 0];
 
-	// importància i mida
-	if (location.zindex != undefined) {
-		zindex = location.zindex;
-	}
-	if (location.size != undefined) {
-		size = location.size;
-	}
-	if (location.anchor != undefined) {
-		anchor = location.anchor;
-	}
+		if (location.type == "desconegut") {
+			anchor = [9, 22]
+			size = [17, 22];
+			popup = [0, -25];
+		}
+		else if (location.type == "esglesia" || location.type == "parroquia") {
+			size = [22, 22];
+			popup = [-3, -25];
+		}
+		else if (location.type == "cementiri") {
+			anchor = [10, 25];
+			size = [22, 22];
+			popup = [2, -30];
+		}
 
-	//icona custom
-	let icona = new L.Icon({
-		iconUrl: `./img/${location.type}.png`,
-		shadowUrl: '',
-		iconSize: size,
-		iconAnchor: anchor,
-		popupAnchor: popup,
-		tooltipAnchor: [10, -15],
-		shadowSize: size
-	});
+		// importància i mida
+		if (location.zindex != undefined) {
+			zindex = location.zindex;
+		}
+		if (location.size != undefined) {
+			size = location.size;
+		}
+		if (location.anchor != undefined) {
+			anchor = location.anchor;
+		}
 
-	let marker = L.marker(location.coordinates, {
-		icon: icona,
-		zone: location.zone
-	});
-	
-	marker.on('mouseover', handleMarkerHover);
-	marker.on('mouseout', handleMarkerOut);
-	
-	//pc only 
-	if (true) {
-		marker.bindTooltip(location.name);
-	}
-	
-	if (location.description != undefined) {
-		marker.bindPopup(location.description?.join(""));
-	}
-	
-	marker.setZIndexOffset(zindex)
-	
-	let debug_marker = L.marker(location.coordinates, {zone: location.zone});
-	debug_marker.bindPopup(location.name);
-	debug_marker.on('mouseover', handleMarkerHover);
-	debug_marker.on('mouseout', handleMarkerOut);
-	
-	if (location.type === 'esglesia') {
-		marker.addTo(esglesiesGroup);
-	} 
-	else if (location.type === 'parroquia') {
-		marker.addTo(parroquiesGroup);
-	}
-	else if (location.type === 'cementiri') {
-		marker.addTo(cementirisGroup);
-	}
-	else {
-		if (location.type === 'area') {
-			L.circle(location.coordinates, {
-				color: 'transparent',
-				fillColor: '#ffe08c',
-				fillOpacity: 0.5,
-				radius: location.radi
-			})
-			.addTo(altresGroup);
+		//icona custom
+		let icona = new L.Icon({
+			iconUrl: `./img/${location.type}.png`,
+			shadowUrl: '',
+			iconSize: size,
+			iconAnchor: anchor,
+			popupAnchor: popup,
+			tooltipAnchor: [10, -15],
+			shadowSize: size
+		});
+
+		let marker = L.marker(location.coordinates, {
+			icon: icona,
+			zone: location.zone
+		});
+		
+		marker.on('mouseover', handleMarkerHover);
+		marker.on('mouseout', handleMarkerOut);
+		
+		//pc only 
+		if (true) {
+			marker.bindTooltip(location.name);
+		}
+		
+		if (location.description != undefined) {
+			marker.bindPopup(location.description?.join(""));
+		}
+		
+		marker.setZIndexOffset(zindex)
+		
+		let debug_marker = L.marker(location.coordinates, {zone: location.zone});
+		debug_marker.bindPopup(location.name);
+		debug_marker.on('mouseover', handleMarkerHover);
+		debug_marker.on('mouseout', handleMarkerOut);
+		
+		if (location.type === 'esglesia') {
+			marker.addTo(esglesiesGroup);
+		} 
+		else if (location.type === 'parroquia') {
+			marker.addTo(parroquiesGroup);
+		}
+		else if (location.type === 'cementiri') {
+			marker.addTo(cementirisGroup);
 		}
 		else {
-			marker.addTo(altresGroup);
+			if (location.type === 'area') {
+				L.circle(location.coordinates, {
+					color: 'transparent',
+					fillColor: '#ffe08c',
+					fillOpacity: 0.5,
+					radius: location.radi
+				})
+				.addTo(altresGroup);
+			}
+			else {
+				marker.addTo(altresGroup);
+			}
 		}
-	}
 
-	if (location.visited) {
-		marker.addTo(visitedGroup);
-	}
+		//debug_marker.addTo(debugGroup);
+	})
+}
 
-	debug_marker.addTo(debugGroup);
-})
-
+loadLocations(locations);
 
 // Add layer groups to the map
 esglesiesGroup.addTo(map);
 parroquiesGroup.addTo(map);
 cementirisGroup.addTo(map);
 altresGroup.addTo(map);
-//visitedGroup.addTo(map);
 
 //debugGroup.addTo(map);
 
-
+//Events
 const esglesisCheckbox = document.getElementById("esglesies_input");
 esglesisCheckbox.addEventListener("change", function() {
 	if (this.checked) {
@@ -408,35 +416,6 @@ altresCheckbox.addEventListener("change", function() {
 	}
 });
 
-//Filtre per ubicacions visitades
-const visitatCheckbox = document.getElementById("visitat_input");
-visitatCheckbox.addEventListener("change", function() {
-	if (this.checked) {
-		map.removeLayer(esglesiesGroup);
-		map.removeLayer(parroquiesGroup);
-		map.removeLayer(cementirisGroup);
-		map.removeLayer(altresGroup);
-
-		visitedGroup.addTo(map);
-	}
-	else {
-		map.removeLayer(visitedGroup);
-
-		if (esglesisCheckbox.checked) {
-			esglesiesGroup.addTo(map);
-		}
-		if (parroquiesCheckbox.checked) {
-			parroquiesGroup.addTo(map);
-		}
-		if (cementirisCheckbox.checked) {
-			cementirisGroup.addTo(map);
-		}
-		if (altresCheckbox.checked) {
-			altresGroup.addTo(map);
-		}
-	}
-});
-
 //Vista de pla terriotorial
 const vistaTerriotalCheckbox = document.getElementById("pla_territorial_general_input");
 vistaTerriotalCheckbox.addEventListener("change", function() {
@@ -469,3 +448,17 @@ function createSidePanel() {
 		scrollingPanel.style.display = "none";
 	}
 }
+
+//Filtres
+
+//Filtre per ubicacions visitades
+const visitatCheckbox = document.getElementById("visitat_input");
+visitatCheckbox.addEventListener("change", function() {
+	if (this.checked) {
+		let filtered_locations = locations.filter(location => location.visited);
+		loadLocations(filtered_locations);
+	}
+	else {
+		loadLocations(locations);
+	}
+});
