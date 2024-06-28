@@ -112,7 +112,7 @@ function onEachFeature(feature, layer) {
 			color: "black",
 		});
 	}
-	//Area metropolitana de Barcelona
+	//Àrea Metropolitana de Barcelona
 	else if (
 		feature.properties.nom_comar == "Maresme" ||
 		feature.properties.nom_comar == "Barcelonès" ||
@@ -128,12 +128,14 @@ function onEachFeature(feature, layer) {
 			color: "black",
 		});
 	}
-	//Catalunya central
+	//Catalunya Central
 	else if (
 		feature.properties.nom_comar == "Bages" ||
 		feature.properties.nom_comar == "Osona" ||
 		feature.properties.nom_comar == "Berguedà" ||
-		feature.properties.nom_comar == "Solsonès"
+		feature.properties.nom_comar == "Solsonès" ||
+		feature.properties.nom_comar == "Moianès" ||
+		feature.properties.nom_comar == "Lluçanès"
 	) {
 		layer.setStyle({
 			weight: 2,
@@ -143,7 +145,7 @@ function onEachFeature(feature, layer) {
 			color: "black",
 		});
 	}
-	//Alt pirineu
+	//Alt Pirineu i Aran
 	else if (
 		feature.properties.nom_comar == "Alta Ribagorça" ||
 		feature.properties.nom_comar == "Alt Urgell" ||
@@ -177,7 +179,7 @@ function onEachFeature(feature, layer) {
 			color: "black",
 		});
 	}
-	//Panadés
+	//Penedès
 	else if (
 		feature.properties.nom_comar == "Alt Penedès" ||
 		feature.properties.nom_comar == "Baix Penedès" ||
@@ -192,7 +194,7 @@ function onEachFeature(feature, layer) {
 			color: "black",
 		});
 	}
-	//Camp de tarragona
+	//Camp de Tarragona
 	else if (
 		feature.properties.nom_comar == "Tarragonès" ||
 		feature.properties.nom_comar == "Alt Camp" ||
@@ -208,7 +210,7 @@ function onEachFeature(feature, layer) {
 			color: "black",
 		});
 	}
-	//Tierras del Ebro
+	//Terres de l'Ebre
 	else if (
 		feature.properties.nom_comar == "Ribera d'Ebre" ||
 		feature.properties.nom_comar == "Terra Alta" ||
