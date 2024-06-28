@@ -36,7 +36,9 @@ function error(err) {
 }
 
 //Geolocation
-//navigator.geolocation.getCurrentPosition(success, error, options);
+function getUserLocation() {
+	navigator.geolocation.getCurrentPosition(success, error, options);
+}
 
 //LAYERS
 var layer_osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png');
@@ -56,17 +58,19 @@ var zoneLayer;
 var geojson_territori;
 
 //Polygons regions
-if (GeoJson != undefined) {
-	geojson_territori = L.geoJSON(GeoJson, {
-		style: function (feature) {
-			return {
-				weight: 4,
-				opacity: 1,
-				fillOpacity: 0
-			};
-		},
-		onEachFeature: onEachFeature,
-	})
+function instanceGeoJson(geo_json) {
+	if (geo_json != undefined) {
+		geojson_territori = L.geoJSON(geo_json, {
+			style: function (feature) {
+				return {
+					weight: 4,
+					opacity: 1,
+					fillOpacity: 0
+				};
+			},
+			onEachFeature: onEachFeature,
+		})
+	}
 }
 
 function handleMarkerHover(e) {
@@ -80,10 +84,9 @@ function handleMarkerOut(e) {
 	}*/
 }
 
-// Add the event listeners to each feature (province/state)
+//===========================================================================================
+
 function onEachFeature(feature, layer) {
-	console.log("Execució");
-	
 	//Comarques Gironines
 	if (
 		feature.properties.nom_comar == "Gironès" ||
@@ -224,7 +227,6 @@ function onEachFeature(feature, layer) {
 	}
 }
 
-//===========================================================================================
 map.doubleClickZoom.disable(); 
 map.setMaxBounds(
 	[
@@ -364,8 +366,6 @@ function loadLocations(local_locations) {
 		//debug_marker.addTo(debugGroup);
 	})
 }
-
-loadLocations(locations);
 
 // Add layer groups to the map
 esglesiesGroup.addTo(map);

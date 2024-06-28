@@ -5969,4 +5969,6 @@ const locations = [
 	                "<small>Divisió administrativa: Bonmatí; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small>"
 	        ]
 	}
-]
+];
+
+loadLocations(locations);
