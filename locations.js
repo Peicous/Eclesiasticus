@@ -511,6 +511,466 @@ const locations = [
 		]
 	},
 	{
+		name: "Santa Maria d'Argelaguer",
+		type: "parroquia",
+		coordinates: [42.21322535, 2.64178207],
+		description: [
+			"<h2>Santa Maria d'Argelaguer</h2>",
+			"<small>Divisió administrativa: Argelaguer; Argelaguer; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Batet",
+		type: "parroquia",
+		coordinates: [42.1811614, 2.516639],
+		description: [
+			"<h2>Santa Maria de Batet</h2>",
+			"<small>Divisió administrativa: Batet; Olot; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cristòfol de Beget",
+		type: "parroquia",
+		coordinates: [42.32112565, 2.48013556],
+		description: [
+			"<h2>Sant Cristòfol de Beget</h2>",
+			"<small>Divisió administrativa: Beget; Camprodon; Ripollès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eulàlia de Mèrida de Begudà",
+		type: "parroquia",
+		coordinates: [42.1958038, 2.54605244],
+		description: [
+			"<h2>Santa Eulàlia de Mèrida de Begudà</h2>",
+			"<small>Divisió administrativa: Begudà; Sant Joan les Fonts; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Besalú",
+		type: "parroquia",
+		coordinates: [42.1996283, 2.69842285],
+		description: [
+			"<h2>Sant Vicenç de Besalú</h2>",
+			"<small>Divisió administrativa: Besalú; Besalú; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Silvestre del Mor i Ossinyà",
+		type: "parroquia",
+		coordinates: [42.1816786, 2.65469787],
+		description: [
+			"<h2>Sant Silvestre del Mor i Ossinyà</h2>",
+			"<small>Divisió administrativa: El Mor; Sant Ferriol; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Fares",
+		type: "parroquia",
+		coordinates: [42.1865535, 2.7356246],
+		description: [
+			"<h2>Santa Maria de Fares</h2>",
+			"<small>Divisió administrativa: Fares; Sant Ferriol; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Beuda",
+		type: "parroquia",
+		coordinates: [42.2370451, 2.70974913],
+		description: [
+			"<h2>Sant Feliu de Beuda</h2>",
+			"<small>Divisió administrativa: Beuda; Beuda; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Bolós",
+		type: "parroquia",
+		coordinates: [42.30279305, 2.42184967],
+		description: [
+			"<h2>Santa Maria de Bolós</h2>",
+			"<small>Divisió administrativa: Bolós; Camprodon; Ripollès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Capsec i la Vall del Bac",
+		type: "parroquia",
+		coordinates: [42.23304515, 2.4719465],
+		description: [
+			"<h2>Sant Martí de Capsec i la Vall del Bac</h2>",
+			"<small>Divisió administrativa: Capsec; La Vall de Bianya; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santíssim Salvador de Castellfollit de la Roca",
+		type: "parroquia",
+		coordinates: [42.2190174, 2.5469928],
+		description: [
+			"<h2>Santíssim Salvador de Castellfollit de la Roca</h2>",
+			"<small>Divisió administrativa: Castellfollit de la Roca; Castellfollit de la Roca; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Dosquers",
+		type: "parroquia",
+		coordinates: [42.1951859, 2.75348203],
+		description: [
+			"<h2>Sant Martí de Dosquers</h2>",
+			"<small>Divisió administrativa: Dosquers; Maià de Montcal; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Bartomeu del Mallol",
+		type: "parroquia",
+		coordinates: [42.1496925, 2.439316],
+		description: [
+			"<h2>Sant Bartomeu del Mallol</h2>",
+			"<small>Divisió administrativa: El Mallol; La Vall d'en Bas; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç del Sallent",
+		type: "parroquia",
+		coordinates: [42.15437105, 2.61479741],
+		description: [
+			"<h2>Sant Vicenç del Sallent</h2>",
+			"<small>Divisió administrativa: El Sallent; Santa Pau; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria dels Hostalets d'en Bas",
+		type: "parroquia",
+		coordinates: [42.1015151, 2.4495421],
+		description: [
+			"<h2>Santa Maria dels Hostalets d'en Bas</h2>",
+			"<small>Divisió administrativa: Els Hostalets d'en Bas; La Vall d'en Bas; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Romà de Joanetes",
+		type: "parroquia",
+		coordinates: [42.1216092, 2.4200291],
+		description: [
+			"<h2>Sant Romà de Joanetes</h2>",
+			"<small>Divisió administrativa: Joanetes; La Vall d'en Bas; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Josep Obrer de la Canya",
+		type: "parroquia",
+		coordinates: [42.2059263, 2.4931188],
+		description: [
+			"<h2>Sant Josep Obrer de la Canya</h2>",
+			"<small>Divisió administrativa: La Canya; Sant Joan les Fonts; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel Sacot",
+		type: "parroquia",
+		coordinates: [42.139207, 2.5321551],
+		description: [
+			"<h2>Sant Miquel Sacot</h2>",
+			"<small>Divisió administrativa: La Cot; Santa Pau; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de la Miana",
+		type: "parroquia",
+		coordinates: [42.17992205, 2.6314432],
+		description: [
+			"<h2>Sant Miquel de la Miana</h2>",
+			"<small>Divisió administrativa: La Miana; Sant Ferriol; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de la Pinya",
+		type: "parroquia",
+		coordinates: [42.1741754, 2.44367539],
+		description: [
+			"<h2>Santa Maria de la Pinya</h2>",
+			"<small>Divisió administrativa: La Pinya; La Vall d'en Bas; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de les Preses",
+		type: "parroquia",
+		coordinates: [42.1409867, 2.46112423],
+		description: [
+			"<h2>Sant Pere de les Preses</h2>",
+			"<small>Divisió administrativa: Les Preses; Les Preses; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Lligordà",
+		type: "parroquia",
+		coordinates: [42.21925455, 2.70751422],
+		description: [
+			"<h2>Sant Pere de Lligordà</h2>",
+			"<small>Divisió administrativa: Lligordà; Beuda; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Maià de Montcal",
+		type: "parroquia",
+		coordinates: [42.22235945, 2.74229831],
+		description: [
+			"<h2>Sant Vicenç de Maià de Montcal</h2>",
+			"<small>Divisió administrativa: Maià de Montcal; Maià de Montcal; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Montagut",
+		type: "parroquia",
+		coordinates: [42.23017605, 2.59648078],
+		description: [
+			"<h2>Sant Pere de Montagut</h2>",
+			"<small>Divisió administrativa: Montagut; Montagut i Oix; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Llorenç d'Oix",
+		type: "parroquia",
+		coordinates: [42.2714299, 2.52896322],
+		description: [
+			"<h2>Sant Llorenç d'Oix</h2>",
+			"<small>Divisió administrativa: Oix; Montagut i Oix; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve d'Olot",
+		type: "parroquia",
+		coordinates: [42.18231785, 2.48857838],
+		description: [
+			"<h2>Sant Esteve d'Olot</h2>",
+			"<small>Divisió administrativa: Olot; Olot; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere Màrtir d'Olot",
+		type: "parroquia",
+		coordinates: [42.18220895, 2.47821146],
+		description: [
+			"<h2>Sant Pere Màrtir d'Olot</h2>",
+			"<small>Divisió administrativa: Olot; Olot; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Roc d'Olot",
+		type: "parroquia",
+		coordinates: [42.17316865, 2.47310266],
+		description: [
+			"<h2>Sant Roc d'Olot</h2>",
+			"<small>Divisió administrativa: Olot; Olot; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cristòfol les Fonts d'Olot",
+		type: "parroquia",
+		coordinates: [42.16861125, 2.49986286],
+		description: [
+			"<h2>Sant Cristòfol les Fonts d'Olot</h2>",
+			"<small>Divisió administrativa: Olot; Olot; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Puigpardines",
+		type: "parroquia",
+		coordinates: [42.1395717, 2.428724],
+		description: [
+			"<h2>Santa Maria de Puigpardines</h2>",
+			"<small>Divisió administrativa: Puigpardines; La Vall d'en Bas; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Riudaura",
+		type: "parroquia",
+		coordinates: [42.18761775, 2.40871606],
+		description: [
+			"<h2>Santa Maria de Riudaura</h2>",
+			"<small>Divisió administrativa: Riudaura; Riudaura; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Rocabruna",
+		type: "parroquia",
+		coordinates: [42.33811285, 2.450528],
+		description: [
+			"<h2>Sant Feliu de Rocabruna</h2>",
+			"<small>Divisió administrativa: Rocabruna; Camprodon; Ripollès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Cecília de Sadernes",
+		type: "parroquia",
+		coordinates: [42.27006145, 2.59610202],
+		description: [
+			"<h2>Santa Cecília de Sadernes</h2>",
+			"<small>Divisió administrativa: Sadernes; Sales de Llierca; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Sales de Llierca",
+		type: "parroquia",
+		coordinates: [42.2357302, 2.64969288],
+		description: [
+			"<h2>Sant Martí de Sales de Llierca</h2>",
+			"<small>Divisió administrativa: Sales de Llierca; Sales de Llierca; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve d'en Bas",
+		type: "parroquia",
+		coordinates: [42.1184757, 2.45916496],
+		description: [
+			"<h2>Sant Esteve d'en Bas</h2>",
+			"<small>Divisió administrativa: Sant Esteve d'en Bas; La Vall d'en Bas; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Jaume de Llierca",
+		type: "parroquia",
+		coordinates: [42.2128003, 2.60875558],
+		description: [
+			"<h2>Sant Jaume de Llierca</h2>",
+			"<small>Divisió administrativa: Sant Jaume de Llierca; Sant Jaume de Llierca; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan Baptista de Sant Joan les Fonts",
+		type: "parroquia",
+		coordinates: [42.2133003, 2.50901508],
+		description: [
+			"<h2>Sant Joan Baptista de Sant Joan les Fonts</h2>",
+			"<small>Divisió administrativa: Sant Joan les Fonts; Sant Joan les Fonts; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí del Clot",
+		type: "parroquia",
+		coordinates: [42.2399046, 2.43452167],
+		description: [
+			"<h2>Sant Martí del Clot</h2>",
+			"<small>Divisió administrativa: Sant Martí del Clot; La Vall de Bianya; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere Despuig",
+		type: "parroquia",
+		coordinates: [42.2136836, 2.4262264],
+		description: [
+			"<h2>Sant Pere Despuig</h2>",
+			"<small>Divisió administrativa: Sant Pere Despuig; La Vall de Bianya; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Privat d'en Bas",
+		type: "parroquia",
+		coordinates: [42.1494814, 2.40785275],
+		description: [
+			"<h2>Sant Privat d'en Bas</h2>",
+			"<small>Divisió administrativa: Sant Privat d'en Bas; La Vall d'en Bas; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Salvador de Bianya",
+		type: "parroquia",
+		coordinates: [42.24713415, 2.40098056],
+		description: [
+			"<h2>Sant Salvador de Bianya</h2>",
+			"<small>Divisió administrativa: Sant Salvador de Bianya; La Vall de Bianya; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Margarida de Bianya",
+		type: "parroquia",
+		coordinates: [42.20755515, 2.44464909],
+		description: [
+			"<h2>Santa Margarida de Bianya</h2>",
+			"<small>Divisió administrativa: Santa Margarida de Bianya; La Vall de Bianya; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria Assumpta de Santa Pau",
+		type: "parroquia",
+		coordinates: [42.1442645, 2.57172193],
+		description: [
+			"<h2>Santa Maria Assumpta de Santa Pau</h2>",
+			"<small>Divisió administrativa: Santa Pau; Santa Pau; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Segueró",
+		type: "parroquia",
+		coordinates: [42.2417463, 2.74838984],
+		description: [
+			"<h2>Santa Maria de Segueró</h2>",
+			"<small>Divisió administrativa: Segueró; Beuda; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Tortellà",
+		type: "parroquia",
+		coordinates: [42.2330475, 2.62974772],
+		description: [
+			"<h2>Santa Maria de Tortellà</h2>",
+			"<small>Divisió administrativa: Tortellà; Tortellà; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Andreu del Coll",
+		type: "parroquia",
+		coordinates: [42.1967495, 2.45879592],
+		description: [
+			"<h2>Sant Andreu del Coll</h2>",
+			"<small>Divisió administrativa: Olot; Olot; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Sant Llorenç d'Adri",
 		type: "parroquia",
 		coordinates: [42.0521468, 2.74096085],
