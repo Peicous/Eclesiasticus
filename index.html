@@ -206,7 +206,29 @@
 
 		<script src="./codi.js"></script>
 		
-		<script async src="./mapa.js"></script>
+		<script>
+			var regions_externes = false;
+			var provincies_catalanes = false;
+		</script>
+		
+		<script async src="./polygons/regions_externes.js"></script>
+		<script async src="./polygons/provinces_catalanes.js"></script>
+		
 		<script async src="./locations.js"></script>
+
+		<script>
+			function checkGeoJsonLoaded() {
+				setTimeout(() => {
+					if (regions_externes && provincies_catalanes) {
+						instanceGeoJson();
+					}
+					else {
+						checkGeoJsonLoaded();
+					}
+				}, 500);
+			}
+
+			checkGeoJsonLoaded();
+		</script>
 	</body>
 </html>

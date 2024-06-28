@@ -57,8 +57,14 @@ var map = L.map('map', {
 var zoneLayer;
 var geojson_territori;
 
+const GeoJson = {
+	type: "FeatureCollection",
+	features:[]
+};
+
 //Polygons regions
-function instanceGeoJson(geo_json) {
+function instanceGeoJson() {
+	let geo_json = GeoJson;
 	if (geo_json != undefined) {
 		geojson_territori = L.geoJSON(geo_json, {
 			style: function (feature) {
