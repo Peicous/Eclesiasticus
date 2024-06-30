@@ -78,7 +78,8 @@ const locations = [
 			"<small>Divisió administrativa: El Colomer; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Ermita del veïnat del Colomer, al terme municipal d'Amer. Construïda al segle <span style='font-variant: small-caps'>xi</span>."
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Santa Brígida",
@@ -164,9 +165,12 @@ const locations = [
 		description: [
 			"<h2>Sant Sebastià de Bescanó</h2>",
 			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Capella de la vila de Bescanó, al terme municipal homònim. Inscripció del 1610."
-		]
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Sant_Sebasti%C3%A0_de_Bescan%C3%B3_%28vista_de_xaloc%29.jpg/640px-Sant_Sebasti%C3%A0_de_Bescan%C3%B3_%28vista_de_xaloc%29.jpg'/><br/>",
+			"Capella de la vila de Bescanó, al terme municipal homònim. Inscripció del 1610.",
+			"<br/><a href='#sant_sebastia_de_bescano'>Veure més informació</a>"
+		],
+		visited: true
 	},
 	{
 		name: "Santa Anna de Bescanó",
@@ -2675,8 +2679,11 @@ const locations = [
 			"<h2>Sant Llorenç de Bescanó</h2>",
 			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Església parroquial de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1058."
-		]
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Sant_Lloren%C3%A7_de_Bescan%C3%B3_%28vista_general%29.jpg/640px-Sant_Lloren%C3%A7_de_Bescan%C3%B3_%28vista_general%29.jpg'/><br/>",
+			"Església parroquial de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1058.",
+			"<br/><a href='#sant_llorenc_de_bescano'>Veure més informació</a>"
+		],
+		visited: true
 	},
 	{
 		name: "Sant Cristòfol de Cogolls",
@@ -3192,8 +3199,12 @@ const locations = [
 	        coordinates: [41.9660103, 2.7478965],
 	        description: [
 	                "<h2>Municipal</h2>",
-	                "<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small>"
-	        ]
+	                "<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/><br/>",
+	                "<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Cementiri_Municipal_de_Bescan%C3%B3_%28entrada%29.jpg/640px-Cementiri_Municipal_de_Bescan%C3%B3_%28entrada%29.jpg'/><br/>",
+	                "Cementiri de la vila de Bescanó, al terme municipal homònim. Inscripció del 1935.",
+	                "<br/><a href='#cementiri_municipal_de_bescano'>Veure més informació</a>"
+	        ],
+	        visited: true
 	},
 	{
 	        name: "Cementiri Parroquial de Montfullà",

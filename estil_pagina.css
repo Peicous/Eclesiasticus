@@ -1,0 +1,15 @@
+body {
+	margin: 5%;
+}
+img {
+	width: 95%;
+	display: block;
+	margin: auto;
+}
+p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+.small-caps {
+	font-variant: small-caps;
+}
