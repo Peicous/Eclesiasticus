@@ -2526,6 +2526,556 @@ const locations = [
 		]
 	},
 	{
+		name: "Sant Cugat d'Albons",
+		type: "parroquia",
+		coordinates: [42.1042921, 3.08571278],
+		description: [
+			"<h2>Sant Cugat d'Albons</h2>",
+			"<small>Divisió administrativa: Albons; Albons; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan de Bellcaire d'Empordà",
+		type: "parroquia",
+		coordinates: [42.08098165, 3.09430946],
+		description: [
+			"<h2>Sant Joan de Bellcaire d'Empordà</h2>",
+			"<small>Divisió administrativa: Bellcaire d'Empordà; Bellcaire d'Empordà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Cassà de Pelràs",
+		type: "parroquia",
+		coordinates: [42.0079442, 2.9946775],
+		description: [
+			"<h2>Sant Martí de Cassà de Pelràs</h2>",
+			"<small>Divisió administrativa: Cassà de Pelràs; Corçà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Mateu de Canet de Verges",
+		type: "parroquia",
+		coordinates: [42.0529815, 3.06816203],
+		description: [
+			"<h2>Sant Mateu de Canet de Verges</h2>",
+			"<small>Divisió administrativa: Canet de la Tallada; La Tallada d'Empordà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Genís de Casavells",
+		type: "parroquia",
+		coordinates: [41.99983595, 3.03307775],
+		description: [
+			"<h2>Sant Genís de Casavells</h2>",
+			"<small>Divisió administrativa: Casavells; Corçà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Tours de Castell d'Empordà",
+		type: "parroquia",
+		coordinates: [41.9808389, 3.0520172],
+		description: [
+			"<h2>Sant Martí de Tours de Castell d'Empordà</h2>",
+			"<small>Divisió administrativa: Castell d'Empordà; La Bisbal d'Empordà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Colomers",
+		type: "parroquia",
+		coordinates: [42.0841237, 2.9873452],
+		description: [
+			"<h2>Santa Maria de Colomers</h2>",
+			"<small>Divisió administrativa: Colomers; Colomers; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Julià i Santa Basilissa de Corçà",
+		type: "parroquia",
+		coordinates: [41.98944205, 3.01729478],
+		description: [
+			"<h2>Sant Julià i Santa Basilissa de Corçà</h2>",
+			"<small>Divisió administrativa: Corçà; Corçà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eulàlia de Cruïlles",
+		type: "parroquia",
+		coordinates: [41.9560322, 3.0115403],
+		description: [
+			"<h2>Santa Eulàlia de Cruïlles</h2>",
+			"<small>Divisió administrativa: Cruïlles; Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Coloma de Fitor",
+		type: "parroquia",
+		coordinates: [41.90598275, 3.08679099],
+		description: [
+			"<h2>Santa Coloma de Fitor</h2>",
+			"<small>Divisió administrativa: Fitor; Vulpellac, Fonteta i Peratallada; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan de Foixà",
+		type: "parroquia",
+		coordinates: [42.03969805, 2.99682634],
+		description: [
+			"<h2>Sant Joan de Foixà</h2>",
+			"<small>Divisió administrativa: Foixà; Foixà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cristòfol de Fonolleres",
+		type: "parroquia",
+		coordinates: [42.02103225, 3.05230082],
+		description: [
+			"<h2>Sant Cristòfol de Fonolleres</h2>",
+			"<small>Divisió administrativa: Fonolleres; Parlavà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Fontanilles",
+		type: "parroquia",
+		coordinates: [42.01191795, 3.10755611],
+		description: [
+			"<h2>Sant Martí de Fontanilles</h2>",
+			"<small>Divisió administrativa: Fontanilles; Fontanilles; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pau de Fontclara",
+		type: "parroquia",
+		coordinates: [41.9937876, 3.1229787],
+		description: [
+			"<h2>Sant Pau de Fontclara</h2>",
+			"<small>Divisió administrativa: Fontclara; Palau-sator; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Fonteta",
+		type: "parroquia",
+		coordinates: [41.95035825, 3.057411],
+		description: [
+			"<h2>Santa Maria de Fonteta</h2>",
+			"<small>Divisió administrativa: Fonteta; Vulpellac, Fonteta i Peratallada; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Sadurní de Garrigoles",
+		type: "parroquia",
+		coordinates: [42.1072742, 3.03058026],
+		description: [
+			"<h2>Sant Sadurní de Garrigoles</h2>",
+			"<small>Divisió administrativa: Garrigoles; Garrigoles; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Gaüses",
+		type: "parroquia",
+		coordinates: [42.1062175, 2.96620448],
+		description: [
+			"<h2>Santa Maria de Gaüses</h2>",
+			"<small>Divisió administrativa: Gaüses; Vilopriu; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Jafre",
+		type: "parroquia",
+		coordinates: [42.0726195, 3.01100648],
+		description: [
+			"<h2>Sant Martí de Jafre</h2>",
+			"<small>Divisió administrativa: Jafre; Jafre; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Anna de l'Estartit",
+		type: "parroquia",
+		coordinates: [42.05539235, 3.19912507],
+		description: [
+			"<h2>Santa Anna de l'Estartit</h2>",
+			"<small>Divisió administrativa: L'Estartit; Torroella de Montgrí; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de la Bisbal d'Empordà",
+		type: "parroquia",
+		coordinates: [41.9601415, 3.0385913],
+		description: [
+			"<h2>Santa Maria de la Bisbal d'Empordà</h2>",
+			"<small>Divisió administrativa: La Bisbal d'Empordà; La Bisbal d'Empordà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Romà de Llabià",
+		type: "parroquia",
+		coordinates: [42.01825955, 3.08824497],
+		description: [
+			"<h2>Sant Romà de Llabià</h2>",
+			"<small>Divisió administrativa: Llabià; Fontanilles; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Marenyà",
+		type: "parroquia",
+		coordinates: [42.09203485, 3.04648142],
+		description: [
+			"<h2>Sant Esteve de Marenyà</h2>",
+			"<small>Divisió administrativa: Marenyà; La Tallada d'Empordà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan de Matajudaica",
+		type: "parroquia",
+		coordinates: [42.00572765, 3.04393075],
+		description: [
+			"<h2>Sant Joan de Matajudaica</h2>",
+			"<small>Divisió administrativa: Matajudaica; Corçà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Genís de Monells",
+		type: "parroquia",
+		coordinates: [41.97537265, 2.99660152],
+		description: [
+			"<h2>Sant Genís de Monells</h2>",
+			"<small>Divisió administrativa: Monells; Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Palau-sator",
+		type: "parroquia",
+		coordinates: [41.9881336, 3.10965713],
+		description: [
+			"<h2>Sant Pere de Palau-sator</h2>",
+			"<small>Divisió administrativa: Palau-sator; Palau-sator; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Parlavà",
+		type: "parroquia",
+		coordinates: [42.022225, 3.03004093],
+		description: [
+			"<h2>Sant Feliu de Parlavà</h2>",
+			"<small>Divisió administrativa: Parlavà; Parlavà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Andreu de Pedrinyà",
+		type: "parroquia",
+		coordinates: [42.0094994, 2.96481432],
+		description: [
+			"<h2>Sant Andreu de Pedrinyà</h2>",
+			"<small>Divisió administrativa: Pedrinyà; La Pera; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Peratallada",
+		type: "parroquia",
+		coordinates: [41.97962265, 3.09052207],
+		description: [
+			"<h2>Sant Esteve de Peratallada</h2>",
+			"<small>Divisió administrativa: Peratallada; Vulpellac, Fonteta i Peratallada; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Púbol",
+		type: "parroquia",
+		coordinates: [42.01477385, 2.98337491],
+		description: [
+			"<h2>Sant Pere de Púbol</h2>",
+			"<small>Divisió administrativa: Púbol; La Pera; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Rupià",
+		type: "parroquia",
+		coordinates: [42.0208274, 3.01046875],
+		description: [
+			"<h2>Sant Vicenç de Rupià</h2>",
+			"<small>Divisió administrativa: Rupià; Rupià; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de la Sala",
+		type: "parroquia",
+		coordinates: [42.03300095, 3.01678473],
+		description: [
+			"<h2>Santa Maria de la Sala</h2>",
+			"<small>Divisió administrativa: La Sala; Foixà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cebrià de Lledó",
+		type: "parroquia",
+		coordinates: [41.91247125, 2.96684931],
+		description: [
+			"<h2>Sant Cebrià de Lledó</h2>",
+			"<small>Divisió administrativa: Lledó; Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Climent de Peralta",
+		type: "parroquia",
+		coordinates: [41.94971565, 3.09529602],
+		description: [
+			"<h2>Sant Climent de Peralta</h2>",
+			"<small>Divisió administrativa: Peralta; Vulpellac, Fonteta i Peratallada; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Boada",
+		type: "parroquia",
+		coordinates: [41.97377415, 3.12546174],
+		description: [
+			"<h2>Sant Feliu de Boada</h2>",
+			"<small>Divisió administrativa: Sant Feliu de Boada; Palau-sator; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Iscle d'Empordà",
+		type: "parroquia",
+		coordinates: [42.03226725, 3.05696858],
+		description: [
+			"<h2>Sant Iscle d'Empordà</h2>",
+			"<small>Divisió administrativa: Sant Iscle d'Empordà; Serra de Daró; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Llorenç de les Arenes",
+		type: "parroquia",
+		coordinates: [42.0611697, 2.97785482],
+		description: [
+			"<h2>Sant Llorenç de les Arenes</h2>",
+			"<small>Divisió administrativa: Sant Llorenç de les Arenes; Foixà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Jaume de Sant Pol de la Bisbal",
+		type: "parroquia",
+		coordinates: [41.9295363, 3.036196],
+		description: [
+			"<h2>Sant Jaume de Sant Pol de la Bisbal</h2>",
+			"<small>Divisió administrativa: Sant Pol; La Bisbal d'Empordà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Sadurní de l'Heura",
+		type: "parroquia",
+		coordinates: [41.9563527, 2.99099651],
+		description: [
+			"<h2>Sant Sadurní de l'Heura</h2>",
+			"<small>Divisió administrativa: Sant Sadurní de l'Heura; Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Pellaia",
+		type: "parroquia",
+		coordinates: [41.9201884, 2.91718523],
+		description: [
+			"<h2>Santa Pellaia</h2>",
+			"<small>Divisió administrativa: Santa Pellaia; Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de la Serra de Daró",
+		type: "parroquia",
+		coordinates: [42.0285908, 3.07228678],
+		description: [
+			"<h2>Santa Maria de la Serra de Daró</h2>",
+			"<small>Divisió administrativa: Serra de Daró; Serra de Daró; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de la Tallada d'Empordà",
+		type: "parroquia",
+		coordinates: [42.080065, 3.05591842],
+		description: [
+			"<h2>Santa Maria de la Tallada d'Empordà</h2>",
+			"<small>Divisió administrativa: La Tallada d'Empordà; La Tallada d'Empordà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Genís de Torroella de Montgrí",
+		type: "parroquia",
+		coordinates: [42.0435755, 3.12615477],
+		description: [
+			"<h2>Sant Genís de Torroella de Montgrí</h2>",
+			"<small>Divisió administrativa: Torroella de Montgrí; Torroella de Montgrí; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria d'Ullà",
+		type: "parroquia",
+		coordinates: [42.0516553, 3.10825846],
+		description: [
+			"<h2>Santa Maria d'Ullà</h2>",
+			"<small>Divisió administrativa: Ullà; Ullà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere d'Ullastret",
+		type: "parroquia",
+		coordinates: [42.00049155, 3.06875805],
+		description: [
+			"<h2>Sant Pere d'Ullastret</h2>",
+			"<small>Divisió administrativa: Ullastret; Ullastret; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eulàlia d'Ultramort",
+		type: "parroquia",
+		coordinates: [42.0362098, 3.03442728],
+		description: [
+			"<h2>Santa Eulàlia d'Ultramort</h2>",
+			"<small>Divisió administrativa: Ultramort; Ultramort; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Mateu de Valldevià",
+		type: "parroquia",
+		coordinates: [42.12186655, 3.00189514],
+		description: [
+			"<h2>Sant Mateu de Valldevià</h2>",
+			"<small>Divisió administrativa: Valldevià; Vilopriu; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Julià i Santa Basilissa de Verges",
+		type: "parroquia",
+		coordinates: [42.0608154, 3.04649848],
+		description: [
+			"<h2>Sant Julià i Santa Basilissa de Verges</h2>",
+			"<small>Divisió administrativa: Verges; Verges; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Julià i Santa Basilissa de Vulpellac",
+		type: "parroquia",
+		coordinates: [41.96001935, 3.05460029],
+		description: [
+			"<h2>Sant Julià i Santa Basilissa de Vulpellac</h2>",
+			"<small>Divisió administrativa: Vulpellac; Vulpellac, Fonteta i Peratallada; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eugènia de Saus",
+		type: "parroquia",
+		coordinates: [42.13244075, 2.97880564],
+		description: [
+			"<h2>Santa Eugènia de Saus</h2>",
+			"<small>Divisió administrativa: Saus; Saus, Camallera i Llampaies; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Bartomeu de Camallera",
+		type: "parroquia",
+		coordinates: [42.1227162, 2.96203733],
+		description: [
+			"<h2>Sant Bartomeu de Camallera</h2>",
+			"<small>Divisió administrativa: Camallera; Saus, Camallera i Llampaies; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Llampaies",
+		type: "parroquia",
+		coordinates: [42.12108425, 2.93673842],
+		description: [
+			"<h2>Sant Martí de Llampaies</h2>",
+			"<small>Divisió administrativa: Llampaies; Saus, Camallera i Llampaies; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Vilopriu",
+		type: "parroquia",
+		coordinates: [42.10443655, 2.99180805],
+		description: [
+			"<h2>Sant Pere de Vilopriu</h2>",
+			"<small>Divisió administrativa: Vilopriu; Vilopriu; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Vilaür",
+		type: "parroquia",
+		coordinates: [42.1436751, 2.95487676],
+		description: [
+			"<h2>Sant Esteve de Vilaür</h2>",
+			"<small>Divisió administrativa: Vilaür; Vilaür; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Gualta",
+		type: "parroquia",
+		coordinates: [42.02923695, 3.10342642],
+		description: [
+			"<h2>Santa Maria de Gualta</h2>",
+			"<small>Divisió administrativa: Gualta; Gualta; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Isidor de la Pera",
+		type: "parroquia",
+		coordinates: [42.0203908, 2.97361706],
+		description: [
+			"<h2>Sant Isidor de la Pera</h2>",
+			"<small>Divisió administrativa: La Pera; La Pera; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí - La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Sant Esteve de Caldes de Malavella",
 		type: "parroquia",
 		coordinates: [41.8365337, 2.80884147],
