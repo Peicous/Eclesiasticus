@@ -137,12 +137,22 @@ const locations = [
 		]
 	},
 	{
-		name: "Sant Bartomeu de Trullars",
+		name: "Sant Bartomeu d'Estanyol",
 		type: "esglesia",
 		coordinates: [41.9366246, 2.73506882],
 		description: [
-			"<h2>Sant Bartomeu de Trullars</h2>",
+			"<h2>Sant Bartomeu d'Estanyol</h2>",
 			"<small>Divisió administrativa: Estanyol; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Bartomeu de Trullars",
+		type: "esglesia",
+		coordinates: [41.95946425, 2.66843254],
+		description: [
+			"<h2>Sant Bartomeu de Trullars</h2>",
+			"<small>Divisió administrativa: Trullars; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Andreu d'Estanyol; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Capella del llogarret de Trullars, al terme municipal de Bescanó. Se'n té constància des del 1118, però es creu d'origen preromànic."
 		]
@@ -156,6 +166,16 @@ const locations = [
 			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Mateu de Vilanna; Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Capella del mas Amat Gros, al terme municipal de Bescanó. Construïda al segle <span style='font-variant: small-caps'>x</span>."
+		]
+	},
+	{
+		name: "Sant Pere",
+		type: "esglesia",
+		coordinates: [41.94319385, 2.72814921],
+		description: [
+			"<h2>Sant Pere</h2>",
+			"<small>Divisió administrativa: Estanyol; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
