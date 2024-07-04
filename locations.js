@@ -4701,6 +4701,156 @@ const locations = [
 		]
 	},
 	{
+		name: "Sant Sadurní de Salelles",
+		type: "parroquia",
+		coordinates: [41.78315655, 1.784281],
+		description: [
+			"<h2>Sant Sadurní de Salelles</h2>",
+			"<small>Divisió administrativa: Sant Salvador de Guardiola; Sant Salvador de Guardiola; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan de Vilatorrada",
+		type: "parroquia",
+		coordinates: [41.74301905, 1.80464166],
+		description: [
+			"<h2>Sant Joan de Vilatorrada</h2>",
+			"<small>Divisió administrativa: Sant Joan de Vilatorrada; Sant Joan de Vilatorrada; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu del Roser de Manresa",
+		type: "parroquia",
+		coordinates: [41.71525695, 1.80568991],
+		description: [
+			"<h2>Mare de Déu del Roser de Manresa</h2>",
+			"<small>Divisió administrativa: Manresa; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santuari de la Mare de Déu de la Salut",
+		type: "parroquia",
+		coordinates: [41.720613, 1.8629232],
+		description: [
+			"<h2>Santuari de la Mare de Déu de la Salut</h2>",
+			"<small>Divisió administrativa: Viladordis; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de l'Esperança de Manresa",
+		type: "parroquia",
+		coordinates: [41.7383492, 1.8214913],
+		description: [
+			"<h2>Mare de Déu de l'Esperança de Manresa</h2>",
+			"<small>Divisió administrativa: Manresa; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere Apòstol de Manresa",
+		type: "parroquia",
+		coordinates: [41.7354052, 1.8324074],
+		description: [
+			"<h2>Sant Pere Apòstol de Manresa</h2>",
+			"<small>Divisió administrativa: Manresa; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Josep de Manresa",
+		type: "parroquia",
+		coordinates: [41.73352215, 1.82472665],
+		description: [
+			"<h2>Sant Josep de Manresa</h2>",
+			"<small>Divisió administrativa: Manresa; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Crist Rei de Manresa",
+		type: "parroquia",
+		coordinates: [41.72846255, 1.82313778],
+		description: [
+			"<h2>Crist Rei de Manresa</h2>",
+			"<small>Divisió administrativa: Manresa; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sagrada Família de Manresa",
+		type: "parroquia",
+		coordinates: [41.727308, 1.83824519],
+		description: [
+			"<h2>Sagrada Família de Manresa</h2>",
+			"<small>Divisió administrativa: Manresa; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Montserrat de Manresa",
+		type: "parroquia",
+		coordinates: [41.72173735, 1.82409221],
+		description: [
+			"<h2>Santa Maria de Montserrat de Manresa</h2>",
+			"<small>Divisió administrativa: Manresa; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santuari de la Cova de Sant Ignasi",
+		type: "parroquia",
+		coordinates: [41.7214048, 1.83143201],
+		description: [
+			"<h2>Santuari de la Cova de Sant Ignasi</h2>",
+			"<small>Divisió administrativa: Manresa; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de la Seu de Manresa",
+		type: "parroquia",
+		coordinates: [41.7219144, 1.82720071],
+		description: [
+			"<h2>Santa Maria de la Seu de Manresa</h2>",
+			"<small>Divisió administrativa: Manresa; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Valldaura de Manresa",
+		type: "parroquia",
+		coordinates: [41.72424461, 1.81888103],
+		description: [
+			"<h2>Santa Maria de Valldaura de Manresa</h2>",
+			"<small>Divisió administrativa: Manresa; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de la Mercè de Manresa",
+		type: "parroquia",
+		coordinates: [41.7241852, 1.8221874],
+		description: [
+			"<h2>Mare de Déu de la Mercè de Manresa</h2>",
+			"<small>Divisió administrativa: Manresa; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu del Carme de Manresa",
+		type: "parroquia",
+		coordinates: [41.7245963, 1.82675415],
+		description: [
+			"<h2>Mare de Déu del Carme de Manresa</h2>",
+			"<small>Divisió administrativa: Manresa; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 	        name: "Cementiri Parroquial de Santa Maria d'Agullana",
 	        type: "cementiri",
 	        coordinates: [42.393881, 2.846673],
@@ -5619,7 +5769,7 @@ const locations = [
 	        coordinates: [41.8705124, 2.4175831],
 	        description: [
 	                "<h2>Cementiri Parroquial d'Espinelves</h2>",
-	                "<small>Divisió administrativa: Espinelves; Espinelves; Osona; Catalunya Central; Catalunya</small>"
+	                "<small>Divisió administrativa: Espinelves; Espinelves; Osona; Comarques centrals; Catalunya</small>"
 	        ]
 	},
 	{
@@ -7791,7 +7941,7 @@ const locations = [
 	        coordinates: [42.1445411, 2.3305805],
 	        description: [
 	                "<h2>Cementiri Parroquial de Santa Llúcia de Ciuret</h2>",
-	                "<small>Divisió administrativa: Ciuret; Vidrà; Osona; Catalunya Central; Catalunya</small>"
+	                "<small>Divisió administrativa: Ciuret; Vidrà; Osona; Comarques centrals; Catalunya</small>"
 	        ]
 	},
 	{
@@ -7800,7 +7950,7 @@ const locations = [
 	        coordinates: [42.1225093, 2.3092145],
 	        description: [
 	                "<h2>Cementiri Parroquial de Sant Hilari de Vidrà</h2>",
-	                "<small>Divisió administrativa: Vidrà; Vidrà; Osona; Catalunya Central; Catalunya</small>"
+	                "<small>Divisió administrativa: Vidrà; Vidrà; Osona; Comarques centrals; Catalunya</small>"
 	        ]
 	},
 	{
@@ -7944,7 +8094,7 @@ const locations = [
 	        coordinates: [41.8509331, 2.3941198],
 	        description: [
 	                "<h2>Cementiri Municipal de Viladrau</h2>",
-	                "<small>Divisió administrativa: Viladrau; Viladrau; Osona; Catalunya Central; Catalunya</small>"
+	                "<small>Divisió administrativa: Viladrau; Viladrau; Osona; Comarques centrals; Catalunya</small>"
 	        ]
 	},
 	{
