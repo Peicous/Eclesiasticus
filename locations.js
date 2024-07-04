@@ -755,6 +755,736 @@ const locations = [
 		]
 	},
 	{
+		name: "Santa Maria Assumpta d'Agullana",
+		type: "parroquia",
+		coordinates: [42.39417815, 2.84670024],
+		description: [
+			"<h2>Santa Maria Assumpta d'Agullana</h2>",
+			"<small>Divisió administrativa: Agullana; Agullana; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere d'Albanyà",
+		type: "parroquia",
+		coordinates: [42.30452655, 2.71999531],
+		description: [
+			"<h2>Sant Pere d'Albanyà</h2>",
+			"<small>Divisió administrativa: Albanyà; Albanyà; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Sadurní d'Arenys d'Empordà",
+		type: "parroquia",
+		coordinates: [42.16601685, 2.95347277],
+		description: [
+			"<h2>Sant Sadurní d'Arenys d'Empordà</h2>",
+			"<small>Divisió administrativa: Arenys d'Empordà; Garrigàs; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve d'Avinyonet de Puigventós",
+		type: "parroquia",
+		coordinates: [42.24956835, 2.91440845],
+		description: [
+			"<h2>Sant Esteve d'Avinyonet de Puigventós</h2>",
+			"<small>Divisió administrativa: Avinyonet de Puigventós; Avinyonet de Puigventós; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Iscle i Santa Victòria de Bàscara",
+		type: "parroquia",
+		coordinates: [42.1606101, 2.91013361],
+		description: [
+			"<h2>Sant Iscle i Santa Victòria de Bàscara</h2>",
+			"<small>Divisió administrativa: Bàscara; Bàscara; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Biure",
+		type: "parroquia",
+		coordinates: [42.337961, 2.89501651],
+		description: [
+			"<h2>Sant Esteve de Biure</h2>",
+			"<small>Divisió administrativa: Biure; Biure; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Cecília de Boadella d'Empordà",
+		type: "parroquia",
+		coordinates: [42.3297609, 2.85624701],
+		description: [
+			"<h2>Santa Cecília de Boadella d'Empordà</h2>",
+			"<small>Divisió administrativa: Boadella d'Empordà; Boadella i les Escaules; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Andreu de Borrassà",
+		type: "parroquia",
+		coordinates: [42.2231056, 2.92637238],
+		description: [
+			"<h2>Sant Andreu de Borrassà</h2>",
+			"<small>Divisió administrativa: Borrassà; Borrassà; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Coloma de Cabanelles",
+		type: "parroquia",
+		coordinates: [42.23093715, 2.81973601],
+		description: [
+			"<h2>Santa Coloma de Cabanelles</h2>",
+			"<small>Divisió administrativa: Cabanelles; Cabanelles; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Cabanes",
+		type: "parroquia",
+		coordinates: [42.3072317, 2.97762001],
+		description: [
+			"<h2>Sant Vicenç de Cabanes</h2>",
+			"<small>Divisió administrativa: A; A; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Calabuig",
+		type: "parroquia",
+		coordinates: [42.1520009, 2.92505745],
+		description: [
+			"<h2>Sant Feliu de Calabuig</h2>",
+			"<small>Divisió administrativa: Calabuig; Bàscara; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Cantallops",
+		type: "parroquia",
+		coordinates: [42.4225246, 2.9250546],
+		description: [
+			"<h2>Sant Esteve de Cantallops</h2>",
+			"<small>Divisió administrativa: Cantallops; Cantallops; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Àgata de Campmany",
+		type: "parroquia",
+		coordinates: [42.37264015, 2.92098686],
+		description: [
+			"<h2>Santa Àgata de Campmany</h2>",
+			"<small>Divisió administrativa: Campmany; Campmany; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria i Sant Sadurní de Cistella",
+		type: "parroquia",
+		coordinates: [42.2686224, 2.84834339],
+		description: [
+			"<h2>Santa Maria i Sant Sadurní de Cistella</h2>",
+			"<small>Divisió administrativa: Cistella; Cistella; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Darnius",
+		type: "parroquia",
+		coordinates: [42.3689551, 2.83153401],
+		description: [
+			"<h2>Santa Maria de Darnius</h2>",
+			"<small>Divisió administrativa: Darnius; Darnius; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Tours del Far d'Empordà",
+		type: "parroquia",
+		coordinates: [42.251912, 2.99626015],
+		description: [
+			"<h2>Sant Martí de Tours del Far d'Empordà</h2>",
+			"<small>Divisió administrativa: El Far d'Empordà; El Far d'Empordà; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria d'Ermedàs",
+		type: "parroquia",
+		coordinates: [42.18654155, 2.93826686],
+		description: [
+			"<h2>Santa Maria d'Ermedàs</h2>",
+			"<small>Divisió administrativa: Ermedàs; Garrigàs; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Llorenç d'Espinavessa",
+		type: "parroquia",
+		coordinates: [42.18888585, 2.8446758],
+		description: [
+			"<h2>Sant Llorenç d'Espinavessa</h2>",
+			"<small>Divisió administrativa: Espinavessa; Cabanelles; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Jaume d'Espolla",
+		type: "parroquia",
+		coordinates: [42.3924439, 3.00103058],
+		description: [
+			"<h2>Sant Jaume d'Espolla</h2>",
+			"<small>Divisió administrativa: Espolla; Espolla; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Figueres",
+		type: "parroquia",
+		coordinates: [42.2678624, 2.9602002],
+		description: [
+			"<h2>Sant Pere de Figueres</h2>",
+			"<small>Divisió administrativa: Figueres; Figueres; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "La Immaculada Concepció i Sant Pau de Figueres",
+		type: "parroquia",
+		coordinates: [42.2634326, 2.96281356],
+		description: [
+			"<h2>La Immaculada Concepció i Sant Pau de Figueres</h2>",
+			"<small>Divisió administrativa: Figueres; Figueres; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Bon Pastor de Figueres",
+		type: "parroquia",
+		coordinates: [42.2653259, 2.9501322],
+		description: [
+			"<h2>Bon Pastor de Figueres</h2>",
+			"<small>Divisió administrativa: Figueres; Figueres; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sagrada Família de Figueres",
+		type: "parroquia",
+		coordinates: [42.2713940, 2.9672922],
+		description: [
+			"<h2>Sagrada Família de Figueres</h2>",
+			"<small>Divisió administrativa: Figueres; Figueres; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Figueres",
+		type: "parroquia",
+		coordinates: [42.2613388, 2.9556778],
+		description: [
+			"<h2>Santa Maria de Figueres</h2>",
+			"<small>Divisió administrativa: Figueres; Figueres; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan Baptista de Vilatenim",
+		type: "parroquia",
+		coordinates: [42.27121825, 2.99485885],
+		description: [
+			"<h2>Sant Joan Baptista de Vilatenim</h2>",
+			"<small>Divisió administrativa: Vilatenim; Figueres; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Julià i Santa Basilissa de Fortià",
+		type: "parroquia",
+		coordinates: [42.24199835, 3.04100688],
+		description: [
+			"<h2>Sant Julià i Santa Basilissa de Fortià</h2>",
+			"<small>Divisió administrativa: Fortià; Fortià; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Garrigàs",
+		type: "parroquia",
+		coordinates: [42.1977217, 2.95013439],
+		description: [
+			"<h2>Sant Miquel de Garrigàs</h2>",
+			"<small>Divisió administrativa: Garrigàs; Garrigàs; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eulàlia de Garriguella",
+		type: "parroquia",
+		coordinates: [42.3423286, 3.0648689],
+		description: [
+			"<h2>Santa Eulàlia de Garriguella</h2>",
+			"<small>Divisió administrativa: Garriguella; Garriguella; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de la Jonquera",
+		type: "parroquia",
+		coordinates: [42.4173036, 2.87352626],
+		description: [
+			"<h2>Santa Maria de la Jonquera</h2>",
+			"<small>Divisió administrativa: La Jonquera; La Jonquera; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de la Vajol",
+		type: "parroquia",
+		coordinates: [42.40402225, 2.80006789],
+		description: [
+			"<h2>Sant Martí de la Vajol</h2>",
+			"<small>Divisió administrativa: La Vajol; La Vajol; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de les Escaules",
+		type: "parroquia",
+		coordinates: [42.32055325, 2.88251331],
+		description: [
+			"<h2>Sant Martí de les Escaules</h2>",
+			"<small>Divisió administrativa: Les Escaules; Boadella i les Escaules; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Lledó",
+		type: "parroquia",
+		coordinates: [42.24783475, 2.8135433],
+		description: [
+			"<h2>Santa Maria de Lledó</h2>",
+			"<small>Divisió administrativa: Lledó d'Empordà; Lledó d'Empordà; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Julià i Santa Basilissa de Llers",
+		type: "parroquia",
+		coordinates: [42.2914001, 2.91139372],
+		description: [
+			"<h2>Sant Julià i Santa Basilissa de Llers</h2>",
+			"<small>Divisió administrativa: Llers; Llers; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Maçanet de Cabrenys",
+		type: "parroquia",
+		coordinates: [42.3861413, 2.74784637],
+		description: [
+			"<h2>Sant Martí de Maçanet de Cabrenys</h2>",
+			"<small>Divisió administrativa: Maçanet de Cabrenys; Maçanet de Cabrenys; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Masarac",
+		type: "parroquia",
+		coordinates: [42.35140525, 2.97283495],
+		description: [
+			"<h2>Sant Martí de Masarac</h2>",
+			"<small>Divisió administrativa: Masarac; Masarac; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cebrià de Mollet de Peralada",
+		type: "parroquia",
+		coordinates: [42.36062165, 2.99977185],
+		description: [
+			"<h2>Sant Cebrià de Mollet de Peralada</h2>",
+			"<small>Divisió administrativa: Mollet de Peralada; Mollet de Peralada; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Navata",
+		type: "parroquia",
+		coordinates: [42.2174064, 2.86715199],
+		description: [
+			"<h2>Sant Pere de Navata</h2>",
+			"<small>Divisió administrativa: Navata; Navata; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Julià i Santa Basilissa d'Ordis",
+		type: "parroquia",
+		coordinates: [42.21864125, 2.90700111],
+		description: [
+			"<h2>Sant Julià i Santa Basilissa d'Ordis</h2>",
+			"<small>Divisió administrativa: Ordis; Ordis; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Genís d'Orriols",
+		type: "parroquia",
+		coordinates: [42.1243887, 2.90692039],
+		description: [
+			"<h2>Sant Genís d'Orriols</h2>",
+			"<small>Divisió administrativa: Orriols; Bàscara; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eulàlia de Palau",
+		type: "parroquia",
+		coordinates: [42.1734081, 2.96474302],
+		description: [
+			"<h2>Santa Eulàlia de Palau</h2>",
+			"<small>Divisió administrativa: Palau de Santa Eulàlia; Palau de Santa Eulàlia; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan Baptista de Palau-saverdera",
+		type: "parroquia",
+		coordinates: [42.3067941, 3.14594914],
+		description: [
+			"<h2>Sant Joan Baptista de Palau-saverdera</h2>",
+			"<small>Divisió administrativa: Palau-saverdera; Palau-saverdera; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Llogaia de Parets",
+		type: "parroquia",
+		coordinates: [42.1668156, 2.88909078],
+		description: [
+			"<h2>Santa Llogaia de Parets</h2>",
+			"<small>Divisió administrativa: Parets d'Empordà; Vilademuls; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Pau",
+		type: "parroquia",
+		coordinates: [42.3158814, 3.11661833],
+		description: [
+			"<h2>Sant Martí de Pau</h2>",
+			"<small>Divisió administrativa: Pau; Pau; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Pedret i Marzà",
+		type: "parroquia",
+		coordinates: [42.3064345, 3.08278146],
+		description: [
+			"<h2>Sant Esteve de Pedret i Marzà</h2>",
+			"<small>Divisió administrativa: Pedret i Marzà; Pedret i Marzà; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Peralada",
+		type: "parroquia",
+		coordinates: [42.3083374, 3.00840806],
+		description: [
+			"<h2>Sant Martí de Peralada</h2>",
+			"<small>Divisió administrativa: Peralada; Peralada; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Pont de Molins",
+		type: "parroquia",
+		coordinates: [42.31571135, 2.92146663],
+		description: [
+			"<h2>Santa Maria de Pont de Molins</h2>",
+			"<small>Divisió administrativa: Pont de Molins; Pont de Molins; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Tours de Pontós",
+		type: "parroquia",
+		coordinates: [42.1868098, 2.91720025],
+		description: [
+			"<h2>Sant Martí de Tours de Pontós</h2>",
+			"<small>Divisió administrativa: Pontós; Pontós; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Queixàs",
+		type: "parroquia",
+		coordinates: [42.21414325, 2.79811312],
+		description: [
+			"<h2>Sant Martí de Queixàs</h2>",
+			"<small>Divisió administrativa: Queixàs; Cabanelles; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Julià i Santa Basilissa de Rabós",
+		type: "parroquia",
+		coordinates: [42.3789862, 3.02871393],
+		description: [
+			"<h2>Sant Julià i Santa Basilissa de Rabós</h2>",
+			"<small>Divisió administrativa: Rabós d'Empordà; Rabós d'Empordà; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Mamet de Riumors",
+		type: "parroquia",
+		coordinates: [42.227461, 3.04227821],
+		description: [
+			"<h2>Sant Mamet de Riumors</h2>",
+			"<small>Divisió administrativa: Riumors; Riumors; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Emeteri i Celdoni de Romanyà d'Empordà",
+		type: "parroquia",
+		coordinates: [42.1766265, 2.89468865],
+		description: [
+			"<h2>Sant Emeteri i Celdoni de Romanyà d'Empordà</h2>",
+			"<small>Divisió administrativa: Romanyà d'Empordà; Pontós; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Climent Sescebes",
+		type: "parroquia",
+		coordinates: [42.3688108, 2.98016972],
+		description: [
+			"<h2>Sant Climent Sescebes</h2>",
+			"<small>Divisió administrativa: Sant Climent Sescebes; Sant Climent Sescebes; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Llorenç de la Muga",
+		type: "parroquia",
+		coordinates: [42.32013585, 2.79016838],
+		description: [
+			"<h2>Sant Llorenç de la Muga</h2>",
+			"<small>Divisió administrativa: Sant Llorenç de la Muga; Sant Llorenç de la Muga; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí Sesserres",
+		type: "parroquia",
+		coordinates: [42.25982965, 2.77471254],
+		description: [
+			"<h2>Sant Martí Sesserres</h2>",
+			"<small>Divisió administrativa: Sant Martí Sesserres; Cabanelles; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Fluvià",
+		type: "parroquia",
+		coordinates: [42.1718354, 2.99191316],
+		description: [
+			"<h2>Sant Miquel de Fluvià</h2>",
+			"<small>Divisió administrativa: Sant Miquel de Fluvià; Sant Miquel de Fluvià; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Llogaia d'Àlguema",
+		type: "parroquia",
+		coordinates: [42.23327615, 2.95215923],
+		description: [
+			"<h2>Santa Llogaia d'Àlguema</h2>",
+			"<small>Divisió administrativa: Santa Llogaia d'Àlguema; Santa Llogaia d'Àlguema; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Coloma de Siurana",
+		type: "parroquia",
+		coordinates: [42.20948065, 2.99461822],
+		description: [
+			"<h2>Santa Coloma de Siurana</h2>",
+			"<small>Divisió administrativa: Siurana; Siurana; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Llorenç de Sous",
+		type: "parroquia",
+		coordinates: [42.25462015, 2.715146],
+		description: [
+			"<h2>Sant Llorenç de Sous</h2>",
+			"<small>Divisió administrativa: Sous; Albanyà; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Taravaus",
+		type: "parroquia",
+		coordinates: [42.2447437, 2.88989945],
+		description: [
+			"<h2>Sant Martí de Taravaus</h2>",
+			"<small>Divisió administrativa: Taravaus; Vilanant; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Cecília de Terrades",
+		type: "parroquia",
+		coordinates: [42.3102195, 2.8398446],
+		description: [
+			"<h2>Santa Cecília de Terrades</h2>",
+			"<small>Divisió administrativa: Terrades; Terrades; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Vila-sacra",
+		type: "parroquia",
+		coordinates: [42.26614605, 3.0183937],
+		description: [
+			"<h2>Sant Esteve de Vila-sacra</h2>",
+			"<small>Divisió administrativa: Vila-sacra; Vila-sacra; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Vilabertran",
+		type: "parroquia",
+		coordinates: [42.28209825, 2.97912537],
+		description: [
+			"<h2>Santa Maria de Vilabertran</h2>",
+			"<small>Divisió administrativa: Vilabertran; Vilabertran; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Mateu de Vilademires",
+		type: "parroquia",
+		coordinates: [42.22899715, 2.79425227],
+		description: [
+			"<h2>Sant Mateu de Vilademires</h2>",
+			"<small>Divisió administrativa: Vilademires; Cabanelles; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cebrià de Vilafant",
+		type: "parroquia",
+		coordinates: [42.2470767, 2.9378011],
+		description: [
+			"<h2>Sant Cebrià de Vilafant</h2>",
+			"<small>Divisió administrativa: Vilafant; Vilafant; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Vilajuïga",
+		type: "parroquia",
+		coordinates: [42.3250944, 3.0929952],
+		description: [
+			"<h2>Sant Feliu de Vilajuïga</h2>",
+			"<small>Divisió administrativa: Vilajuïga; Vilajuïga; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Vilamalla",
+		type: "parroquia",
+		coordinates: [42.2186005, 2.97040375],
+		description: [
+			"<h2>Sant Vicenç de Vilamalla</h2>",
+			"<small>Divisió administrativa: Vilamalla; Vilamalla; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Gil de Vilamaniscle",
+		type: "parroquia",
+		coordinates: [42.3739543, 3.06899529],
+		description: [
+			"<h2>Sant Gil de Vilamaniscle</h2>",
+			"<small>Divisió administrativa: Vilamaniscle; Vilamaniscle; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Vilanant",
+		type: "parroquia",
+		coordinates: [42.2547582, 2.88909238],
+		description: [
+			"<h2>Santa Maria de Vilanant</h2>",
+			"<small>Divisió administrativa: Vilanant; Vilanant; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Eulàlia de Vilanova de la Muga",
+		type: "parroquia",
+		coordinates: [42.28011675, 3.04270393],
+		description: [
+			"<h2>Santa Eulàlia de Vilanova de la Muga</h2>",
+			"<small>Divisió administrativa: Vilanova de la Muga; Peralada; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Vilarig",
+		type: "parroquia",
+		coordinates: [42.2863724, 2.83366066],
+		description: [
+			"<h2>Sant Martí de Vilarig</h2>",
+			"<small>Divisió administrativa: Vilarig; Cistella; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Vilarnadal",
+		type: "parroquia",
+		coordinates: [42.34125715, 2.95305564],
+		description: [
+			"<h2>Sant Pere de Vilarnadal</h2>",
+			"<small>Divisió administrativa: Vilarnadal; Masarac; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de l'Estela",
+		type: "parroquia",
+		coordinates: [42.2832311, 2.78249211],
+		description: [
+			"<h2>Santa Maria de l'Estela</h2>",
+			"<small>Divisió administrativa: L'Estela; Cabanelles; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Maurici de Sant Mori",
+		type: "parroquia",
+		coordinates: [42.15375765, 2.99108444],
+		description: [
+			"<h2>Sant Maurici de Sant Mori</h2>",
+			"<small>Divisió administrativa: Sant Mori; Sant Mori; Alt Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Empordà Interior; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Santa Maria de Cadaqués",
 		type: "parroquia",
 		coordinates: [42.2881782, 3.2756285],
