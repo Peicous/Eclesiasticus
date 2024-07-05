@@ -246,6 +246,16 @@ const locations = [
 		]
 	},
 	{
+		name: "Santuari de la Mare de Déu de la Tosca",
+		type: "esglesia",
+		coordinates: [41.7795493, 2.0767714],
+		description: [
+			"<h2>Santuari de la Mare de Déu de la Tosca</h2>",
+			"<small>Divisió administrativa: Marfà; Castellcir; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Convent de les Germanes Carmelites",
 		type: "esglesia",
 		coordinates: [41.96873525, 2.62120261],
@@ -296,6 +306,16 @@ const locations = [
 			"Ermita del veïnat de Plademunt, al terme municipal de la Cellera de Ter. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xii</span>."
 		],
 		visited: true
+	},
+	{
+		name: "Santuari de la Mare de Déu de l'Ecologia",
+		type: "esglesia",
+		coordinates: [41.68804055, 2.11138449],
+		description: [
+			"<h2>Santuari de la Mare de Déu de l'Ecologia</h2>",
+			"<small>Divisió administrativa: Gallifa; Gallifa; Vallès Occidental; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
 	},
 	{
 		name: "Santuari de la Cova de Sant Ignasi",
@@ -4848,6 +4868,186 @@ const locations = [
 			"<h2>Mare de Déu del Carme de Manresa</h2>",
 			"<small>Divisió administrativa: Manresa; Manresa; Bages; Comarques centrals; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Manresa; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Terrassola",
+		type: "parroquia",
+		coordinates: [41.89458165, 2.10220793],
+		description: [
+			"<h2>Sant Feliu de Terrassola</h2>",
+			"<small>Divisió administrativa: Sant Feliuet de Terrassola; Santa Maria d'Oló; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de l'Estany",
+		type: "parroquia",
+		coordinates: [41.86929955, 2.11252284],
+		description: [
+			"<h2>Santa Maria de l'Estany</h2>",
+			"<small>Divisió administrativa: L'Estany; L'Estany; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Rodors",
+		type: "parroquia",
+		coordinates: [41.8411352, 2.0825465],
+		description: [
+			"<h2>Sant Feliu de Rodors</h2>",
+			"<small>Divisió administrativa: Rodors; Moià; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Ferrerons",
+		type: "parroquia",
+		coordinates: [41.8290546, 2.12751211],
+		description: [
+			"<h2>Sant Pere de Ferrerons</h2>",
+			"<small>Divisió administrativa: Ferrerons; Moià; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Collsuspina",
+		type: "parroquia",
+		coordinates: [41.82534195, 2.17481536],
+		description: [
+			"<h2>Santa Maria de Collsuspina</h2>",
+			"<small>Divisió administrativa: Collsuspina; Collsuspina; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Moià",
+		type: "parroquia",
+		coordinates: [41.8117736, 2.0986152],
+		description: [
+			"<h2>Santa Maria de Moià</h2>",
+			"<small>Divisió administrativa: Moià; Moià; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Coloma Sasserra",
+		type: "parroquia",
+		coordinates: [41.79461475, 2.16866578],
+		description: [
+			"<h2>Santa Coloma Sasserra</h2>",
+			"<small>Divisió administrativa: Santa Coloma Sasserra; Castellcir; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Calders",
+		type: "parroquia",
+		coordinates: [41.7892225, 1.99195319],
+		description: [
+			"<h2>Sant Vicenç de Calders</h2>",
+			"<small>Divisió administrativa: Calders; Calders; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Marfà",
+		type: "parroquia",
+		coordinates: [41.7799672, 2.06963563],
+		description: [
+			"<h2>Sant Pere de Marfà</h2>",
+			"<small>Divisió administrativa: Marfà; Castellcir; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Andreu de Castellcir",
+		type: "parroquia",
+		coordinates: [41.76010785, 2.16072712],
+		description: [
+			"<h2>Sant Andreu de Castellcir</h2>",
+			"<small>Divisió administrativa: Castellcir; Castellcir; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Monistrol de Calders",
+		type: "parroquia",
+		coordinates: [41.75978115, 2.01409284],
+		description: [
+			"<h2>Sant Feliu de Monistrol de Calders</h2>",
+			"<small>Divisió administrativa: Monistrol de Calders; Monistrol de Calders; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Fruitós de Castellterçol",
+		type: "parroquia",
+		coordinates: [41.75177975, 2.12114919],
+		description: [
+			"<h2>Sant Fruitós de Castellterçol</h2>",
+			"<small>Divisió administrativa: Castellterçol; Castellterçol; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Quirze i Santa Julita Safaja",
+		type: "parroquia",
+		coordinates: [41.7278969, 2.15508659],
+		description: [
+			"<h2>Sant Quirze i Santa Julita Safaja</h2>",
+			"<small>Divisió administrativa: Sant Quirze Safaja; Sant Quirze Safaja; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Granera",
+		type: "parroquia",
+		coordinates: [41.72541025, 2.05720196],
+		description: [
+			"<h2>Sant Martí de Granera</h2>",
+			"<small>Divisió administrativa: Granera; Granera; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Riells del Fai",
+		type: "parroquia",
+		coordinates: [41.6988595, 2.19850793],
+		description: [
+			"<h2>Sant Vicenç de Riells del Fai</h2>",
+			"<small>Divisió administrativa: Riells del Fai; Bigues i Riells del Fai; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere i Sant Feliu de Gallifa",
+		type: "parroquia",
+		coordinates: [41.6950903, 2.11268826],
+		description: [
+			"<h2>Sant Pere i Sant Feliu de Gallifa</h2>",
+			"<small>Divisió administrativa: Gallifa; Gallifa; Vallès Occidental; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Codines",
+		type: "parroquia",
+		coordinates: [41.6879004, 2.16172879],
+		description: [
+			"<h2>Sant Feliu de Codines</h2>",
+			"<small>Divisió administrativa: Sant Feliu de Codines; Sant Feliu de Codines; Vallès Oriental; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Llorenç Savall",
+		type: "parroquia",
+		coordinates: [41.6786601, 2.0578365],
+		description: [
+			"<h2>Sant Llorenç Savall</h2>",
+			"<small>Divisió administrativa: Sant Llorenç Savall; Sant Llorenç Savall; Vallès Occidental; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
