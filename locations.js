@@ -256,6 +256,16 @@ const locations = [
 		]
 	},
 	{
+		name: "Santuari de Santa Maria del Pla",
+		type: "esglesia",
+		coordinates: [41.6660267, 1.68377485],
+		description: [
+			"<h2>Santuari de Santa Maria del Pla</h2>",
+			"<small>Divisió administrativa: Castellfollit del Boix; Castellfollit del Boix; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Convent de les Germanes Carmelites",
 		type: "esglesia",
 		coordinates: [41.96873525, 2.62120261],
@@ -306,6 +316,16 @@ const locations = [
 			"Ermita del veïnat de Plademunt, al terme municipal de la Cellera de Ter. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xii</span>."
 		],
 		visited: true
+	},
+	{
+		name: "Santuari de la Mare de Déu del Grau",
+		type: "esglesia",
+		coordinates: [41.75003885, 1.70880646],
+		description: [
+			"<h2>Santuari de la Mare de Déu del Grau</h2>",
+			"<small>Divisió administrativa: Fals; Fonollosa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
 	},
 	{
 		name: "Santuari de la Mare de Déu de l'Ecologia",
@@ -632,6 +652,26 @@ const locations = [
 			"<h2>Santa Cecília</h2>",
 			"<small>Divisió administrativa: Sant Feliu de Pallerols; Garrotxa; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santuari de la Mare de Déu de Joncadella",
+		type: "esglesia",
+		coordinates: [41.7660052, 1.79498909],
+		description: [
+			"<h2>Santuari de la Mare de Déu de Joncadella</h2>",
+			"<small>Divisió administrativa: Joncadella; Sant Joan de Vilatorrada; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santuari de la Mare de Déu de Castellet",
+		type: "esglesia",
+		coordinates: [41.6639357, 1.85081505],
+		description: [
+			"<h2>Santuari de la Mare de Déu de Castellet</h2>",
+			"<small>Divisió administrativa: Sant Vicenç de Castellet; Sant Vicenç de Castellet; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -4731,9 +4771,199 @@ const locations = [
 		]
 	},
 	{
-		name: "Sant Sadurní de Salelles",
+		name: "Sant Miquel de Castelltallat",
+		type: "parroquia",
+		coordinates: [41.79365565, 1.63297935],
+		description: [
+			"<h2>Sant Miquel de Castelltallat</h2>",
+			"<small>Divisió administrativa: Castelltallat; Sant Mateu de Bages; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Camps",
+		type: "parroquia",
+		coordinates: [41.7772943, 1.68431734],
+		description: [
+			"<h2>Santa Maria de Camps</h2>",
+			"<small>Divisió administrativa: Camps; Fonollosa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Creu de Fonollosa",
+		type: "parroquia",
+		coordinates: [41.76328945, 1.66921464],
+		description: [
+			"<h2>Santa Creu de Fonollosa</h2>",
+			"<small>Divisió administrativa: Fonollosa; Fonollosa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Fals",
+		type: "parroquia",
+		coordinates: [41.74239005, 1.71410014],
+		description: [
+			"<h2>Sant Vicenç de Fals</h2>",
+			"<small>Divisió administrativa: Canet de Fals; Fonollosa; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Iscle i Santa Victòria de Rajadell",
+		type: "parroquia",
+		coordinates: [41.7289245, 1.70631459],
+		description: [
+			"<h2>Sant Iscle i Santa Victòria de Rajadell</h2>",
+			"<small>Divisió administrativa: Rajadell; Rajadell; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Monistrolet",
+		type: "parroquia",
+		coordinates: [41.72958025, 1.76020259],
+		description: [
+			"<h2>Santa Maria de Monistrolet</h2>",
+			"<small>Divisió administrativa: Monistrolet; Rajadell; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Sadurní de Callús",
 		type: "parroquia",
 		coordinates: [41.78315655, 1.784281],
+		description: [
+			"<h2>Sant Sadurní de Callús</h2>",
+			"<small>Divisió administrativa: Callús; Callús; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Mateu de Bages",
+		type: "parroquia",
+		coordinates: [41.79600115, 1.73186799],
+		description: [
+			"<h2>Sant Mateu de Bages</h2>",
+			"<small>Divisió administrativa: Sant Mateu de Bages; Sant Mateu de Bages; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Rocafort",
+		type: "parroquia",
+		coordinates: [41.71704915, 1.93645236],
+		description: [
+			"<h2>Santa Maria de Rocafort</h2>",
+			"<small>Divisió administrativa: Rocafort de Bages; El Pont de Vilomara i Rocafort; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Magdalena del Pont de Vilomara",
+		type: "parroquia",
+		coordinates: [41.70413005, 1.87188261],
+		description: [
+			"<h2>Santa Magdalena del Pont de Vilomara</h2>",
+			"<small>Divisió administrativa: El Pont de Vilomara; El Pont de Vilomara i Rocafort; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Cecília de Grevalosa",
+		type: "parroquia",
+		coordinates: [41.693103, 1.6539785],
+		description: [
+			"<h2>Santa Cecília de Grevalosa</h2>",
+			"<small>Divisió administrativa: Grevalosa; Castellfollit del Boix; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Castellfollit del Boix",
+		type: "parroquia",
+		coordinates: [41.6696256, 1.70127669],
+		description: [
+			"<h2>Sant Pere de Castellfollit del Boix</h2>",
+			"<small>Divisió administrativa: Castellfollit del Boix; Castellfollit del Boix; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Salvador de Guardiola",
+		type: "parroquia",
+		coordinates: [41.6729413, 1.76476607],
+		description: [
+			"<h2>Sant Salvador de Guardiola</h2>",
+			"<small>Divisió administrativa: Sant Salvador de Guardiola; Sant Salvador de Guardiola; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Castellgalí",
+		type: "parroquia",
+		coordinates: [41.67624105, 1.8396505],
+		description: [
+			"<h2>Sant Miquel de Castellgalí</h2>",
+			"<small>Divisió administrativa: Castellgalí; Castellgalí; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Castellet",
+		type: "parroquia",
+		coordinates: [41.6674563, 1.86449545],
+		description: [
+			"<h2>Sant Vicenç de Castellet</h2>",
+			"<small>Divisió administrativa: Sant Vicenç de Castellet; Sant Vicenç de Castellet; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Castellbell",
+		type: "parroquia",
+		coordinates: [41.6418209, 1.8618177],
+		description: [
+			"<h2>Sant Vicenç de Castellbell</h2>",
+			"<small>Divisió administrativa: Castellbell i el Vilar; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria del Vilar",
+		type: "parroquia",
+		coordinates: [41.63373185, 1.86056251],
+		description: [
+			"<h2>Santa Maria del Vilar</h2>",
+			"<small>Divisió administrativa: El Vilar; Castellbell i el Vilar; Bages; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere i Sant Fermí de Rellinars",
+		type: "parroquia",
+		coordinates: [41.6399481, 1.91161711],
+		description: [
+			"<h2>Sant Pere i Sant Fermí de Rellinars</h2>",
+			"<small>Divisió administrativa: Rellinars; Rellinars; Vallès Occidental; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Vacarisses",
+		type: "parroquia",
+		coordinates: [41.60710955, 1.91761648],
+		description: [
+			"<h2>Sant Pere de Vacarisses</h2>",
+			"<small>Divisió administrativa: Vacarisses; Vacarisses; Vallès Occidental; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Sadurní de Salelles",
+		type: "parroquia",
+		coordinates: [41.7017875, 1.7858891],
 		description: [
 			"<h2>Sant Sadurní de Salelles</h2>",
 			"<small>Divisió administrativa: Sant Salvador de Guardiola; Sant Salvador de Guardiola; Bages; Comarques centrals; Catalunya</small><br/>",
@@ -5016,7 +5246,7 @@ const locations = [
 		coordinates: [41.6988595, 2.19850793],
 		description: [
 			"<h2>Sant Vicenç de Riells del Fai</h2>",
-			"<small>Divisió administrativa: Riells del Fai; Bigues i Riells del Fai; Moianès; Comarques centrals; Catalunya</small><br/>",
+			"<small>Divisió administrativa: Riells del Fai; Bigues i Riells del Fai; Vallès Oriental; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Moianès; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
 		]
 	},
