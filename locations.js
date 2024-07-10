@@ -671,7 +671,9 @@ const locations = [
 		description: [
 			"<h2>Sant Pere Màrtir de Sant Julià del Llor</h2>",
 			"<small>Divisió administrativa: Sant Julià del Llor; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Sant_Pere_M%C3%A0rtir_de_Sant_Juli%C3%A0_del_Llor_%28fa%C3%A7ana_principal%29.jpg/320px-Sant_Pere_M%C3%A0rtir_de_Sant_Juli%C3%A0_del_Llor_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
+			"Oratori en el disseminat de la vila de Sant Julià del Llor, al terme municipal de Sant Julià del Llor i Bonmatí. Construït el segle <span style='font-variant: small-caps'>xx</span>."
 		],
 		visited: true
 	},
@@ -4617,7 +4619,9 @@ const locations = [
 		description: [
 			"<h2>Sant Julià del Llor</h2>",
 			"<small>Divisió administrativa: Sant Julià del Llor; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Ermita_de_Sant_Juli%C3%A0_del_Llor_%28fa%C3%A7ana_principal%29.jpg/320px-Ermita_de_Sant_Juli%C3%A0_del_Llor_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
+			"Església parroquial de la vila de Sant Julià del Llor, al terme municipal de Sant Julià del Llor i Bonmatí. Se'n té constància des del 9 de novembre del 949."
 		],
 		visited: true
 	},
@@ -4649,6 +4653,7 @@ const locations = [
 			"<h2>Sant Mateu de Vilanna</h2>",
 			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Sant_Mateu_de_Vilanna_%28vista_general%29.jpg/640px-Sant_Mateu_de_Vilanna_%28vista_general%29.jpg'/><br/>",
 			"Església parroquial del poble de Vilanna, al terme municipal de Bescanó. Se'n té constància des del 899."
 		],
 		visited: true
@@ -5743,7 +5748,9 @@ const locations = [
 		coordinates: [41.975822, 2.703396],
 		description: [
 			"<h2>Cementiri Municipal de Vilanna</h2>",
-			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small>"
+			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Cementiri_Municipal_de_Vilanna_%28entrada%29.jpg/640px-Cementiri_Municipal_de_Vilanna_%28entrada%29.jpg'/><br/>",
+			"Cementiri municipal de la vila de Vilanna, al terme municipal de Bescanó. Antic cementiri parroquial, municipalitzat el 26 de gener de 1933."
 		],
 		visited: true
 	},
@@ -8942,7 +8949,9 @@ const locations = [
 		coordinates: [41.9691936, 2.6474636],
 		description: [
 			"<h2>Cementiri Municipal de Sant Julià del Llor</h2>",
-			"<small>Divisió administrativa: Sant Julià del Llor; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small>"
+			"<small>Divisió administrativa: Sant Julià del Llor; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cementiri_Municipal_de_Sant_Juli%C3%A0_del_Llor_%28entrada%29.jpg/640px-Cementiri_Municipal_de_Sant_Juli%C3%A0_del_Llor_%28entrada%29.jpg'/><br/>",
+			"Cementiri municipal de la vila de Sant Julià del Llor, al terme municipal de Sant Julià del Llor i Bonmatí. Antic cementiri parroquial, reconstruït el 1875 i municipalitzat el 26 de gener de 1933."
 		],
 		visited: true
 	},
