@@ -665,6 +665,17 @@ const locations = [
 		]
 	},
 	{
+		name: "Sant Pere Màrtir de Sant Julià del Llor",
+		type: "esglesia",
+		coordinates: [41.974089, 2.6405228],
+		description: [
+			"<h2>Sant Pere Màrtir de Sant Julià del Llor</h2>",
+			"<small>Divisió administrativa: Sant Julià del Llor; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		],
+		visited: true
+	},
+	{
 		name: "Santuari de la Mare de Déu de Castellet",
 		type: "esglesia",
 		coordinates: [41.6639357, 1.85081505],
@@ -4607,7 +4618,8 @@ const locations = [
 			"<h2>Sant Julià del Llor</h2>",
 			"<small>Divisió administrativa: Sant Julià del Llor; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Martí Sapresa",
@@ -4638,7 +4650,8 @@ const locations = [
 			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Església parroquial del poble de Vilanna, al terme municipal de Bescanó. Se'n té constància des del 899."
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Santa Maria de Bonmatí",
@@ -5731,7 +5744,8 @@ const locations = [
 		description: [
 			"<h2>Cementiri Municipal de Vilanna</h2>",
 			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Cementiri Parroquial de Segueró",
@@ -8929,7 +8943,8 @@ const locations = [
 		description: [
 			"<h2>Cementiri Municipal de Sant Julià del Llor</h2>",
 			"<small>Divisió administrativa: Sant Julià del Llor; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Cementiri Municipal de Bonmatí",
