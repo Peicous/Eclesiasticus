@@ -211,8 +211,11 @@ const locations = [
 			"<h2>Santa Margarida de Bescanó</h2>",
 			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó; Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Capella del Mas Viader de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1400."
-		]
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Santa_Margarida_de_Bescan%C3%B3_%28vista_general%29.jpg/640px-Santa_Margarida_de_Bescan%C3%B3_%28vista_general%29.jpg?uselang=ca'/><br/>",
+			"Capella del Mas Viader de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1378.",
+			"<br/><a href='#santa_margarida_de_bescano'>Veure més informació</a>"
+		],
+		visited: true
 	},
 	{
 		name: "Santa Maria Assumpta de Bescanó",
