@@ -30,6 +30,18 @@ const locations = [
 		coordinates: [42.018650, 2.659538]
 	},
 	{
+		name: "Creu dels carlins de Vilanna",
+		type: "desconegut",
+		coordinates: [41.9748951, 2.7046024],
+		description: [
+			"<h2>Creu dels carlins de Vilanna</h2>",
+			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Creu_dels_carlins_de_Vilanna_%28vista_de_migjorn%29.jpg/320px-Creu_dels_carlins_de_Vilanna_%28vista_de_migjorn%29.jpg'/><br/>",
+			"Creu de terme al poble de Vilanna, al terme municipal de Bescanó. Construïda el 1913."
+		],
+		visited: true
+	},
+	{
 		name: "Nostra Senyora de la Pietat del Pedreguet",
 		type: "esglesia",
 		coordinates: [42.00604025, 2.60475809],
