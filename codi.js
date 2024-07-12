@@ -266,8 +266,12 @@ map.setMinZoom(9);
 
 //groups
 const parroquiesGroup = L.layerGroup();
-const esglesiesGroup = L.layerGroup();
 const cementirisGroup = L.layerGroup();
+const esglesiesGroup = L.layerGroup();
+const monestirisGroup = L.layerGroup();
+const oratorisGroup = L.layerGroup();
+const memorialsGroup = L.layerGroup();
+
 const altresGroup = L.layerGroup();
 const debugGroup = L.layerGroup();
 
@@ -275,8 +279,12 @@ const debugGroup = L.layerGroup();
 function loadLocations(local_locations) {
 	//Neteja de grups
 	parroquiesGroup.clearLayers();
-	esglesiesGroup.clearLayers();
 	cementirisGroup.clearLayers();
+	esglesiesGroup.clearLayers();
+	monestirisGroup.clearLayers();
+	oratorisGroup.clearLayers();
+	memorialsGroup.clearLayers();
+
 	altresGroup.clearLayers();
 	debugGroup.clearLayers();
 
@@ -347,15 +355,25 @@ function loadLocations(local_locations) {
 		debug_marker.on('mouseover', handleMarkerHover);
 		debug_marker.on('mouseout', handleMarkerOut);
 		
-		if (location.type === 'esglesia') {
-			marker.addTo(esglesiesGroup);
-		} 
-		else if (location.type === 'parroquia') {
+		if (location.type === 'parroquia') {
 			marker.addTo(parroquiesGroup);
 		}
 		else if (location.type === 'cementiri') {
 			marker.addTo(cementirisGroup);
 		}
+		else if (location.type === 'esglesia') {
+			marker.addTo(esglesiesGroup);
+		}
+		else if (location.type === 'monestir') {
+			marker.addTo(monestirisGroup);
+		}
+		else if (location.type === 'oratori') {
+			marker.addTo(oratorisGroup);
+		}
+		else if (location.type === 'memorial') {
+			marker.addTo(memorialsGroup);
+		}
+		
 		else {
 			if (location.type === 'area') {
 				L.circle(location.coordinates, {
@@ -377,8 +395,11 @@ function loadLocations(local_locations) {
 
 // Add layer groups to the map
 esglesiesGroup.addTo(map);
-parroquiesGroup.addTo(map);
 cementirisGroup.addTo(map);
+parroquiesGroup.addTo(map);
+monestirisGroup.addTo(map);
+oratorisGroup.addTo(map);
+memorialsGroup.addTo(map);
 altresGroup.addTo(map);
 
 //debugGroup.addTo(map);
@@ -411,6 +432,36 @@ cementirisCheckbox.addEventListener("change", function() {
 	}
 	else {
 		map.removeLayer(cementirisGroup);
+	}
+});
+
+const monestirsCheckbox = document.getElementById("monestirs_input");
+monestirsCheckbox.addEventListener("change", function() {
+	if (this.checked) {
+		monestirisGroup.addTo(map);
+	}
+	else {
+		map.removeLayer(monestirisGroup);
+	}
+});
+
+const oratorisCheckbox = document.getElementById("oratoris_input");
+oratorisCheckbox.addEventListener("change", function() {
+	if (this.checked) {
+		oratorisGroup.addTo(map);
+	}
+	else {
+		map.removeLayer(oratorisGroup);
+	}
+});
+
+const memorialsCheckbox = document.getElementById("monuments_input");
+memorialsCheckbox.addEventListener("change", function() {
+	if (this.checked) {
+		memorialsGroup.addTo(map);
+	}
+	else {
+		map.removeLayer(memorialsGroup);
 	}
 });
 
