@@ -31,7 +31,7 @@ const locations = [
 	},
 	{
 		name: "Creu dels carlins de Vilanna",
-		type: "desconegut",
+		type: "memorial",
 		coordinates: [41.9748951, 2.7046024],
 		description: [
 			"<h2>Creu dels carlins de Vilanna</h2>",
@@ -282,7 +282,7 @@ const locations = [
 	},
 	{
 		name: "Convent de les Germanes Carmelites",
-		type: "esglesia",
+		type: "monestir",
 		coordinates: [41.96873525, 2.62120261],
 		description: [
 			"<h2>Convent de les Germanes Carmelites</h2>",
@@ -295,7 +295,7 @@ const locations = [
 	},
 	{
 		name: "Oratori de Sant Benet de Palerm",
-		type: "esglesia",
+		type: "oratori",
 		coordinates: [41.9735898, 2.6183135],
 		description: [
 			"<h2>Oratori de Sant Benet de Palerm</h2>",
@@ -308,7 +308,7 @@ const locations = [
 	},
 	{
 		name: "Oratori de Sant Pelegrí",
-		type: "esglesia",
+		type: "oratori",
 		coordinates: [41.970385, 2.6174136],
 		description: [
 			"<h2>Oratori de Sant Pelegrí</h2>",
@@ -681,7 +681,7 @@ const locations = [
 	},
 	{
 		name: "Sant Pere Màrtir de Sant Julià del Llor",
-		type: "esglesia",
+		type: "oratori",
 		coordinates: [41.974089, 2.6405228],
 		description: [
 			"<h2>Sant Pere Màrtir de Sant Julià del Llor</h2>",
