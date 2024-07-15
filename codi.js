@@ -1,4 +1,3 @@
-//Afegir layer satelit
 //Carrega asincrona
 //Colors de pla terriotiral
 //Canviar icones
@@ -355,13 +354,13 @@ function loadLocations(local_locations) {
 		debug_marker.on('mouseover', handleMarkerHover);
 		debug_marker.on('mouseout', handleMarkerOut);
 		
-		if (location.type === 'parroquia') {
+		if (location.type === 'parroquia') { //esglesia basica mida gran
 			marker.addTo(parroquiesGroup);
 		}
 		else if (location.type === 'cementiri') {
 			marker.addTo(cementirisGroup);
 		}
-		else if (location.type === 'esglesia') {
+		else if (location.type === 'esglesia') { //esglesia basica mida petita
 			marker.addTo(esglesiesGroup);
 		}
 		else if (location.type === 'monestir') {
@@ -507,6 +506,25 @@ function createSidePanel() {
 		scrollingPanel.style.display = "none";
 	}
 }
+
+//Vistes
+const osmViewCheckbox = document.getElementById("osm_input");
+const sateliteViewCheckbox = document.getElementById("satelite_input");
+
+osmViewCheckbox.addEventListener("click", function() {
+	if (this.checked) {
+		sateliteViewCheckbox.checked = false;
+		layer_osm.addTo(map);
+		layer_satellite.removeFrom(map);
+	}
+});
+sateliteViewCheckbox.addEventListener("click", function() {
+	if (this.checked) {
+		osmViewCheckbox.checked = false;
+		layer_satellite.addTo(map);
+		layer_osm.removeFrom(map);
+	}
+});
 
 //Filtres
 
