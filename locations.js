@@ -150,6 +150,19 @@ const locations = [
 		]
 	},
 	{
+		name: "Oratori de Sant Antoni Abat",
+		type: "oratori",
+		coordinates: [41.960481, 2.733438],
+		description: [
+			"<h2>Oratori de Sant Antoni Abat</h2>",
+			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Oratori_de_Sant_Antoni_Abat_de_Bescan%C3%B3_%28vista_frontal%29.jpg/320px-Oratori_de_Sant_Antoni_Abat_de_Bescan%C3%B3_%28vista_frontal%29.jpg'/><br/>",
+			"Oratori de la vila de Bescanó, al terme municipal homònim."
+		],
+		visited: true
+	},
+	{
 		name: "Sant Bartomeu d'Estanyol",
 		type: "esglesia",
 		coordinates: [41.9366246, 2.73506882],
