@@ -5594,7 +5594,8 @@ const locations = [
 			"<h2>Cementiri Nou d'Anglès</h2>",
 			"<small>Divisió administrativa: Anglès; Anglès; Selva; Comarques gironines; Catalunya</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Cementiri_Municipal_d%27Angl%C3%A8s_%28entrada%29.jpg/640px-Cementiri_Municipal_d%27Angl%C3%A8s_%28entrada%29.jpg'/><br/>",
-			"Cementiri nou de la vila d'Anglès, al terme municipal homònim. Construït durant la dècada de 1980 per la falta de capacitat i la impossibilitat d'ampliació del vell."
+			"Cementiri nou de la vila d'Anglès, al terme municipal homònim. Construït entre les dècades de 1980 i 1990.",
+			"<br/><a href='#cementiri_nou_d_angles'>Veure més informació</a>"
 		],
 		visited: true
 	},
