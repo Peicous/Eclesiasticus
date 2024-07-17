@@ -114,7 +114,8 @@ const comarques_gironines_cementiris = [
 			"<h2>Cementiri Vell d'Anglès</h2>",
 			"<small>Divisió administrativa: Anglès; Anglès; Selva; Comarques gironines; Catalunya</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cementiri_vell_d%27Angl%C3%A8s_%28entrada%29.jpg/640px-Cementiri_vell_d%27Angl%C3%A8s_%28entrada%29.jpg'/><br/>",
-			"Cementiri vell de la vila d'Anglès, al terme municipal homònim. Construït durant la dècada de 1910-1920 per la impossibilitat d'ampliació i les poques condicions higièniques de l'antic cementiri parroquial."
+			"Antic cementiri de la vila d'Anglès, al terme municipal homònim. Construït entre les dècades de 1910 i 1920.",
+			"<br/><a href='#cementiri_vell_d_angles'>Veure més informació</a>"
 		],
 		visited: true
 	},
