@@ -867,6 +867,35 @@ const locations = [
 		]
 	},
 	{
+		name: "Sant Roc de Vilablareix",
+		type: "esglesia",
+		coordinates: [41.9485636, 2.7654113],
+		description: [
+			"<h2>Sant Roc de Vilablareix</h2>",
+			"<small>Divisió administrativa: Vilablareix; Vilablareix; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Madrencs",
+		type: "esglesia",
+		coordinates: [41.9483118, 2.7940514],
+		description: [
+			"<h2>Santa Maria de Madrencs</h2>",
+			"<small>Divisió administrativa: Vilablareix; Vilablareix; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Torre sepulcral de Vilablareix",
+		type: "desconegut",
+		coordinates: [41.9544074, 2.7740135],
+		description: [
+			"<h2>Torre sepulcral de Vilablareix</h2>",
+			"<small>Divisió administrativa: Vilablareix; Vilablareix; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Agullana",
 		type: "parroquia",
 		coordinates: [42.39417815, 2.84670024],
