@@ -262,6 +262,19 @@ map.setMaxBounds(
 map.setView([42.0201463, 2.5149485], 10);
 map.setMinZoom(9);
 
+function getAllLocations() {
+	return [
+		...locations, //Versió antiga
+		...comarques_gironines_parroquies,
+		...comarques_gironines_oratoris,
+		...comarques_gironines_monestirs,
+		...comarques_gironines_memorials,
+		...comarques_gironines_esglesies,
+		...comarques_gironines_cementiris,
+		...comarques_gironines_altres
+	];
+}
+
 
 //groups
 const parroquiesGroup = L.layerGroup();
@@ -531,11 +544,13 @@ sateliteViewCheckbox.addEventListener("click", function() {
 //Filtre per ubicacions visitades
 const visitatCheckbox = document.getElementById("visitat_input");
 visitatCheckbox.addEventListener("change", function() {
+	const all_locations = getAllLocations();
+
 	if (this.checked) {
-		let filtered_locations = locations.filter(location => location.visited);
+		const filtered_locations = all_locations.filter(location => location.visited);
 		loadLocations(filtered_locations);
 	}
 	else {
-		loadLocations(locations);
+		loadLocations(all_locations);
 	}
 });
