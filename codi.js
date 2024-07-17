@@ -271,7 +271,14 @@ function getAllLocations() {
 		...comarques_gironines_memorials,
 		...comarques_gironines_esglesies,
 		...comarques_gironines_cementiris,
-		...comarques_gironines_altres
+		...comarques_gironines_altres,
+		...comarques_centrals_parroquies,
+		...comarques_centrals_oratoris,
+		...comarques_centrals_monestirs,
+		...comarques_centrals_memorials,
+		...comarques_centrals_esglesies,
+		...comarques_centrals_cementiris,
+		...comarques_centrals_altres
 	];
 }
 
