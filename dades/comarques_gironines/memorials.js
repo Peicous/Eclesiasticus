@@ -12,6 +12,4 @@ const comarques_gironines_memorials = [
 		],
 		visited: true
 	}
-]
-
-loadLocations(comarques_gironines_memorials);
+];

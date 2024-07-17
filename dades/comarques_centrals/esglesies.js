@@ -59,6 +59,4 @@ const comarques_centrals_esglesies = [
 			"<small>Divisió eclesiàstica: Arxiprestat del Bages - Sud; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
 		]
 	}
-]
-
-loadLocations(comarques_centrals_esglesies);
+];

@@ -43,6 +43,4 @@ const comarques_gironines_altres = [
 		radi: 500,
 		coordinates: [41.9544074, 2.7740135]
 	}
-]
-
-loadLocations(comarques_gironines_altres);
+];

@@ -619,6 +619,4 @@ const comarques_centrals_parroquies = [
 			"<small>Divisió eclesiàstica: Arxiprestat de Vic; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
 		]
 	}
-]
-
-loadLocations(comarques_centrals_parroquies);
+];

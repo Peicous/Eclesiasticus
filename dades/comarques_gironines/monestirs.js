@@ -22,6 +22,4 @@ const comarques_gironines_monestirs = [
 			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	}
-]
-
-loadLocations(comarques_gironines_monestirs);
+];

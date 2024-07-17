@@ -688,6 +688,4 @@ const comarques_gironines_esglesies = [
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	}
-]
-
-loadLocations(comarques_gironines_esglesies);
+];

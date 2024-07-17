@@ -265,23 +265,26 @@
 		<script async src="./polygons/regions_externes.js"></script>
 		<script async src="./polygons/provinces_catalanes.js"></script>
 		
-		<script async src="./locations.js"></script>
-		<script async src="./dades/comarques_gironines/parroquies.js"></script>
-		<script async src="./dades/comarques_gironines/oratoris.js"></script>
-		<script async src="./dades/comarques_gironines/monestirs.js"></script>
-		<script async src="./dades/comarques_gironines/memorials.js"></script>
-		<script async src="./dades/comarques_gironines/esglesies.js"></script>
-		<script async src="./dades/comarques_gironines/cementiris.js"></script>
-		<script async src="./dades/comarques_gironines/altres.js"></script>
-		<script async src="./dades/comarques_centrals/parroquies.js"></script>
-		<script async src="./dades/comarques_centrals/oratoris.js"></script>
-		<script async src="./dades/comarques_centrals/monestirs.js"></script>
-		<script async src="./dades/comarques_centrals/memorials.js"></script>
-		<script async src="./dades/comarques_centrals/esglesies.js"></script>
-		<script async src="./dades/comarques_centrals/cementiris.js"></script>
-		<script async src="./dades/comarques_centrals/altres.js"></script>
+		<script src="./locations.js"></script>
+		<script src="./dades/comarques_gironines/parroquies.js"></script>
+		<script src="./dades/comarques_gironines/oratoris.js"></script>
+		<script src="./dades/comarques_gironines/monestirs.js"></script>
+		<script src="./dades/comarques_gironines/memorials.js"></script>
+		<script src="./dades/comarques_gironines/esglesies.js"></script>
+		<script src="./dades/comarques_gironines/cementiris.js"></script>
+		<script src="./dades/comarques_gironines/altres.js"></script>
+		<script src="./dades/comarques_centrals/parroquies.js"></script>
+		<script src="./dades/comarques_centrals/oratoris.js"></script>
+		<script src="./dades/comarques_centrals/monestirs.js"></script>
+		<script src="./dades/comarques_centrals/memorials.js"></script>
+		<script src="./dades/comarques_centrals/esglesies.js"></script>
+		<script src="./dades/comarques_centrals/cementiris.js"></script>
+		<script src="./dades/comarques_centrals/altres.js"></script>
 
 		<script>
+			const all_locations = getAllLocations();
+			loadLocations(all_locations);
+
 			function checkGeoJsonLoaded() {
 				setTimeout(() => {
 					if (regions_externes && provincies_catalanes) {

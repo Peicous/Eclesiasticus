@@ -3781,6 +3781,4 @@ const comarques_gironines_parroquies = [
 			"<small>Divisió eclesiàstica: Arxiprestat de la Tordera; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	}
-]
-
-loadLocations(comarques_gironines_parroquies);
+];

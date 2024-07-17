@@ -3290,6 +3290,4 @@ const comarques_gironines_cementiris = [
 			"<small>Divisió administrativa: Bonmatí; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small>"
 		]
 	}
-]
-
-loadLocations(comarques_gironines_cementiris);
+];

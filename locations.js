@@ -411,5 +411,3 @@ const locations = [
 		]
 	}
 ];
-
-loadLocations(locations);

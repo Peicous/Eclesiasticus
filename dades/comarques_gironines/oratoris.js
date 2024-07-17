@@ -61,6 +61,4 @@ const comarques_gironines_oratoris = [
 		],
 		visited: true
 	}
-]
-
-loadLocations(comarques_gironines_oratoris);
+];

@@ -44,6 +44,4 @@ const comarques_centrals_cementiris = [
 			"<small>Divisió administrativa: Viladrau; Viladrau; Osona; Comarques centrals; Catalunya</small>"
 		]
 	}
-]
-
-loadLocations(comarques_centrals_cementiris);
+];
