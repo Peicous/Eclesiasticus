@@ -278,7 +278,14 @@ function getAllLocations() {
 		...comarques_centrals_memorials,
 		...comarques_centrals_esglesies,
 		...comarques_centrals_cementiris,
-		...comarques_centrals_altres
+		...comarques_centrals_altres,
+		...area_metropolitana_barcelona_parroquies,
+		...area_metropolitana_barcelona_oratoris,
+		...area_metropolitana_barcelona_monestirs,
+		...area_metropolitana_barcelona_memorials,
+		...area_metropolitana_barcelona_esglesies,
+		...area_metropolitana_barcelona_cementiris,
+		...area_metropolitana_barcelona_altres
 	];
 }
 
