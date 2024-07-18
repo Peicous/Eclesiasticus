@@ -1,5 +1,19 @@
 const comarques_gironines_altres = [
 	{
+		name: "Roca de les Trenta Creus",
+		type: "desconegut",
+		coordinates: [41.9096676, 2.8657991],
+		description: [
+			"<h2>Roca de les Trenta Creus</h2>",
+			"<small>Divisió administrativa: Llambilles; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		type: "area",
+		radi: 500,
+		coordinates: [41.9096676, 2.8657991]
+	},
+	{
 		name: "Castell de Fornils",
 		type: "desconegut", 
 		coordinates: [42.0201463, 2.5149485],

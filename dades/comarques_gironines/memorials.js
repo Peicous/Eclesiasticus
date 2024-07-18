@@ -11,5 +11,14 @@ const comarques_gironines_memorials = [
 			"<br/><a href='#creu_dels_carlins_de_vilanna'>Veure més informació</a>"
 		],
 		visited: true
+	},
+	{
+		name: "Creu d'en Vinyoles",
+		type: "memorial",
+		coordinates: [41.9536007, 2.9042698],
+		description: [
+			"<h2>Creu d'en Vinyoles</h2>",
+			"<small>Divisió administrativa: Montnegre; Quart; Gironès; Comarques gironines; Catalunya</small>",
+		]
 	}
 ];

@@ -3481,7 +3481,7 @@ const comarques_gironines_parroquies = [
 			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
-		{
+	{
 		name: "Sant Cristòfol de Llambilles",
 		type: "parroquia",
 		coordinates: [41.92102435, 2.85919633],

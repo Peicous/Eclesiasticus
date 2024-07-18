@@ -1,5 +1,15 @@
 const comarques_gironines_esglesies = [
 	{
+		name: "Santa Maria de Vilademany",
+		type: "esglesia",
+		coordinates: [41.9194587, 2.7699164],
+		description: [
+			"<h2>Santa Maria de Vilademany</h2>",
+			"<small>Divisió administrativa: Vilademany; Aiguaviva; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Nostra Senyora de la Pietat del Pedreguet",
 		type: "esglesia",
 		coordinates: [42.00604025, 2.60475809],
@@ -230,6 +240,36 @@ const comarques_gironines_esglesies = [
 			"Ermita del veïnat de Plademunt, al terme municipal de la Cellera de Ter. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xii</span>."
 		],
 		visited: true
+	},
+	{
+		name: "Santa Maria del Castell de Fornells",
+		type: "esglesia",
+		coordinates: [41.9264474, 2.8033268],
+		description: [
+			"<h2>Santa Maria del Castell de Fornells</h2>",
+			"<small>Divisió administrativa: Fornells de la Selva; Fornells de la Selva; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de la Pietat d'Erols",
+		type: "esglesia",
+		coordinates: [41.9292183, 2.850897],
+		description: [
+			"<h2>Mare de Déu de la Pietat d'Erols</h2>",
+			"<small>Divisió administrativa: Erols; Llambilles; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cristòfol del Bosc",
+		type: "esglesia",
+		coordinates: [41.9135182, 2.8806844],
+		description: [
+			"<h2>Sant Cristòfol del Bosc</h2>",
+			"<small>Divisió administrativa: Llambilles; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
 	},
 	{
 		name: "Nostra Senyora de l'Esperança",
@@ -466,6 +506,16 @@ const comarques_gironines_esglesies = [
 			"<h2>Sant Miquel del Corb</h2>",
 			"<small>Divisió administrativa: Les Preses; Garrotxa; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de l'Alt Fluvià; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de Montnegre",
+		type: "esglesia",
+		coordinates: [41.9557402, 2.9323718],
+		description: [
+			"<h2>Mare de Déu de Montnegre</h2>",
+			"<small>Divisió administrativa: Montnegre; Quart; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
