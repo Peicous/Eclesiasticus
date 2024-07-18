@@ -265,13 +265,20 @@ map.setMinZoom(9);
 function getAllLocations() {
 	return [
 		...locations, //Versió antiga
-		...comarques_gironines_parroquies,
-		...comarques_gironines_oratoris,
-		...comarques_gironines_monestirs,
-		...comarques_gironines_memorials,
-		...comarques_gironines_esglesies,
-		...comarques_gironines_cementiris,
-		...comarques_gironines_altres,
+		...alt_pirineu_aran_parroquies,
+		...alt_pirineu_aran_oratoris,
+		...alt_pirineu_aran_monestirs,
+		...alt_pirineu_aran_memorials,
+		...alt_pirineu_aran_esglesies,
+		...alt_pirineu_aran_cementiris,
+		...alt_pirineu_aran_altres,
+		...area_metropolitana_barcelona_parroquies,
+		...area_metropolitana_barcelona_oratoris,
+		...area_metropolitana_barcelona_monestirs,
+		...area_metropolitana_barcelona_memorials,
+		...area_metropolitana_barcelona_esglesies,
+		...area_metropolitana_barcelona_cementiris,
+		...area_metropolitana_barcelona_altres,
 		...comarques_centrals_parroquies,
 		...comarques_centrals_oratoris,
 		...comarques_centrals_monestirs,
@@ -279,13 +286,13 @@ function getAllLocations() {
 		...comarques_centrals_esglesies,
 		...comarques_centrals_cementiris,
 		...comarques_centrals_altres,
-		...area_metropolitana_barcelona_parroquies,
-		...area_metropolitana_barcelona_oratoris,
-		...area_metropolitana_barcelona_monestirs,
-		...area_metropolitana_barcelona_memorials,
-		...area_metropolitana_barcelona_esglesies,
-		...area_metropolitana_barcelona_cementiris,
-		...area_metropolitana_barcelona_altres
+		...comarques_gironines_parroquies,
+		...comarques_gironines_oratoris,
+		...comarques_gironines_monestirs,
+		...comarques_gironines_memorials,
+		...comarques_gironines_esglesies,
+		...comarques_gironines_cementiris,
+		...comarques_gironines_altres
 	];
 }
 
