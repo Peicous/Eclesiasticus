@@ -569,6 +569,76 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
+		name: "Església vella de Sant Gregori",
+		type: "esglesia",
+		coordinates: [41.99147055, 2.73816051],
+		description: [
+			"<h2>Església vella de Sant Gregori</h2>",
+			"<small>Divisió administrativa: Veïnat de l'Església; Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de la Pietat",
+		type: "esglesia",
+		coordinates: [41.9867025, 2.7016439],
+		description: [
+			"<h2>Mare de Déu de la Pietat</h2>",
+			"<small>Divisió administrativa: Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Bartomeu de Segalars",
+		type: "esglesia",
+		coordinates: [41.97793895, 2.74810684],
+		description: [
+			"<h2>Sant Bartomeu de Segalars</h2>",
+			"<small>Divisió administrativa: Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Grau de Tudela",
+		type: "esglesia",
+		coordinates: [41.9924557, 2.71495088],
+		description: [
+			"<h2>Sant Grau de Tudela</h2>",
+			"<small>Divisió administrativa: Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Esperança",
+		type: "esglesia",
+		coordinates: [42.0122214, 2.7634038],
+		description: [
+			"<h2>Santa Esperança</h2>",
+			"<small>Divisió administrativa: Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Calders",
+		type: "esglesia",
+		coordinates: [41.98024365, 2.67150323],
+		description: [
+			"<h2>Santa Maria de Calders</h2>",
+			"<small>Divisió administrativa: Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santuari de Santa Afra",
+		type: "esglesia",
+		coordinates: [42.0061263, 2.72072989],
+		description: [
+			"<h2>Santuari de Santa Afra</h2>",
+			"<small>Divisió administrativa: Santa Afra; Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Mare de Déu de Farners",
 		type: "esglesia",
 		coordinates: [41.8600556, 2.6328991],
@@ -579,11 +649,31 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
+		name: "Sant Esperit",
+		type: "esglesia",
+		coordinates: [41.87368515, 2.64487576],
+		description: [
+			"<h2>Sant Esperit</h2>",
+			"<small>Divisió administrativa: Santa Coloma de Farners; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Sant Marçal",
 		type: "esglesia",
 		coordinates: [41.85265935, 2.69292116],
 		description: [
 			"<h2>Sant Marçal</h2>",
+			"<small>Divisió administrativa: Santa Coloma de Farners; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Salvador",
+		type: "esglesia",
+		coordinates: [41.85712, 2.655385],
+		description: [
+			"<h2>Sant Salvador</h2>",
 			"<small>Divisió administrativa: Santa Coloma de Farners; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]

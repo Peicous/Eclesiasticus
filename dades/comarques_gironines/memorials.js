@@ -20,5 +20,14 @@ const comarques_gironines_memorials = [
 			"<h2>Creu d'en Vinyoles</h2>",
 			"<small>Divisió administrativa: Montnegre; Quart; Gironès; Comarques gironines; Catalunya</small>",
 		]
+	},
+	{
+		name: "Creu de terme de Sant Gregori",
+		type: "memorial",
+		coordinates: [41.9915340, 2.7383621],
+		description: [
+			"<h2>Creu de terme de Sant Gregori</h2>",
+			"<small>Divisió administrativa: Veïnat de l'Església; Sant Gregori; Gironès; Comarques gironines; Catalunya</small>",
+		]
 	}
 ];

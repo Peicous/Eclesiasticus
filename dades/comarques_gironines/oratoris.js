@@ -49,6 +49,16 @@ const comarques_gironines_oratoris = [
 		]
 	},
 	{
+		name: "Mare de Déu de Fàtima",
+		type: "oratori",
+		coordinates: [42.0088285, 2.7196775],
+		description: [
+			"<h2>Mare de Déu de Fàtima</h2>",
+			"<small>Divisió administrativa: Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Sant Pere Màrtir de Sant Julià del Llor",
 		type: "oratori",
 		coordinates: [41.974089, 2.6405228],
@@ -60,5 +70,25 @@ const comarques_gironines_oratoris = [
 			"Oratori en el disseminat de la vila de Sant Julià del Llor, al terme municipal de Sant Julià del Llor i Bonmatí. Construït el segle <span style='font-variant: small-caps'>xx</span>."
 		],
 		visited: true
+	},
+	{
+		name: "Fornícula amb Verge",
+		type: "oratori",
+		coordinates: [41.86384, 2.66206],
+		description: [
+			"<h2>Fornícula amb Verge</h2>",
+			"<small>Divisió administrativa: Santa Coloma de Farners; Santa Coloma de Farners; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere Petit",
+		type: "oratori",
+		coordinates: [41.8586044, 2.6520145],
+		description: [
+			"<h2>Sant Pere Petit</h2>",
+			"<small>Divisió administrativa: Santa Coloma de Farners; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
 	}
 ];
