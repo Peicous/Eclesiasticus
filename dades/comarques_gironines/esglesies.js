@@ -229,6 +229,16 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
+		name: "Sant Joan de Montbó",
+		type: "esglesia",
+		coordinates: [42.04892815, 2.76530265],
+		description: [
+			"<h2>Sant Joan de Montbó</h2>",
+			"<small>Divisió administrativa: Montbó; Canet d'Adri; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Sants Just i Pastor de la Cellera de Ter",
 		type: "esglesia",
 		coordinates: [41.98313245, 2.62078756],
@@ -635,6 +645,46 @@ const comarques_gironines_esglesies = [
 		description: [
 			"<h2>Santuari de Santa Afra</h2>",
 			"<small>Divisió administrativa: Santa Afra; Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan del Pla",
+		type: "esglesia",
+		coordinates: [42.02364545, 2.6789746],
+		description: [
+			"<h2>Sant Joan del Pla</h2>",
+			"<small>Divisió administrativa: El Pla de Sant Joan; Sant Martí de Llémena; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Julià de Granollers de Rocacorba",
+		type: "esglesia",
+		coordinates: [42.0615804, 2.6524900],
+		description: [
+			"<h2>Sant Julià de Granollers de Rocacorba</h2>",
+			"<small>Divisió administrativa: Granollers de Rocacorba; Sant Martí de Llémena; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Medir del Pla",
+		type: "esglesia",
+		coordinates: [42.01987725, 2.69088408],
+		description: [
+			"<h2>Sant Medir del Pla</h2>",
+			"<small>Divisió administrativa: El Pla de Sant Joan; Sant Martí de Llémena; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Nazari de Sant Martí de Llémena",
+		type: "esglesia",
+		coordinates: [42.0346142, 2.66268148],
+		description: [
+			"<h2>Sant Nazari de Sant Martí de Llémena</h2>",
+			"<small>Divisió administrativa: Sant Martí de Llémena; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
