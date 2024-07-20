@@ -529,6 +529,86 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
+		name: "Mare de Déu de Bell-lloc",
+		type: "esglesia",
+		coordinates: [42.0620086, 2.60738256],
+		description: [
+			"<h2>Mare de Déu de Bell-lloc</h2>",
+			"<small>Divisió administrativa: Sant Esteve de Llémena; Sant Aniol de Finestres; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de la Puríssima",
+		type: "esglesia",
+		coordinates: [42.0561322, 2.6219474],
+		description: [
+			"<h2>Mare de Déu de la Puríssima</h2>",
+			"<small>Divisió administrativa: Sant Esteve de Llémena; Sant Aniol de Finestres; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cebrià de Sant Aniol de Finestres",
+		type: "esglesia",
+		coordinates: [42.0642291, 2.60700604],
+		description: [
+			"<h2>Sant Cebrià de Sant Aniol de Finestres</h2>",
+			"<small>Divisió administrativa: Sant Esteve de Llémena; Sant Aniol de Finestres; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan de les Medes",
+		type: "esglesia",
+		coordinates: [42.0988341, 2.55745922],
+		description: [
+			"<h2>Sant Joan de les Medes</h2>",
+			"<small>Divisió administrativa: Les Medes; Sant Aniol de Finestres; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Julià de les Medes",
+		type: "esglesia",
+		coordinates: [42.11670755, 2.5545211],
+		description: [
+			"<h2>Sant Julià de les Medes</h2>",
+			"<small>Divisió administrativa: Les Medes; Sant Aniol de Finestres; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Bustins",
+		type: "esglesia",
+		coordinates: [42.0919532, 2.61358868],
+		description: [
+			"<h2>Sant Miquel de Bustins</h2>",
+			"<small>Divisió administrativa: Sant Aniol de Finestres; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Roc de la Barroca",
+		type: "esglesia",
+		coordinates: [42.01746795, 2.6619453],
+		description: [
+			"<h2>Sant Roc de la Barroca</h2>",
+			"<small>Divisió administrativa: La Barroca; Sant Aniol de Finestres; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria d'Elena",
+		type: "esglesia",
+		coordinates: [42.02619145, 2.64070259],
+		description: [
+			"<h2>Santa Maria d'Elena</h2>",
+			"<small>Divisió administrativa: Sant Aniol de Finestres; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "La Salut",
 		type: "esglesia",
 		coordinates: [42.062957, 2.49603384],

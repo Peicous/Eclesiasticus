@@ -49,6 +49,16 @@ const comarques_gironines_oratoris = [
 		]
 	},
 	{
+		name: "Oratori de Finestres",
+		type: "oratori",
+		coordinates: [42.1138465, 2.591411],
+		description: [
+			"<h2>Oratori de Finestres</h2>",
+			"<small>Divisió administrativa: Sant Aniol de Finestres; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Mare de Déu de Fàtima",
 		type: "oratori",
 		coordinates: [42.0088285, 2.7196775],
