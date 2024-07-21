@@ -130,6 +130,106 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Mare de Déu de Betlem",
+		type: "parroquia",
+		coordinates: [41.38309985, 2.17128596],
+		description: [
+			"<h2>Mare de Déu de Betlem</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Rambles - Poble Sec; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de Lorda",
+		type: "parroquia",
+		coordinates: [41.3730448, 2.1560473],
+		description: [
+			"<h2>Mare de Déu de Lorda</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Rambles - Poble Sec; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu del Carme",
+		type: "parroquia",
+		coordinates: [41.37966245, 2.16496236],
+		description: [
+			"<h2>Mare de Déu del Carme</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Rambles - Poble Sec; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Agustí",
+		type: "parroquia",
+		coordinates: [41.3801806, 2.17209633],
+		description: [
+			"<h2>Sant Agustí</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Rambles - Poble Sec; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Josep i Santa Mònica",
+		type: "parroquia",
+		coordinates: [41.37739055, 2.1755115],
+		description: [
+			"<h2>Sant Josep i Santa Mònica</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Rambles - Poble Sec; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Pau del Camp",
+		type: "parroquia",
+		coordinates: [41.3763205, 2.16966657],
+		description: [
+			"<h2>Sant Pau del Camp</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Rambles - Poble Sec; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Pere Claver",
+		type: "parroquia",
+		coordinates: [41.3728063, 2.1724165],
+		description: [
+			"<h2>Sant Pere Claver</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Rambles - Poble Sec; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Pere Nolasc",
+		type: "parroquia",
+		coordinates: [41.38479985, 2.16537817],
+		description: [
+			"<h2>Sant Pere Nolasc</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Rambles - Poble Sec; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Salvador d'Horta",
+		type: "parroquia",
+		coordinates: [41.3717302, 2.16418645],
+		description: [
+			"<h2>Sant Salvador d'Horta</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Rambles - Poble Sec; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Madrona",
+		type: "parroquia",
+		coordinates: [41.37419215, 2.16440796],
+		description: [
+			"<h2>Santa Madrona</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Rambles - Poble Sec; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
 		coordinates: [41.58064595, 2.54919409],
