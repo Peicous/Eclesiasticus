@@ -560,6 +560,86 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Mare de Déu de la Bonanova",
+		type: "parroquia",
+		coordinates: [41.40679625, 2.13302864],
+		description: [
+			"<h2>Mare de Déu de la Bonanova</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Gervasi; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de Núria",
+		type: "parroquia",
+		coordinates: [41.3946965, 2.1501025],
+		description: [
+			"<h2>Mare de Déu de Núria</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Gervasi; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Gregori Taumaturg",
+		type: "parroquia",
+		coordinates: [41.39449675, 2.1380474],
+		description: [
+			"<h2>Sant Gregori Taumaturg</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Gervasi; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Ildefons",
+		type: "parroquia",
+		coordinates: [41.3979443, 2.1457778],
+		description: [
+			"<h2>Sant Ildefons</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Gervasi; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Agnès",
+		type: "parroquia",
+		coordinates: [41.4008830, 2.1444305],
+		description: [
+			"<h2>Santa Agnès</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Gervasi; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Cecília",
+		type: "parroquia",
+		coordinates: [41.41205775, 2.13853983],
+		description: [
+			"<h2>Santa Cecília</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Gervasi; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Joaquima de Vedruna",
+		type: "parroquia",
+		coordinates: [41.4033673, 2.14542434],
+		description: [
+			"<h2>Santa Joaquima de Vedruna</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Gervasi; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Verge de la Pau",
+		type: "parroquia",
+		coordinates: [41.4009531, 2.1340424],
+		description: [
+			"<h2>Verge de la Pau</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Gervasi; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Sant Cebrià",
 		type: "parroquia",
 		coordinates: [41.422516, 2.1443603],
