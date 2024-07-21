@@ -230,6 +230,66 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Esperit Sant",
+		type: "parroquia",
+		coordinates: [41.4098523, 2.170861],
+		description: [
+			"<h2>Esperit Sant</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Sagrada Família; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Immaculat Cor de Maria",
+		type: "parroquia",
+		coordinates: [41.40586155, 2.16656652],
+		description: [
+			"<h2>Immaculat Cor de Maria</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Sagrada Família; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu del Roser",
+		type: "parroquia",
+		coordinates: [41.3999111, 2.18322934],
+		description: [
+			"<h2>Mare de Déu del Roser</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Sagrada Família; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sagrada Família",
+		type: "parroquia",
+		coordinates: [41.4035046, 2.17442828],
+		description: [
+			"<h2>Sagrada Família</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Sagrada Família; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Oleguer",
+		type: "parroquia",
+		coordinates: [41.3959359, 2.17818618],
+		description: [
+			"<h2>Sant Oleguer</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Sagrada Família; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Tomàs d'Aquino",
+		type: "parroquia",
+		coordinates: [41.4027872, 2.16690557],
+		description: [
+			"<h2>Sant Tomàs d'Aquino</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Sagrada Família; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
 		coordinates: [41.58064595, 2.54919409],
