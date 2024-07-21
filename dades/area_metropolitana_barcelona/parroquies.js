@@ -560,6 +560,56 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Sant Cebrià",
+		type: "parroquia",
+		coordinates: [41.422516, 2.1443603],
+		description: [
+			"<h2>Sant Cebrià</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Vall d'Hebron; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Crist",
+		type: "parroquia",
+		coordinates: [41.42152065, 2.13957392],
+		description: [
+			"<h2>Sant Crist</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Vall d'Hebron; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Genís dels Agudells",
+		type: "parroquia",
+		coordinates: [41.4278165, 2.13607583],
+		description: [
+			"<h2>Sant Genís dels Agudells</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Vall d'Hebron; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Jeroni de Montbau",
+		type: "parroquia",
+		coordinates: [41.43293615, 2.14403272],
+		description: [
+			"<h2>Sant Jeroni de Montbau</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Vall d'Hebron; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Verge de Natzaret",
+		type: "parroquia",
+		coordinates: [41.4306957, 2.1463163],
+		description: [
+			"<h2>Verge de Natzaret</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Vall d'Hebron; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
 		coordinates: [41.58064595, 2.54919409],
