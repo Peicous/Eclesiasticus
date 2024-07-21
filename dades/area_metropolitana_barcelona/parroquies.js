@@ -710,6 +710,116 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Maria Auxiliadora",
+		type: "parroquia",
+		coordinates: [41.3951438, 2.1270059],
+		description: [
+			"<h2>Maria Auxiliadora</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sarrià; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Maria Reina",
+		type: "parroquia",
+		coordinates: [41.392792, 2.10994183],
+		description: [
+			"<h2>Maria Reina</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sarrià; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sagrat Cor de Jesús del Tibidabo",
+		type: "parroquia",
+		coordinates: [41.42206415, 2.11887945],
+		description: [
+			"<h2>Sagrat Cor de Jesús del Tibidabo</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sarrià; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Joan de la Creu",
+		type: "parroquia",
+		coordinates: [41.4087591, 2.1110211],
+		description: [
+			"<h2>Sant Joan de la Creu</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sarrià; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Ot",
+		type: "parroquia",
+		coordinates: [41.39103755, 2.12267814],
+		description: [
+			"<h2>Sant Ot</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sarrià; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç",
+		type: "parroquia",
+		coordinates: [41.39962055, 2.12098036],
+		description: [
+			"<h2>Sant Vicenç</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sarrià; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Creu d'Olorda",
+		type: "parroquia",
+		coordinates: [41.41648605, 2.05803421],
+		description: [
+			"<h2>Santa Creu d'Olorda</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sarrià; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Vallvidrera",
+		type: "parroquia",
+		coordinates: [41.4135143, 2.105218],
+		description: [
+			"<h2>Santa Maria de Vallvidrera</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sarrià; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria del Remei",
+		type: "parroquia",
+		coordinates: [41.38698095, 2.13195021],
+		description: [
+			"<h2>Santa Maria del Remei</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sarrià; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Tecla",
+		type: "parroquia",
+		coordinates: [41.37921815, 2.12815759],
+		description: [
+			"<h2>Santa Tecla</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sarrià; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santuari de la Mare de Déu de la Salut de les Planes",
+		type: "parroquia",
+		coordinates: [41.4257244, 2.08981509],
+		description: [
+			"<h2>Santuari de la Mare de Déu de la Salut de les Planes</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sarrià; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Sant Cebrià",
 		type: "parroquia",
 		coordinates: [41.422516, 2.1443603],
