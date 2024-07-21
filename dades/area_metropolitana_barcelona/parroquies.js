@@ -1,4 +1,94 @@
-const area_metropolitana_barcelona_parroquies = [	
+const area_metropolitana_barcelona_parroquies = [
+	{
+		name: "Catedral de la Santa Creu i Santa Eulàlia de Barcelona",
+		type: "parroquia",
+		coordinates: [41.3839296, 2.17655386],
+		description: [
+			"<h2>Catedral de la Santa Creu i Santa Eulàlia de Barcelona</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Catedral; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de la Mercè i Sant Miquel Arcàngel",
+		type: "parroquia",
+		coordinates: [41.37962605, 2.17968131],
+		description: [
+			"<h2>Mare de Déu de la Mercè i Sant Miquel Arcàngel</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Catedral; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria del Pi",
+		type: "parroquia",
+		coordinates: [41.38201265, 2.17394102],
+		description: [
+			"<h2>Santa Maria del Pi</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Catedral; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Jaume",
+		type: "parroquia",
+		coordinates: [41.381109, 2.17574533],
+		description: [
+			"<h2>Sant Jaume</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Catedral; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Miquel del Port",
+		type: "parroquia",
+		coordinates: [41.37998785, 2.18860389],
+		description: [
+			"<h2>Sant Miquel del Port</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Catedral; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Pere de les Puel·les",
+		type: "parroquia",
+		coordinates: [41.38962875, 2.17874087],
+		description: [
+			"<h2>Sant Pere de les Puel·les</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Catedral; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Anna",
+		type: "parroquia",
+		coordinates: [41.3858652, 2.17168089],
+		description: [
+			"<h2>Santa Anna</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Catedral; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria del Mar",
+		type: "parroquia",
+		coordinates: [41.38378015, 2.18200621],
+		description: [
+			"<h2>Santa Maria del Mar</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Catedral; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sants Just i Pastor",
+		type: "parroquia",
+		coordinates: [41.3826768, 2.17802846],
+		description: [
+			"<h2>Sants Just i Pastor</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Catedral; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
 	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
