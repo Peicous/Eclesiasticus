@@ -480,6 +480,36 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Crist Redemptor",
+		type: "parroquia",
+		coordinates: [41.41383035, 2.16260227],
+		description: [
+			"<h2>Crist Redemptor</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Guinardó; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de Montserrat",
+		type: "parroquia",
+		coordinates: [41.4175135, 2.17173349],
+		description: [
+			"<h2>Mare de Déu de Montserrat</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Guinardó; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Isabel d'Aragó i Sant Joaquim",
+		type: "parroquia",
+		coordinates: [41.42006995, 2.17836599],
+		description: [
+			"<h2>Santa Isabel d'Aragó i Sant Joaquim</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Guinardó; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
 		coordinates: [41.58064595, 2.54919409],
