@@ -480,6 +480,76 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Corpus Christi",
+		type: "parroquia",
+		coordinates: [41.40097995, 2.16473988],
+		description: [
+			"<h2>Corpus Christi</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gràcia; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de la Salut",
+		type: "parroquia",
+		coordinates: [41.4110019, 2.1564454],
+		description: [
+			"<h2>Mare de Déu de la Salut</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gràcia; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu del Coll",
+		type: "parroquia",
+		coordinates: [41.4200988, 2.151613],
+		description: [
+			"<h2>Mare de Déu del Coll</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gràcia; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Carles Borromeu",
+		type: "parroquia",
+		coordinates: [41.40706275, 2.16235501],
+		description: [
+			"<h2>Sant Carles Borromeu</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gràcia; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Joan de Gràcia",
+		type: "parroquia",
+		coordinates: [41.4052559, 2.15685863],
+		description: [
+			"<h2>Sant Joan de Gràcia</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gràcia; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Jordi",
+		type: "parroquia",
+		coordinates: [41.4131801, 2.1441447],
+		description: [
+			"<h2>Sant Jordi</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gràcia; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Miquel dels Sants",
+		type: "parroquia",
+		coordinates: [41.40998295, 2.15840216],
+		description: [
+			"<h2>Sant Miquel dels Sants</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gràcia; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Crist Redemptor",
 		type: "parroquia",
 		coordinates: [41.41383035, 2.16260227],
