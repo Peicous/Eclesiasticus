@@ -270,11 +270,11 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
-		name: "Sant Oleguer",
+		name: "Sant Oleguer Bisbe",
 		type: "parroquia",
 		coordinates: [41.3959359, 2.17818618],
 		description: [
-			"<h2>Sant Oleguer</h2>",
+			"<h2>Sant Oleguer Bisbe</h2>",
 			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de la Sagrada Família; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
 		]
@@ -287,6 +287,196 @@ const area_metropolitana_barcelona_parroquies = [
 			"<h2>Sant Tomàs d'Aquino</h2>",
 			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de la Sagrada Família; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de la Medalla Miraculosa",
+		type: "parroquia",
+		coordinates: [41.3808054, 2.1524713],
+		description: [
+			"<h2>Mare de Déu de la Medalla Miraculosa</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Josep Oriol; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu del Pilar",
+		type: "parroquia",
+		coordinates: [41.3921722, 2.1496555],
+		description: [
+			"<h2>Mare de Déu del Pilar</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Josep Oriol; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Maria Mitjancera de Totes les Gràcies",
+		type: "parroquia",
+		coordinates: [41.385089, 2.1435938],
+		description: [
+			"<h2>Maria Mitjancera de Totes les Gràcies</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Josep Oriol; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Preciosíssima Sang de Nostre Senyor Jesucrist",
+		type: "parroquia",
+		coordinates: [41.3785149, 2.1592781],
+		description: [
+			"<h2>Preciosíssima Sang de Nostre Senyor Jesucrist</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Josep Oriol; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Domènec Guzmán",
+		type: "parroquia",
+		coordinates: [41.3757625, 2.1604435],
+		description: [
+			"<h2>Sant Domènec Guzmán</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Josep Oriol; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Eugeni I Papa",
+		type: "parroquia",
+		coordinates: [41.3894938, 2.14609687],
+		description: [
+			"<h2>Sant Eugeni I Papa</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Josep Oriol; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Ferran",
+		type: "parroquia",
+		coordinates: [41.3764411, 2.1516911],
+		description: [
+			"<h2>Sant Ferran</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Josep Oriol; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Josep Oriol",
+		type: "parroquia",
+		coordinates: [41.38380545, 2.15757792],
+		description: [
+			"<h2>Sant Josep Oriol</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Josep Oriol; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Llorenç",
+		type: "parroquia",
+		coordinates: [41.3806415, 2.1487836],
+		description: [
+			"<h2>Sant Llorenç</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Josep Oriol; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Sever i Sant Vicenç de Paül",
+		type: "parroquia",
+		coordinates: [41.3902114, 2.1556967],
+		description: [
+			"<h2>Sant Sever i Sant Vicenç de Paül</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Josep Oriol; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de Port",
+		type: "parroquia",
+		coordinates: [41.3565614, 2.14373999],
+		description: [
+			"<h2>Mare de Déu de Port</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sants - La Marina; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu dels Dolors",
+		type: "parroquia",
+		coordinates: [41.3750507, 2.1288414],
+		description: [
+			"<h2>Mare de Déu dels Dolors</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sants - La Marina; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Bartomeu",
+		type: "parroquia",
+		coordinates: [41.3568088, 2.14362333],
+		description: [
+			"<h2>Sant Bartomeu</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sants - La Marina; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Cristòfol",
+		type: "parroquia",
+		coordinates: [41.3593388, 2.1366224],
+		description: [
+			"<h2>Sant Cristòfol</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sants - La Marina; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Joan Maria Vianney",
+		type: "parroquia",
+		coordinates: [41.3790851, 2.1334827],
+		description: [
+			"<h2>Sant Joan Maria Vianney</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sants - La Marina; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Medir",
+		type: "parroquia",
+		coordinates: [41.369625, 2.13812958],
+		description: [
+			"<h2>Sant Medir</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sants - La Marina; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Àngel Custodi",
+		type: "parroquia",
+		coordinates: [41.374458, 2.14508133],
+		description: [
+			"<h2>Sant Àngel Custodi</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sants - La Marina; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Dorotea",
+		type: "parroquia",
+		coordinates: [41.37167525, 2.14583632],
+		description: [
+			"<h2>Santa Dorotea</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sants - La Marina; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Sants",
+		type: "parroquia",
+		coordinates: [41.3744916, 2.13707877],
+		description: [
+			"<h2>Santa Maria de Sants</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sants - La Marina; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
 		]
 	},
 	{
