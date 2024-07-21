@@ -90,6 +90,46 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Mare de Déu dels Àngels",
+		type: "parroquia",
+		coordinates: [41.3907529, 2.1612474],
+		description: [
+			"<h2>Mare de Déu dels Àngels</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Puríssima Concepció; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Puríssima Concepció",
+		type: "parroquia",
+		coordinates: [41.394667, 2.1676856],
+		description: [
+			"<h2>Puríssima Concepció</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Puríssima Concepció; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Francesc de Sales",
+		type: "parroquia",
+		coordinates: [41.39838865, 2.17175997],
+		description: [
+			"<h2>Sant Francesc de Sales</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Puríssima Concepció; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Ramon de Penyafort",
+		type: "parroquia",
+		coordinates: [41.393972, 2.15896679],
+		description: [
+			"<h2>Sant Ramon de Penyafort</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Puríssima Concepció; Zona Pastoral 1; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
 		coordinates: [41.58064595, 2.54919409],
