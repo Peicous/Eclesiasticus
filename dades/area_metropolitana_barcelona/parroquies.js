@@ -1350,6 +1350,96 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Immaculada Concepció",
+		type: "parroquia",
+		coordinates: [41.3656518, 2.0917223],
+		description: [
+			"<h2>Immaculada Concepció</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Hospitalet de Llobregat; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Nostra Senyora de Bellvitge",
+		type: "parroquia",
+		coordinates: [41.3493034, 2.10850172],
+		description: [
+			"<h2>Nostra Senyora de Bellvitge</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Hospitalet de Llobregat; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Benet",
+		type: "parroquia",
+		coordinates: [41.3658175, 2.0982588],
+		description: [
+			"<h2>Sant Benet</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Hospitalet de Llobregat; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Isidre Llaurador",
+		type: "parroquia",
+		coordinates: [41.3663245, 2.1320872],
+		description: [
+			"<h2>Sant Isidre Llaurador</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Hospitalet de Llobregat; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Josep",
+		type: "parroquia",
+		coordinates: [41.3625413, 2.1093091],
+		description: [
+			"<h2>Sant Josep</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Hospitalet de Llobregat; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Eulàlia de Mèrida",
+		type: "parroquia",
+		coordinates: [41.3599047, 2.09903298],
+		description: [
+			"<h2>Santa Eulàlia de Mèrida</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Hospitalet de Llobregat; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Eulàlia de Provençana",
+		type: "parroquia",
+		coordinates: [41.3652903, 2.11903108],
+		description: [
+			"<h2>Santa Eulàlia de Provençana</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Hospitalet de Llobregat; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria del Gornal",
+		type: "parroquia",
+		coordinates: [41.35336395, 2.11662793],
+		description: [
+			"<h2>Santa Maria del Gornal</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Hospitalet de Llobregat; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Joan Evangelista",
+		type: "parroquia",
+		coordinates: [41.3549589, 2.1144578],
+		description: [
+			"<h2>Sant Joan Evangelista</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de l'Hospitalet de Llobregat; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Mare de Déu de la Llum",
 		type: "parroquia",
 		coordinates: [41.37057675, 2.10956393],
