@@ -1780,6 +1780,116 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Mare de Déu del Pilar del Masnou",
+		type: "parroquia",
+		coordinates: [41.48072605, 2.30561409],
+		description: [
+			"<h2>Mare de Déu del Pilar del Masnou</h2>",
+			"<small>Divisió administrativa: El Masnou; El Masnou; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Cisa; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Cristòfol de Premià de Mar",
+		type: "parroquia",
+		coordinates: [41.48964235, 2.35664872],
+		description: [
+			"<h2>Sant Cristòfol de Premià de Mar</h2>",
+			"<small>Divisió administrativa: Premià de Mar; Premià de Mar; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Cisa; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Feliu d'Alella",
+		type: "parroquia",
+		coordinates: [41.49364485, 2.29430173],
+		description: [
+			"<h2>Sant Feliu d'Alella</h2>",
+			"<small>Divisió administrativa: Alella; Alella; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Cisa; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Genís de Vilassar de Dalt",
+		type: "parroquia",
+		coordinates: [41.5174967, 2.35833244],
+		description: [
+			"<h2>Sant Genís de Vilassar de Dalt</h2>",
+			"<small>Divisió administrativa: Vilassar de Dalt; Vilassar de Dalt; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Cisa; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Joan de Vilassar de Mar",
+		type: "parroquia",
+		coordinates: [41.50333755, 2.39179829],
+		description: [
+			"<h2>Sant Joan de Vilassar de Mar</h2>",
+			"<small>Divisió administrativa: Vilassar de Mar; Vilassar de Mar; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Cisa; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Teià",
+		type: "parroquia",
+		coordinates: [41.4998049, 2.31952605],
+		description: [
+			"<h2>Sant Martí de Teià</h2>",
+			"<small>Divisió administrativa: Teià; Teià; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Cisa; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Teià",
+		type: "parroquia",
+		coordinates: [41.4998049, 2.31952605],
+		description: [
+			"<h2>Sant Martí de Teià</h2>",
+			"<small>Divisió administrativa: Teià; Teià; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Cisa; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Pere del Masnou",
+		type: "parroquia",
+		coordinates: [41.47946605, 2.31631067],
+		description: [
+			"<h2>Sant Pere del Masnou</h2>",
+			"<small>Divisió administrativa: El Masnou; El Masnou; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Cisa; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Premià de Dalt",
+		type: "parroquia",
+		coordinates: [41.5079441, 2.34153925],
+		description: [
+			"<h2>Sant Pere de Premià de Dalt</h2>",
+			"<small>Divisió administrativa: Premià de Dalt; Premià de Dalt; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Cisa; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Creu de Cabrils",
+		type: "parroquia",
+		coordinates: [41.5258316, 2.36808145],
+		description: [
+			"<h2>Santa Creu de Cabrils</h2>",
+			"<small>Divisió administrativa: Cabrils; Cabrils; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Cisa; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Premià de Mar",
+		type: "parroquia",
+		coordinates: [41.49718775, 2.35517592],
+		description: [
+			"<h2>Santa Maria de Premià de Mar</h2>",
+			"<small>Divisió administrativa: Premià de Mar; Premià de Mar; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Cisa; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
 		coordinates: [41.58064595, 2.54919409],
