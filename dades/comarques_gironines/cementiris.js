@@ -28,11 +28,20 @@ const comarques_gironines_cementiris = [
 		]
 	},
 	{
-		name: "Cementiri Municipal d'Aiguaviva",
+		name: "Cementiri Nou d'Aiguaviva",
+		type: "cementiri",
+		coordinates: [41.9386553, 2.7520476],
+		description: [
+			"<h2>Cementiri Nou d'Aiguaviva</h2>",
+			"<small>Divisió administrativa: Aiguaviva; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Cementiri Vell d'Aiguaviva",
 		type: "cementiri",
 		coordinates: [41.9386234, 2.7615196],
 		description: [
-			"<h2>Cementiri Municipal d'Aiguaviva</h2>",
+			"<h2>Cementiri Vell d'Aiguaviva</h2>",
 			"<small>Divisió administrativa: Aiguaviva; Aiguaviva; Gironès; Comarques gironines; Catalunya</small>"
 		]
 	},
@@ -101,7 +110,7 @@ const comarques_gironines_cementiris = [
 			"<h2>Cementiri Nou d'Anglès</h2>",
 			"<small>Divisió administrativa: Anglès; Anglès; Selva; Comarques gironines; Catalunya</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Cementiri_Municipal_d%27Angl%C3%A8s_%28entrada%29.jpg/640px-Cementiri_Municipal_d%27Angl%C3%A8s_%28entrada%29.jpg'/><br/>",
-			"Cementiri nou de la vila d'Anglès, al terme municipal homònim. Construït entre les dècades de 1980 i 1990.",
+			"Cementiri nou de la vila d'Anglès, al terme municipal homònim. Construït entre 1984 i 1991.",
 			"<br/><a href='#cementiri_nou_d_angles'>Veure més informació</a>"
 		],
 		visited: true
@@ -1144,6 +1153,15 @@ const comarques_gironines_cementiris = [
 		]
 	},
 	{
+		name: "Cementiri Municipal de Jafre",
+		type: "cementiri",
+		coordinates: [42.08061555, 3.00852148],
+		description: [
+			"<h2>Cementiri Municipal de Jafre</h2>",
+			"<small>Divisió administrativa: Jafre; Baix Empordà; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
 		name: "Cementiri Municipal de la Jonquera",
 		type: "cementiri",
 		coordinates: [42.413983, 2.87111],
@@ -1504,6 +1522,15 @@ const comarques_gironines_cementiris = [
 		]
 	},
 	{
+		name: "Cementiri Parroquial de Batet",
+		type: "cementiri",
+		coordinates: [42.1812059, 2.5167888],
+		description: [
+			"<h2>Cementiri Parroquial de Batet</h2>",
+			"<small>Divisió administrativa: Batet; Olot; Garrotxa; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
 		name: "Cementiri Parroquial de Sant Cristòfol les Fonts",
 		type: "cementiri",
 		coordinates: [42.1689509, 2.4996888],
@@ -1744,6 +1771,15 @@ const comarques_gironines_cementiris = [
 		description: [
 			"<h2>Cementiri Municipal de Pont de Molins</h2>",
 			"<small>Divisió administrativa: Pont de Molins; Pont de Molins; Alt Empordà; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Cementiri Municipal de Pontós",
+		type: "cementiri",
+		coordinates: [42.1892718, 2.9183308],
+		description: [
+			"<h2>Cementiri Municipal de Pontós</h2>",
+			"<small>Divisió administrativa: Pontós; Pontós; Alt Empordà; Comarques gironines; Catalunya</small>"
 		]
 	},
 	{
@@ -2242,6 +2278,15 @@ const comarques_gironines_cementiris = [
 		]
 	},
 	{
+		name: "Cementiri Municipal de Medinyà",
+		type: "cementiri",
+		coordinates: [42.0498428, 2.86889595],
+		description: [
+			"<h2>Cementiri Municipal de Medinyà</h2>",
+			"<small>Divisió administrativa: Medinyà; Sant Julià de Ramis; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
 		name: "Cementiri Municipal de Sant Julià de Ramis",
 		type: "cementiri",
 		coordinates: [42.028041, 2.8533973],
@@ -2314,6 +2359,15 @@ const comarques_gironines_cementiris = [
 		]
 	},
 	{
+		name: "Cementiri Parroquial de Sant Feliu de Ventatjol",
+		type: "cementiri",
+		coordinates: [42.1551823, 2.66644],
+		description: [
+			"<h2>Cementiri Parroquial de Sant Feliu de Ventatjol</h2>",
+			"<small>Divisió administrativa: Ventatjol; Sant Miquel de Campmajor; Pla de l'Estany; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
 		name: "Cementiri Parroquial de Sant Miquel de Campmajor",
 		type: "cementiri",
 		coordinates: [42.1362815, 2.6795658],
@@ -2328,6 +2382,15 @@ const comarques_gironines_cementiris = [
 		coordinates: [42.1311661, 2.6882892],
 		description: [
 			"<h2>Cementiri Parroquial de Sant Martí de Campmajor</h2>",
+			"<small>Divisió administrativa: Sant Martí de Campmajor; Sant Miquel de Campmajor; Pla de l'Estany; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Cementiri Parroquial de Sant Vicenç de Falgons",
+		type: "cementiri",
+		coordinates: [42.1085299, 2.6609147],
+		description: [
+			"<h2>Cementiri Parroquial de Sant Vicenç de Falgons</h2>",
 			"<small>Divisió administrativa: Sant Martí de Campmajor; Sant Miquel de Campmajor; Pla de l'Estany; Comarques gironines; Catalunya</small>"
 		]
 	},
@@ -2537,7 +2600,7 @@ const comarques_gironines_cementiris = [
 			"<h2>Cementiri Municipal de la Cellera de Ter</h2>",
 			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cementiri_Municipal_de_la_Cellera_de_Ter_%28entrada%29.jpg/320px-Cementiri_Municipal_de_la_Cellera_de_Ter_%28entrada%29.jpg'/><br/>",
-			"Cementiri de la vila de la Cellera de Ter, al terme municipal homònim. Inaugurat el 1890. Va ser cementiri parroquial fins a la seva expropiació per part de l'Ajuntament el 29 de febrer de 1932."
+			"Cementiri de la vila de la Cellera de Ter, al terme municipal homònim. Construït entre 1890 i 1891."
 		],
 		visited: true
 	},

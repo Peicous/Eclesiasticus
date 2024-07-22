@@ -29,5 +29,14 @@ const comarques_gironines_memorials = [
 			"<h2>Creu de terme de Sant Gregori</h2>",
 			"<small>Divisió administrativa: Veïnat de l'Església; Sant Gregori; Gironès; Comarques gironines; Catalunya</small>",
 		]
+	},
+	{
+		name: "Creu de Sant Sebastià",
+		type: "memorial",
+		coordinates: [42.0468689, 2.8636600],
+		description: [
+			"<h2>Creu de Sant Sebastià</h2>",
+			"<small>Divisió administrativa: Medinyà; Sant Julià de Ramis; Gironès; Comarques gironines; Catalunya</small>",
+		]
 	}
 ];

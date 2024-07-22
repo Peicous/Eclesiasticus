@@ -729,6 +729,46 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
+		name: "Sant Cosme i Sant Damià de Ramis",
+		type: "esglesia",
+		coordinates: [42.0281135, 2.85356172],
+		description: [
+			"<h2>Sant Cosme i Sant Damià de Ramis</h2>",
+			"<small>Divisió administrativa: Sant Julià de Ramis; Sant Julià de Ramis; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joaquim d'Olivars",
+		type: "esglesia",
+		coordinates: [42.0515173, 2.8421703],
+		description: [
+			"<h2>Sant Joaquim d'Olivars</h2>",
+			"<small>Divisió administrativa: Olivars; Sant Julià de Ramis; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de les Roquetes",
+		type: "esglesia",
+		coordinates: [42.0270825, 2.85035835],
+		description: [
+			"<h2>Sant Vicenç de les Roquetes</h2>",
+			"<small>Divisió administrativa: Sant Julià de Ramis; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Fe de les Serres",
+		type: "esglesia",
+		coordinates: [42.06883205, 2.86551187],
+		description: [
+			"<h2>Santa Fe de les Serres</h2>",
+			"<small>Divisió administrativa: Santa Fe de la Serra; Sant Julià de Ramis; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Sant Joan del Pla",
 		type: "esglesia",
 		coordinates: [42.02364545, 2.6789746],
