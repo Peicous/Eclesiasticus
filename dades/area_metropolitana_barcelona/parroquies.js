@@ -1290,6 +1290,66 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Sant Jaume",
+		type: "parroquia",
+		coordinates: [41.3556157, 2.0864985],
+		description: [
+			"<h2>Sant Jaume</h2>",
+			"<small>Divisió administrativa: Cornellà de Llobregat; Cornellà de Llobregat; Baix Llobregat; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Cornellà; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Ildefons",
+		type: "parroquia",
+		coordinates: [41.3646588, 2.08374288],
+		description: [
+			"<h2>Sant Ildefons</h2>",
+			"<small>Divisió administrativa: Cornellà de Llobregat; Cornellà de Llobregat; Baix Llobregat; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Cornellà; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu del Carme",
+		type: "parroquia",
+		coordinates: [41.3676886, 2.07159001],
+		description: [
+			"<h2>Mare de Déu del Carme</h2>",
+			"<small>Divisió administrativa: Sant Joan Despí; Sant Joan Despí; Baix Llobregat; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Cornellà; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Nostra Senyora del Pilar",
+		type: "parroquia",
+		coordinates: [41.360478, 2.08326348],
+		description: [
+			"<h2>Nostra Senyora del Pilar</h2>",
+			"<small>Divisió administrativa: Cornellà de Llobregat; Cornellà de Llobregat; Baix Llobregat; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Cornellà; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Miquel Arcàngel",
+		type: "parroquia",
+		coordinates: [41.3645672, 2.0750457],
+		description: [
+			"<h2>Sant Miquel Arcàngel</h2>",
+			"<small>Divisió administrativa: Cornellà de Llobregat; Cornellà de Llobregat; Baix Llobregat; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Cornellà; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Cornellà",
+		type: "parroquia",
+		coordinates: [41.3555631, 2.07001676],
+		description: [
+			"<h2>Santa Maria de Cornellà</h2>",
+			"<small>Divisió administrativa: Cornellà de Llobregat; Cornellà de Llobregat; Baix Llobregat; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Cornellà; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
 		coordinates: [41.58064595, 2.54919409],
