@@ -950,6 +950,46 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Sant Ignasi de Loiola",
+		type: "parroquia",
+		coordinates: [41.4082049, 2.1797057],
+		description: [
+			"<h2>Sant Ignasi de Loiola</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Martí; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Joan Bosco",
+		type: "parroquia",
+		coordinates: [41.41834515, 2.18628531],
+		description: [
+			"<h2>Sant Joan Bosco</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Martí; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Josep de Calassanç",
+		type: "parroquia",
+		coordinates: [41.4126452, 2.18169456],
+		description: [
+			"<h2>Sant Josep de Calassanç</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Martí; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Martí del Clot",
+		type: "parroquia",
+		coordinates: [41.4099801, 2.18754582],
+		description: [
+			"<h2>Sant Martí del Clot</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Martí; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
 		coordinates: [41.58064595, 2.54919409],
