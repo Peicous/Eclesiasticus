@@ -1690,6 +1690,96 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Mare de Déu de l'Esperança",
+		type: "parroquia",
+		coordinates: [41.4470312, 2.2010177],
+		description: [
+			"<h2>Mare de Déu de l'Esperança</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gramenet; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Jaume Apòstol",
+		type: "parroquia",
+		coordinates: [41.44350935, 2.21165448],
+		description: [
+			"<h2>Sant Jaume Apòstol</h2>",
+			"<small>Divisió administrativa: Santa Coloma de Gramenet; Santa Coloma de Gramenet; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gramenet; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Joan Baptista",
+		type: "parroquia",
+		coordinates: [41.4501261, 2.21829116],
+		description: [
+			"<h2>Sant Joan Baptista</h2>",
+			"<small>Divisió administrativa: Santa Coloma de Gramenet; Santa Coloma de Gramenet; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gramenet; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Joaquim",
+		type: "parroquia",
+		coordinates: [41.447586, 2.2088425],
+		description: [
+			"<h2>Sant Joaquim</h2>",
+			"<small>Divisió administrativa: Santa Coloma de Gramenet; Santa Coloma de Gramenet; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gramenet; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Josep Oriol",
+		type: "parroquia",
+		coordinates: [41.45282775, 2.20487505],
+		description: [
+			"<h2>Sant Josep Oriol</h2>",
+			"<small>Divisió administrativa: Santa Coloma de Gramenet; Santa Coloma de Gramenet; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gramenet; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Miquel Arcàngel",
+		type: "parroquia",
+		coordinates: [41.4582993, 2.2039338],
+		description: [
+			"<h2>Sant Miquel Arcàngel</h2>",
+			"<small>Divisió administrativa: Santa Coloma de Gramenet; Santa Coloma de Gramenet; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gramenet; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Coloma",
+		type: "parroquia",
+		coordinates: [41.4536639, 2.2121261],
+		description: [
+			"<h2>Santa Coloma</h2>",
+			"<small>Divisió administrativa: Santa Coloma de Gramenet; Santa Coloma de Gramenet; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gramenet; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria",
+		type: "parroquia",
+		coordinates: [41.4484950, 2.2113640],
+		description: [
+			"<h2>Santa Maria</h2>",
+			"<small>Divisió administrativa: Santa Coloma de Gramenet; Santa Coloma de Gramenet; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gramenet; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Rosa",
+		type: "parroquia",
+		coordinates: [41.4463972, 2.2150095],
+		description: [
+			"<h2>Santa Rosa</h2>",
+			"<small>Divisió administrativa: Santa Coloma de Gramenet; Santa Coloma de Gramenet; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gramenet; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
 		coordinates: [41.58064595, 2.54919409],
