@@ -1350,6 +1350,76 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Mare de Déu de la Llum",
+		type: "parroquia",
+		coordinates: [41.37057675, 2.10956393],
+		description: [
+			"<h2>Mare de Déu de la Llum</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Torrassa - Collblanc; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu dels Desemparats",
+		type: "parroquia",
+		coordinates: [41.3705887, 2.12260986],
+		description: [
+			"<h2>Mare de Déu dels Desemparats</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Torrassa - Collblanc; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Albert Magne",
+		type: "parroquia",
+		coordinates: [41.3720024, 2.1154828],
+		description: [
+			"<h2>Sant Albert Magne</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Torrassa - Collblanc; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Antoni de Pàdua",
+		type: "parroquia",
+		coordinates: [41.3736499, 2.0997887],
+		description: [
+			"<h2>Sant Antoni de Pàdua</h2>",
+			"<small>Divisió administrativa: Esplugues de Llobregat; Esplugues de Llobregat; Baix Llobregat; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Torrassa - Collblanc; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Enric d'Ossó",
+		type: "parroquia",
+		coordinates: [41.37017175, 2.09905513],
+		description: [
+			"<h2>Sant Enric d'Ossó</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Torrassa - Collblanc; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Ramon Nonat",
+		type: "parroquia",
+		coordinates: [41.3762031, 2.11665927],
+		description: [
+			"<h2>Sant Ramon Nonat</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Torrassa - Collblanc; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Gemma Galgani",
+		type: "parroquia",
+		coordinates: [41.3749155, 2.1017361],
+		description: [
+			"<h2>Santa Gemma Galgani</h2>",
+			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Torrassa - Collblanc; Zona Pastoral 4; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
 		coordinates: [41.58064595, 2.54919409],
