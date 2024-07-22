@@ -1020,6 +1020,96 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Mare de Déu de les Neus",
+		type: "parroquia",
+		coordinates: [41.4176183, 2.22023811],
+		description: [
+			"<h2>Mare de Déu de les Neus</h2>",
+			"<small>Divisió administrativa: Sant Adrià de Besòs; Sant Adrià de Besòs; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Provençals; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Ambròs",
+		type: "parroquia",
+		coordinates: [41.4227131, 2.20803525],
+		description: [
+			"<h2>Sant Ambròs</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Provençals; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Joan d'Àvila",
+		type: "parroquia",
+		coordinates: [41.4255848, 2.2009935],
+		description: [
+			"<h2>Sant Joan d'Àvila</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Provençals; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Lluís Gonzaga",
+		type: "parroquia",
+		coordinates: [41.41613685, 2.20043691],
+		description: [
+			"<h2>Sant Lluís Gonzaga</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Provençals; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Provençals",
+		type: "parroquia",
+		coordinates: [41.4208175, 2.1970173],
+		description: [
+			"<h2>Sant Martí de Provençals</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Provençals; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Paulí de Nola",
+		type: "parroquia",
+		coordinates: [41.41870225, 2.21099585],
+		description: [
+			"<h2>Sant Paulí de Nola</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Provençals; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Pere Ermengol",
+		type: "parroquia",
+		coordinates: [41.41616485, 2.21843535],
+		description: [
+			"<h2>Sant Pere Ermengol</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Provençals; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santes Juliana i Semproniana",
+		type: "parroquia",
+		coordinates: [41.42493465, 2.20994017],
+		description: [
+			"<h2>Santes Juliana i Semproniana</h2>",
+			"<small>Divisió administrativa: Sant Adrià de Besòs; Sant Adrià de Besòs; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Provençals; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santíssim Sagrament",
+		type: "parroquia",
+		coordinates: [41.4241721, 2.1986399],
+		description: [
+			"<h2>Santíssim Sagrament</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Provençals; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Crist Rei",
 		type: "parroquia",
 		coordinates: [41.4237338, 2.18794328],
