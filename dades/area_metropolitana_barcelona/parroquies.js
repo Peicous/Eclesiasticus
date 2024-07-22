@@ -950,6 +950,66 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Crist Rei",
+		type: "parroquia",
+		coordinates: [41.4237338, 2.18794328],
+		description: [
+			"<h2>Crist Rei</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Andreu; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "El Bon Pastor",
+		type: "parroquia",
+		coordinates: [41.43559075, 2.20443311],
+		description: [
+			"<h2>El Bon Pastor</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Andreu; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Andreu de Palomar",
+		type: "parroquia",
+		coordinates: [41.43638525, 2.19183383],
+		description: [
+			"<h2>Sant Andreu de Palomar</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Andreu; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Joan de Mata",
+		type: "parroquia",
+		coordinates: [41.4421717, 2.1875603],
+		description: [
+			"<h2>Sant Joan de Mata</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Andreu; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Josep Manyanet",
+		type: "parroquia",
+		coordinates: [41.42867805, 2.19162634],
+		description: [
+			"<h2>Sant Josep Manyanet</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Andreu; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Pacià",
+		type: "parroquia",
+		coordinates: [41.4314297, 2.18721664],
+		description: [
+			"<h2>Sant Pacià</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Sant Andreu; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Sant Ignasi de Loiola",
 		type: "parroquia",
 		coordinates: [41.4082049, 2.1797057],
