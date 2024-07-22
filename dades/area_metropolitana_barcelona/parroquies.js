@@ -950,6 +950,76 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Patriarca Abraham",
+		type: "parroquia",
+		coordinates: [41.39420015, 2.2016282],
+		description: [
+			"<h2>Patriarca Abraham</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Poble Nou; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sagrat Cor de Jesús",
+		type: "parroquia",
+		coordinates: [41.41088115, 2.20465917],
+		description: [
+			"<h2>Sagrat Cor de Jesús</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Poble Nou; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Fèlix",
+		type: "parroquia",
+		coordinates: [41.39052665, 2.18981],
+		description: [
+			"<h2>Sant Fèlix</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Poble Nou; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Francesc d'Assís",
+		type: "parroquia",
+		coordinates: [41.39596295, 2.19811645],
+		description: [
+			"<h2>Sant Francesc d'Assís</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Poble Nou; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Francesc de Pàola",
+		type: "parroquia",
+		coordinates: [41.40541425, 2.21074744],
+		description: [
+			"<h2>Sant Francesc de Pàola</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Poble Nou; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Pancraç",
+		type: "parroquia",
+		coordinates: [41.4011159, 2.19252554],
+		description: [
+			"<h2>Sant Pancraç</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Poble Nou; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria del Taulat i Sant Bernat Calvó",
+		type: "parroquia",
+		coordinates: [41.40237415, 2.20197939],
+		description: [
+			"<h2>Santa Maria del Taulat i Sant Bernat Calvó</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Poble Nou; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Crist Rei",
 		type: "parroquia",
 		coordinates: [41.4237338, 2.18794328],
