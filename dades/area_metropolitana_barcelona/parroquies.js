@@ -1502,7 +1502,7 @@ const area_metropolitana_barcelona_parroquies = [
 	{
 		name: "Santa Gemma Galgani",
 		type: "parroquia",
-		coordinates: [41.3749155, 2.1017361],
+		coordinates: [41.3754837, 2.1022940],
 		description: [
 			"<h2>Santa Gemma Galgani</h2>",
 			"<small>Divisió administrativa: L'Hospitalet de Llobregat; L'Hospitalet de Llobregat; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
@@ -1887,6 +1887,176 @@ const area_metropolitana_barcelona_parroquies = [
 			"<h2>Santa Maria de Premià de Mar</h2>",
 			"<small>Divisió administrativa: Premià de Mar; Premià de Mar; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de la Cisa; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de l'Esperança de Mataró",
+		type: "parroquia",
+		coordinates: [41.5482765, 2.4451687],
+		description: [
+			"<h2>Mare de Déu de l'Esperança de Mataró</h2>",
+			"<small>Divisió administrativa: Mataró; Mataró; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de Montserrat de Mataró",
+		type: "parroquia",
+		coordinates: [41.5327619, 2.4360999],
+		description: [
+			"<h2>Mare de Déu de Montserrat de Mataró</h2>",
+			"<small>Divisió administrativa: Mataró; Mataró; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Maria Auxiliadora de Mataró",
+		type: "parroquia",
+		coordinates: [41.54052105, 2.42526697],
+		description: [
+			"<h2>Maria Auxiliadora de Mataró</h2>",
+			"<small>Divisió administrativa: Mataró; Mataró; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sagrada Família de Mataró",
+		type: "parroquia",
+		coordinates: [41.5477653, 2.43557911],
+		description: [
+			"<h2>Sagrada Família de Mataró</h2>",
+			"<small>Divisió administrativa: Mataró; Mataró; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Andreu de Llavaneres",
+		type: "parroquia",
+		coordinates: [41.5743246, 2.4823503],
+		description: [
+			"<h2>Sant Andreu de Llavaneres</h2>",
+			"<small>Divisió administrativa: Sant Andreu de Llavaneres; Sant Andreu de Llavaneres; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Andreu del Far",
+		type: "parroquia",
+		coordinates: [41.6238346, 2.43560223],
+		description: [
+			"<h2>Sant Andreu del Far</h2>",
+			"<small>Divisió administrativa: El Far; Dosrius; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Andreu d'Òrrius",
+		type: "parroquia",
+		coordinates: [41.5552239, 2.354737],
+		description: [
+			"<h2>Sant Andreu d'Òrrius</h2>",
+			"<small>Divisió administrativa: Òrrius; Òrrius; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Esteve de Canyamars",
+		type: "parroquia",
+		coordinates: [41.6014813, 2.44719485],
+		description: [
+			"<h2>Sant Esteve de Canyamars</h2>",
+			"<small>Divisió administrativa: Canyamars; Dosrius; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Feliu de Cabrera de Mar",
+		type: "parroquia",
+		coordinates: [41.5279534, 2.39243623],
+		description: [
+			"<h2>Sant Feliu de Cabrera de Mar</h2>",
+			"<small>Divisió administrativa: Cabrera de Mar; Cabrera de Mar; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Iscle i Santa Victòria de Dosrius",
+		type: "parroquia",
+		coordinates: [41.59445745, 2.40656993],
+		description: [
+			"<h2>Sant Iscle i Santa Victòria de Dosrius</h2>",
+			"<small>Divisió administrativa: Dosrius; Dosrius; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Josep de Mataró",
+		type: "parroquia",
+		coordinates: [41.5393995, 2.44372536],
+		description: [
+			"<h2>Sant Josep de Mataró</h2>",
+			"<small>Divisió administrativa: Mataró; Mataró; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Julià d'Argentona",
+		type: "parroquia",
+		coordinates: [41.5541136, 2.40094116],
+		description: [
+			"<h2>Sant Julià d'Argentona</h2>",
+			"<small>Divisió administrativa: Argentona; Argentona; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Sant Andreu de Llavaneres",
+		type: "parroquia",
+		coordinates: [41.5577777, 2.4988939],
+		description: [
+			"<h2>Sant Pere de Sant Andreu de Llavaneres</h2>",
+			"<small>Divisió administrativa: Can Sanç; Sant Andreu de Llavaneres; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Simó i Sant Pau de Mataró",
+		type: "parroquia",
+		coordinates: [41.5459567, 2.4513991],
+		description: [
+			"<h2>Sant Simó i Sant Pau de Mataró</h2>",
+			"<small>Divisió administrativa: Mataró; Mataró; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç de Montalt",
+		type: "parroquia",
+		coordinates: [41.57853865, 2.50940957],
+		description: [
+			"<h2>Sant Vicenç de Montalt</h2>",
+			"<small>Divisió administrativa: Sant Vicenç de Montalt; Sant Vicenç de Montalt; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Caldes d'Estrac",
+		type: "parroquia",
+		coordinates: [41.5724235, 2.5271947],
+		description: [
+			"<h2>Santa Maria de Caldes d'Estrac</h2>",
+			"<small>Divisió administrativa: Caldes d'Estrac; Caldes d'Estrac; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Mataró",
+		type: "parroquia",
+		coordinates: [41.5410142, 2.44677824],
+		description: [
+			"<h2>Santa Maria de Mataró</h2>",
+			"<small>Divisió administrativa: Mataró; Mataró; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Mataró; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
 		]
 	},
 	{
