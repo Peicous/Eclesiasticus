@@ -1120,6 +1120,86 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Sant Bernat de Claravall",
+		type: "parroquia",
+		coordinates: [41.4608405, 2.17510736],
+		description: [
+			"<h2>Sant Bernat de Claravall</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Trinitat - Roquetes; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Josep Obrer",
+		type: "parroquia",
+		coordinates: [41.44830935, 2.1851484],
+		description: [
+			"<h2>Sant Josep Obrer</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Trinitat - Roquetes; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Marc",
+		type: "parroquia",
+		coordinates: [41.4636372, 2.1824828],
+		description: [
+			"<h2>Sant Marc</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Trinitat - Roquetes; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Sebastià",
+		type: "parroquia",
+		coordinates: [41.4435307, 2.1767478],
+		description: [
+			"<h2>Sant Sebastià</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Trinitat - Roquetes; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Bernardeta",
+		type: "parroquia",
+		coordinates: [41.4559963, 2.1747364],
+		description: [
+			"<h2>Santa Bernardeta</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Trinitat - Roquetes; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Engràcia",
+		type: "parroquia",
+		coordinates: [41.4426765, 2.18032086],
+		description: [
+			"<h2>Santa Engràcia</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Trinitat - Roquetes; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria Magdalena",
+		type: "parroquia",
+		coordinates: [41.4475172, 2.1767022],
+		description: [
+			"<h2>Santa Maria Magdalena</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Trinitat - Roquetes; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santíssima Trinitat",
+		type: "parroquia",
+		coordinates: [41.450333, 2.19082673],
+		description: [
+			"<h2>Santíssima Trinitat</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Trinitat - Roquetes; Zona Pastoral 3; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
 		coordinates: [41.58064595, 2.54919409],
