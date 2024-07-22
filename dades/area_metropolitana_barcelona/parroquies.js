@@ -1510,6 +1510,106 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Mare de Déu de Lorda",
+		type: "parroquia",
+		coordinates: [41.4541979, 2.2525101],
+		description: [
+			"<h2>Mare de Déu de Lorda</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Nord; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de Montserrat",
+		type: "parroquia",
+		coordinates: [41.4512671, 2.23740926],
+		description: [
+			"<h2>Mare de Déu de Montserrat</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Nord; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Cebrià de Tiana",
+		type: "parroquia",
+		coordinates: [41.4843026, 2.26820566],
+		description: [
+			"<h2>Sant Cebrià de Tiana</h2>",
+			"<small>Divisió administrativa: Tiana; Tiana; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Nord; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Crist de Canyet",
+		type: "parroquia",
+		coordinates: [41.4701857, 2.2337298],
+		description: [
+			"<h2>Sant Crist de Canyet</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Nord; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Francesc d'Assís",
+		type: "parroquia",
+		coordinates: [41.45770095, 2.23925419],
+		description: [
+			"<h2>Sant Francesc d'Assís</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Nord; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Joan",
+		type: "parroquia",
+		coordinates: [41.4672831, 2.2818969],
+		description: [
+			"<h2>Sant Joan</h2>",
+			"<small>Divisió administrativa: Montgat; Montgat; Maresme; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Nord; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Josep",
+		type: "parroquia",
+		coordinates: [41.4452058, 2.24522412],
+		description: [
+			"<h2>Sant Josep</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Nord; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Sebastià",
+		type: "parroquia",
+		coordinates: [41.46575315, 2.24991355],
+		description: [
+			"<h2>Sant Sebastià</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Nord; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Clara",
+		type: "parroquia",
+		coordinates: [41.4615649, 2.2463401],
+		description: [
+			"<h2>Santa Clara</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Nord; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Maria",
+		type: "parroquia",
+		coordinates: [41.45268525, 2.24624441],
+		description: [
+			"<h2>Santa Maria</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Nord; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Mare de Déu de la Salut",
 		type: "parroquia",
 		coordinates: [41.440852, 2.2281183],
