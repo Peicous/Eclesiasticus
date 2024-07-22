@@ -1510,6 +1510,86 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Mare de Déu de la Salut",
+		type: "parroquia",
+		coordinates: [41.440852, 2.2281183],
+		description: [
+			"<h2>Mare de Déu de la Salut</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Sud; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Mare de Déu del Roser",
+		type: "parroquia",
+		coordinates: [41.4521346, 2.22869048],
+		description: [
+			"<h2>Mare de Déu del Roser</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Sud; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Adrià",
+		type: "parroquia",
+		coordinates: [41.43402115, 2.21409755],
+		description: [
+			"<h2>Sant Adrià</h2>",
+			"<small>Divisió administrativa: Sant Adrià de Besòs; Sant Adrià de Besòs; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Sud; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Antoni de Pàdua",
+		type: "parroquia",
+		coordinates: [41.4404081, 2.21593713],
+		description: [
+			"<h2>Sant Antoni de Pàdua</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Sud; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Jaume Apòstol",
+		type: "parroquia",
+		coordinates: [41.43942455, 2.23193447],
+		description: [
+			"<h2>Sant Jaume Apòstol</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Sud; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Joan Baptista",
+		type: "parroquia",
+		coordinates: [41.42789795, 2.22303903],
+		description: [
+			"<h2>Sant Joan Baptista</h2>",
+			"<small>Divisió administrativa: Sant Adrià de Besòs; Sant Adrià de Besòs; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Sud; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Pau",
+		type: "parroquia",
+		coordinates: [41.44595635, 2.23611041],
+		description: [
+			"<h2>Sant Pau</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Sud; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Sant Roc",
+		type: "parroquia",
+		coordinates: [41.434695, 2.22381799],
+		description: [
+			"<h2>Sant Roc</h2>",
+			"<small>Divisió administrativa: Badalona; Badalona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Badalona - Sud; Zona Pastoral 5; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Santa Maria Assumpta d'Arenys de Mar",
 		type: "parroquia",
 		coordinates: [41.58064595, 2.54919409],
