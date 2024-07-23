@@ -432,6 +432,66 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
+		name: "Mare de Déu del Part",
+		type: "esglesia",
+		coordinates: [41.9583068, 2.5405739],
+		description: [
+			"<h2>Mare de Déu del Part</h2>",
+			"<small>Divisió administrativa: Osor; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Guilleries - Congost; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Francesc del Carbonell",
+		type: "esglesia",
+		coordinates: [41.9294746, 2.4998788],
+		description: [
+			"<h2>Sant Francesc del Carbonell</h2>",
+			"<small>Divisió administrativa: Osor; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Guilleries - Congost; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Gregori d'Osor",
+		type: "esglesia",
+		coordinates: [41.9631299, 2.5693401],
+		description: [
+			"<h2>Sant Gregori d'Osor</h2>",
+			"<small>Divisió administrativa: Osor; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Guilleries - Congost; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Josep de Can Serra del Turonell",
+		type: "esglesia",
+		coordinates: [41.9625876, 2.5779989],
+		description: [
+			"<h2>Sant Josep de Can Serra del Turonell</h2>",
+			"<small>Divisió administrativa: Osor; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Guilleries - Congost; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Maifré",
+		type: "esglesia",
+		coordinates: [41.9848008, 2.5400345],
+		description: [
+			"<h2>Sant Miquel de Maifré</h2>",
+			"<small>Divisió administrativa: Osor; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Guilleries - Congost; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Solterra",
+		type: "esglesia",
+		coordinates: [41.9230859, 2.5331867],
+		description: [
+			"<h2>Sant Miquel de Solterra</h2>",
+			"<small>Divisió administrativa: Osor; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Guilleries - Congost; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Ermita de l'Àngel de les Planes d'Hostoles",
 		type: "esglesia",
 		coordinates: [42.05900445, 2.53366446],

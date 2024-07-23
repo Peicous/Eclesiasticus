@@ -49,6 +49,16 @@ const comarques_gironines_oratoris = [
 		]
 	},
 	{
+		name: "Sant Pelegrí",
+		type: "oratori",
+		coordinates: [41.98536, 2.54347],
+		description: [
+			"<h2>Sant Pelegrí</h2>",
+			"<small>Divisió administrativa: Susqueda; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de les Guilleries - Congost; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Oratori de Finestres",
 		type: "oratori",
 		coordinates: [42.1138465, 2.591411],

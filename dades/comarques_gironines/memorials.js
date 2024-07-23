@@ -13,6 +13,24 @@ const comarques_gironines_memorials = [
 		visited: true
 	},
 	{
+		name: "Creu de les Guilleries",
+		type: "memorial",
+		coordinates: [41.9231019, 2.5330193],
+		description: [
+			"<h2>Creu de les Guilleries</h2>",
+			"<small>Divisió administrativa: Osor; Selva; Comarques gironines; Catalunya</small>",
+		]
+	},
+	{
+		name: "Creu del Cerver",
+		type: "memorial",
+		coordinates: [41.966389, 2.540278],
+		description: [
+			"<h2>Creu del Cerver</h2>",
+			"<small>Divisió administrativa: Osor; Selva; Comarques gironines; Catalunya</small>",
+		]
+	},
+	{
 		name: "Creu d'en Vinyoles",
 		type: "memorial",
 		coordinates: [41.9536007, 2.9042698],
