@@ -2650,6 +2650,15 @@ const comarques_gironines_cementiris = [
 		]
 	},
 	{
+		name: "Cementiri Parroquial del Coll",
+		type: "cementiri",
+		coordinates: [41.9579843, 2.5250579],
+		description: [
+			"<h2>Cementiri Parroquial del Coll</h2>",
+			"<small>Divisió administrativa: El Coll; Susqueda; Selva; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
 		name: "Cementiri Parroquial de Sant Martí Sacalm",
 		type: "cementiri",
 		coordinates: [42.0146108, 2.5447381],

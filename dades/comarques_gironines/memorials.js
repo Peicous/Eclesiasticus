@@ -56,5 +56,23 @@ const comarques_gironines_memorials = [
 			"<h2>Creu de Sant Sebastià</h2>",
 			"<small>Divisió administrativa: Medinyà; Sant Julià de Ramis; Gironès; Comarques gironines; Catalunya</small>",
 		]
+	},
+	{
+		name: "Creu de Portell",
+		type: "memorial",
+		coordinates: [41.991603, 2.52939],
+		description: [
+			"<h2>Creu de Portell</h2>",
+			"<small>Divisió administrativa: Susqueda; Selva; Comarques gironines; Catalunya</small>",
+		]
+	},
+	{
+		name: "Creu de Sant Benet",
+		type: "memorial",
+		coordinates: [41.9499403, 2.5140377],
+		description: [
+			"<h2>Creu de Sant Benet</h2>",
+			"<small>Divisió administrativa: Susqueda; Selva; Comarques gironines; Catalunya</small>",
+		]
 	}
 ];

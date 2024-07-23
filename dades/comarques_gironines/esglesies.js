@@ -939,6 +939,26 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
+		name: "Sant Pau de Fornils",
+		type: "esglesia",
+		coordinates: [42.0161055, 2.5193637],
+		description: [
+			"<h2>Sant Pau de Fornils</h2>",
+			"<small>Divisió administrativa: Susqueda; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Collsacabra; Bisbat de Vic; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Fornils",
+		type: "esglesia",
+		coordinates: [42.020278, 2.509722],
+		description: [
+			"<h2>Sant Pere de Fornils</h2>",
+			"<small>Divisió administrativa: Susqueda; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter - Collsacabra; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Mare de Déu de les Olletes",
 		type: "esglesia",
 		coordinates: [42.1344506, 2.3952656],

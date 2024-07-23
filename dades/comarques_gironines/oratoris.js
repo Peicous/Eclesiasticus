@@ -54,7 +54,7 @@ const comarques_gironines_oratoris = [
 		coordinates: [41.98536, 2.54347],
 		description: [
 			"<h2>Sant Pelegrí</h2>",
-			"<small>Divisió administrativa: Susqueda; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió administrativa: Osor; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de les Guilleries - Congost; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
 		]
 	},
