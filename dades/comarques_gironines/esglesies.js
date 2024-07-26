@@ -57,6 +57,7 @@ const comarques_gironines_esglesies = [
 			"<h2>Sant Marçal del Colomer</h2>",
 			"<small>Divisió administrativa: El Colomer; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Sant_Mar%C3%A7al_del_Colomer_%28vista_general%29.jpg/640px-Sant_Mar%C3%A7al_del_Colomer_%28vista_general%29.jpg'/><br/>",
 			"Ermita del veïnat del Colomer, al terme municipal d'Amer. Construïda al segle <span style='font-variant: small-caps'>xi</span>."
 		],
 		visited: true

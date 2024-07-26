@@ -3652,8 +3652,11 @@ const comarques_gironines_parroquies = [
 		description: [
 			"<h2>Sant Cristòfol de les Planes d'Hostoles</h2>",
 			"<small>Divisió administrativa: Les Planes d'Hostoles; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Sant_Crist%C3%B2fol_de_les_Planes_d%27Hostoles_%28vista_general%29.jpg/320px-Sant_Crist%C3%B2fol_de_les_Planes_d%27Hostoles_%28vista_general%29.jpg'/><br/>",
+			"Església parroquial de la vila de les Planes d'Hostoles, al terme municipal homònim. Se'n té constància des del 1155."
+		],
+		visited: true
 	},
 	{
 		name: "Sant Climent d'Amer",
