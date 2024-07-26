@@ -550,6 +550,36 @@ const area_metropolitana_barcelona_parroquies = [
 		]
 	},
 	{
+		name: "Santa Maria de Gràcia",
+		type: "parroquia",
+		coordinates: [41.39845465, 2.15781723],
+		description: [
+			"<h2>Santa Maria de Gràcia</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gràcia; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Santa Teresa de l'Infant Jesús",
+		type: "parroquia",
+		coordinates: [41.40047745, 2.1517623],
+		description: [
+			"<h2>Santa Teresa de l'Infant Jesús</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gràcia; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
+		name: "Verge de Gràcia i Sant Josep",
+		type: "parroquia",
+		coordinates: [41.4068348, 2.14869175],
+		description: [
+			"<h2>Verge de Gràcia i Sant Josep</h2>",
+			"<small>Divisió administrativa: Barcelona; Barcelona; Barcelonès; Àmbit metropolità de Barcelona; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Gràcia; Zona Pastoral 2; Arquebisbat de Barcelona; Província eclesiàstica de Barcelona</small>"
+		]
+	},
+	{
 		name: "Crist Redemptor",
 		type: "parroquia",
 		coordinates: [41.41383035, 2.16260227],
