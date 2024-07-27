@@ -1,4 +1,18 @@
-const comarques_gironines_altres = [
+const comarques_gironines_altres = [	
+	{
+		name: "Cementiri dels jueus",
+		type: "desconegut", 
+		coordinates: [41.899167, 2.961667],
+		description: [
+			"<h2><b>Cementiri dels jueus</b></h2>",
+			"<small>Divisió administrativa: Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		type: "area",
+		radi: 500,
+		coordinates: [41.899167, 2.961667]
+	},
 	{
 		name: "Roca de les Trenta Creus",
 		type: "desconegut",
@@ -19,8 +33,7 @@ const comarques_gironines_altres = [
 		coordinates: [42.0201463, 2.5149485],
 		description: [
 			"<h2><b>Castell de Fornils</b></h2>",
-			"<small>Divisió administrativa: El Far; Susqueda; Selva; Comarques gironines; Catalunya</small><br/><br/>",
-			"Queda pendent d'explorar."
+			"<small>Divisió administrativa: El Far; Susqueda; Selva; Comarques gironines; Catalunya</small>"
 		]
 	},
 	{
@@ -34,8 +47,7 @@ const comarques_gironines_altres = [
 		coordinates: [42.018650, 2.659538],
 		description: [
 			"<h2><b>Cementiri dels moros de Sant Roc</b></h2>",
-			"<small>Divisió administrativa: La Barroca; Sant Aniol de Finestres; Garrotxa; Comarques gironines; Catalunya</small><br/><br/>",
-			"Queda pendent d'explorar."
+			"<small>Divisió administrativa: La Barroca; Sant Aniol de Finestres; Garrotxa; Comarques gironines; Catalunya</small>"
 		]
 	},
 	{

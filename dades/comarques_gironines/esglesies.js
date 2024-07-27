@@ -210,6 +210,16 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
+		name: "Capella de Can Baldiret",
+		type: "esglesia",
+		coordinates: [42.0486413, 2.9159704],
+		description: [
+			"<h2>Capella de Can Baldiret</h2>",
+			"<small>Divisió administrativa: Rissec; Bordils; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Mare de Déu de Serrallonga",
 		type: "esglesia",
 		coordinates: [41.8836476, 2.69934568],
@@ -240,6 +250,36 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
+		name: "Capella del Remei",
+		type: "esglesia",
+		coordinates: [41.88455575, 2.84466541],
+		description: [
+			"<h2>Capella del Remei</h2>",
+			"<small>Divisió administrativa: Cassà de la Selva; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de Porres",
+		type: "esglesia",
+		coordinates: [41.883248, 2.8948245],
+		description: [
+			"<h2>Sant Martí de Porres</h2>",
+			"<small>Divisió administrativa: Cassà de la Selva; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Vicenç d'Esclet",
+		type: "esglesia",
+		coordinates: [41.8522698, 2.8593283],
+		description: [
+			"<h2>Sant Vicenç d'Esclet</h2>",
+			"<small>Divisió administrativa: Esclet; Cassà de la Selva; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Sants Just i Pastor de la Cellera de Ter",
 		type: "esglesia",
 		coordinates: [41.98313245, 2.62078756],
@@ -253,6 +293,136 @@ const comarques_gironines_esglesies = [
 		visited: true
 	},
 	{
+		name: "Sant Cristòfol de Raset",
+		type: "esglesia",
+		coordinates: [42.07031535, 2.92612087],
+		description: [
+			"<h2>Sant Cristòfol de Raset</h2>",
+			"<small>Divisió administrativa: Raset de Baix; Cervià de Ter; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Roc de Raset",
+		type: "esglesia",
+		coordinates: [42.07449175, 2.92420247],
+		description: [
+			"<h2>Sant Roc de Raset</h2>",
+			"<small>Divisió administrativa: Raset de Dalt; Cervià de Ter; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Cervià de Ter",
+		type: "esglesia",
+		coordinates: [42.06790165, 2.91241878],
+		description: [
+			"<h2>Santa Maria de Cervià de Ter</h2>",
+			"<small>Divisió administrativa: Cervià de Ter; Cervià de Ter; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de l'Esperança",
+		type: "esglesia",
+		coordinates: [41.96387275, 3.01189317],
+		description: [
+			"<h2>Mare de Déu de l'Esperança</h2>",
+			"<small>Divisió administrativa: Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí-La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cebrià dels Alls",
+		type: "esglesia",
+		coordinates: [41.88735065, 3.01467652],
+		description: [
+			"<h2>Sant Cebrià dels Alls</h2>",
+			"<small>Divisió administrativa: Sant Cebrià dels Alls; Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí-La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Cebrià de Lledó",
+		type: "esglesia",
+		coordinates: [41.91247125, 2.96684931],
+		description: [
+			"<h2>Sant Cebrià de Lledó</h2>",
+			"<small>Divisió administrativa: Sant Cebrià de Lledó; Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí-La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan de Salelles",
+		type: "esglesia",
+		coordinates: [41.9483001, 2.99932518],
+		description: [
+			"<h2>Sant Joan de Salelles</h2>",
+			"<small>Divisió administrativa: Sant Joan de Salelles; Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí-La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Àgata de Montnegre",
+		type: "esglesia",
+		coordinates: [41.9325164, 2.9246326],
+		description: [
+			"<h2>Santa Àgata de Montnegre</h2>",
+			"<small>Divisió administrativa: Santa Àgata del Coll; Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí-La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Pel·laia",
+		type: "esglesia",
+		coordinates: [41.9201884, 2.91718523],
+		description: [
+			"<h2>Santa Pel·laia</h2>",
+			"<small>Divisió administrativa: Santa Pel·laia; Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí-La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de l'Esperança de Ferreres",
+		type: "esglesia",
+		coordinates: [42.0449569, 2.97210758],
+		description: [
+			"<h2>Mare de Déu de l'Esperança de Ferreres</h2>",
+			"<small>Divisió administrativa: Ferreres; Flaçà; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Fermí de Flaçà",
+		type: "esglesia",
+		coordinates: [42.0489426, 2.9606992],
+		description: [
+			"<h2>Sant Fermí de Flaçà</h2>",
+			"<small>Divisió administrativa: Flaçà; Flaçà; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Romà de Sidillà",
+		type: "esglesia",
+		coordinates: [42.0703926, 2.99243998],
+		description: [
+			"<h2>Sant Romà de Sidillà</h2>",
+			"<small>Divisió administrativa: Sidillà; Foixà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí-La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Sebastià de les Arenes",
+		type: "esglesia",
+		coordinates: [42.0718646, 2.99224083],
+		description: [
+			"<h2>Sant Sebastià de les Arenes</h2>",
+			"<small>Divisió administrativa: Sidillà; Foixà; Baix Empordà; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Montgrí-La Bisbal; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Santa Maria del Castell de Fornells",
 		type: "esglesia",
 		coordinates: [41.9264474, 2.8033268],
@@ -260,6 +430,156 @@ const comarques_gironines_esglesies = [
 			"<h2>Santa Maria del Castell de Fornells</h2>",
 			"<small>Divisió administrativa: Fornells de la Selva; Fornells de la Selva; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Capella del Calvari",
+		type: "esglesia",
+		coordinates: [41.9839028, 2.83537321],
+		description: [
+			"<h2>Capella del Calvari</h2>",
+			"<small>Divisió administrativa: Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Església dels Dolors",
+		type: "esglesia",
+		coordinates: [41.9819385, 2.8255146],
+		description: [
+			"<h2>Església dels Dolors</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Església dels Pares Claretians",
+		type: "esglesia",
+		coordinates: [41.97944245, 2.82158434],
+		description: [
+			"<h2>Església dels Pares Claretians</h2>",
+			"<small>Divisió administrativa: Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Església dels Salesians",
+		type: "esglesia",
+		coordinates: [42.0039326, 2.8240609],
+		description: [
+			"<h2>Església dels Salesians</h2>",
+			"<small>Divisió administrativa: Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu del Pilar",
+		type: "esglesia",
+		coordinates: [41.9970132, 2.8247573],
+		description: [
+			"<h2>Mare de Déu del Pilar</h2>",
+			"<small>Divisió administrativa: Pedret; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sagrada Família de Vila-roja",
+		type: "esglesia",
+		coordinates: [41.9697406, 2.8418505],
+		description: [
+			"<h2>Sagrada Família de Vila-roja</h2>",
+			"<small>Divisió administrativa: Vila-roja; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sagrat Cor",
+		type: "esglesia",
+		coordinates: [41.98183125, 2.82438757],
+		description: [
+			"<h2>Sagrat Cor</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Lluc",
+		type: "esglesia",
+		coordinates: [41.9878939, 2.82538397],
+		description: [
+			"<h2>Sant Lluc</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí Sacosta",
+		type: "esglesia",
+		coordinates: [41.9850403, 2.8265741],
+		description: [
+			"<h2>Sant Martí Sacosta</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel",
+		type: "esglesia",
+		coordinates: [42.0069251, 2.8620484],
+		description: [
+			"<h2>Sant Miquel</h2>",
+			"<small>Divisió administrativa: Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Nicolau",
+		type: "esglesia",
+		coordinates: [41.9890412, 2.82609909],
+		description: [
+			"<h2>Sant Nicolau</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Ponç de Fontajau",
+		type: "esglesia",
+		coordinates: [41.9917944, 2.8171757],
+		description: [
+			"<h2>Sant Ponç de Fontajau</h2>",
+			"<small>Divisió administrativa: Fontajau; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Llúcia Sacosta",
+		type: "esglesia",
+		coordinates: [41.9895315, 2.8271777],
+		description: [
+			"<h2>Santa Llúcia Sacosta</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Maria de Vista Alegre",
+		type: "esglesia",
+		coordinates: [41.9769668, 2.8247484],
+		description: [
+			"<h2>Santa Maria de Vista Alegre</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Joan Salerm de Juià",
+		type: "esglesia",
+		coordinates: [42.0125943, 2.90129893],
+		description: [
+			"<h2>Sant Joan Salerm de Juià</h2>",
+			"<small>Divisió administrativa: Juià; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -280,6 +600,16 @@ const comarques_gironines_esglesies = [
 			"<h2>Sant Cristòfol del Bosc</h2>",
 			"<small>Divisió administrativa: Llambilles; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Iscle i Santa Victòria del castell de Millars",
+		type: "esglesia",
+		coordinates: [41.98865285, 2.97097097],
+		description: [
+			"<h2>Sant Iscle i Santa Victòria del castell de Millars</h2>",
+			"<small>Divisió administrativa: Millars; Madremanya; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -590,6 +920,46 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
+		name: "Mare de Déu d'Argimon",
+		type: "esglesia",
+		coordinates: [41.8305824, 2.63594264],
+		description: [
+			"<h2>Mare de Déu d'Argimon</h2>",
+			"<small>Divisió administrativa: Riudarenes; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de Montcorb",
+		type: "esglesia",
+		coordinates: [41.80990315, 2.70135736],
+		description: [
+			"<h2>Mare de Déu de Montcorb</h2>",
+			"<small>Divisió administrativa: Montcorb; Riudarenes; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí de l'Esparra",
+		type: "esglesia",
+		coordinates: [41.826295, 2.65758008],
+		description: [
+			"<h2>Sant Martí de l'Esparra</h2>",
+			"<small>Divisió administrativa: L'Esparra; Riudarenes; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu del Remei de l'Hostal Nou",
+		type: "esglesia",
+		coordinates: [41.8972895, 2.7837754],
+		description: [
+			"<h2>Mare de Déu del Remei de l'Hostal Nou</h2>",
+			"<small>Divisió administrativa: Riudellots de la Selva; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de la Selva; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Mare de Déu de Bell-lloc",
 		type: "esglesia",
 		coordinates: [42.0620086, 2.60738256],
@@ -790,6 +1160,36 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
+		name: "Sant Feliu de Diana",
+		type: "esglesia",
+		coordinates: [42.08519445, 2.95362664],
+		description: [
+			"<h2>Sant Feliu de Diana</h2>",
+			"<small>Divisió administrativa: Diana; Sant Jordi Desvalls; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Mateu de Sant Jordi Desvalls",
+		type: "esglesia",
+		coordinates: [42.08993445, 2.9604071],
+		description: [
+			"<h2>Sant Mateu de Sant Jordi Desvalls</h2>",
+			"<small>Divisió administrativa: Sant Jordi Desvalls; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Pere de Sobrànigues",
+		type: "esglesia",
+		coordinates: [42.0603605, 2.9638748],
+		description: [
+			"<h2>Sant Pere de Sobrànigues</h2>",
+			"<small>Divisió administrativa: Sant Jordi Desvalls; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Sant Cosme i Sant Damià de Ramis",
 		type: "esglesia",
 		coordinates: [42.0281135, 2.85356172],
@@ -866,6 +1266,16 @@ const comarques_gironines_esglesies = [
 		description: [
 			"<h2>Sant Nazari de Sant Martí de Llémena</h2>",
 			"<small>Divisió administrativa: Sant Martí de Llémena; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu dels Àngels",
+		type: "esglesia",
+		coordinates: [41.98466735, 2.90878211],
+		description: [
+			"<h2>Mare de Déu dels Àngels</h2>",
+			"<small>Divisió administrativa: Els Àngels; Sant Martí Vell; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
@@ -1077,6 +1487,56 @@ const comarques_gironines_esglesies = [
 			"<h2>Santa Maria de Madrencs</h2>",
 			"<small>Divisió administrativa: Vilablareix; Vilablareix; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu dels Dolors",
+		type: "esglesia",
+		coordinates: [41.8786961, 2.7552074],
+		description: [
+			"<h2>Mare de Déu dels Dolors</h2>",
+			"<small>Divisió administrativa: Vilobí d'Onyar; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de les Fonts",
+		type: "esglesia",
+		coordinates: [41.91589645, 2.74682295],
+		description: [
+			"<h2>Mare de Déu de les Fonts</h2>",
+			"<small>Divisió administrativa: Vilobí d'Onyar; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sagrat Cor de ca l'Artau",
+		type: "esglesia",
+		coordinates: [41.8772200, 2.7580215],
+		description: [
+			"<h2>Sagrat Cor de ca l'Artau</h2>",
+			"<small>Divisió administrativa: Vilobí d'Onyar; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Llop de Sant Dalmai",
+		type: "esglesia",
+		coordinates: [41.91975235, 2.73439132],
+		description: [
+			"<h2>Sant Llop de Sant Dalmai</h2>",
+			"<small>Divisió administrativa: Sant Dalmai; Vilobí d'Onyar; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Santa Margarida",
+		type: "esglesia",
+		coordinates: [41.87398875, 2.75042696],
+		description: [
+			"<h2>Santa Margarida</h2>",
+			"<small>Divisió administrativa: Vilobí d'Onyar; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Farners-Montseny; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	}
 ];

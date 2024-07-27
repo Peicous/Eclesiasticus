@@ -39,6 +39,46 @@ const comarques_gironines_oratoris = [
 		visited: true
 	},
 	{
+		name: "Sant Sixt i Sant Hou",
+		type: "oratori",
+		coordinates: [42.0182954, 2.8531972],
+		description: [
+			"<h2>Sant Sixt i Sant Hou</h2>",
+			"<small>Divisió administrativa: Celrà; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Capelleta de Sant Josep",
+		type: "oratori",
+		coordinates: [41.9864589, 2.8257835],
+		description: [
+			"<h2>Capelleta de Sant Josep</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Capelleta de Sant Llorenç",
+		type: "oratori",
+		coordinates: [41.9862966, 2.8252277],
+		description: [
+			"<h2>Capelleta de Sant Llorenç</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Fornícula de Sant Antoni de Pàdua",
+		type: "oratori",
+		coordinates: [41.9843790, 2.8255153],
+		description: [
+			"<h2>Fornícula de Sant Antoni de Pàdua</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Oratori de la Sagrada Família",
 		type: "oratori",
 		coordinates: [42.1673551, 2.5226095],

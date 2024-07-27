@@ -1,5 +1,4 @@
 const comarques_gironines_cementiris = [
-	
 	{
 		name: "Cementiri Parroquial de Santa Maria d'Agullana",
 		type: "cementiri",
@@ -1060,6 +1059,15 @@ const comarques_gironines_cementiris = [
 		description: [
 			"<h2>Cementiri Parroquial de Garriguella</h2>",
 			"<small>Divisió administrativa: Garriguella; Garriguella; Alt Empordà; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Cementiri caputxí",
+		type: "cementiri",
+		coordinates: [41.9868499, 2.8248504],
+		description: [
+			"<h2>Cementiri caputxí</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
 		]
 	},
 	{
@@ -3280,12 +3288,12 @@ const comarques_gironines_cementiris = [
 		]
 	},
 	{
-		name: "Cementiri Parroquial de Santa Pellaia",
+		name: "Cementiri Parroquial de Santa Pel·laia",
 		type: "cementiri",
 		coordinates: [41.9202148, 2.9172341],
 		description: [
-			"<h2>Cementiri Parroquial de Santa Pellaia</h2>",
-			"<small>Divisió administrativa: Santa Pellaia; Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small>"
+			"<h2>Cementiri Parroquial de Santa Pel·laia</h2>",
+			"<small>Divisió administrativa: Santa Pel·laia; Cruïlles, Monells i Sant Sadurní de l'Heura; Baix Empordà; Comarques gironines; Catalunya</small>"
 		]
 	},
 	{
