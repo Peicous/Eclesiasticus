@@ -99,6 +99,19 @@ const comarques_gironines_oratoris = [
 		]
 	},
 	{
+		name: "Oratori de Santa Maria de les Encies",
+		type: "oratori",
+		coordinates: [42.066412, 2.576318],
+		description: [
+			"<h2>Oratori de Santa Maria de les Encies</h2>",
+			"<small>Divisió administrativa: Les Encies; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Oratori_de_Santa_Maria_de_les_Encies_%28vista_frontal%29.jpg/320px-Oratori_de_Santa_Maria_de_les_Encies_%28vista_frontal%29.jpg'/><br/>",
+			"Oratori del poble de les Encies, al terme municipal de les Planes d'Hostoles."
+		],
+		visited: true
+	},
+	{
 		name: "Oratori de Finestres",
 		type: "oratori",
 		coordinates: [42.1138465, 2.591411],

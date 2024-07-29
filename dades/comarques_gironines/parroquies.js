@@ -3632,8 +3632,11 @@ const comarques_gironines_parroquies = [
 		description: [
 			"<h2>Santa Maria de les Encies</h2>",
 			"<small>Divisió administrativa: Les Encies; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Santa_Maria_de_les_Encies_%28fa%C3%A7ana_principal%29.jpg/320px-Santa_Maria_de_les_Encies_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
+			"Església parroquial del poble de les Encies, al terme municipal de les Planes d'Hostoles. Se'n té constància des del 1155."
+		],
+		visited: true
 	},
 	{
 		name: "Sant Feliu de Pallerols",

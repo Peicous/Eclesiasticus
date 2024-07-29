@@ -829,8 +829,11 @@ const comarques_gironines_esglesies = [
 		description: [
 			"<h2>Ermita de l'Àngel de les Planes d'Hostoles</h2>",
 			"<small>Divisió administrativa: Les Planes d'Hostoles; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ermita_de_l%27%C3%80ngel_de_les_Planes_d%27Hostoles_%28vista_de_mestral%29.jpg/640px-Ermita_de_l%27%C3%80ngel_de_les_Planes_d%27Hostoles_%28vista_de_mestral%29.jpg'/><br/>",
+			"Ermita a la vila de les Planes d'Hostoles, al terme municipal homònim. Construïda el 1539."
+		],
+		visited: true
 	},
 	{
 		name: "Sant Pelegrí de les Planes d'Hostoles",

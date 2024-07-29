@@ -1733,17 +1733,21 @@ const comarques_gironines_cementiris = [
 		coordinates: [42.0620945, 2.5347085],
 		description: [
 			"<h2>Cementiri Municipal de les Planes d'Hostoles</h2>",
-			"<small>Divisió administrativa: Les Planes d'Hostoles; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small>"
-		]
+			"<small>Divisió administrativa: Les Planes d'Hostoles; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Cementiri_Municipal_de_les_Planes_d%27Hostoles_%28entrada%29.jpg/640px-Cementiri_Municipal_de_les_Planes_d%27Hostoles_%28entrada%29.jpg'/><br/>",
+			"Cementiri de la vila de les Planes d'Hostoles, al terme municipal homònim. Construït durant la dècada de 1940."
+		],
+		visited: true
 	},
 	{
 		name: "Cementiri Parroquial de Santa Maria de les Encies",
 		type: "cementiri",
-		coordinates: [42.0661114, 2.5761185],
+		coordinates: [42.0660456, 2.5758801],
 		description: [
 			"<h2>Cementiri Parroquial de Santa Maria de les Encies</h2>",
 			"<small>Divisió administrativa: Les Encies; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Cementiri Parroquial de Cogolls",
