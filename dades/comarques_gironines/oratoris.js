@@ -21,7 +21,8 @@ const comarques_gironines_oratoris = [
 			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Oratori_de_Sant_Benet_de_Palerm_de_la_Cellera_de_Ter_%28vista_frontal%29.jpg/320px-Oratori_de_Sant_Benet_de_Palerm_de_la_Cellera_de_Ter_%28vista_frontal%29.jpg'/><br/>",
-			"Oratori a la vila de la Cellera de Ter, al terme municipal homònim. Construït el 1854."
+			"Oratori a la vila de la Cellera de Ter, al terme municipal homònim. Construït el 1854.",
+			"<br/><a href='#sant_benet_de_palerm_de_la_cellera_de_ter'>Veure més informació</a>"
 		],
 		visited: true
 	},
@@ -34,7 +35,8 @@ const comarques_gironines_oratoris = [
 			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Oratori_de_Sant_Pelegr%C3%AD_de_la_Cellera_de_Ter_%28oratori%29.jpg/320px-Oratori_de_Sant_Pelegr%C3%AD_de_la_Cellera_de_Ter_%28oratori%29.jpg'/><br/>",
-			"Oratori a la vila de la Cellera de Ter, al terme municipal homònim. Construït el 1789."
+			"Oratori a la vila de la Cellera de Ter, al terme municipal homònim. Construït el 1789.",
+			"<br/><a href='#sant_pelegri_de_la_cellera_de_ter'>Veure més informació</a>"
 		],
 		visited: true
 	},
