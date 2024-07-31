@@ -2612,7 +2612,8 @@ const comarques_gironines_cementiris = [
 			"<h2>Cementiri Municipal de la Cellera de Ter</h2>",
 			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cementiri_Municipal_de_la_Cellera_de_Ter_%28entrada%29.jpg/320px-Cementiri_Municipal_de_la_Cellera_de_Ter_%28entrada%29.jpg'/><br/>",
-			"Cementiri de la vila de la Cellera de Ter, al terme municipal homònim. Construït entre 1890 i 1891."
+			"Cementiri de la vila de la Cellera de Ter, al terme municipal homònim. Construït entre 1890 i 1891.",
+			"<br/><a href='#cementiri_municipal_de_la_cellera_de_ter'>Veure més informació</a>"
 		],
 		visited: true
 	},

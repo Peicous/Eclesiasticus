@@ -3621,7 +3621,7 @@ const comarques_gironines_parroquies = [
 			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Santa_Maria_de_Sales_de_la_Cellera_de_Ter_%28fa%C3%A7ana_sud%29.jpg/320px-Santa_Maria_de_Sales_de_la_Cellera_de_Ter_%28fa%C3%A7ana_sud%29.jpg'/><br/>",
-			"Església parroquial de la vila de la Cellera de Ter, al terme municipal homònim. Se'n té constància des del 860."
+			"Església parroquial de la vila de la Cellera de Ter, al terme municipal homònim. Se'n té constància des del 833."
 		],
 		visited: true
 	},
