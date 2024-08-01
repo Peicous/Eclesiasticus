@@ -285,10 +285,11 @@ const comarques_gironines_esglesies = [
 		coordinates: [41.98313245, 2.62078756],
 		description: [
 			"<h2>Sants Just i Pastor de la Cellera de Ter</h2>",
-			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió administrativa: Plademunt; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sants_Just_i_Pastor_de_la_Cellera_de_Ter_%28fa%C3%A7ana_principal%29.jpg/320px-Sants_Just_i_Pastor_de_la_Cellera_de_Ter_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
-			"Ermita del veïnat de Plademunt, al terme municipal de la Cellera de Ter. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xii</span>."
+			"Ermita del veïnat de Plademunt, al terme municipal de la Cellera de Ter. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xii</span>.",
+			"<br/><a href='#sants_just_i_pastor_de_la_cellera_de_ter'>Veure més informació</a>"
 		],
 		visited: true
 	},
