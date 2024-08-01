@@ -22,6 +22,42 @@ const comarques_gironines_memorials = [
 		]
 	},
 	{
+		name: "Creu de Corts",
+		type: "memorial",
+		coordinates: [42.0950413, 2.7895226],
+		description: [
+			"<h2>Creu de Corts</h2>",
+			"<small>Divisió administrativa: Corts; Cornellà del Terri; Pla de l'Estany; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Creu de Pujals dels Cavallers",
+		type: "memorial",
+		coordinates: [42.1056298, 2.8188908],
+		description: [
+			"<h2>Creu de Pujals dels Cavallers</h2>",
+			"<small>Divisió administrativa: Pujals dels Cavallers; Cornellà del Terri; Pla de l'Estany; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Creu de Pujals dels Pagesos",
+		type: "memorial",
+		coordinates: [42.1078403, 2.8331583],
+		description: [
+			"<h2>Creu de Pujals dels Pagesos</h2>",
+			"<small>Divisió administrativa: Pujals dels Pagesos; Cornellà del Terri; Pla de l'Estany; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Creu de Sords",
+		type: "memorial",
+		coordinates: [42.0878632, 2.8235036],
+		description: [
+			"<h2>Creu de Sords</h2>",
+			"<small>Divisió administrativa: Sords; Cornellà del Terri; Pla de l'Estany; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
 		name: "Creu de Cruïlles",
 		type: "memorial",
 		coordinates: [41.9557793, 3.0121767],

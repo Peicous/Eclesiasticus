@@ -51,6 +51,16 @@ const comarques_gironines_oratoris = [
 		]
 	},
 	{
+		name: "Oratori de Pujals dels Cavallers",
+		type: "oratori",
+		coordinates: [42.1063157, 2.8188760],
+		description: [
+			"<h2>Oratori de Pujals dels Cavallers</h2>",
+			"<small>Divisió administrativa: Pujals dels Cavallers; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Capelleta de Sant Josep",
 		type: "oratori",
 		coordinates: [41.9864589, 2.8257835],
@@ -98,6 +108,16 @@ const comarques_gironines_oratoris = [
 			"<h2>Sant Pelegrí</h2>",
 			"<small>Divisió administrativa: Osor; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de les Guilleries - Congost; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Dalmau",
+		type: "oratori",
+		coordinates: [42.0576357, 2.7764181],
+		description: [
+			"<h2>Sant Dalmau</h2>",
+			"<small>Divisió administrativa: Riudellots de la Creu; Palol de Revardit; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{

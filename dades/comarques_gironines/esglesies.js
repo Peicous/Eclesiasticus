@@ -323,6 +323,46 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
+		name: "Sant Andreu del Terri",
+		type: "esglesia",
+		coordinates: [42.0646525, 2.8458021],
+		description: [
+			"<h2>Sant Andreu del Terri</h2>",
+			"<small>Divisió administrativa: Sant Andreu del Terri; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Antoni de Cornellà de Terri",
+		type: "esglesia",
+		coordinates: [42.0898952, 2.8176507],
+		description: [
+			"<h2>Sant Antoni de Cornellà de Terri</h2>",
+			"<small>Divisió administrativa: Cornellà de Terri; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Jaume de Pont-xetmar",
+		type: "esglesia",
+		coordinates: [42.0935485, 2.8022275],
+		description: [
+			"<h2>Sant Jaume de Pont-xetmar</h2>",
+			"<small>Divisió administrativa: Pont-xetmar; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Miquel de Cornellà del Terri",
+		type: "esglesia",
+		coordinates: [42.0799555, 2.8361159],
+		description: [
+			"<h2>Sant Miquel de Cornellà del Terri</h2>",
+			"<small>Divisió administrativa: Santa Llogaia del Terri; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
 		name: "Mare de Déu de l'Esperança",
 		type: "esglesia",
 		coordinates: [41.96387275, 3.01189317],
@@ -820,6 +860,17 @@ const comarques_gironines_esglesies = [
 			"<h2>Sant Miquel de Solterra</h2>",
 			"<small>Divisió administrativa: Osor; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de les Guilleries - Congost; Bisbat de Vic; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Sant Martí Boscós",
+		type: "esglesia",
+		coordinates: [42.0575038, 2.8135875],
+		description: [
+			"<h2>Sant Martí Boscós</h2>",
+			"<small>Divisió administrativa: Riudellots de la Creu; Palol de Revardit; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Només se'n conserven ruïnes."
 		]
 	},
 	{
