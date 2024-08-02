@@ -92,7 +92,7 @@ function handleMarkerOut(e) {
 //===========================================================================================
 
 function onEachFeature(feature, layer) {
-	//Comarques Gironines
+	//Comarques gironines
 	if (
 		feature.properties.nom_comar == "Gironès" ||
 		feature.properties.nom_comar == "Selva" ||
@@ -107,7 +107,7 @@ function onEachFeature(feature, layer) {
 			weight: 2,
 			opacity: 1,
 			fillOpacity: 0.5,
-			fillColor: '#ffd966',
+			fillColor: '#F3F373',
 			color: "black",
 		});
 	}
@@ -123,11 +123,11 @@ function onEachFeature(feature, layer) {
 			weight: 2,
 			opacity: 1,
 			fillOpacity: 0.5,
-			fillColor: 'red',
+			fillColor: '#F37373',
 			color: "black",
 		});
 	}
-	//Catalunya Central
+	//Comarques centrals
 	else if (
 		feature.properties.nom_comar == "Bages" ||
 		feature.properties.nom_comar == "Osona" ||
@@ -140,7 +140,7 @@ function onEachFeature(feature, layer) {
 			weight: 2,
 			opacity: 1,
 			fillOpacity: 0.5,
-			fillColor: 'blue',
+			fillColor: '#7373F3',
 			color: "black",
 		});
 	}
@@ -157,7 +157,7 @@ function onEachFeature(feature, layer) {
 			weight: 2,
 			opacity: 1,
 			fillOpacity: 0.5,
-			fillColor: 'cyan',
+			fillColor: '#73F3F3',
 			color: "black",
 		});
 	}
@@ -174,7 +174,7 @@ function onEachFeature(feature, layer) {
 			weight: 2,
 			opacity: 1,
 			fillOpacity: 0.5,
-			fillColor: 'pink',
+			fillColor: '#F373F3',
 			color: "black",
 		});
 	}
@@ -189,7 +189,7 @@ function onEachFeature(feature, layer) {
 			weight: 2,
 			opacity: 1,
 			fillOpacity: 0.5,
-			fillColor: '#D26A00',
+			fillColor: '#FF7F00',
 			color: "black",
 		});
 	}
@@ -205,7 +205,7 @@ function onEachFeature(feature, layer) {
 			weight: 2,
 			opacity: 1,
 			fillOpacity: 0.5,
-			fillColor: 'green',
+			fillColor: '#73F373',
 			color: "black",
 		});
 	}
@@ -220,7 +220,7 @@ function onEachFeature(feature, layer) {
 			weight: 2,
 			opacity: 1,
 			fillOpacity: 0.5,
-			fillColor: 'darkgreen',
+			fillColor: '#B3B373',
 			color: "black",
 		});
 	}
