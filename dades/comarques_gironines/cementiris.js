@@ -283,7 +283,8 @@ const comarques_gironines_cementiris = [
 			"<h2>Cementiri Municipal de Vilanna</h2>",
 			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Cementiri_Municipal_de_Vilanna_%28entrada%29.jpg/640px-Cementiri_Municipal_de_Vilanna_%28entrada%29.jpg'/><br/>",
-			"Cementiri municipal de la vila de Vilanna, al terme municipal de Bescanó. Antic cementiri parroquial, municipalitzat el 26 de gener de 1933."
+			"Cementiri municipal del poble de Vilanna, al terme municipal de Bescanó. Antic cementiri parroquial, municipalitzat el 1933.",
+			"<br/><a href='#cementiri_municipal_de_vilanna'>Veure més informació</a>"
 		],
 		visited: true
 	},
