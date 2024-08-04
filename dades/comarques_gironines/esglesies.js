@@ -124,7 +124,7 @@ const comarques_gironines_esglesies = [
 		description: [
 			"<h2>Sant Bartomeu d'Estanyol</h2>",
 			"<small>Divisió administrativa: Estanyol; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió eclesiàstica: Parròquia de Sant Andreu d'Estanyol; Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
 	},
 	{
@@ -134,7 +134,7 @@ const comarques_gironines_esglesies = [
 		description: [
 			"<h2>Sant Bartomeu de Trullars</h2>",
 			"<small>Divisió administrativa: Trullars; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Andreu d'Estanyol; Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Mateu de Vilanna; Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Capella del llogarret de Trullars, al terme municipal de Bescanó. Se'n té constància des del 1118, però es creu d'origen preromànic."
 		]
 	},
@@ -1282,6 +1282,17 @@ const comarques_gironines_esglesies = [
 			"<h2>Santa Fe de les Serres</h2>",
 			"<small>Divisió administrativa: Santa Fe de la Serra; Sant Julià de Ramis; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		]
+	},
+	{
+		name: "Immaculada Concepció de Bonmatí",
+		type: "esglesia",
+		coordinates: [41.9670427, 2.6685545],
+		description: [
+			"<h2>Immaculada Concepció de Bonmatí</h2>",
+			"<small>Divisió administrativa: Bonmatí; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"Antiga església parroquial de la Colònia Bonmatí. Se'n té constància des de 1895."
 		]
 	},
 	{

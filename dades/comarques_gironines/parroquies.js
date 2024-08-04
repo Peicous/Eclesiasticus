@@ -3723,7 +3723,8 @@ const comarques_gironines_parroquies = [
 			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Sant_Mateu_de_Vilanna_%28vista_general%29.jpg/640px-Sant_Mateu_de_Vilanna_%28vista_general%29.jpg'/><br/>",
-			"Església parroquial del poble de Vilanna, al terme municipal de Bescanó. Se'n té constància des del 899."
+			"Església parroquial del poble de Vilanna, al terme municipal de Bescanó. Se'n té constància des del 899.",
+			"<br/><a href='#sant_mateu_de_vilanna'>Veure més informació</a>"
 		],
 		visited: true
 	},
