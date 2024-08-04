@@ -12,6 +12,10 @@
 
 		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+		
+		<link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.css" />
+		<link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.Default.css" />
+		<script src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/leaflet.markercluster.js"></script>
 
 		<style>
 			body {
@@ -226,6 +230,19 @@
 						<label>
 							<span>
 								<input
+									id="clustering_input"
+									type="checkbox"
+									class="leaflet-control-layers-selector"
+									checked
+								/>
+								<span>Agrupament</span>
+							</span>
+						</label>
+					</div>
+					<div class="leaflet-control-layers-overlays">
+						<label>
+							<span>
+								<input
 									id="visitat_input"
 									type="checkbox"
 									class="leaflet-control-layers-selector"
@@ -255,12 +272,17 @@
 			<iframe id="scrolling-panel-content" src="./pagines/pagina_en_blanc.html"></iframe>
 		</div>
 
-		<script src="./codi.js"></script>
-		
 		<script>
+			const GeoJson = {
+				type: "FeatureCollection",
+				features:[]
+			};
+			
 			var regions_externes = false;
 			var provincies_catalanes = false;
 		</script>
+
+		<script src="./codi.js"></script>
 		
 		<script async src="./polygons/regions_externes.js"></script>
 		<script async src="./polygons/provinces_catalanes.js"></script>

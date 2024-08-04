@@ -56,11 +56,6 @@ var map = L.map('map', {
 var zoneLayer;
 var geojson_territori;
 
-const GeoJson = {
-	type: "FeatureCollection",
-	features:[]
-};
-
 //Polygons regions
 function instanceGeoJson() {
 	let geo_json = GeoJson;
@@ -298,19 +293,17 @@ function getAllLocations() {
 
 
 //groups
-const parroquiesGroup = L.layerGroup();
-const cementirisGroup = L.layerGroup();
-const esglesiesGroup = L.layerGroup();
-const monestirisGroup = L.layerGroup();
-const oratorisGroup = L.layerGroup();
-const memorialsGroup = L.layerGroup();
+var parroquiesGroup = L.markerClusterGroup();
+var cementirisGroup = L.markerClusterGroup();
+var esglesiesGroup = L.markerClusterGroup();
+var monestirisGroup = L.markerClusterGroup();
+var oratorisGroup = L.markerClusterGroup();
+var memorialsGroup = L.markerClusterGroup();
 
-const altresGroup = L.layerGroup();
-const debugGroup = L.layerGroup();
+var altresGroup = L.markerClusterGroup();
+var debugGroup = L.markerClusterGroup();
 
-//Carrega de le ubicacions i organizta els markers en grups
-function loadLocations(local_locations) {
-	//Neteja de grups
+function mapClearLayers() {
 	parroquiesGroup.clearLayers();
 	cementirisGroup.clearLayers();
 	esglesiesGroup.clearLayers();
@@ -320,6 +313,12 @@ function loadLocations(local_locations) {
 
 	altresGroup.clearLayers();
 	debugGroup.clearLayers();
+}
+
+//Carrega de le ubicacions i organizta els markers en grups
+function loadLocations(local_locations) {
+	//Neteja de grups
+	mapClearLayers();
 
 	local_locations.map(location => {
 		let zindex = 1;
@@ -424,16 +423,16 @@ function loadLocations(local_locations) {
 
 		//debug_marker.addTo(debugGroup);
 	})
+	
+	// Add layer groups to the map
+	esglesiesGroup.addTo(map);
+	cementirisGroup.addTo(map);
+	parroquiesGroup.addTo(map);
+	monestirisGroup.addTo(map);
+	oratorisGroup.addTo(map);
+	memorialsGroup.addTo(map);
+	altresGroup.addTo(map);
 }
-
-// Add layer groups to the map
-esglesiesGroup.addTo(map);
-cementirisGroup.addTo(map);
-parroquiesGroup.addTo(map);
-monestirisGroup.addTo(map);
-oratorisGroup.addTo(map);
-memorialsGroup.addTo(map);
-altresGroup.addTo(map);
 
 //debugGroup.addTo(map);
 
@@ -562,16 +561,51 @@ sateliteViewCheckbox.addEventListener("click", function() {
 
 //Filtres
 
-//Filtre per ubicacions visitades
-const visitatCheckbox = document.getElementById("visitat_input");
-visitatCheckbox.addEventListener("change", function() {
+function filterVisited(_checked) {
 	const all_locations = getAllLocations();
 
-	if (this.checked) {
+	if (_checked) {
 		const filtered_locations = all_locations.filter(location => location.visited);
 		loadLocations(filtered_locations);
 	}
 	else {
 		loadLocations(all_locations);
 	}
+}
+
+//Filtre per ubicacions visitades
+const visitatCheckbox = document.getElementById("visitat_input");
+visitatCheckbox.addEventListener("change", function() {
+	filterVisited(this.checked);
+});
+
+//
+const clusteringCheckbox = document.getElementById("clustering_input");
+clusteringCheckbox.addEventListener("change", function() {
+	mapClearLayers();
+
+	if (this.checked) {
+		parroquiesGroup = L.markerClusterGroup();
+		cementirisGroup = L.markerClusterGroup();
+		esglesiesGroup = L.markerClusterGroup();
+		monestirisGroup = L.markerClusterGroup();
+		oratorisGroup = L.markerClusterGroup();
+		memorialsGroup = L.markerClusterGroup();
+
+		altresGroup = L.markerClusterGroup();
+		debugGroup = L.markerClusterGroup();
+	}
+	else {
+		parroquiesGroup = L.layerGroup();
+		cementirisGroup = L.layerGroup();
+		esglesiesGroup = L.layerGroup();
+		monestirisGroup = L.layerGroup();
+		oratorisGroup = L.layerGroup();
+		memorialsGroup = L.layerGroup();
+
+		altresGroup = L.layerGroup();
+		debugGroup = L.layerGroup();
+	}
+	
+	filterVisited(visitatCheckbox.checked);
 });
