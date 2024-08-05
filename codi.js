@@ -439,14 +439,19 @@ function loadLocations(local_locations) {
 function exportCsv() {
 	const all_locations = getAllLocations();
 
-	const data = [
-		["Column 1", "Column 2", "Column 3"],
-		["Data 1", "Data 2", "Data 3"],
-		["Data 4", "Data 5", "Data 6"]
+	var data = [
+		["Nom", "Tipus", "Latitud", "Longitud"]
 	];
 
+	all_locations
+	.filter(item => item.type != "area")
+	.sort((a, b) => a.name < b.name ? -1 : 1) // Ordenats per Nom
+	.map(item => {
+		data.push([item.name, item.type, item.coordinates]);
+	})
+
 	// Convert your data into a CSV string
-	const csvContent = "data:text/csv;charset=utf-8," + data.map(e => e.join(",")).join("\n");
+	const csvContent = data.map(e => e.join(",")).join("\n");
 
 	// Create a blob
 	const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
@@ -454,7 +459,7 @@ function exportCsv() {
 	// Create a link to download
 	const link = document.createElement("a");
 	link.href = URL.createObjectURL(blob);
-	link.download = "filename.csv";
+	link.download = "eclesiasticus_dump.csv";
 	link.click();
 }
 
