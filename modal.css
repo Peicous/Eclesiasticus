@@ -1,0 +1,31 @@
+.open-button {
+	position: fixed;
+	z-index: 999; /* Ensure it's on top */
+	left: 0;
+	top: 0;
+	margin: 15px;
+	width: 100px;
+	height: 60px;
+	overflow: auto; /* Enable scroll if content is larger than screen */
+	background-color: rgb(255, 255, 255); /* Black with opacity */
+}
+.modal {
+	display: none; /* Initially hidden */
+	position: fixed;
+	z-index: 1000; /* Ensure it's on top */
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto; /* Enable scroll if content is larger than screen */
+	background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 15%;
+	padding: 20px;
+	border: 1px solid #888;
+	width: auto;
+	height: auto;
+}

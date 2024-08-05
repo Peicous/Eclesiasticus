@@ -10,6 +10,8 @@
 		<title>Mapa eclesiàstic</title>
 		<link href="icona.png" rel="shortcut icon"/>
 
+		<link rel="stylesheet" href="./modal.css" />
+
 		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 		
@@ -94,6 +96,7 @@
 		</style>
 	</head>
 	<body>
+		<button id="openModal" class="open-button">Exportar</button>
 		<div id='map'>
 			<div
 				class="absolute leaflet-control-layers leaflet-control leaflet-control-layers-expanded"
@@ -264,6 +267,18 @@
 						</label>
 					</div>
 				</section>
+			</div>
+		</div>
+
+		<div class="modal" id="modalDialog">
+			<div class="modal-content">
+				<h2>Export data</h2>
+				<div>
+					<p>This is the dialog content.</p>
+					<button id="exportButton" onclick="exportCsv()">Exportar dades en format csv</button>
+				</div> 
+				<br/>
+				<button id="closeModal">Close</button>
 			</div>
 		</div>
 		

@@ -436,6 +436,28 @@ function loadLocations(local_locations) {
 
 //debugGroup.addTo(map);
 
+function exportCsv() {
+	const all_locations = getAllLocations();
+
+	const data = [
+		["Column 1", "Column 2", "Column 3"],
+		["Data 1", "Data 2", "Data 3"],
+		["Data 4", "Data 5", "Data 6"]
+	];
+
+	// Convert your data into a CSV string
+	const csvContent = "data:text/csv;charset=utf-8," + data.map(e => e.join(",")).join("\n");
+
+	// Create a blob
+	const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+  
+	// Create a link to download
+	const link = document.createElement("a");
+	link.href = URL.createObjectURL(blob);
+	link.download = "filename.csv";
+	link.click();
+}
+
 //Events
 const esglesisCheckbox = document.getElementById("esglesies_input");
 esglesisCheckbox.addEventListener("change", function() {
@@ -579,7 +601,7 @@ visitatCheckbox.addEventListener("change", function() {
 	filterVisited(this.checked);
 });
 
-//
+//Activar/desactivar clustering
 const clusteringCheckbox = document.getElementById("clustering_input");
 clusteringCheckbox.addEventListener("change", function() {
 	mapClearLayers();
@@ -608,4 +630,20 @@ clusteringCheckbox.addEventListener("change", function() {
 	}
 	
 	filterVisited(visitatCheckbox.checked);
+});
+
+//Open dialog
+const dialogOpenButton = document.getElementById("openModal");
+dialogOpenButton.addEventListener("click", function() {
+	const modalDialog = document.getElementById('modalDialog');
+	modalDialog.style.display = "block";
+	modal.classList.add('show');
+});
+
+//Close dialog
+const dialogCloseButton = document.getElementById("closeModal");
+dialogCloseButton.addEventListener("click", function() {
+	const modalDialog = document.getElementById('modalDialog');
+	modalDialog.style.display = "none";
+	modal.classList.remove('show');
 });
