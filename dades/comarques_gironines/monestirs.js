@@ -40,7 +40,8 @@ const comarques_gironines_monestirs = [
 			"<h2>Convent de Sant Domènec</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Convent de Sant Francesc d'Assís",
@@ -61,7 +62,8 @@ const comarques_gironines_monestirs = [
 			"<h2>Convent de Sant Josep</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Convent de les Caputxines",
@@ -91,7 +93,8 @@ const comarques_gironines_monestirs = [
 			"<h2>Convent de les Germanes Vetlladores</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Convent de les Josefines",
@@ -111,7 +114,8 @@ const comarques_gironines_monestirs = [
 			"<h2>Convent de la Mercè</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Pere de Galligants",

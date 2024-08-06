@@ -136,7 +136,8 @@ const comarques_gironines_memorials = [
 		description: [
 			"<h2>Creu de la Creueta</h2>",
 			"<small>Divisió administrativa: La Creueta; Quart; Gironès; Comarques gironines; Catalunya</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Creu d'en Vinyoles",

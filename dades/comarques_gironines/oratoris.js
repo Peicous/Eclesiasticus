@@ -81,6 +81,17 @@ const comarques_gironines_oratoris = [
 		]
 	},
 	{
+		name: "Fornícula de la Mare de Déu de la Mercè",
+		type: "oratori",
+		coordinates: [41.9814838, 2.8245628],
+		description: [
+			"<h2>Fornícula de la Mare de Déu de la Mercè</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		],
+		visited: true
+	},
+	{
 		name: "Fornícula de Sant Antoni de Pàdua",
 		type: "oratori",
 		coordinates: [41.9843790, 2.8255153],
@@ -88,7 +99,8 @@ const comarques_gironines_oratoris = [
 			"<h2>Fornícula de Sant Antoni de Pàdua</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Oratori de la Sagrada Família",

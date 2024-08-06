@@ -2698,7 +2698,8 @@ const comarques_gironines_parroquies = [
 			"<h2>Sant Josep de Girona</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Santa Eugènia de Ter",

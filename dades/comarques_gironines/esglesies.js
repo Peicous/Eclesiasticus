@@ -484,6 +484,17 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
+		name: "Esclaves del Santíssim Sagrament i Maria Immaculada",
+		type: "esglesia",
+		coordinates: [41.9856735, 2.8262801],
+		description: [
+			"<h2>Esclaves del Santíssim Sagrament i Maria Immaculada</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+		],
+		visited: true
+	},
+	{
 		name: "Església dels Dolors",
 		type: "esglesia",
 		coordinates: [41.9819385, 2.8255146],
@@ -491,7 +502,8 @@ const comarques_gironines_esglesies = [
 			"<h2>Església dels Dolors</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Església dels Pares Claretians",
@@ -531,7 +543,8 @@ const comarques_gironines_esglesies = [
 			"<h2>Sagrada Família de Vila-roja</h2>",
 			"<small>Divisió administrativa: Vila-roja; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sagrat Cor",
@@ -541,7 +554,8 @@ const comarques_gironines_esglesies = [
 			"<h2>Sagrat Cor</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Lluc",
@@ -561,7 +575,8 @@ const comarques_gironines_esglesies = [
 			"<h2>Sant Martí Sacosta</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Miquel",
@@ -611,7 +626,8 @@ const comarques_gironines_esglesies = [
 			"<h2>Santa Maria de Vista Alegre</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Joan Salerm de Juià",

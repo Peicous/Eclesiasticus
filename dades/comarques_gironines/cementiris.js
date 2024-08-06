@@ -1132,7 +1132,8 @@ const comarques_gironines_cementiris = [
 		description: [
 			"<h2>Cementiri Vell de Girona</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Cementiri Municipal de Gombrèn",
