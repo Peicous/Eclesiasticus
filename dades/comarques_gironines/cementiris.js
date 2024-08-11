@@ -264,7 +264,8 @@ const comarques_gironines_cementiris = [
 		description: [
 			"<h2>Cementiri Parroquial de Montfullà</h2>",
 			"<small>Divisió administrativa: Montfullà; Bescanó; Gironès; Comarques gironines; Catalunya</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Cementiri Municipal d'Estanyol",
@@ -2235,7 +2236,8 @@ const comarques_gironines_cementiris = [
 		description: [
 			"<h2>Cementiri Municipal de Constantins</h2>",
 			"<small>Divisió administrativa: Constatins; Sant Gregori; Gironès; Comarques gironines; Catalunya</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Cementiri Municipal de Taialà",

@@ -115,7 +115,8 @@ const comarques_gironines_esglesies = [
 			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Capella adossada al Palau dels comtes de Berenguer, al terme municipal de Bescanó. Construïda a finals del segle <span style='font-variant: small-caps'>xix</span>."
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Bartomeu d'Estanyol",
@@ -182,7 +183,8 @@ const comarques_gironines_esglesies = [
 			"<small>Divisió administrativa: Montfullà; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Ermita de la vila de Montfullà, al terme municipal de Bescanó. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xvii</span>."
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Santa Margarida de Bescanó",
@@ -207,7 +209,8 @@ const comarques_gironines_esglesies = [
 			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó; Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Església parroquial de la vila de Bescanó, al terme municipal homònim. Construïda el 1959."
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Capella de Can Baldiret",
@@ -1178,7 +1181,8 @@ const comarques_gironines_esglesies = [
 			"<h2>Mare de Déu de la Pietat</h2>",
 			"<small>Divisió administrativa: Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Bartomeu de Segalars",
@@ -1218,7 +1222,8 @@ const comarques_gironines_esglesies = [
 			"<h2>Santa Maria de Calders</h2>",
 			"<small>Divisió administrativa: Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Santuari de Santa Afra",
@@ -1309,7 +1314,8 @@ const comarques_gironines_esglesies = [
 			"<small>Divisió administrativa: Bonmatí; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Antiga església parroquial de la Colònia Bonmatí. Se'n té constància des de 1895."
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Joan del Pla",

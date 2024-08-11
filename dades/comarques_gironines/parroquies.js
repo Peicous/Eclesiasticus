@@ -2820,7 +2820,8 @@ const comarques_gironines_parroquies = [
 			"<small>Divisió administrativa: Montfullà; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Església parroquial del poble de Montfullà, al terme municipal de Bescanó. Se'n té constància des del 882."
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Cugat de Salt",
@@ -3600,7 +3601,8 @@ const comarques_gironines_parroquies = [
 			"<h2>Sant Vicenç de Constantins</h2>",
 			"<small>Divisió administrativa: Constantins; Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Andreu d'Estanyol",
