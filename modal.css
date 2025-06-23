@@ -29,9 +29,13 @@
 
 .modal-content {
 	background-color: #fefefe;
-	margin: 15%;
+	margin: 10%;
 	padding: 20px;
 	border: 1px solid #888;
 	width: auto;
 	height: auto;
+	min-height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
