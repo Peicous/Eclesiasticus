@@ -259,7 +259,7 @@ map.setMinZoom(9);
 
 function getAllLocations() {
 	return [
-		...locations, //Versió antiga
+		//...locations, //Versió antiga
 		...alt_pirineu_aran_parroquies,
 		...alt_pirineu_aran_oratoris,
 		...alt_pirineu_aran_monestirs,

@@ -10,8 +10,6 @@
 		<title>Mapa eclesiàstic</title>
 		<link href="icona.png" rel="shortcut icon"/>
 
-		<link rel="stylesheet" href="./modal.css" />
-
 		<link rel="stylesheet" href="./dependencies/leaflet.css" />
 		<script src="./dependencies/leaflet.js"></script>
 		
@@ -93,10 +91,65 @@
 			.close:after {
 				transform: rotate(-45deg);
 			}
+			.donacions {
+				text-decoration: none;
+				font-size: 15px;
+				margin: 15px;
+				opacity: 0;
+			}
+			.open-button {
+				position: fixed;
+				z-index: 999; /* Ensure it's on top */
+				left: 0;
+				top: 0;
+				margin: 15px;
+				width: 100px;
+				height: 50px;
+				overflow: auto; /* Enable scroll if content is larger than screen */
+				background-color: rgb(255, 255, 255); /* Black with opacity */
+				border-radius: 15px;
+			}
+			.modal {
+				display: none; /* Ocult */
+				position: fixed;
+				z-index: 1000;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				overflow: auto; /* Enable scroll if content is larger than screen */
+				background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+			}
+			.modal-content {
+				background-color: #fefefe;
+				margin: 10%;
+				padding: 20px;
+				border: 1px solid #888;
+				width: auto;
+				height: auto;
+				min-height: 50%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+			.escut {
+				position: absolute;
+				right: 10px;
+				top: 10px;
+				z-index: 999;
+				width: 100px;
+				height: 100px;
+				background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Coat_of_Arms_of_Catalonia.svg/250px-Coat_of_Arms_of_Catalonia.svg.png');
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center;
+				border-radius: 10px;
+			}
 		</style>
 	</head>
 	<body>
 		<button id="openModal" class="open-button">Opcions</button>
+		<div class="escut"></div>
 		<div id='map'>
 			<div
 				class="absolute leaflet-control-layers leaflet-control leaflet-control-layers-expanded"
