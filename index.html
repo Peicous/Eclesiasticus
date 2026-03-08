@@ -363,43 +363,42 @@
 //Canviar icones
 //Pujar imatges sensibles
 
+//GEOLOCALITZA L'USUARI
+{
+	const options = {
+		enableHighAccuracy: true,
+		timeout: 5000,
+		maximumAge: 0,
+	};
 
-const options = {
-	enableHighAccuracy: true,
-	timeout: 5000,
-	maximumAge: 0,
-};
-
-function success(pos) {
-	const crd = pos.coords;
-
-	L.marker([crd.latitude, crd.longitude], {
-		icon: new L.Icon({
-			iconUrl: './img/point.png',
-			shadowUrl: '',
-			iconSize: [29, 29],
-			iconAnchor: [24, 40],
-			popupAnchor: [-10, -34],
-			shadowSize: [29, 29]
+	function success(pos) {
+		const crd = pos.coords;
+		L.marker([crd.latitude, crd.longitude], {
+			icon: new L.Icon({
+				iconUrl: './img/point.png',
+				shadowUrl: '',
+				iconSize: [29, 29],
+				iconAnchor: [24, 40],
+				popupAnchor: [-10, -34],
+				shadowSize: [29, 29]
+			})
 		})
-	})
-	.bindTooltip(location.name)
-	.bindPopup(location.name)
-	.addTo(map);
+		.bindTooltip(location.name)
+		.bindPopup(location.name)
+		.addTo(map);
+		map.setView([crd.latitude, crd.longitude], 15);
+	}
 
-	map.setView([crd.latitude, crd.longitude], 15);
+	function error(err) {
+		console.warn(`ERROR(${err.code}): ${err.message}`);
+	}
+
+	function getUserLocation() {
+		navigator.geolocation.getCurrentPosition(success, error, options);
+	}
 }
 
-function error(err) {
-	console.warn(`ERROR(${err.code}): ${err.message}`);
-}
-
-//Geolocation
-function getUserLocation() {
-	navigator.geolocation.getCurrentPosition(success, error, options);
-}
-
-//LAYERS
+//Capes del mapa
 var layer_osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png');
 var layer_satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
 var layer_light = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png');
@@ -411,12 +410,12 @@ var map = L.map('map', {
 	noWrap: true,
 	layers: [layer_osm]
 })
-.setView([42.0201463, 2.5149485], 12);
+.setView([42.0201463, 2.5149485], 12); //centrar el mapa en Girona
 
 var zoneLayer;
 var geojson_territori;
 
-//Polygons regions
+//Carrega de les comarques i regions externes al mapa (polygons)
 function instanceGeoJson() {
 	let geo_json = GeoJson;
 	if (geo_json != undefined) {
@@ -446,6 +445,7 @@ function handleMarkerOut(e) {
 
 //===========================================================================================
 
+//Estil i colors de les comarques
 function onEachFeature(feature, layer) {
 	//Comarques gironines
 	if (
@@ -589,6 +589,7 @@ function onEachFeature(feature, layer) {
 	}
 }
 
+//Definir area del mapa
 map.doubleClickZoom.disable(); 
 map.setMaxBounds(
 	[
@@ -1016,8 +1017,7 @@ dialogCloseButton.addEventListener("click", function() {
 		
 		<script async src="./polygons/regions_externes.js"></script>
 		<script async src="./polygons/provinces_catalanes.js"></script>
-		
-		<script src="./locations.js"></script>
+
 		<script src="./dades/alt_pirineu_aran/parroquies.js"></script>
 		<script src="./dades/alt_pirineu_aran/oratoris.js"></script>
 		<script src="./dades/alt_pirineu_aran/monestirs.js"></script>
