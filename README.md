@@ -9,14 +9,14 @@ Les següents definicions provenen de diverses accepcions de la Gran Enciclopèd
 
 | Sant Miquel d'Anglès | Santa Maria de Sales de la Cellera de Ter |
 | --- | --- |
-| ![Santa Miquel d'Anglès](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sant_Miquel_d%27Angl%C3%A8s_%28fa%C3%A7ana_principal%29.jpg/320px-Sant_Miquel_d%27Angl%C3%A8s_%28fa%C3%A7ana_principal%29.jpg) | ![Santa Maria de Sales de la Cellera de Ter](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Santa_Maria_de_Sales_de_la_Cellera_de_Ter_%28fa%C3%A7ana_sud%29.jpg/320px-Santa_Maria_de_Sales_de_la_Cellera_de_Ter_%28fa%C3%A7ana_sud%29.jpg) |
+| ![Santa Miquel d'Anglès](https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Miquel_d%27Angl%C3%A8s_%28fa%C3%A7ana_principal%29.jpg?width=320) | ![Santa Maria de Sales de la Cellera de Ter](https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Maria_de_Sales_de_la_Cellera_de_Ter_%28fa%C3%A7ana_sud%29.jpg?width=320) |
 
 ## Cementiris
 > Lloc on hom enterra els morts.
 
 | Cementiri vell d'Anglès | Cementiri Municipal de la Cellera de Ter |
 | --- | --- |
-| ![Cementiri vell d'Anglès](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cementiri_vell_d%27Angl%C3%A8s_%28entrada%29.jpg/640px-Cementiri_vell_d%27Angl%C3%A8s_%28entrada%29.jpg) | ![Cementiri Municipal de la Cellera de Ter](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cementiri_Municipal_de_la_Cellera_de_Ter_%28entrada%29.jpg/320px-Cementiri_Municipal_de_la_Cellera_de_Ter_%28entrada%29.jpg) |
+| ![Cementiri vell d'Anglès](https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_vell_d%27Angl%C3%A8s_%28entrada%29.jpg?width=320) | ![Cementiri Municipal de la Cellera de Ter](https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_Municipal_de_la_Cellera_de_Ter_%28entrada%29.jpg?width=320) |
 
 ## Capelles, ermites i esglesioles
 ### Capella
@@ -31,7 +31,7 @@ Les següents definicions provenen de diverses accepcions de la Gran Enciclopèd
 
 | Sant Genís Sacosta | Mare de Déu de Núria de les Encies |
 | --- | --- |
-| ![Sant Genís Sacosta](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg/320px-Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg) | ![Mare de Déu de Núria de les Encies](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mare_de_D%C3%A9u_de_N%C3%BAria_de_les_Encies_%28fa%C3%A7ana_de_ponent%29.jpg/640px-Mare_de_D%C3%A9u_de_N%C3%BAria_de_les_Encies_%28fa%C3%A7ana_de_ponent%29.jpg) |
+| ![Sant Genís Sacosta](https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg?width=320) | ![Mare de Déu de Núria de les Encies](https://commons.wikimedia.org/wiki/Special:FilePath/Mare_de_D%C3%A9u_de_N%C3%BAria_de_les_Encies_%28fa%C3%A7ana_de_ponent%29.jpg?width=320) |
 
 ## Monestirs i convents
 ### Monestir
@@ -43,14 +43,14 @@ Les següents definicions provenen de diverses accepcions de la Gran Enciclopèd
 
 | Monestir de Santa Maria d'Amer | Convent de les Germanes Carmelites de la Cellera de Ter |
 | --- | --- |
-| ![Monestir de Santa Maria d'Amer](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Santa_Maria_d%27Amer_%28vista_posterior%29.jpg/640px-Santa_Maria_d%27Amer_%28vista_posterior%29.jpg) | ![Convent de les Germanes Carmelites de la Cellera de Ter](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Convent_de_les_Germanes_Carmelites_de_la_Cellera_de_Ter_%28fa%C3%A7ana_principal%29.jpg/320px-Convent_de_les_Germanes_Carmelites_de_la_Cellera_de_Ter_%28fa%C3%A7ana_principal%29.jpg) |
+| ![Monestir de Santa Maria d'Amer](https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Maria_d%27Amer_%28vista_posterior%29.jpg?width=320) | ![Convent de les Germanes Carmelites de la Cellera de Ter](https://commons.wikimedia.org/wiki/Special:FilePath/Convent_de_les_Germanes_Carmelites_de_la_Cellera_de_Ter_%28fa%C3%A7ana_principal%29.jpg?width=320) |
 
 ## Oratoris
 > Lloc destinat a la pregària, que comprèn des de capelles autoritzades per a la celebració de la missa fins a simples pedrons o fornícules destinats a la veneració dels fidels.
 
 | Oratori de Sant Benet de Palerm de la Cellera de Ter | Oratori de Sant Pere Màrtir de Sant Julià del Llor |
 | --- | --- |
-| ![Oratori de Sant Benet de Palerm de la Cellera de Ter](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Oratori_de_Sant_Benet_de_Palerm_de_la_Cellera_de_Ter_%28vista_frontal%29.jpg/320px-Oratori_de_Sant_Benet_de_Palerm_de_la_Cellera_de_Ter_%28vista_frontal%29.jpg) | ![Oratori de Sant Pere Màrtir de Sant Julià del Llor](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Sant_Pere_M%C3%A0rtir_de_Sant_Juli%C3%A0_del_Llor_%28fa%C3%A7ana_principal%29.jpg/320px-Sant_Pere_M%C3%A0rtir_de_Sant_Juli%C3%A0_del_Llor_%28fa%C3%A7ana_principal%29.jpg) |
+| ![Oratori de Sant Benet de Palerm de la Cellera de Ter](https://commons.wikimedia.org/wiki/Special:FilePath/Oratori_de_Sant_Benet_de_Palerm_de_la_Cellera_de_Ter_%28vista_frontal%29.jpg?width=320) | ![Oratori de Sant Pere Màrtir de Sant Julià del Llor](https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Pere_M%C3%A0rtir_de_Sant_Juli%C3%A0_del_Llor_%28fa%C3%A7ana_principal%29.jpg?width=320) |
 
 ## Creus de terme, monuments i làpides
 ### Creu de terme
@@ -65,7 +65,7 @@ Les següents definicions provenen de diverses accepcions de la Gran Enciclopèd
 
 | Creu dels carlins de Vilanna |
 | --- |
-| ![Creu dels carlins de Vilanna](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Creu_dels_carlins_de_Vilanna_%28vista_de_migjorn%29.jpg/320px-Creu_dels_carlins_de_Vilanna_%28vista_de_migjorn%29.jpg) |
+| ![Creu dels carlins de Vilanna](https://commons.wikimedia.org/wiki/Special:FilePath/Creu_dels_carlins_de_Vilanna_%28vista_de_migjorn%29.jpg?width=320) |
 
 ### Altres
 Aquí incloem altres localitzacions, no necessàriament de caràcter religiós.

@@ -1947,8 +1947,11 @@ const comarques_gironines_parroquies = [
 		description: [
 			"<h2>Santa Maria de Pujals dels Pagesos</h2>",
 			"<small>Divisió administrativa: Pujals dels Pagesos; Cornellà de Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+			"<small>Divisió eclesiàstica: Arxiprestat de Banyoles; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Maria_de_Pujals_dels_Pagesos_(vista_general).jpg?width=300'/><br/>",
+			"Església parroquial del poble de Pujals dels Pagesos, al terme municipal de Cornellà del Terri. Se'n té constància des de l'any 1075."
+		],
+		visited: true
 	},
 	{
 		name: "Sant Cebrià de Pujarnol",
@@ -2697,7 +2700,9 @@ const comarques_gironines_parroquies = [
 		description: [
 			"<h2>Sant Josep de Girona</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Josep_de_Girona_(vista_general).jpg?width=300'/><br/>",
+			"Església parroquial al districte de l'Eixample, al terme municipal de Girona. Construïda entre 1952 i 1953, i consagrada pel bisbe Josep Cartañà el 1954."
 		],
 		visited: true
 	},
@@ -2740,6 +2745,19 @@ const comarques_gironines_parroquies = [
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		]
+	},
+	{
+		name: "Santa Maria de Vista Alegre",
+		type: "parroquia",
+		coordinates: [41.9769668, 2.8247484],
+		description: [
+			"<h2>Santa Maria de Vista Alegre</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Maria_de_Vista_Alegre_(vista_general).jpg?width=300'/><br/>",
+			"Antiga església parroquial del barri de Vista Alegre - Carme, al terme municipal de Girona. Establerta el 1968, l'església és construïda entre 1974 i 1976, fins a la seva supressió pel bisbat el juny de 2020 i la posterior venda a l'Ajuntament per acollir un nou local social."
+		],
+		visited: true
 	},
 	{
 		name: "Sant Miquel de Palau-sacosta",
@@ -2819,6 +2837,7 @@ const comarques_gironines_parroquies = [
 			"<h2>Sant Pere de Montfullà</h2>",
 			"<small>Divisió administrativa: Montfullà; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Pere_de_Montfullà_(vista_general).jpg?width=300'/><br/>",
 			"Església parroquial del poble de Montfullà, al terme municipal de Bescanó. Se'n té constància des del 882."
 		],
 		visited: true
@@ -3551,7 +3570,7 @@ const comarques_gironines_parroquies = [
 			"<h2>Santa Maria d'Amer</h2>",
 			"<small>Divisió administrativa: Amer; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Santa_Maria_d%27Amer_%28vista_posterior%29.jpg/640px-Santa_Maria_d%27Amer_%28vista_posterior%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Maria_d%27Amer_%28vista_posterior%29.jpg?width=300'/><br/>",
 			"Antic monestir al terme municipal d'Amer. Se'n té constància des del 844, quan era una casa propietat del monestir de Sant Medir.<br/>Es consagrà com a monestir de Santa Maria el 9 de novembre del 949, després de les ràtzies hongareses del segle <span style='font-variant: small-caps'>x</span>.<br/>El 1657, durant la Guerra dels Segadors, el monestir va ser destruït parcialment i va haver d'assumir les funcions parroquials després de la destrucció de l'església parroquial de Sant Miquel d'Amer.<br/>El 1835 es va produir l'exclaustració forçosa dels monjos del monestir i va quedar abandonat, fent únicament les funcions d'església parroquial."
 		],
 		visited: true
@@ -3564,7 +3583,7 @@ const comarques_gironines_parroquies = [
 			"<h2>Sant Miquel d'Anglès</h2>",
 			"<small>Divisió administrativa: Anglès; Anglès; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sant_Miquel_d%27Angl%C3%A8s_%28fa%C3%A7ana_principal%29.jpg/320px-Sant_Miquel_d%27Angl%C3%A8s_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Miquel_d%27Angl%C3%A8s_%28fa%C3%A7ana_principal%29.jpg?width=300'/><br/>",
 			"Església parroquial de la vila d'Anglès, al terme municipal homònim. Se'n té constància des del segle <span style='font-variant: small-caps'>xiii</span>, quan era una capella del castell d'Anglès dependent de la parròquia de Santa Maria de Sales de la Cellera.<br/>Malgrat alguns intents d'independitzar-se ja des dels segles <span style='font-variant: small-caps'>xvi</span> i <span style='font-variant: small-caps'>xvii</span>, no és fins al 1788 que la parròquia queda independent <i>de facto</i>.<br/>Aquesta independència no serà reconeguda <i>de iure</i> fins al 1859."
 		],
 		visited: true
@@ -3577,9 +3596,22 @@ const comarques_gironines_parroquies = [
 			"<h2>Sant Llorenç de Bescanó</h2>",
 			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Sant_Lloren%C3%A7_de_Bescan%C3%B3_%28vista_general%29.jpg/640px-Sant_Lloren%C3%A7_de_Bescan%C3%B3_%28vista_general%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Lloren%C3%A7_de_Bescan%C3%B3_%28vista_general%29.jpg?width=300'/><br/>",
 			"Església parroquial de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1058.",
 			"<br/><a href='#sant_llorenc_de_bescano'>Veure més informació</a>"
+		],
+		visited: true
+	},
+	{
+		name: "Santa Maria Assumpta de Bescanó",
+		type: "parroquia",
+		coordinates: [41.96556325, 2.73945117],
+		description: [
+			"<h2>Santa Maria Assumpta de Bescanó</h2>",
+			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó; Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Església_de_l’Assumpta_de_Bescanó_(vista_general).jpg?width=300'/><br/>",
+			"Església parroquial de la vila de Bescanó, al terme municipal homònim. Construïda el 1959."
 		],
 		visited: true
 	},
@@ -3600,7 +3632,9 @@ const comarques_gironines_parroquies = [
 		description: [
 			"<h2>Sant Vicenç de Constantins</h2>",
 			"<small>Divisió administrativa: Constantins; Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Vicenç_de_Constantins_(frontispici).jpg?width=300'/><br/>",
+			"Església parroquial del poble de Constantins, al terme municipal de Sant Gregori. Se'n té constància des de l'any 922."
 		],
 		visited: true
 	},
@@ -3623,7 +3657,7 @@ const comarques_gironines_parroquies = [
 			"<h2>Santa Maria de Sales de la Cellera de Ter</h2>",
 			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Santa_Maria_de_Sales_de_la_Cellera_de_Ter_%28fa%C3%A7ana_sud%29.jpg/320px-Santa_Maria_de_Sales_de_la_Cellera_de_Ter_%28fa%C3%A7ana_sud%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Maria_de_Sales_de_la_Cellera_de_Ter_%28fa%C3%A7ana_sud%29.jpg?width=300'/><br/>",
 			"Església parroquial de la vila de la Cellera de Ter, al terme municipal homònim. Se'n té constància des del 833."
 		],
 		visited: true
@@ -3636,7 +3670,7 @@ const comarques_gironines_parroquies = [
 			"<h2>Santa Maria de les Encies</h2>",
 			"<small>Divisió administrativa: Les Encies; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Santa_Maria_de_les_Encies_%28fa%C3%A7ana_principal%29.jpg/320px-Santa_Maria_de_les_Encies_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Maria_de_les_Encies_%28fa%C3%A7ana_principal%29.jpg?width=300'/><br/>",
 			"Església parroquial del poble de les Encies, al terme municipal de les Planes d'Hostoles. Se'n té constància des del 1155."
 		],
 		visited: true
@@ -3659,7 +3693,7 @@ const comarques_gironines_parroquies = [
 			"<h2>Sant Cristòfol de les Planes d'Hostoles</h2>",
 			"<small>Divisió administrativa: Les Planes d'Hostoles; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Sant_Crist%C3%B2fol_de_les_Planes_d%27Hostoles_%28vista_general%29.jpg/320px-Sant_Crist%C3%B2fol_de_les_Planes_d%27Hostoles_%28vista_general%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Crist%C3%B2fol_de_les_Planes_d%27Hostoles_%28vista_general%29.jpg?width=300'/><br/>",
 			"Església parroquial de la vila de les Planes d'Hostoles, al terme municipal homònim. Se'n té constància des del 1155."
 		],
 		visited: true
@@ -3692,7 +3726,7 @@ const comarques_gironines_parroquies = [
 			"<h2>Sant Julià del Llor</h2>",
 			"<small>Divisió administrativa: Sant Julià del Llor; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Ermita_de_Sant_Juli%C3%A0_del_Llor_%28fa%C3%A7ana_principal%29.jpg/320px-Ermita_de_Sant_Juli%C3%A0_del_Llor_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Ermita_de_Sant_Juli%C3%A0_del_Llor_%28fa%C3%A7ana_principal%29.jpg?width=300'/><br/>",
 			"Església parroquial de la vila de Sant Julià del Llor, al terme municipal de Sant Julià del Llor i Bonmatí. Se'n té constància des del 9 de novembre del 949."
 		],
 		visited: true
@@ -3725,7 +3759,7 @@ const comarques_gironines_parroquies = [
 			"<h2>Sant Mateu de Vilanna</h2>",
 			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Sant_Mateu_de_Vilanna_%28vista_general%29.jpg/640px-Sant_Mateu_de_Vilanna_%28vista_general%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Mateu_de_Vilanna_%28vista_general%29.jpg?width=300'/><br/>",
 			"Església parroquial del poble de Vilanna, al terme municipal de Bescanó. Se'n té constància des del 899.",
 			"<br/><a href='#sant_mateu_de_vilanna'>Veure més informació</a>"
 		],

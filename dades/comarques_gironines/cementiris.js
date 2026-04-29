@@ -96,7 +96,7 @@ const comarques_gironines_cementiris = [
 		description: [
 			"<h2>Cementiri Municipal d'Amer</h2>",
 			"<small>Divisió administrativa: Amer; Amer; Selva; Comarques gironines; Catalunya</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Cementiri_Municipal_d%27Amer_%28porta_principal%29.jpg/640px-Cementiri_Municipal_d%27Amer_%28porta_principal%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_Municipal_d%27Amer_%28porta_principal%29.jpg?width=300'/><br/>",
 			"Cementiri de la vila d'Amer, al terme municipal homònim. Inaugurat el 15 de març de 1931."
 		],
 		visited: true
@@ -108,7 +108,7 @@ const comarques_gironines_cementiris = [
 		description: [
 			"<h2>Cementiri Nou d'Anglès</h2>",
 			"<small>Divisió administrativa: Anglès; Anglès; Selva; Comarques gironines; Catalunya</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Cementiri_Municipal_d%27Angl%C3%A8s_%28entrada%29.jpg/640px-Cementiri_Municipal_d%27Angl%C3%A8s_%28entrada%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_Municipal_d%27Angl%C3%A8s_%28entrada%29.jpg?width=300'/><br/>",
 			"Cementiri nou de la vila d'Anglès, al terme municipal homònim. Construït entre 1984 i 1991.",
 			"<br/><a href='#cementiri_nou_d_angles'>Veure més informació</a>"
 		],
@@ -121,7 +121,7 @@ const comarques_gironines_cementiris = [
 		description: [
 			"<h2>Cementiri Vell d'Anglès</h2>",
 			"<small>Divisió administrativa: Anglès; Anglès; Selva; Comarques gironines; Catalunya</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cementiri_vell_d%27Angl%C3%A8s_%28entrada%29.jpg/640px-Cementiri_vell_d%27Angl%C3%A8s_%28entrada%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_vell_d%27Angl%C3%A8s_%28entrada%29.jpg?width=300'/><br/>",
 			"Antic cementiri de la vila d'Anglès, al terme municipal homònim. Construït entre les dècades de 1910 i 1920.",
 			"<br/><a href='#cementiri_vell_d_angles'>Veure més informació</a>"
 		],
@@ -251,7 +251,7 @@ const comarques_gironines_cementiris = [
 		description: [
 			"<h2>Municipal</h2>",
 			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Cementiri_Municipal_de_Bescan%C3%B3_%28entrada%29.jpg/640px-Cementiri_Municipal_de_Bescan%C3%B3_%28entrada%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_Municipal_de_Bescan%C3%B3_%28entrada%29.jpg?width=300'/><br/>",
 			"Cementiri de la vila de Bescanó, al terme municipal homònim. Inscripció del 1935.",
 			"<br/><a href='#cementiri_municipal_de_bescano'>Veure més informació</a>"
 		],
@@ -263,7 +263,9 @@ const comarques_gironines_cementiris = [
 		coordinates: [41.968378, 2.7594708],
 		description: [
 			"<h2>Cementiri Parroquial de Montfullà</h2>",
-			"<small>Divisió administrativa: Montfullà; Bescanó; Gironès; Comarques gironines; Catalunya</small>"
+			"<small>Divisió administrativa: Montfullà; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_parroquial_de_Sant_Pere_de_Montfullà_(entrada).jpg?width=300'/><br/>",
+			"Cementiri parroquial del poble de Montfullà, al terme municipal de Bescanó."
 		],
 		visited: true
 	},
@@ -283,7 +285,7 @@ const comarques_gironines_cementiris = [
 		description: [
 			"<h2>Cementiri Municipal de Vilanna</h2>",
 			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Cementiri_Municipal_de_Vilanna_%28entrada%29.jpg/640px-Cementiri_Municipal_de_Vilanna_%28entrada%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_Municipal_de_Vilanna_%28entrada%29.jpg?width=300'/><br/>",
 			"Cementiri municipal del poble de Vilanna, al terme municipal de Bescanó. Antic cementiri parroquial, municipalitzat el 1933.",
 			"<br/><a href='#cementiri_municipal_de_vilanna'>Veure més informació</a>"
 		],
@@ -808,8 +810,11 @@ const comarques_gironines_cementiris = [
 		coordinates: [42.1072566, 2.8338379],
 		description: [
 			"<h2>Cementiri Parroquial de Pujals dels Pagesos</h2>",
-			"<small>Divisió administrativa: Pujals dels Pagesos; Cornellà del Terri; Pla de l'Estany; Comarques gironines; Catalunya</small>"
-		]
+			"<small>Divisió administrativa: Pujals dels Pagesos; Cornellà del Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_parroquial_de_Santa_Maria_de_Pujals_dels_Pagesos_(entrada).jpg?width=300'/><br/>",
+			"Cementiri parroquial del poble de Pujals dels Pagesos, al terme municipal de Cornellà del Terri.",
+		],
+		visited: true
 	},
 	{
 		name: "Cementiri Parroquial de Santa Llogaia del Terri",
@@ -1132,7 +1137,9 @@ const comarques_gironines_cementiris = [
 		coordinates: [41.9724101, 2.8371631],
 		description: [
 			"<h2>Cementiri Vell de Girona</h2>",
-			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_Municipal_de_Girona_(entrada_del_Passeig_Central).jpg?width=300'/><br/>",
+			"Cementiri municipal de Girona, al terme municipal homònim. Inaugurat l'any 1829."
 		],
 		visited: true
 	},
@@ -1737,7 +1744,7 @@ const comarques_gironines_cementiris = [
 		description: [
 			"<h2>Cementiri Municipal de les Planes d'Hostoles</h2>",
 			"<small>Divisió administrativa: Les Planes d'Hostoles; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Cementiri_Municipal_de_les_Planes_d%27Hostoles_%28entrada%29.jpg/640px-Cementiri_Municipal_de_les_Planes_d%27Hostoles_%28entrada%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_Municipal_de_les_Planes_d%27Hostoles_%28entrada%29.jpg?width=300'/><br/>",
 			"Cementiri de la vila de les Planes d'Hostoles, al terme municipal homònim. Construït durant la dècada de 1940."
 		],
 		visited: true
@@ -2235,7 +2242,9 @@ const comarques_gironines_cementiris = [
 		coordinates: [41.9826603, 2.6897136],
 		description: [
 			"<h2>Cementiri Municipal de Constantins</h2>",
-			"<small>Divisió administrativa: Constatins; Sant Gregori; Gironès; Comarques gironines; Catalunya</small>"
+			"<small>Divisió administrativa: Constatins; Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_municipal_de_Constantins_(vista_de_ponent).jpg?width=300'/><br/>",
+			"Cementiri del poble de Constantins, al terme municipal de Sant Gregori."
 		],
 		visited: true
 	},
@@ -2615,7 +2624,7 @@ const comarques_gironines_cementiris = [
 		description: [
 			"<h2>Cementiri Municipal de la Cellera de Ter</h2>",
 			"<small>Divisió administrativa: La Cellera de Ter; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cementiri_Municipal_de_la_Cellera_de_Ter_%28entrada%29.jpg/320px-Cementiri_Municipal_de_la_Cellera_de_Ter_%28entrada%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_Municipal_de_la_Cellera_de_Ter_%28entrada%29.jpg?width=300'/><br/>",
 			"Cementiri de la vila de la Cellera de Ter, al terme municipal homònim. Construït entre 1890 i 1891.",
 			"<br/><a href='#cementiri_municipal_de_la_cellera_de_ter'>Veure més informació</a>"
 		],
@@ -3366,7 +3375,7 @@ const comarques_gironines_cementiris = [
 		description: [
 			"<h2>Cementiri Municipal de Sant Julià del Llor</h2>",
 			"<small>Divisió administrativa: Sant Julià del Llor; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cementiri_Municipal_de_Sant_Juli%C3%A0_del_Llor_%28entrada%29.jpg/640px-Cementiri_Municipal_de_Sant_Juli%C3%A0_del_Llor_%28entrada%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Cementiri_Municipal_de_Sant_Juli%C3%A0_del_Llor_%28entrada%29.jpg?width=300'/><br/>",
 			"Cementiri municipal de la vila de Sant Julià del Llor, al terme municipal de Sant Julià del Llor i Bonmatí. Antic cementiri parroquial, reconstruït el 1875 i municipalitzat el 26 de gener de 1933."
 		],
 		visited: true

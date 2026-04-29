@@ -17,7 +17,7 @@ const comarques_gironines_esglesies = [
 			"<h2>Nostra Senyora de la Pietat del Pedreguet</h2>",
 			"<small>Divisió administrativa: Amer; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Mare_de_D%C3%A9u_de_la_Pietat_del_Pedreguet_%28vista_nord%29.jpg/640px-Mare_de_D%C3%A9u_de_la_Pietat_del_Pedreguet_%28vista_nord%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Mare_de_D%C3%A9u_de_la_Pietat_del_Pedreguet_%28vista_nord%29.jpg?width=300'/><br/>",
 			"Capella al terme municipal d'Amer. Construïda al segle <span style='font-variant: small-caps'>xvii</span> i renovada el 1844."
 		],
 		visited: true
@@ -30,7 +30,7 @@ const comarques_gironines_esglesies = [
 			"<h2>Sant Agustí de Lloret Salvatge</h2>",
 			"<small>Divisió administrativa: Lloret Salvatge; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Sant_Agust%C3%AD_de_Lloret_Salvatge_%28vista_general%29.jpg/640px-Sant_Agust%C3%AD_de_Lloret_Salvatge_%28vista_general%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Agust%C3%AD_de_Lloret_Salvatge_%28vista_general%29.jpg?width=300'/><br/>",
 			"Antiga església parroquial del veïnat de Lloret Salvatge, al terme municipal d'Amer. Se'n té constància des del 860."
 		],
 		visited: true
@@ -43,7 +43,7 @@ const comarques_gironines_esglesies = [
 			"<h2>Sant Genís Sacosta</h2>",
 			"<small>Divisió administrativa: Sant Genís Sacosta; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg/320px-Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Gen%C3%ADs_Sacosta_%28fa%C3%A7ana_principal%29.jpg?width=300'/><br/>",
 			"Antiga església parroquial del veïnat de Sant Genís, al terme municipal d'Amer. Se'n té constància des del 899.",
 			"<br/><a href='#sant_genis_sacosta'>Veure més informació</a>"
 		],
@@ -57,7 +57,7 @@ const comarques_gironines_esglesies = [
 			"<h2>Sant Marçal del Colomer</h2>",
 			"<small>Divisió administrativa: El Colomer; Amer; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Sant_Mar%C3%A7al_del_Colomer_%28vista_general%29.jpg/640px-Sant_Mar%C3%A7al_del_Colomer_%28vista_general%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Mar%C3%A7al_del_Colomer_%28vista_general%29.jpg?width=300'/><br/>",
 			"Ermita del veïnat del Colomer, al terme municipal d'Amer. Construïda al segle <span style='font-variant: small-caps'>xi</span>."
 		],
 		visited: true
@@ -107,13 +107,14 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
-		name: "Nostra Senyora de la Concepció",
+		name: "Nostra Senyora de la Concepció de Bescanó",
 		type: "esglesia",
 		coordinates: [41.9688308, 2.7305196],
 		description: [
-			"<h2>Nostra Senyora de la Concepció</h2>",
+			"<h2>Nostra Senyora de la Concepció de Bescanó</h2>",
 			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Capella_de_Nostra_Senyora_de_la_Concepció_de_Bescanó_(porta_de_la_capella_de_ponent).jpg?width=300'/><br/>",
 			"Capella adossada al Palau dels comtes de Berenguer, al terme municipal de Bescanó. Construïda a finals del segle <span style='font-variant: small-caps'>xix</span>."
 		],
 		visited: true
@@ -168,7 +169,7 @@ const comarques_gironines_esglesies = [
 			"<h2>Sant Sebastià de Bescanó</h2>",
 			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Sant_Sebasti%C3%A0_de_Bescan%C3%B3_%28vista_de_xaloc%29.jpg/640px-Sant_Sebasti%C3%A0_de_Bescan%C3%B3_%28vista_de_xaloc%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Sebasti%C3%A0_de_Bescan%C3%B3_%28vista_de_xaloc%29.jpg?width=300'/><br/>",
 			"Capella de la vila de Bescanó, al terme municipal homònim. Inscripció del 1610.",
 			"<br/><a href='#sant_sebastia_de_bescano'>Veure més informació</a>"
 		],
@@ -182,6 +183,7 @@ const comarques_gironines_esglesies = [
 			"<h2>Santa Anna de Bescanó</h2>",
 			"<small>Divisió administrativa: Montfullà; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona - Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Capella_de_Santa_Anna_de_Bescanó_(vista_general).jpg?width=300'/><br/>",
 			"Ermita de la vila de Montfullà, al terme municipal de Bescanó. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xvii</span>."
 		],
 		visited: true
@@ -194,21 +196,9 @@ const comarques_gironines_esglesies = [
 			"<h2>Santa Margarida de Bescanó</h2>",
 			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó; Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Santa_Margarida_de_Bescan%C3%B3_%28vista_general%29.jpg/640px-Santa_Margarida_de_Bescan%C3%B3_%28vista_general%29.jpg?uselang=ca'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Margarida_de_Bescan%C3%B3_%28vista_general%29.jpg?width=300'/><br/>",
 			"Capella del Mas Viader de la vila de Bescanó, al terme municipal homònim. Se'n té constància des del 1378.",
 			"<br/><a href='#santa_margarida_de_bescano'>Veure més informació</a>"
-		],
-		visited: true
-	},
-	{
-		name: "Santa Maria Assumpta de Bescanó",
-		type: "esglesia",
-		coordinates: [41.96556325, 2.73945117],
-		description: [
-			"<h2>Santa Maria Assumpta de Bescanó</h2>",
-			"<small>Divisió administrativa: Bescanó; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Parròquia de Sant Llorenç de Bescanó; Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"Església parroquial de la vila de Bescanó, al terme municipal homònim. Construïda el 1959."
 		],
 		visited: true
 	},
@@ -290,7 +280,7 @@ const comarques_gironines_esglesies = [
 			"<h2>Sants Just i Pastor de la Cellera de Ter</h2>",
 			"<small>Divisió administrativa: Plademunt; La Cellera de Ter; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sants_Just_i_Pastor_de_la_Cellera_de_Ter_%28fa%C3%A7ana_principal%29.jpg/320px-Sants_Just_i_Pastor_de_la_Cellera_de_Ter_%28fa%C3%A7ana_principal%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sants_Just_i_Pastor_de_la_Cellera_de_Ter_%28fa%C3%A7ana_principal%29.jpg?width=300'/><br/>",
 			"Ermita del veïnat de Plademunt, al terme municipal de la Cellera de Ter. Es creu que va ser construïda al segle <span style='font-variant: small-caps'>xii</span>.",
 			"<br/><a href='#sants_just_i_pastor_de_la_cellera_de_ter'>Veure més informació</a>"
 		],
@@ -487,24 +477,15 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
-		name: "Esclaves del Santíssim Sagrament i Maria Immaculada",
-		type: "esglesia",
-		coordinates: [41.9856735, 2.8262801],
-		description: [
-			"<h2>Esclaves del Santíssim Sagrament i Maria Immaculada</h2>",
-			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		],
-		visited: true
-	},
-	{
 		name: "Església dels Dolors",
 		type: "esglesia",
 		coordinates: [41.9819385, 2.8255146],
 		description: [
 			"<h2>Església dels Dolors</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Església_dels_Dolors_de_Girona_(vista_general).jpg?width=300'/><br/>",
+			"Església al barri vell, al terme municipal de Girona. Construïda sobre una casa que era propietat de la Congregació dels Dolors, de l'Orde dels Servites, des de 1699. El bisbe Baltasar Bastero va beneir-ne la primera pedra el 19 d'abril de 1732 i es va inaugurar el 4 d'abril de 1743."
 		],
 		visited: true
 	},
@@ -545,7 +526,9 @@ const comarques_gironines_esglesies = [
 		description: [
 			"<h2>Sagrada Família de Vila-roja</h2>",
 			"<small>Divisió administrativa: Vila-roja; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sagrada_Família_de_Vila-roja_(vista_frontal).jpg?width=300'/><br/>",
+			"Església al barri de Vila-roja, al terme municipal de Girona. Construïda entre 1962 i 1966."
 		],
 		visited: true
 	},
@@ -556,7 +539,9 @@ const comarques_gironines_esglesies = [
 		description: [
 			"<h2>Sagrat Cor</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sagrat_Cor_de_Girona_(façana_principal).jpg?width=300'/><br/>",
+			"Església al barri vell, al terme municipal de Girona. Se'n va posar la primera pedra el 21 de novembre de 1886 i es va inaugurar el 14 de juny de 1901."
 		],
 		visited: true
 	},
@@ -577,7 +562,9 @@ const comarques_gironines_esglesies = [
 		description: [
 			"<h2>Sant Martí Sacosta</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Sant_Martí_Sacosta_(porta_principal).jpg?width=300'/><br/>",
+			"Església al barri vell, al terme municipal de Girona. Se'n té constància des del 846. El 1164 s'hi establí una comunitat de canonges fins a la seva dissolució el 1581 pel Papa Gregori <span style='font-variant: small-caps'>xiii</span>, que el passà a mans dels jesuïtes fins a la seva expulsió d'Espanya el 1767. Llavors s'hi establí el seminari fins a la guerra civil espanyola que es convertí en presó. Actualment ocupa les dependències de l'Arxiu Diocesà de Girona."
 		],
 		visited: true
 	},
@@ -622,13 +609,15 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
-		name: "Santa Maria de Vista Alegre",
+		name: "Mare de Déu del Carme",
 		type: "esglesia",
-		coordinates: [41.9769668, 2.8247484],
+		coordinates: [41.98450255, 2.82601902],
 		description: [
-			"<h2>Santa Maria de Vista Alegre</h2>",
+			"<h2>Mare de Déu del Carme</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Església_del_Carme_de_Girona_(vista_general).jpg?width=300'/><br/>",
+			"Antic convent de l'Orde del Carme i actual església al barri vell, al terme municipal de Girona. Construïda entre 1699 i 1726, el convent fou exclaustrat entre 1836 i 1837 després de la desamortització. En aquell moment passà a allotjar la Delegació d'Hisenda, el Govern Civil i la Diputació Provincial, de les quals avui en dia només hi roman la Diputació de Girona."
 		],
 		visited: true
 	},
@@ -901,7 +890,7 @@ const comarques_gironines_esglesies = [
 			"<h2>Ermita de l'Àngel de les Planes d'Hostoles</h2>",
 			"<small>Divisió administrativa: Les Planes d'Hostoles; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ermita_de_l%27%C3%80ngel_de_les_Planes_d%27Hostoles_%28vista_de_mestral%29.jpg/640px-Ermita_de_l%27%C3%80ngel_de_les_Planes_d%27Hostoles_%28vista_de_mestral%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Ermita_de_l%27%C3%80ngel_de_les_Planes_d%27Hostoles_%28vista_de_mestral%29.jpg?width=300'/><br/>",
 			"Ermita a la vila de les Planes d'Hostoles, al terme municipal homònim. Construïda el 1539."
 		],
 		visited: true
@@ -944,7 +933,7 @@ const comarques_gironines_esglesies = [
 			"<h2>Mare de Déu de Núria de les Encies</h2>",
 			"<small>Divisió administrativa: Les Encies; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mare_de_D%C3%A9u_de_N%C3%BAria_de_les_Encies_%28fa%C3%A7ana_de_ponent%29.jpg/640px-Mare_de_D%C3%A9u_de_N%C3%BAria_de_les_Encies_%28fa%C3%A7ana_de_ponent%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Mare_de_D%C3%A9u_de_N%C3%BAria_de_les_Encies_%28fa%C3%A7ana_de_ponent%29.jpg?width=300'/><br/>",
 			"Capella annexa a l'Hostal del Fang, al veïnat de les Encies, al terme municipal de les Planes d'Hostoles. Beneïda pel rector de les Encies Lluís Conill el 5 d'abril de 1891.",
 			"<br/><a href='#mare_de_deu_de_nuria_de_les_encies'>Veure més informació</a>"
 		],
@@ -958,7 +947,7 @@ const comarques_gironines_esglesies = [
 			"<h2>Santa Margarida de les Planes d'Hostoles</h2>",
 			"<small>Divisió administrativa: Dusol; Les Planes d'Hostoles; Garrotxa; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Santa_Margarida_de_les_Planes_d%27Hostoles_%28fa%C3%A7ana_de_gregal%29.jpg/640px-Santa_Margarida_de_les_Planes_d%27Hostoles_%28fa%C3%A7ana_de_gregal%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Margarida_de_les_Planes_d%27Hostoles_%28fa%C3%A7ana_de_gregal%29.jpg?width=300'/><br/>",
 			"Ermita prop de la colònia Dusol, al terme municipal de les Planes d'Hostoles. Se'n té constància des del 1187."
 		],
 		visited: true
@@ -1174,13 +1163,15 @@ const comarques_gironines_esglesies = [
 		]
 	},
 	{
-		name: "Mare de Déu de la Pietat",
+		name: "Mare de Déu de la Pietat de Constantins",
 		type: "esglesia",
 		coordinates: [41.9867025, 2.7016439],
 		description: [
-			"<h2>Mare de Déu de la Pietat</h2>",
-			"<small>Divisió administrativa: Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+			"<h2>Mare de Déu de la Pietat de Constantins</h2>",
+			"<small>Divisió administrativa: Constantins; Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Mare_de_Déu_de_la_Pietat_de_Constantins_(vista_general).jpg?width=300'/><br/>",
+			"Capella al poble de Constantins, al terme municipal de Sant Gregori. Construïda l'any 1412."
 		],
 		visited: true
 	},
@@ -1221,7 +1212,9 @@ const comarques_gironines_esglesies = [
 		description: [
 			"<h2>Santa Maria de Calders</h2>",
 			"<small>Divisió administrativa: Sant Gregori; Gironès; Comarques gironines; Catalunya</small><br/>",
-			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
+			"<small>Divisió eclesiàstica: Arxiprestat d'Àngels-Llémena; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Maria_de_Calders_(vista_de_garbí).jpg?width=300'/><br/>",
+			"Església al veïnat de Calders del poble de Constantins, al terme municipal de Sant Gregori. Construïda el 1770, tot i que ja hi havia hagut una capella anterior del segle <span style='font-variant: small-caps'>xii</span>."
 		],
 		visited: true
 	},
@@ -1314,8 +1307,7 @@ const comarques_gironines_esglesies = [
 			"<small>Divisió administrativa: Bonmatí; Sant Julià del Llor i Bonmatí; Selva; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat del Ter-Brugent; Bisbat de Girona; Província eclesiàstica Tarraconense</small><br/><br/>",
 			"Antiga església parroquial de la Colònia Bonmatí. Se'n té constància des de 1895."
-		],
-		visited: true
+		]
 	},
 	{
 		name: "Sant Joan del Pla",

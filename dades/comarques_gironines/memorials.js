@@ -6,7 +6,7 @@ const comarques_gironines_memorials = [
 		description: [
 			"<h2>Creu dels carlins de Vilanna</h2>",
 			"<small>Divisió administrativa: Vilanna; Bescanó; Gironès; Comarques gironines; Catalunya</small><br/><br/>",
-			"<img style='width: 300px; display: block; margin: auto;' src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Creu_dels_carlins_de_Vilanna_%28vista_de_migjorn%29.jpg/320px-Creu_dels_carlins_de_Vilanna_%28vista_de_migjorn%29.jpg'/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Creu_dels_carlins_de_Vilanna_%28vista_de_migjorn%29.jpg?width=300'/><br/>",
 			"Creu de terme al poble de Vilanna, al terme municipal de Bescanó. Instal·lada el 14 de setembre de 1913.",
 			"<br/><a href='#creu_dels_carlins_de_vilanna'>Veure més informació</a>"
 		],
@@ -45,8 +45,11 @@ const comarques_gironines_memorials = [
 		coordinates: [42.1078403, 2.8331583],
 		description: [
 			"<h2>Creu de Pujals dels Pagesos</h2>",
-			"<small>Divisió administrativa: Pujals dels Pagesos; Cornellà del Terri; Pla de l'Estany; Comarques gironines; Catalunya</small>"
-		]
+			"<small>Divisió administrativa: Pujals dels Pagesos; Cornellà del Terri; Pla de l'Estany; Comarques gironines; Catalunya</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Creu_de_terme_de_Pujals_dels_Pagesos_%28vista_de_xaloc%29.jpg?width=300'/><br/>",
+			"Creu de terme al poble de Pujals dels Pagesos, al terme municipal de Cornellà del Terri. De datació incerta, se'n situa l'origen possiblement al segle <span style='font-variant: small-caps'>xvii</span>."
+		],
+		visited: true
 	},
 	{
 		name: "Creu de Sords",
@@ -103,6 +106,114 @@ const comarques_gironines_memorials = [
 		]
 	},
 	{
+		name: "A sant Antoni Maria Claret",
+		type: "memorial",
+		coordinates: [41.9794346, 2.8213333],
+		description: [
+			"<h2>A sant Antoni Maria Claret</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Àngel",
+		type: "memorial",
+		coordinates: [41.9899501, 2.8264963],
+		description: [
+			"<h2>Àngel</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Creu de Palau",
+		type: "memorial",
+		coordinates: [41.9568119, 2.8201113],
+		description: [
+			"<h2>Creu de Palau</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Déu del Llamp",
+		type: "memorial",
+		coordinates: [41.9866221, 2.8283803],
+		description: [
+			"<h2>Déu del Llamp</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Immaculada",
+		type: "memorial",
+		coordinates: [41.9805309, 2.8106477],
+		description: [
+			"<h2>Immaculada</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de la Misericòrdia",
+		type: "memorial",
+		coordinates: [41.9968180, 2.8140533],
+		description: [
+			"<h2>Mare de Déu de la Misericòrdia</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de la Pera",
+		type: "memorial",
+		coordinates: [41.9868900, 2.8258276],
+		description: [
+			"<h2>Mare de Déu de la Pera</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Mare de Déu de la Pia Almoina",
+		type: "memorial",
+		coordinates: [41.9871760, 2.8253256],
+		description: [
+			"<h2>Mare de Déu de la Pia Almoina</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Medalló de la Mare de Déu",
+		type: "memorial",
+		coordinates: [41.9866623, 2.8265244],
+		description: [
+			"<h2>Medalló de la Mare de Déu</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Sant Eloi",
+		type: "memorial",
+		coordinates: [41.9721473, 2.8207622],
+		description: [
+			"<h2>Sant Eloi</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Santa Eugènia",
+		type: "memorial",
+		coordinates: [41.9776205, 2.8070766],
+		description: [
+			"<h2>Santa Eugènia</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
+		name: "Santa Teresa",
+		type: "memorial",
+		coordinates: [41.9699490, 2.8257268],
+		description: [
+			"<h2>Santa Teresa</h2>",
+			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
+		]
+	},
+	{
 		name: "Creu de Millars",
 		type: "memorial",
 		coordinates: [41.9890037, 2.9711886],
@@ -135,7 +246,10 @@ const comarques_gironines_memorials = [
 		coordinates: [41.9663708, 2.8394984],
 		description: [
 			"<h2>Creu de la Creueta</h2>",
-			"<small>Divisió administrativa: La Creueta; Quart; Gironès; Comarques gironines; Catalunya</small>"
+			"<small>Divisió administrativa: La Creueta; Quart; Gironès; Comarques gironines; Catalunya</small><br/><br/>",
+			"<img style='width: 300px; display: block; margin: auto;' src='https://commons.wikimedia.org/wiki/Special:FilePath/Creu_de_la_Creueta_%28vista_frontal%29.jpg?width=300'/><br/>",
+			"Creu de terme al poble de la Creueta, al terme municipal de Quart.",
+			"<br/><a href='#creu_de_la_creueta'>Veure més informació</a>"
 		],
 		visited: true
 	},
