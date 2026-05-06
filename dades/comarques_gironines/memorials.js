@@ -166,7 +166,8 @@ const comarques_gironines_memorials = [
 		description: [
 			"<h2>Mare de Déu de la Pera</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Mare de Déu de la Pia Almoina",
@@ -175,7 +176,8 @@ const comarques_gironines_memorials = [
 		description: [
 			"<h2>Mare de Déu de la Pia Almoina</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Medalló de la Mare de Déu",
@@ -184,7 +186,8 @@ const comarques_gironines_memorials = [
 		description: [
 			"<h2>Medalló de la Mare de Déu</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Eloi",

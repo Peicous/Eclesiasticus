@@ -553,7 +553,8 @@ const comarques_gironines_esglesies = [
 			"<h2>Sant Lluc</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		]
+		],
+		visited: true
 	},
 	{
 		name: "Sant Martí Sacosta",

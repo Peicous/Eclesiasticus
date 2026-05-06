@@ -69,6 +69,7 @@ const comarques_gironines_oratoris = [
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		],
+		visited: true
 	},
 	{
 		name: "Fornícula dels dos Sants Metges",
@@ -99,6 +100,7 @@ const comarques_gironines_oratoris = [
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		],
+		visited: true
 	},
 	{
 		name: "Fornícula de la Mare de Déu de Fàtima",
@@ -119,6 +121,7 @@ const comarques_gironines_oratoris = [
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		],
+		visited: true
 	},
 	{
 		name: "Fornícula de la Mare de Déu de la Mercè",
@@ -155,6 +158,7 @@ const comarques_gironines_oratoris = [
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		],
+		visited: true
 	},
 	{
 		name: "Fornícula del Sagrat Cor",
@@ -198,6 +202,7 @@ const comarques_gironines_oratoris = [
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		],
+		visited: true
 	},
 	{
 		name: "Capelleta de Sant Josep",
@@ -234,6 +239,7 @@ const comarques_gironines_oratoris = [
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		],
+		visited: true
 	},
 	{
 		name: "Fornícula de Santa Anna",
