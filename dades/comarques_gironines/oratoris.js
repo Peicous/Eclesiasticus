@@ -79,7 +79,7 @@ const comarques_gironines_oratoris = [
 			"<h2>Fornícula dels dos Sants Metges</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		],
+		]
 	},
 	{
 		name: "Fornícula de la Mare de Déu",
@@ -89,7 +89,7 @@ const comarques_gironines_oratoris = [
 			"<h2>Fornícula de la Mare de Déu</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		],
+		]
 	},
 	{
 		name: "Fornícula de la Mare de Déu",
@@ -111,6 +111,7 @@ const comarques_gironines_oratoris = [
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		],
+		visited: true
 	},
 	{
 		name: "Fornícula de la Mare de Déu de la Bona Mort o de la Misericòrdia",
@@ -168,7 +169,7 @@ const comarques_gironines_oratoris = [
 			"<h2>Fornícula del Sagrat Cor</h2>",
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
-		],
+		]
 	},
 	{
 		name: "Fornícula de Sant Agustí",
@@ -179,6 +180,7 @@ const comarques_gironines_oratoris = [
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		],
+		visited: true
 	},
 	{
 		name: "Fornícula de Sant Antoni de Pàdua",
@@ -250,6 +252,7 @@ const comarques_gironines_oratoris = [
 			"<small>Divisió administrativa: Girona; Girona; Gironès; Comarques gironines; Catalunya</small><br/>",
 			"<small>Divisió eclesiàstica: Arxiprestat de Girona-Salt; Bisbat de Girona; Província eclesiàstica Tarraconense</small>"
 		],
+		visited: true
 	},
 	{
 		name: "Oratori de la Sagrada Família",
